@@ -1,0 +1,13 @@
+scope,spec,oecd_measure,n,pearson,spearman,tur_oecd,tur_rank_oecd_measure,tur_m1,tur_rank_m1
+all,linear,sci,84,0.856,0.751,-29.17,8,-31.75,5
+all,linear,rea,84,0.716,0.598,-28.7,10,-31.75,5
+all,linear,mat,84,0.85,0.781,-15.56,18,-31.75,5
+all,quadratic,sci,84,0.821,0.742,-29.17,8,-35.05,3
+all,quadratic,rea,84,0.7,0.588,-28.7,10,-35.05,3
+all,quadratic,mat,84,0.779,0.711,-15.56,18,-35.05,3
+oecd,linear,sci,38,0.943,0.906,-29.17,1,-33.49,1
+oecd,linear,rea,38,0.848,0.753,-28.7,1,-33.49,1
+oecd,linear,mat,38,0.769,0.687,-15.56,2,-33.49,1
+oecd,quadratic,sci,38,0.937,0.888,-29.17,1,-32.95,1
+oecd,quadratic,rea,38,0.854,0.746,-28.7,1,-32.95,1
+oecd,quadratic,mat,38,0.743,0.677,-15.56,2,-32.95,1

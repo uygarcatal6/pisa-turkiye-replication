@@ -1,0 +1,656 @@
+{
+ "crosscheck_oecd_volv": {
+  "source": "OECD (2017), PISA 2015 Results (Volume V): Collaborative Problem Solving, Figure V.1.1 'Snapshot of performance in collaborative problem solving', pp. 43–44; data/pisa/2015/9789264285521-en.pdf (content/dam, 21 Nov 2017; indirildi 2026-09-20)",
+  "parser": "pdfplumber(layout=True) → pdftotext -layout",
+  "n_parsed": 51,
+  "unmapped_names": [],
+  "oecd_average_32_published": 500,
+  "n_matched": 50,
+  "n_match_after_rounding": 50,
+  "max_abs_diff": 0.5,
+  "mean_diff": 0.0027999999999999982,
+  "mismatches_after_rounding": [],
+  "ours_not_in_volv": [],
+  "volv_not_in_ours": [
+   "CYP"
+  ],
+  "volv_vs_dfe_disagreements": [],
+  "TUR": {
+   "ours": 422.36,
+   "volv": 422
+  },
+  "HUN": {
+   "ours": 472.15,
+   "volv": 472
+  },
+  "GBR": {
+   "ours": 519.21,
+   "volv": 519
+  }
+ },
+ "crosscheck_dfe": {
+  "source": "docs/secondary_reports/UK_DfE_PISA_2015_CPS_National_Report.pdf (DfE, Nov 2017), Tables 3–5, pp. 12–13",
+  "n_ours": 50,
+  "n_dfe_national": 50,
+  "n_matched": 49,
+  "n_match_after_rounding": 49,
+  "max_abs_diff": 0.5,
+  "mean_diff": -0.0014285714285714253,
+  "mismatches_after_rounding": [],
+  "ours_not_in_dfe": [
+   "GBR"
+  ],
+  "dfe_not_in_ours": [
+   "CYP"
+  ],
+  "dfe_not_in_ours_reason": "CYP: OECD PUF'unda Kıbrıs yok (CNT listesi 50 sistem); DfE Tablo 5 Kıbrıs 444",
+  "TUR": {
+   "ours": 422.36,
+   "dfe": 422
+  },
+  "HUN": {
+   "ours": 472.15,
+   "dfe": 472
+  },
+  "oecd_2015_members_in_cps": [
+   "AUS",
+   "AUT",
+   "BEL",
+   "CAN",
+   "CHL",
+   "CZE",
+   "DEU",
+   "DNK",
+   "ESP",
+   "EST",
+   "FIN",
+   "FRA",
+   "GBR",
+   "GRC",
+   "HUN",
+   "ISL",
+   "ISR",
+   "ITA",
+   "JPN",
+   "KOR",
+   "LUX",
+   "LVA",
+   "MEX",
+   "NLD",
+   "NOR",
+   "NZL",
+   "PRT",
+   "SVK",
+   "SVN",
+   "SWE",
+   "TUR",
+   "USA"
+  ],
+  "n_oecd_2015_members_in_cps": 32,
+  "oecd_2015_mean_of_country_means": 499.99,
+  "oecd_2015_note": "OECD ortalaması ölçek kurgusuyla 500 (DfE s. 10); bizim 2015-üyelik ortalamamız bunun kaç puan yakınında olduğunu gösterir (OECD'nin ortalaması ülke ortalamalarının basit ortalamasıdır)"
+ },
+ "backbone": {
+  "2012": {
+   "domain": "yaratıcı problem çözme (yayımlanmış Table V.A; bilgisayarda, çekirdek kâğıtta)",
+   "TUR": "participated",
+   "HUN": "participated",
+   "GEO": "not in PISA 2012",
+   "SWE": "participated",
+   "swe_residual": {
+    "min": 8.99,
+    "max": 12.78,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": 10.07,
+     "all_quadratic": 12.78,
+     "oecd_linear": 8.99,
+     "oecd_quadratic": 10.42
+    }
+   },
+   "swe_resid_sd": {
+    "min": 0.6,
+    "max": 0.76,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": 0.6,
+     "all_quadratic": 0.76,
+     "oecd_linear": 0.6,
+     "oecd_quadratic": 0.68
+    }
+   },
+   "swe_rank": {
+    "all_linear": "28/40",
+    "all_quadratic": "31/40",
+    "oecd_linear": "19/28",
+    "oecd_quadratic": "20/28"
+   },
+   "swe_residual_loo": {
+    "min": 9.4,
+    "max": 13.5,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": 10.3,
+     "all_quadratic": 13.5,
+     "oecd_linear": 9.4,
+     "oecd_quadratic": 11.2
+    }
+   },
+   "tur_residual": {
+    "min": -9.22,
+    "max": -4.88,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": -7.47,
+     "all_quadratic": -4.88,
+     "oecd_linear": -9.22,
+     "oecd_quadratic": -7.91
+    }
+   },
+   "tur_resid_sd": {
+    "min": -0.61,
+    "max": -0.29,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": -0.44,
+     "all_quadratic": -0.29,
+     "oecd_linear": -0.61,
+     "oecd_quadratic": -0.52
+    }
+   },
+   "tur_rank": {
+    "all_linear": "13/40",
+    "all_quadratic": "16/40",
+    "oecd_linear": "7/28",
+    "oecd_quadratic": "8/28"
+   },
+   "tur_residual_loo": {
+    "min": -10.0,
+    "max": -5.2,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": -7.7,
+     "all_quadratic": -5.2,
+     "oecd_linear": -10.0,
+     "oecd_quadratic": -8.8
+    }
+   },
+   "hun_residual": {
+    "min": -27.25,
+    "max": -23.73,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": -26.31,
+     "all_quadratic": -23.73,
+     "oecd_linear": -27.25,
+     "oecd_quadratic": -25.9
+    }
+   },
+   "hun_resid_sd": {
+    "min": -1.8,
+    "max": -1.4,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": -1.55,
+     "all_quadratic": -1.4,
+     "oecd_linear": -1.8,
+     "oecd_quadratic": -1.69
+    }
+   },
+   "hun_rank": {
+    "all_linear": "4/40",
+    "all_quadratic": "4/40",
+    "oecd_linear": "2/28",
+    "oecd_quadratic": "2/28"
+   },
+   "n_specs": 40,
+   "mode_caveat": "2012 problem çözme bilgisayar tabanlı, 2012 çekirdek kâğıt tabanlı; 2015/2025'te ikisi de bilgisayarda. 2012 artığı mod farkını da içerir.",
+   "source": "OECD (2014), PISA 2012 Results: Creative Problem Solving (Volume V), Table V.A 'Snapshot of performance in problem solving', p. 17; data/pisa/2012/9789264208070-en.pdf (content/dam, 1 Apr 2014; indirildi 2026-09-20)"
+  },
+  "2015": {
+   "domain": "işbirlikli problem çözme",
+   "TUR": "participated",
+   "HUN": "participated",
+   "GEO": "did_not_participate",
+   "SWE": "participated",
+   "swe_residual": {
+    "min": 4.08,
+    "max": 6.92,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": 4.76,
+     "all_quadratic": 6.92,
+     "oecd_linear": 4.08,
+     "oecd_quadratic": 6.28
+    }
+   },
+   "swe_resid_sd": {
+    "min": 0.35,
+    "max": 0.68,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": 0.45,
+     "all_quadratic": 0.68,
+     "oecd_linear": 0.35,
+     "oecd_quadratic": 0.59
+    }
+   },
+   "swe_rank": {
+    "all_linear": "31/47",
+    "all_quadratic": "35/47",
+    "oecd_linear": "21/35",
+    "oecd_quadratic": "27/35"
+   },
+   "swe_residual_loo": {
+    "min": 4.2,
+    "max": 7.1,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": 4.9,
+     "all_quadratic": 7.1,
+     "oecd_linear": 4.2,
+     "oecd_quadratic": 6.5
+    }
+   },
+   "tur_residual": {
+    "min": -14.54,
+    "max": -11.47,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": -12.85,
+     "all_quadratic": -13.09,
+     "oecd_linear": -11.47,
+     "oecd_quadratic": -14.54
+    }
+   },
+   "tur_resid_sd": {
+    "min": -1.36,
+    "max": -1.0,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": -1.2,
+     "all_quadratic": -1.29,
+     "oecd_linear": -1.0,
+     "oecd_quadratic": -1.36
+    }
+   },
+   "tur_rank": {
+    "all_linear": "5/47",
+    "all_quadratic": "5/47",
+    "oecd_linear": "8/35",
+    "oecd_quadratic": "2/35"
+   },
+   "hun_residual": {
+    "min": -11.72,
+    "max": -6.74,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": -11.66,
+     "all_quadratic": -7.88,
+     "oecd_linear": -11.72,
+     "oecd_quadratic": -6.74
+    }
+   },
+   "hun_resid_sd": {
+    "min": -1.09,
+    "max": -0.63,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": -1.09,
+     "all_quadratic": -0.77,
+     "oecd_linear": -1.02,
+     "oecd_quadratic": -0.63
+    }
+   }
+  },
+  "2018": {
+   "domain": "küresel yetkinlik bilişsel testi",
+   "TUR": "no cognitive test",
+   "HUN": "no cognitive test",
+   "GEO": "no cognitive test",
+   "SWE": "no cognitive test (PV1GLCM all missing)",
+   "note": "PV1GLCM üç ülkede tümüyle boş (13'ün taraması); 29/80 sistem bilişsel testi aldı"
+  },
+  "2022": {
+   "domain": "yaratıcı düşünme",
+   "TUR": "did_not_participate",
+   "GEO": "did_not_participate",
+   "HUN": "participated",
+   "SWE": "not_in_table",
+   "swe_status_row": "not_in_table (no row in Table III.B1.2.1; not in CRT microdata)",
+   "hun_residual": {
+    "min": -2.12,
+    "max": -1.03,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": -1.03,
+     "all_quadratic": -1.6,
+     "oecd_linear": -2.12,
+     "oecd_quadratic": -1.73
+    }
+   },
+   "hun_resid_sd": {
+    "min": -1.32,
+    "max": -0.4,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": -0.4,
+     "all_quadratic": -0.68,
+     "oecd_linear": -1.32,
+     "oecd_quadratic": -1.13
+    }
+   },
+   "note": "Türkiye için gözlem yok; Macaristan artığı RMSE'nin −0,4…−1,3 katı, 0–60 ölçeğinde puan olarak karşılaştırılamaz"
+  },
+  "2025": {
+   "domain": "hesaplamalı problem çözme",
+   "TUR": "participated",
+   "HUN": "participated",
+   "GEO": "participated",
+   "SWE": "participated",
+   "swe_residual": {
+    "min": -1.81,
+    "max": 2.1,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": 2.1,
+     "all_quadratic": -1.81,
+     "oecd_linear": -0.23,
+     "oecd_quadratic": 0.41
+    }
+   },
+   "swe_resid_sd": {
+    "min": -0.1,
+    "max": 0.11,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": 0.11,
+     "all_quadratic": -0.1,
+     "oecd_linear": -0.02,
+     "oecd_quadratic": 0.04
+    }
+   },
+   "swe_rank": {
+    "all_linear": "43/84",
+    "all_quadratic": "37/84",
+    "oecd_linear": "17/38",
+    "oecd_quadratic": "17/38"
+   },
+   "swe_residual_loo": {
+    "min": -1.8,
+    "max": 2.1,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": 2.1,
+     "all_quadratic": -1.8,
+     "oecd_linear": -0.2,
+     "oecd_quadratic": 0.4
+    }
+   },
+   "tur_residual": {
+    "min": -35.05,
+    "max": -31.75,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": -31.75,
+     "all_quadratic": -35.05,
+     "oecd_linear": -33.49,
+     "oecd_quadratic": -32.95
+    }
+   },
+   "tur_resid_sd": {
+    "min": -3.13,
+    "max": -1.64,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": -1.64,
+     "all_quadratic": -1.96,
+     "oecd_linear": -3.13,
+     "oecd_quadratic": -3.05
+    }
+   },
+   "tur_rank": {
+    "all_linear": "5/84",
+    "all_quadratic": "3/84",
+    "oecd_linear": "1/38",
+    "oecd_quadratic": "1/38"
+   },
+   "tur_residual_loo": {
+    "min": -35.8,
+    "max": -32.3,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": -32.3,
+     "all_quadratic": -35.8,
+     "oecd_linear": -34.5,
+     "oecd_quadratic": -34.2
+    }
+   },
+   "hun_residual": {
+    "min": -2.28,
+    "max": 2.65,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": 2.65,
+     "all_quadratic": -2.28,
+     "oecd_linear": -0.89,
+     "oecd_quadratic": -0.12
+    }
+   },
+   "hun_resid_sd": {
+    "min": -0.13,
+    "max": 0.14,
+    "n_specs": 4,
+    "by_spec": {
+     "all_linear": 0.14,
+     "all_quadratic": -0.13,
+     "oecd_linear": -0.08,
+     "oecd_quadratic": -0.01
+    }
+   }
+  }
+ },
+ "tur_hun_separation": [
+  {
+   "cycle": 2012,
+   "scope": "all",
+   "spec": "linear",
+   "n": 40,
+   "tur_residual": -7.466149642294965,
+   "hun_residual": -26.314273570281387,
+   "diff_tur_minus_hun": 18.85,
+   "tur_sd": -0.4410578577408465,
+   "hun_sd": -1.5544983271119337,
+   "diff_sd": 1.11,
+   "tur_rank": "13/40",
+   "hun_rank": "4/40",
+   "separated_by_1sd": true
+  },
+  {
+   "cycle": 2012,
+   "scope": "all",
+   "spec": "quadratic",
+   "n": 40,
+   "tur_residual": -4.87863240381995,
+   "hun_residual": -23.72823129821705,
+   "diff_tur_minus_hun": 18.85,
+   "tur_sd": -0.28844732858187,
+   "hun_sd": -1.4029228610428472,
+   "diff_sd": 1.11,
+   "tur_rank": "16/40",
+   "hun_rank": "4/40",
+   "separated_by_1sd": true
+  },
+  {
+   "cycle": 2012,
+   "scope": "oecd",
+   "spec": "linear",
+   "n": 28,
+   "tur_residual": -9.219962270763062,
+   "hun_residual": -27.248931323375416,
+   "diff_tur_minus_hun": 18.03,
+   "tur_sd": -0.6105319878777625,
+   "hun_sd": -1.804383111323531,
+   "diff_sd": 1.19,
+   "tur_rank": "7/28",
+   "hun_rank": "2/28",
+   "separated_by_1sd": true
+  },
+  {
+   "cycle": 2012,
+   "scope": "oecd",
+   "spec": "quadratic",
+   "n": 28,
+   "tur_residual": -7.911241980082877,
+   "hun_residual": -25.898557456220374,
+   "diff_tur_minus_hun": 17.99,
+   "tur_sd": -0.5172215989856049,
+   "hun_sd": -1.6931972669589024,
+   "diff_sd": 1.18,
+   "tur_rank": "8/28",
+   "hun_rank": "2/28",
+   "separated_by_1sd": true
+  },
+  {
+   "cycle": 2015,
+   "scope": "all",
+   "spec": "linear",
+   "n": 47,
+   "tur_residual": -12.850873359725426,
+   "hun_residual": -11.66214762027596,
+   "diff_tur_minus_hun": -1.19,
+   "tur_sd": -1.2015318523038845,
+   "hun_sd": -1.0903882903356927,
+   "diff_sd": -0.11,
+   "tur_rank": "5/47",
+   "hun_rank": "8/47",
+   "separated_by_1sd": false
+  },
+  {
+   "cycle": 2015,
+   "scope": "all",
+   "spec": "quadratic",
+   "n": 47,
+   "tur_residual": -13.090307151443938,
+   "hun_residual": -7.880986409633579,
+   "diff_tur_minus_hun": -5.21,
+   "tur_sd": -1.2859456140756438,
+   "hun_sd": -0.7742003140804957,
+   "diff_sd": -0.51,
+   "tur_rank": "5/47",
+   "hun_rank": "14/47",
+   "separated_by_1sd": false
+  },
+  {
+   "cycle": 2015,
+   "scope": "oecd",
+   "spec": "linear",
+   "n": 35,
+   "tur_residual": -11.467534371139834,
+   "hun_residual": -11.722130930068149,
+   "diff_tur_minus_hun": 0.25,
+   "tur_sd": -0.9981664687490333,
+   "hun_sd": -1.020327269838123,
+   "diff_sd": 0.02,
+   "tur_rank": "8/35",
+   "hun_rank": "6/35",
+   "separated_by_1sd": false
+  },
+  {
+   "cycle": 2015,
+   "scope": "oecd",
+   "spec": "quadratic",
+   "n": 35,
+   "tur_residual": -14.541645832774236,
+   "hun_residual": -6.737045747000195,
+   "diff_tur_minus_hun": -7.8,
+   "tur_sd": -1.361695536524263,
+   "hun_sd": -0.6308642933920064,
+   "diff_sd": -0.73,
+   "tur_rank": "2/35",
+   "hun_rank": "10/35",
+   "separated_by_1sd": false
+  },
+  {
+   "cycle": 2025,
+   "scope": "all",
+   "spec": "linear",
+   "n": 84,
+   "tur_residual": -31.753957080857333,
+   "hun_residual": 2.647300449720831,
+   "diff_tur_minus_hun": -34.4,
+   "tur_sd": -1.6383671964447124,
+   "hun_sd": 0.1365892825549804,
+   "diff_sd": -1.77,
+   "tur_rank": "5/84",
+   "hun_rank": "46/84",
+   "separated_by_1sd": true
+  },
+  {
+   "cycle": 2025,
+   "scope": "all",
+   "spec": "quadratic",
+   "n": 84,
+   "tur_residual": -35.053448164456995,
+   "hun_residual": -2.279496669139576,
+   "diff_tur_minus_hun": -32.77,
+   "tur_sd": -1.9568943898679456,
+   "hun_sd": -0.1272552195902067,
+   "diff_sd": -1.83,
+   "tur_rank": "3/84",
+   "hun_rank": "33/84",
+   "separated_by_1sd": true
+  },
+  {
+   "cycle": 2025,
+   "scope": "oecd",
+   "spec": "linear",
+   "n": 38,
+   "tur_residual": -33.4866807032389,
+   "hun_residual": -0.8887831320422492,
+   "diff_tur_minus_hun": -32.6,
+   "tur_sd": -3.129818464644354,
+   "hun_sd": -0.0830697399477165,
+   "diff_sd": -3.05,
+   "tur_rank": "1/38",
+   "hun_rank": "13/38",
+   "separated_by_1sd": true
+  },
+  {
+   "cycle": 2025,
+   "scope": "oecd",
+   "spec": "quadratic",
+   "n": 38,
+   "tur_residual": -32.95051162585952,
+   "hun_residual": -0.1209303610668826,
+   "diff_tur_minus_hun": -32.83,
+   "tur_sd": -3.0496339861255963,
+   "hun_sd": -0.0111923402966094,
+   "diff_sd": -3.04,
+   "tur_rank": "1/38",
+   "hun_rank": "15/38",
+   "separated_by_1sd": true
+  }
+ ],
+ "verdict": {
+  "cycles_with_tur_observation": [
+   2012,
+   2015,
+   2025
+  ],
+  "cycles_without": [
+   2018,
+   2022
+  ],
+  "spec_dependence_2012": "2012 (kırılma öncesi): all/linear: +18.9 puan (+1.11 SD); all/quadratic: +18.9 puan (+1.11 SD); oecd/linear: +18.0 puan (+1.19 SD); oecd/quadratic: +18.0 puan (+1.18 SD)",
+  "spec_dependence_2015": "Türkiye–Macaristan farkı 2015'te spesifikasyona bağlı: all/linear: -1.2 puan (-0.11 SD); all/quadratic: -5.2 puan (-0.51 SD); oecd/linear: +0.2 puan (+0.02 SD); oecd/quadratic: -7.8 puan (-0.73 SD)",
+  "spec_dependence_2025": "2025'te her spesifikasyonda ayrışır: all/linear: -34.4 puan (-1.77 SD); all/quadratic: -32.8 puan (-1.83 SD); oecd/linear: -32.6 puan (-3.05 SD); oecd/quadratic: -32.8 puan (-3.04 SD)",
+  "caution": "Alanlar (2012 yaratıcı, 2015 işbirlikli, 2025 hesaplamalı problem çözme) farklı yapılardır; puanlar değil yalnız SD/sıra karşılaştırılır. 2012 ayağı yayımlanmış tam-sayı ortalamalardan (mikroveri yok; RMSE 15–17) ve problem çözme bilgisayarda, çekirdek kâğıtta uygulandığı için mod farkını da içerir (25'in notu)."
+ },
+ "notes": [
+  "Hiçbir artık bu betikte yeniden tahmin edilmedi; 10/13/15 çıktıları okunup yan yana kondu.",
+  "FOCUS yalnız raporlanacak ülkeleri SEÇER; regresyonlar 10/13/15/25'te tüm ülkeler üzerinden uydurulur. İsveç'in eklenmesi (21 Eyl 2026) TUR/HUN/GEO artıklarını değiştirmez.",
+  "Yayımlanmış ortalamalar tam sayıdır (Volume V Figure V.1.1 ve DfE Tablo 3–5); karşılaştırma yuvarlama sonrası birebirlik ve |fark| ≤ 0,5 ölçütüyle yapılır.",
+  "Volume V birincil kaynaktır; DfE onu yeniden basan ikincil kaynaktır (Birleşik Krallık toplamı yalnız Volume V'te)."
+ ]
+}

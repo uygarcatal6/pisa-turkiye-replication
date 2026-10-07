@@ -1,0 +1,195 @@
+{
+ "engine": "analysis/_pisa_puf.py — BRR (Fay 0,5; 80 replikasyon) + Rubin; 587 hucrede yayimlanmis ortalama ve SE birebir yeniden uretildi (maks sapma 0,0005)",
+ "escs_source": "trend_escs_SPSS.zip (2000-2012, TEK kalibrasyon). escs_trend.zip ile BIRLESTIRILMEDI: 2012 ortusmesinde R2=0,942, |fark| medyani 0,196 SD, ulke kesimleri -0,484..+0,085 (TUR -0,217) — iki ayri olcek.",
+ "coverage_source": "panel coverage_index3 (2006/2009/2012) + 2003 icin PISA 2003 Technical Report Table 12.1.",
+ "ci3_2003_source": "PISA 2003 Technical Report (9789264010543-en.pdf), Bol. 12 Sampling Outcomes, Table 12.1; tanim: 'Index 3: Coverage of the national 15-year-old population, calculated by P/2[a]'. Her deger P/2[a] ile capraz dogrulandi (P = W_FSTUWT toplami).",
+ "ci3_2003_values": {
+  "TUR": 0.36,
+  "HUN": 0.83,
+  "SWE": 0.98,
+  "BEL": 0.93,
+  "CHE": 1.04,
+  "FRA": 0.91,
+  "ISL": 0.94,
+  "JPN": 0.91
+ },
+ "donor_pool": [
+  "BEL",
+  "CHE",
+  "FRA",
+  "ISL",
+  "JPN"
+ ],
+ "donor_source": "data/derived/donor_ablation/donors_by_cell.csv, S0",
+ "bound_assumption": "Kapsam disinda kalanlar dagilimin ALT kuyrugunda varsayilir (Spaull/Lee). Bu bir SINIR, nokta tahmin degil.",
+ "trends": {
+  "TUR_MATH": {
+   "obs_2003_2012_delta": 24.6,
+   "escs_fixed_2003_2012_delta": 22.2,
+   "obs_bound_window_delta": 24.6,
+   "const_cohort_2003_2012_delta": 93.2,
+   "coverage_contribution_2003_2012": -68.6
+  },
+  "TUR_READ": {
+   "obs_2003_2012_delta": 34.5,
+   "escs_fixed_2003_2012_delta": 32.2,
+   "obs_bound_window_delta": 34.5,
+   "const_cohort_2003_2012_delta": 99.8,
+   "coverage_contribution_2003_2012": -65.3
+  },
+  "TUR_SCIE": {
+   "obs_2003_2012_delta": 29.2,
+   "escs_fixed_2003_2012_delta": 27.2,
+   "obs_bound_window_delta": 29.2,
+   "const_cohort_2003_2012_delta": 90.2,
+   "coverage_contribution_2003_2012": -61.0
+  },
+  "BEL_MATH": {
+   "obs_2003_2012_delta": -14.8,
+   "escs_fixed_2003_2012_delta": -30.4,
+   "obs_bound_window_delta": -14.8,
+   "const_cohort_2003_2012_delta": -8.5,
+   "coverage_contribution_2003_2012": -6.3
+  },
+  "BEL_READ": {
+   "obs_2003_2012_delta": 1.6,
+   "escs_fixed_2003_2012_delta": -13.1,
+   "obs_bound_window_delta": 1.6,
+   "const_cohort_2003_2012_delta": 8.8,
+   "coverage_contribution_2003_2012": -7.2
+  },
+  "BEL_SCIE": {
+   "obs_2003_2012_delta": -4.0,
+   "escs_fixed_2003_2012_delta": -18.4,
+   "obs_bound_window_delta": -4.0,
+   "const_cohort_2003_2012_delta": 2.9,
+   "coverage_contribution_2003_2012": -6.9
+  },
+  "CHE_MATH": {
+   "obs_2003_2012_delta": 4.4,
+   "escs_fixed_2003_2012_delta": -12.3,
+   "obs_bound_window_delta": 4.4,
+   "const_cohort_2003_2012_delta": -16.7,
+   "coverage_contribution_2003_2012": 21.1
+  },
+  "CHE_READ": {
+   "obs_2003_2012_delta": 9.9,
+   "escs_fixed_2003_2012_delta": -6.7,
+   "obs_bound_window_delta": 9.9,
+   "const_cohort_2003_2012_delta": -11.1,
+   "coverage_contribution_2003_2012": 21.0
+  },
+  "CHE_SCIE": {
+   "obs_2003_2012_delta": 2.3,
+   "escs_fixed_2003_2012_delta": -15.3,
+   "obs_bound_window_delta": 2.3,
+   "const_cohort_2003_2012_delta": -21.6,
+   "coverage_contribution_2003_2012": 23.9
+  },
+  "FRA_MATH": {
+   "obs_2003_2012_delta": -15.8,
+   "escs_fixed_2003_2012_delta": -39.5,
+   "obs_bound_window_delta": -15.8,
+   "const_cohort_2003_2012_delta": -22.0,
+   "coverage_contribution_2003_2012": 6.2
+  },
+  "FRA_READ": {
+   "obs_2003_2012_delta": 9.3,
+   "escs_fixed_2003_2012_delta": -14.6,
+   "obs_bound_window_delta": 9.3,
+   "const_cohort_2003_2012_delta": 2.0,
+   "coverage_contribution_2003_2012": 7.3
+  },
+  "FRA_SCIE": {
+   "obs_2003_2012_delta": -12.3,
+   "escs_fixed_2003_2012_delta": -36.3,
+   "obs_bound_window_delta": -12.3,
+   "const_cohort_2003_2012_delta": -19.8,
+   "coverage_contribution_2003_2012": 7.5
+  },
+  "ISL_MATH": {
+   "obs_2003_2012_delta": -22.3,
+   "escs_fixed_2003_2012_delta": -28.7,
+   "obs_bound_window_delta": -22.3,
+   "const_cohort_2003_2012_delta": -26.0,
+   "coverage_contribution_2003_2012": 3.7
+  },
+  "ISL_READ": {
+   "obs_2003_2012_delta": -9.2,
+   "escs_fixed_2003_2012_delta": -14.8,
+   "obs_bound_window_delta": -9.2,
+   "const_cohort_2003_2012_delta": -13.7,
+   "coverage_contribution_2003_2012": 4.5
+  },
+  "ISL_SCIE": {
+   "obs_2003_2012_delta": -16.6,
+   "escs_fixed_2003_2012_delta": -23.6,
+   "obs_bound_window_delta": -16.6,
+   "const_cohort_2003_2012_delta": -20.6,
+   "coverage_contribution_2003_2012": 4.0
+  },
+  "JPN_MATH": {
+   "obs_2003_2012_delta": 2.3,
+   "escs_fixed_2003_2012_delta": -15.5,
+   "obs_bound_window_delta": 2.3,
+   "const_cohort_2003_2012_delta": 1.4,
+   "coverage_contribution_2003_2012": 0.8
+  },
+  "JPN_READ": {
+   "obs_2003_2012_delta": 39.9,
+   "escs_fixed_2003_2012_delta": 24.0,
+   "obs_bound_window_delta": 39.9,
+   "const_cohort_2003_2012_delta": 39.2,
+   "coverage_contribution_2003_2012": 0.8
+  },
+  "JPN_SCIE": {
+   "obs_2003_2012_delta": -0.9,
+   "escs_fixed_2003_2012_delta": -16.1,
+   "obs_bound_window_delta": -0.9,
+   "const_cohort_2003_2012_delta": -1.8,
+   "coverage_contribution_2003_2012": 0.8
+  },
+  "HUN_MATH": {
+   "obs_2003_2012_delta": -13.0,
+   "escs_fixed_2003_2012_delta": -23.7,
+   "obs_bound_window_delta": -13.0,
+   "const_cohort_2003_2012_delta": -17.0,
+   "coverage_contribution_2003_2012": 4.1
+  },
+  "HUN_READ": {
+   "obs_2003_2012_delta": 6.6,
+   "escs_fixed_2003_2012_delta": -3.2,
+   "obs_bound_window_delta": 6.6,
+   "const_cohort_2003_2012_delta": 2.3,
+   "coverage_contribution_2003_2012": 4.3
+  },
+  "HUN_SCIE": {
+   "obs_2003_2012_delta": -9.0,
+   "escs_fixed_2003_2012_delta": -18.8,
+   "obs_bound_window_delta": -9.0,
+   "const_cohort_2003_2012_delta": -13.3,
+   "coverage_contribution_2003_2012": 4.3
+  },
+  "SWE_MATH": {
+   "obs_2003_2012_delta": -30.8,
+   "escs_fixed_2003_2012_delta": -37.0,
+   "obs_bound_window_delta": -30.8,
+   "const_cohort_2003_2012_delta": -41.5,
+   "coverage_contribution_2003_2012": 10.7
+  },
+  "SWE_READ": {
+   "obs_2003_2012_delta": -30.9,
+   "escs_fixed_2003_2012_delta": -36.9,
+   "obs_bound_window_delta": -30.9,
+   "const_cohort_2003_2012_delta": -42.5,
+   "coverage_contribution_2003_2012": 11.6
+  },
+  "SWE_SCIE": {
+   "obs_2003_2012_delta": -21.3,
+   "escs_fixed_2003_2012_delta": -27.6,
+   "obs_bound_window_delta": -21.3,
+   "const_cohort_2003_2012_delta": -33.6,
+   "coverage_contribution_2003_2012": 12.3
+  }
+ }
+}

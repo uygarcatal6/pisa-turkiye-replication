@@ -1,0 +1,161 @@
+cycle,stratum,label,schemeA,schemeB
+2015,TUR0236,TUR - stratum 36: TRC VOCATIONAL AND TECHNICAL SECONDARY,mesleki,meslek_2015
+2015,TUR0213,TUR - stratum 13: TR5 BASIC EDUCATION,diger,ortaokul
+2015,TUR0215,TUR - stratum 15: TR5 VOCATIONAL AND TECHNICAL SECONDARY,mesleki,meslek_2015
+2015,TUR0109,TUR - stratum 09: TR3 VOCATIONAL AND TECHNICAL SECONDARY,mesleki,meslek_2015
+2015,TUR0222,TUR - stratum 22: TR8 BASIC EDUCATION,diger,ortaokul
+2015,TUR0111,TUR - stratum 11: TR4 GENERAL SECONDARY,diger,genel_ortaogretim_2015
+2015,TUR0214,TUR - stratum 14: TR5 GENERAL SECONDARY,diger,genel_ortaogretim_2015
+2015,TUR0218,TUR - stratum 18: TR6 VOCATIONAL AND TECHNICAL SECONDARY,mesleki,meslek_2015
+2015,TUR0220,TUR - stratum 20: TR7 GENERAL SECONDARY,diger,genel_ortaogretim_2015
+2015,TUR0230,TUR - stratum 30: TRA VOCATIONAL AND TECHNICAL SECONDARY,mesleki,meslek_2015
+2015,TUR0235,TUR - stratum 35: TRC GENERAL SECONDARY,diger,genel_ortaogretim_2015
+2015,TUR0219,TUR - stratum 19: TR7 BASIC EDUCATION,diger,ortaokul
+2015,TUR0105,TUR - stratum 05: TR2 GENERAL SECONDARY,diger,genel_ortaogretim_2015
+2015,TUR0112,TUR - stratum 12: TR4 VOCATIONAL AND TECHNICAL SECONDARY,mesleki,meslek_2015
+2015,TUR0110,TUR - stratum 10: TR4 BASIC EDUCATION,diger,ortaokul
+2015,TUR0233,TUR - stratum 33: TRB VOCATIONAL AND TECHNICAL SECONDARY,mesleki,meslek_2015
+2015,TUR0231,TUR - stratum 31: TRB BASIC EDUCATION,diger,ortaokul
+2015,TUR0103,TUR - stratum 03: TR1 VOCATIONAL AND TECHNICAL SECONDARY,mesleki,meslek_2015
+2015,TUR0101,TUR - stratum 01: TR1 BASIC EDUCATION,diger,ortaokul
+2015,TUR0108,TUR - stratum 08: TR3 GENERAL SECONDARY,diger,genel_ortaogretim_2015
+2015,TUR0226,TUR - stratum 26: TR9 GENERAL SECONDARY,diger,genel_ortaogretim_2015
+2015,TUR0106,TUR - stratum 06: TR2 VOCATIONAL AND TECHNICAL SECONDARY,mesleki,meslek_2015
+2015,TUR0216,TUR - stratum 16: TR6 BASIC EDUCATION,diger,ortaokul
+2015,TUR0225,TUR - stratum 25: TR9 BASIC EDUCATION,diger,ortaokul
+2015,TUR0227,TUR - stratum 27: TR9 VOCATIONAL AND TECHNICAL SECONDARY,mesleki,meslek_2015
+2015,TUR0234,TUR - stratum 34: TRC BASIC EDUCATION,diger,ortaokul
+2015,TUR0107,TUR - stratum 07: TR3 BASIC EDUCATION,diger,ortaokul
+2015,TUR0228,TUR - stratum 28: TRA BASIC EDUCATION,diger,ortaokul
+2015,TUR0224,TUR - stratum 24: TR8 VOCATIONAL AND TECHNICAL SECONDARY,mesleki,meslek_2015
+2015,TUR0232,TUR - stratum 32: TRB GENERAL SECONDARY,diger,genel_ortaogretim_2015
+2015,TUR0102,TUR - stratum 02: TR1 GENERAL SECONDARY,diger,genel_ortaogretim_2015
+2015,TUR0223,TUR - stratum 23: TR8 GENERAL SECONDARY,diger,genel_ortaogretim_2015
+2015,TUR0221,TUR - stratum 21: TR7 VOCATIONAL AND TECHNICAL SECONDARY,mesleki,meslek_2015
+2015,TUR0217,TUR - stratum 17: TR6 GENERAL SECONDARY,diger,genel_ortaogretim_2015
+2015,TUR0104,TUR - stratum 04: TR2 BASIC EDUCATION,diger,ortaokul
+2015,TUR0229,TUR - stratum 29: TRA GENERAL SECONDARY,diger,genel_ortaogretim_2015
+2018,TUR0113,TUR - stratum 13: Anatolian High School- F,diger,anadolu
+2018,TUR0227,TUR - stratum 27: Vocational and Technical Anatolian High School - A,mesleki,meslek
+2018,TUR0114,TUR - stratum 14: Anatolian High School- G,diger,anadolu
+2018,TUR0108,TUR - stratum 08: Anatolian High School- A,diger,anadolu
+2018,TUR0239,TUR - stratum 39: Multi-Programme Anatolian High School -D,diger,cok_programli
+2018,TUR0305,TUR - stratum 05: Social Sciences High School - A,diger,sosyal
+2018,TUR0326,TUR - stratum 26: Anatolian Sport High School/ Anatolian Fine Arts High School,diger,spor_guzel
+2018,TUR0301,TUR - stratum 01: Lower-Secondary School,diger,ortaokul
+2018,TUR0320,TUR - stratum 20: Anatolian Imam and Preacher High School - C,diger,imam_hatip
+2018,TUR0302,TUR - stratum 02: Science High School - A,diger,fen
+2018,TUR0231,TUR - stratum 31: Vocational and Technical Anatolian High School - E,mesleki,meslek
+2018,TUR0322,TUR - stratum 22: Anatolian Imam and Preacher High School - E,diger,imam_hatip
+2018,TUR0319,TUR - stratum 19: Anatolian Imam and Preacher High School - B,diger,imam_hatip
+2018,TUR0324,TUR - stratum 24: Anatolian Imam and Preacher High School - G,diger,imam_hatip
+2018,TUR0109,TUR - stratum 09: Anatolian High School- B,diger,anadolu
+2018,TUR0325,TUR - stratum 25: Anatolian Imam and Preacher High School - H,diger,imam_hatip
+2018,TUR0303,TUR - stratum 03: Science High School - B,diger,fen
+2018,TUR0318,TUR - stratum 18: Anatolian Imam and Preacher High School - A,diger,imam_hatip
+2018,TUR0323,TUR - stratum 23: Anatolian Imam and Preacher High School - F,diger,imam_hatip
+2018,TUR0229,TUR - stratum 29: Vocational and Technical Anatolian High School - C,mesleki,meslek
+2018,TUR0112,TUR - stratum 12: Anatolian High School- E,diger,anadolu
+2018,TUR0234,TUR - stratum 34: Vocational and Technical Anatolian High School - H,mesleki,meslek
+2018,TUR0117,TUR - stratum 17: Anatolian High School- J,diger,anadolu
+2018,TUR0306,TUR - stratum 06: Social Sciences High School - B,diger,sosyal
+2018,TUR0233,TUR - stratum 33: Vocational and Technical Anatolian High School - G,mesleki,meslek
+2018,TUR0111,TUR - stratum 11: Anatolian High School- D,diger,anadolu
+2018,TUR0110,TUR - stratum 10: Anatolian High School- C,diger,anadolu
+2018,TUR0237,TUR - stratum 37: Multi-Programme Anatolian High School -B,diger,cok_programli
+2018,TUR0238,TUR - stratum 38: Multi-Programme Anatolian High School -C,diger,cok_programli
+2018,TUR0228,TUR - stratum 28: Vocational and Technical Anatolian High School - B,mesleki,meslek
+2018,TUR0304,TUR - stratum 04: Science High School - C,diger,fen
+2018,TUR0307,TUR - stratum 07: Social Sciences High School - C,diger,sosyal
+2018,TUR0321,TUR - stratum 21: Anatolian Imam and Preacher High School - D,diger,imam_hatip
+2018,TUR0230,TUR - stratum 30: Vocational and Technical Anatolian High School - D,mesleki,meslek
+2018,TUR0115,TUR - stratum 15: Anatolian High School- H,diger,anadolu
+2018,TUR0235,TUR - stratum 35: Vocational and Technical Anatolian High School - I,mesleki,meslek
+2018,TUR0116,TUR - stratum 16: Anatolian High School- I,diger,anadolu
+2018,TUR0232,TUR - stratum 32: Vocational and Technical Anatolian High School - F,mesleki,meslek
+2018,TUR0236,TUR - stratum 36: Multi-Programme Anatolian High School -A,diger,cok_programli
+2022,TUR21,TUR - stratum 21: Anatolian Imam and Preacher High School - C,diger,imam_hatip
+2022,TUR02,TUR - stratum 02: Science High School - A,diger,fen
+2022,TUR08,TUR - stratum 08: Anatolian High School- A,diger,anadolu
+2022,TUR14,TUR - stratum 14: Anatolian High School- G,diger,anadolu
+2022,TUR22,TUR - stratum 22: Anatolian Imam and Preacher High School - D,diger,imam_hatip
+2022,TUR24,TUR - stratum 24: Anatolian Imam and Preacher High School - F,diger,imam_hatip
+2022,TUR25,TUR - stratum 25: Anatolian Imam and Preacher High School - G,diger,imam_hatip
+2022,TUR31,TUR - stratum 31: Vocational and Technical Anatolian High School - D,mesleki,meslek
+2022,TUR07,TUR - stratum 07: Social Sciences High School - C,diger,sosyal
+2022,TUR11,TUR - stratum 11: Anatolian High School- D,diger,anadolu
+2022,TUR33,TUR - stratum 33: Vocational and Technical Anatolian High School - F,mesleki,meslek
+2022,TUR16,TUR - stratum 16: Anatolian High School- I,diger,anadolu
+2022,TUR34,TUR - stratum 34: Vocational and Technical Anatolian High School - G,mesleki,meslek
+2022,TUR36,TUR - stratum 36: Vocational and Technical Anatolian High School - I,mesleki,meslek
+2022,TUR13,TUR - stratum 13: Anatolian High School- F,diger,anadolu
+2022,TUR06,TUR - stratum 06: Social Sciences High School - B,diger,sosyal
+2022,TUR20,TUR - stratum 20: Anatolian Imam and Preacher High School - B,diger,imam_hatip
+2022,TUR15,TUR - stratum 15: Anatolian High School- H,diger,anadolu
+2022,TUR18,TUR - stratum 18: Anatolian High School- K,diger,anadolu
+2022,TUR26,TUR - stratum 26: Anatolian Imam and Preacher High School - H,diger,imam_hatip
+2022,TUR30,TUR - stratum 30: Vocational and Technical Anatolian High School - C,mesleki,meslek
+2022,TUR03,TUR - stratum 03: Science High School - B,diger,fen
+2022,TUR27,TUR - stratum 27: Anatolian Sport High School/ Anatolian Fine Arts High School,diger,spor_guzel
+2022,TUR09,TUR - stratum 09: Anatolian High School- B,diger,anadolu
+2022,TUR29,TUR - stratum 29: Vocational and Technical Anatolian High School - B,mesleki,meslek
+2022,TUR23,TUR - stratum 23: Anatolian Imam and Preacher High School - E,diger,imam_hatip
+2022,TUR32,TUR - stratum 32: Vocational and Technical Anatolian High School - E,mesleki,meslek
+2022,TUR05,TUR - stratum 05: Social Sciences High School - A,diger,sosyal
+2022,TUR35,TUR - stratum 35: Vocational and Technical Anatolian High School - H,mesleki,meslek
+2022,TUR12,TUR - stratum 12: Anatolian High School- E,diger,anadolu
+2022,TUR28,TUR - stratum 28: Vocational and Technical Anatolian High School - A,mesleki,meslek
+2022,TUR01,TUR - stratum 01: Lower-Secondary School,diger,ortaokul
+2022,TUR19,TUR - stratum 19: Anatolian Imam and Preacher High School - A,diger,imam_hatip
+2022,TUR04,TUR - stratum 04: Science High School - C,diger,fen
+2022,TUR17,TUR - stratum 17: Anatolian High School- J,diger,anadolu
+2022,TUR10,TUR - stratum 10: Anatolian High School- C,diger,anadolu
+2025,TUR12,Anatolian High School - E,diger,anadolu
+2025,TUR23,Anatolian Imam and Preacher High School - B,diger,imam_hatip
+2025,TUR15,Anatolian High School - H,diger,anadolu
+2025,TUR33,Vocational and Technical Anatolian High School - B,mesleki,meslek
+2025,TUR22,Anatolian Imam and Preacher High School - A,diger,imam_hatip
+2025,TUR04,Science High School - C,diger,fen
+2025,TUR10,Anatolian High School - C,diger,anadolu
+2025,TUR06,Social Sciences High School - B,diger,sosyal
+2025,TUR32,Vocational and Technical Anatolian High School - A,mesleki,meslek
+2025,TUR20,Anatolian High School - M,diger,anadolu
+2025,TUR30,Anatolian Imam and Preacher High School - I,diger,imam_hatip
+2025,TUR28,Anatolian Imam and Preacher High School - G,diger,imam_hatip
+2025,TUR43,Private General High School - B,diger,ozel_genel
+2025,TUR14,Anatolian High School - G,diger,anadolu
+2025,TUR27,Anatolian Imam and Preacher High School - F,diger,imam_hatip
+2025,TUR21,Anatolian High School - N,diger,anadolu
+2025,TUR37,Vocational and Technical Anatolian High School - F,mesleki,meslek
+2025,TUR48,Private Vocational High School - B,mesleki,ozel_meslek
+2025,TUR09,Anatolian High School - B,diger,anadolu
+2025,TUR26,Anatolian Imam and Preacher High School - E,diger,imam_hatip
+2025,TUR03,Science High School - B,diger,fen
+2025,TUR34,Vocational and Technical Anatolian High School - C,mesleki,meslek
+2025,TUR45,Private General High School - D,diger,ozel_genel
+2025,TUR38,Vocational and Technical Anatolian High School - G,mesleki,meslek
+2025,TUR16,Anatolian High School - I,diger,anadolu
+2025,TUR39,Vocational and Technical Anatolian High School - H,mesleki,meslek
+2025,TUR49,Private Vocational High School - C,mesleki,ozel_meslek
+2025,TUR29,Anatolian Imam and Preacher High School - H,diger,imam_hatip
+2025,TUR35,Vocational and Technical Anatolian High School - D,mesleki,meslek
+2025,TUR25,Anatolian Imam and Preacher High School - D,diger,imam_hatip
+2025,TUR07,Social Sciences High School - C,diger,sosyal
+2025,TUR41,Vocational and Technical Anatolian High School - J,mesleki,meslek
+2025,TUR46,Private General High School - E,diger,ozel_genel
+2025,TUR01,Lower-Secondary School,diger,ortaokul
+2025,TUR11,Anatolian High School - D,diger,anadolu
+2025,TUR17,Anatolian High School - J,diger,anadolu
+2025,TUR02,Science High School - A,diger,fen
+2025,TUR36,Vocational and Technical Anatolian High School - E,mesleki,meslek
+2025,TUR24,Anatolian Imam and Preacher High School - C,diger,imam_hatip
+2025,TUR47,Private Vocational High School - A,mesleki,ozel_meslek
+2025,TUR19,Anatolian High School - L,diger,anadolu
+2025,TUR18,Anatolian High School - K,diger,anadolu
+2025,TUR40,Vocational and Technical Anatolian High School - I,mesleki,meslek
+2025,TUR05,Social Sciences High School - A,diger,sosyal
+2025,TUR13,Anatolian High School - F,diger,anadolu
+2025,TUR31,Anatolian Sport High School/ Anatolian Fine Arts High School,diger,spor_guzel
+2025,TUR42,Private General High School - A,diger,ozel_genel
+2025,TUR44,Private General High School - C,diger,ozel_genel
+2025,TUR08,Anatolian High School - A,diger,anadolu

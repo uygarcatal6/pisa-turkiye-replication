@@ -1,0 +1,483 @@
+{
+  "coverage": [
+    {
+      "grp": "Türkiye",
+      "cycle": 2003,
+      "n": 1
+    },
+    {
+      "grp": "Türkiye",
+      "cycle": 2006,
+      "coverage": 0.4675,
+      "exclusion": 0.1435,
+      "n": 1
+    },
+    {
+      "grp": "Türkiye",
+      "cycle": 2009,
+      "coverage": 0.5665,
+      "exclusion": 1.1927,
+      "n": 1
+    },
+    {
+      "grp": "Türkiye",
+      "cycle": 2012,
+      "coverage": 0.6842,
+      "exclusion": 1.4942,
+      "n": 1
+    },
+    {
+      "grp": "Türkiye",
+      "cycle": 2015,
+      "coverage": 0.6989,
+      "exclusion": 1.0951,
+      "n": 1
+    },
+    {
+      "grp": "Türkiye",
+      "cycle": 2018,
+      "coverage": 0.7262,
+      "exclusion": 5.663,
+      "n": 1
+    },
+    {
+      "grp": "Türkiye",
+      "cycle": 2022,
+      "coverage": 0.737,
+      "exclusion": 5.5691,
+      "n": 1
+    },
+    {
+      "grp": "Türkiye",
+      "cycle": 2025,
+      "coverage": 0.7224,
+      "n": 1
+    },
+    {
+      "grp": "stable OECD donors",
+      "cycle": 2000,
+      "n": 14
+    },
+    {
+      "grp": "stable OECD donors",
+      "cycle": 2003,
+      "n": 14
+    },
+    {
+      "grp": "stable OECD donors",
+      "cycle": 2006,
+      "coverage": 0.9019,
+      "exclusion": 3.1591,
+      "n": 17
+    },
+    {
+      "grp": "stable OECD donors",
+      "cycle": 2009,
+      "coverage": 0.8643,
+      "exclusion": 4.0429,
+      "n": 17
+    },
+    {
+      "grp": "stable OECD donors",
+      "cycle": 2012,
+      "coverage": 0.8781,
+      "exclusion": 4.3776,
+      "n": 17
+    },
+    {
+      "grp": "stable OECD donors",
+      "cycle": 2015,
+      "coverage": 0.9024,
+      "exclusion": 4.5602,
+      "n": 17
+    },
+    {
+      "grp": "stable OECD donors",
+      "cycle": 2018,
+      "coverage": 0.8857,
+      "exclusion": 4.8423,
+      "n": 16
+    },
+    {
+      "grp": "stable OECD donors",
+      "cycle": 2022,
+      "coverage": 0.9081,
+      "exclusion": 5.3151,
+      "n": 16
+    },
+    {
+      "grp": "stable OECD donors",
+      "cycle": 2025,
+      "coverage": 0.8789,
+      "n": 17
+    }
+  ],
+  "placebo_domain": {
+    "oecd_avg": {
+      "math": 463,
+      "reading": 460.9,
+      "science": 481.9,
+      "cps": 500
+    },
+    "turkiye": {
+      "math": 461.5,
+      "reading": 472.1,
+      "science": 494.3,
+      "cps": 472.9,
+      "d_math": -1.5,
+      "d_reading": 11.2,
+      "d_science": 12.4,
+      "d_cps": -27.1,
+      "core_minus_cps": 34.5
+    },
+    "georgia": {
+      "math": 416.4,
+      "reading": 384.2,
+      "science": 422.1,
+      "cps": 413.3,
+      "d_math": -46.7,
+      "d_reading": -76.8,
+      "d_science": -59.8,
+      "d_cps": -86.7,
+      "core_minus_cps": 25.6
+    },
+    "turkiye_rank_core_minus_cps": "5/85",
+    "georgia_rank_core_minus_cps": "10/85",
+    "oecd_rank_turkiye": "1/38"
+  },
+  "changes": [
+    {
+      "iso3": "GEO",
+      "window": "2015→2025",
+      "domain": "science",
+      "change": 10.987,
+      "oecd_avg_change": -6.8498,
+      "n": 38,
+      "rel": 17.8368,
+      "rank_among_all": 9,
+      "n_all": 65
+    },
+    {
+      "iso3": "HUN",
+      "window": "2015→2025",
+      "domain": "science",
+      "change": 3.164,
+      "oecd_avg_change": -6.8498,
+      "n": 38,
+      "rel": 10.0138,
+      "rank_among_oecd": 7,
+      "n_oecd": 38,
+      "rank_among_all": 20,
+      "n_all": 65
+    },
+    {
+      "iso3": "TUR",
+      "window": "2015→2025",
+      "domain": "science",
+      "change": 68.779,
+      "oecd_avg_change": -6.8498,
+      "n": 38,
+      "rel": 75.6288,
+      "rank_among_oecd": 1,
+      "n_oecd": 38,
+      "rank_among_all": 1,
+      "n_all": 65
+    },
+    {
+      "iso3": "GEO",
+      "window": "2015→2025",
+      "domain": "reading",
+      "change": -17.109,
+      "oecd_avg_change": -27.5825,
+      "n": 38,
+      "rel": 10.4735,
+      "rank_among_all": 28,
+      "n_all": 65
+    },
+    {
+      "iso3": "HUN",
+      "window": "2015→2025",
+      "domain": "reading",
+      "change": -17.217,
+      "oecd_avg_change": -27.5825,
+      "n": 38,
+      "rel": 10.3655,
+      "rank_among_oecd": 13,
+      "n_oecd": 38,
+      "rank_among_all": 29,
+      "n_all": 65
+    },
+    {
+      "iso3": "TUR",
+      "window": "2015→2025",
+      "domain": "reading",
+      "change": 43.76,
+      "oecd_avg_change": -27.5825,
+      "n": 38,
+      "rel": 71.3425,
+      "rank_among_oecd": 1,
+      "n_oecd": 38,
+      "rank_among_all": 1,
+      "n_all": 65
+    },
+    {
+      "iso3": "GEO",
+      "window": "2015→2025",
+      "domain": "math",
+      "change": 12.53,
+      "oecd_avg_change": -21.8584,
+      "n": 38,
+      "rel": 34.3884,
+      "rank_among_all": 5,
+      "n_all": 66
+    },
+    {
+      "iso3": "HUN",
+      "window": "2015→2025",
+      "domain": "math",
+      "change": -17.342,
+      "oecd_avg_change": -21.8584,
+      "n": 38,
+      "rel": 4.5164,
+      "rank_among_oecd": 14,
+      "n_oecd": 38,
+      "rank_among_all": 32,
+      "n_all": 66
+    },
+    {
+      "iso3": "TUR",
+      "window": "2015→2025",
+      "domain": "math",
+      "change": 41.093,
+      "oecd_avg_change": -21.8584,
+      "n": 38,
+      "rel": 62.9514,
+      "rank_among_oecd": 1,
+      "n_oecd": 38,
+      "rank_among_all": 1,
+      "n_all": 66
+    },
+    {
+      "iso3": "GEO",
+      "window": "2022→2025",
+      "domain": "science",
+      "change": 38.052,
+      "oecd_avg_change": -2.5183,
+      "n": 37,
+      "rel": 40.5703,
+      "rank_among_all": 3,
+      "n_all": 79
+    },
+    {
+      "iso3": "HUN",
+      "window": "2022→2025",
+      "domain": "science",
+      "change": -5.978,
+      "oecd_avg_change": -2.5183,
+      "n": 37,
+      "rel": -3.4597,
+      "rank_among_oecd": 25,
+      "n_oecd": 37,
+      "rank_among_all": 57,
+      "n_all": 79
+    },
+    {
+      "iso3": "TUR",
+      "window": "2022→2025",
+      "domain": "science",
+      "change": 18.331,
+      "oecd_avg_change": -2.5183,
+      "n": 37,
+      "rel": 20.8493,
+      "rank_among_oecd": 1,
+      "n_oecd": 37,
+      "rank_among_all": 10,
+      "n_all": 79
+    },
+    {
+      "iso3": "GEO",
+      "window": "2022→2025",
+      "domain": "reading",
+      "change": 10.321,
+      "oecd_avg_change": -14.1661,
+      "n": 37,
+      "rel": 24.4871,
+      "rank_among_all": 9,
+      "n_all": 78
+    },
+    {
+      "iso3": "HUN",
+      "window": "2022→2025",
+      "domain": "reading",
+      "change": -20.669,
+      "oecd_avg_change": -14.1661,
+      "n": 37,
+      "rel": -6.5029,
+      "rank_among_oecd": 31,
+      "n_oecd": 37,
+      "rank_among_all": 67,
+      "n_all": 78
+    },
+    {
+      "iso3": "TUR",
+      "window": "2022→2025",
+      "domain": "reading",
+      "change": 16.011,
+      "oecd_avg_change": -14.1661,
+      "n": 37,
+      "rel": 30.1771,
+      "rank_among_oecd": 1,
+      "n_oecd": 37,
+      "rank_among_all": 5,
+      "n_all": 78
+    },
+    {
+      "iso3": "GEO",
+      "window": "2022→2025",
+      "domain": "math",
+      "change": 26.339,
+      "oecd_avg_change": -9.2054,
+      "n": 37,
+      "rel": 35.5444,
+      "rank_among_all": 3,
+      "n_all": 78
+    },
+    {
+      "iso3": "HUN",
+      "window": "2022→2025",
+      "domain": "math",
+      "change": -13.287,
+      "oecd_avg_change": -9.2054,
+      "n": 37,
+      "rel": -4.0816,
+      "rank_among_oecd": 28,
+      "n_oecd": 37,
+      "rank_among_all": 65,
+      "n_all": 78
+    },
+    {
+      "iso3": "TUR",
+      "window": "2022→2025",
+      "domain": "math",
+      "change": 8.395,
+      "oecd_avg_change": -9.2054,
+      "n": 37,
+      "rel": 17.6004,
+      "rank_among_oecd": 1,
+      "n_oecd": 37,
+      "rank_among_all": 8,
+      "n_all": 78
+    },
+    {
+      "iso3": "GEO",
+      "window": "2018→2025",
+      "domain": "science",
+      "change": 39.455,
+      "oecd_avg_change": -4.7971,
+      "n": 37,
+      "rel": 44.2521,
+      "rank_among_all": 2,
+      "n_all": 77
+    },
+    {
+      "iso3": "HUN",
+      "window": "2018→2025",
+      "domain": "science",
+      "change": -1,
+      "oecd_avg_change": -4.7971,
+      "n": 37,
+      "rel": 3.7971,
+      "rank_among_oecd": 16,
+      "n_oecd": 37,
+      "rank_among_all": 36,
+      "n_all": 77
+    },
+    {
+      "iso3": "TUR",
+      "window": "2018→2025",
+      "domain": "science",
+      "change": 25.969,
+      "oecd_avg_change": -4.7971,
+      "n": 37,
+      "rel": 30.7661,
+      "rank_among_oecd": 1,
+      "n_oecd": 37,
+      "rank_among_all": 5,
+      "n_all": 77
+    },
+    {
+      "iso3": "GEO",
+      "window": "2018→2025",
+      "domain": "reading",
+      "change": 4.426,
+      "oecd_avg_change": -24.2841,
+      "n": 37,
+      "rel": 28.7101,
+      "rank_among_all": 8,
+      "n_all": 77
+    },
+    {
+      "iso3": "HUN",
+      "window": "2018→2025",
+      "domain": "reading",
+      "change": -23.681,
+      "oecd_avg_change": -24.2841,
+      "n": 37,
+      "rel": 0.6031,
+      "rank_among_oecd": 19,
+      "n_oecd": 37,
+      "rank_among_all": 45,
+      "n_all": 77
+    },
+    {
+      "iso3": "TUR",
+      "window": "2018→2025",
+      "domain": "reading",
+      "change": 6.463,
+      "oecd_avg_change": -24.2841,
+      "n": 37,
+      "rel": 30.7471,
+      "rank_among_oecd": 1,
+      "n_oecd": 37,
+      "rank_among_all": 6,
+      "n_all": 77
+    },
+    {
+      "iso3": "GEO",
+      "window": "2018→2025",
+      "domain": "math",
+      "change": 18.777,
+      "oecd_avg_change": -23.9784,
+      "n": 37,
+      "rel": 42.7554,
+      "rank_among_all": 4,
+      "n_all": 78
+    },
+    {
+      "iso3": "HUN",
+      "window": "2018→2025",
+      "domain": "math",
+      "change": -21.594,
+      "oecd_avg_change": -23.9784,
+      "n": 37,
+      "rel": 2.3844,
+      "rank_among_oecd": 18,
+      "n_oecd": 37,
+      "rank_among_all": 51,
+      "n_all": 78
+    },
+    {
+      "iso3": "TUR",
+      "window": "2018→2025",
+      "domain": "math",
+      "change": 8.039,
+      "oecd_avg_change": -23.9784,
+      "n": 37,
+      "rel": 32.0174,
+      "rank_among_oecd": 1,
+      "n_oecd": 37,
+      "rank_among_all": 10,
+      "n_all": 78
+    }
+  ]
+}

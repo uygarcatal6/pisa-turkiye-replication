@@ -1,0 +1,347 @@
+{
+ "headline_pool": "stable_all_oecd",
+ "summary": {
+  "math": {
+   "A_2013_kirilma_2015_sonrasi": {
+    "SC_demeaned": {
+     "gap_2025": 50.4,
+     "gap_2018": 30.2,
+     "gap_2022": 32.8,
+     "post_mean": 26.2,
+     "p": 0.167,
+     "n_donors": 5
+    },
+    "SC_trend_adjusted": {
+     "gap_2025": 4.3,
+     "gap_2018": 2.5,
+     "gap_2022": -5.4,
+     "post_mean": -6.8,
+     "p": 0.5,
+     "n_donors": 5
+    },
+    "SDiD": {
+     "gap_2025": 35.7,
+     "gap_2018": 18.3,
+     "gap_2022": 17.9,
+     "post_mean": 12.8,
+     "p": 0.167,
+     "n_donors": 5
+    },
+    "DiD_2012base": {
+     "gap_2025": 45.2,
+     "gap_2018": 11.3,
+     "gap_2022": 25.9,
+     "post_mean": 15.1,
+     "p": 0.167,
+     "n_donors": 5
+    }
+   },
+   "B_2015_kirilma_2015_on_donemde": {
+    "SC_demeaned": {
+     "gap_2025": 58.6,
+     "gap_2018": 34.4,
+     "gap_2022": 41.4,
+     "post_mean": 44.8,
+     "p": 0.167,
+     "n_donors": 5
+    },
+    "SC_trend_adjusted": {
+     "gap_2025": 44.0,
+     "gap_2018": 26.2,
+     "gap_2022": 29.5,
+     "post_mean": 33.2,
+     "p": 0.167,
+     "n_donors": 5
+    },
+    "SDiD": {
+     "gap_2025": 57.8,
+     "gap_2018": 38.8,
+     "gap_2022": 40.1,
+     "post_mean": 45.6,
+     "p": 0.167,
+     "n_donors": 5
+    },
+    "DiD_2012base": {
+     "gap_2025": 45.2,
+     "gap_2018": 11.3,
+     "gap_2022": 25.9,
+     "post_mean": 27.5,
+     "p": 0.167,
+     "n_donors": 5
+    }
+   },
+   "C_2015_disarida": {
+    "SC_demeaned": {
+     "gap_2025": 50.4,
+     "gap_2018": 30.2,
+     "gap_2022": 32.8,
+     "post_mean": 37.8,
+     "p": 0.167,
+     "n_donors": 5
+    },
+    "SC_trend_adjusted": {
+     "gap_2025": 4.3,
+     "gap_2018": 2.5,
+     "gap_2022": -5.4,
+     "post_mean": 0.4,
+     "p": 1.0,
+     "n_donors": 5
+    },
+    "SDiD": {
+     "gap_2025": 35.8,
+     "gap_2018": 18.3,
+     "gap_2022": 18.0,
+     "post_mean": 24.0,
+     "p": 0.167,
+     "n_donors": 5
+    },
+    "DiD_2012base": {
+     "gap_2025": 45.2,
+     "gap_2018": 11.3,
+     "gap_2022": 25.9,
+     "post_mean": 27.5,
+     "p": 0.167,
+     "n_donors": 5
+    }
+   }
+  },
+  "reading": {
+   "A_2013_kirilma_2015_sonrasi": {
+    "SC_demeaned": {
+     "gap_2025": 34.1,
+     "gap_2018": 19.8,
+     "gap_2022": 4.9,
+     "post_mean": 7.6,
+     "p": 0.5,
+     "n_donors": 5
+    },
+    "SC_trend_adjusted": {
+     "gap_2025": 30.2,
+     "gap_2018": 17.5,
+     "gap_2022": 1.7,
+     "post_mean": 4.8,
+     "p": 0.667,
+     "n_donors": 5
+    },
+    "SDiD": {
+     "gap_2025": 38.3,
+     "gap_2018": 14.9,
+     "gap_2022": 8.4,
+     "post_mean": 7.5,
+     "p": 0.167,
+     "n_donors": 5
+    },
+    "DiD_2012base": {
+     "gap_2025": 41.8,
+     "gap_2018": 9.4,
+     "gap_2022": 11.8,
+     "post_mean": 6.8,
+     "p": 0.167,
+     "n_donors": 5
+    }
+   },
+   "B_2015_kirilma_2015_on_donemde": {
+    "SC_demeaned": {
+     "gap_2025": 43.0,
+     "gap_2018": 28.0,
+     "gap_2022": 13.7,
+     "post_mean": 28.2,
+     "p": 0.167,
+     "n_donors": 5
+    },
+    "SC_trend_adjusted": {
+     "gap_2025": 57.1,
+     "gap_2018": 35.9,
+     "gap_2022": 25.2,
+     "post_mean": 39.4,
+     "p": 0.167,
+     "n_donors": 5
+    },
+    "SDiD": {
+     "gap_2025": 38.7,
+     "gap_2018": 13.6,
+     "gap_2022": 9.3,
+     "post_mean": 20.5,
+     "p": 0.167,
+     "n_donors": 5
+    },
+    "DiD_2012base": {
+     "gap_2025": 41.8,
+     "gap_2018": 9.4,
+     "gap_2022": 11.8,
+     "post_mean": 21.0,
+     "p": 0.167,
+     "n_donors": 5
+    }
+   },
+   "C_2015_disarida": {
+    "SC_demeaned": {
+     "gap_2025": 34.1,
+     "gap_2018": 19.8,
+     "gap_2022": 4.9,
+     "post_mean": 19.6,
+     "p": 0.167,
+     "n_donors": 5
+    },
+    "SC_trend_adjusted": {
+     "gap_2025": 30.2,
+     "gap_2018": 17.5,
+     "gap_2022": 1.7,
+     "post_mean": 16.5,
+     "p": 0.333,
+     "n_donors": 5
+    },
+    "SDiD": {
+     "gap_2025": 37.8,
+     "gap_2018": 15.0,
+     "gap_2022": 7.9,
+     "post_mean": 20.2,
+     "p": 0.167,
+     "n_donors": 5
+    },
+    "DiD_2012base": {
+     "gap_2025": 41.8,
+     "gap_2018": 9.4,
+     "gap_2022": 11.8,
+     "post_mean": 21.0,
+     "p": 0.167,
+     "n_donors": 5
+    }
+   }
+  },
+  "science": {
+   "A_2013_kirilma_2015_sonrasi": {
+    "SC_demeaned": {
+     "gap_2025": 48.8,
+     "gap_2018": 31.3,
+     "gap_2022": 21.4,
+     "post_mean": 20.2,
+     "p": 0.222,
+     "n_donors": 8
+    },
+    "SC_trend_adjusted": {
+     "gap_2025": -15.8,
+     "gap_2018": -5.1,
+     "gap_2022": -31.1,
+     "post_mean": -24.2,
+     "p": 0.111,
+     "n_donors": 8
+    },
+    "SDiD": {
+     "gap_2025": 31.2,
+     "gap_2018": 9.6,
+     "gap_2022": 10.3,
+     "post_mean": 3.3,
+     "p": 0.556,
+     "n_donors": 8
+    },
+    "DiD_2012base": {
+     "gap_2025": 43.1,
+     "gap_2018": 12.8,
+     "gap_2022": 23.1,
+     "post_mean": 11.5,
+     "p": 0.222,
+     "n_donors": 8
+    }
+   },
+   "B_2015_kirilma_2015_on_donemde": {
+    "SC_demeaned": {
+     "gap_2025": 53.0,
+     "gap_2018": 33.5,
+     "gap_2022": 34.1,
+     "post_mean": 40.2,
+     "p": 0.111,
+     "n_donors": 8
+    },
+    "SC_trend_adjusted": {
+     "gap_2025": 39.1,
+     "gap_2018": 26.4,
+     "gap_2022": 23.1,
+     "post_mean": 29.5,
+     "p": 0.111,
+     "n_donors": 8
+    },
+    "SDiD": {
+     "gap_2025": 59.6,
+     "gap_2018": 39.2,
+     "gap_2022": 39.2,
+     "post_mean": 46.0,
+     "p": 0.111,
+     "n_donors": 8
+    },
+    "DiD_2012base": {
+     "gap_2025": 43.1,
+     "gap_2018": 12.8,
+     "gap_2022": 23.1,
+     "post_mean": 26.3,
+     "p": 0.222,
+     "n_donors": 8
+    }
+   },
+   "C_2015_disarida": {
+    "SC_demeaned": {
+     "gap_2025": 48.8,
+     "gap_2018": 31.3,
+     "gap_2022": 21.4,
+     "post_mean": 33.9,
+     "p": 0.111,
+     "n_donors": 8
+    },
+    "SC_trend_adjusted": {
+     "gap_2025": -15.8,
+     "gap_2018": -5.1,
+     "gap_2022": -31.1,
+     "post_mean": -17.3,
+     "p": 0.333,
+     "n_donors": 8
+    },
+    "SDiD": {
+     "gap_2025": 30.9,
+     "gap_2018": 9.4,
+     "gap_2022": 9.6,
+     "post_mean": 16.6,
+     "p": 0.333,
+     "n_donors": 8
+    },
+    "DiD_2012base": {
+     "gap_2025": 43.1,
+     "gap_2018": 12.8,
+     "gap_2022": 23.1,
+     "post_mean": 26.3,
+     "p": 0.222,
+     "n_donors": 8
+    }
+   }
+  }
+ },
+ "delta_2015_in_vs_out": {
+  "math": {
+   "A_sc_2025": 50.4,
+   "C_sc_2025": 50.4,
+   "A_sdid_2025": 35.7,
+   "C_sdid_2025": 35.8,
+   "B_sdid_tau": 45.6,
+   "C_sdid_tau": 24.0
+  },
+  "reading": {
+   "A_sc_2025": 34.1,
+   "C_sc_2025": 34.1,
+   "A_sdid_2025": 38.3,
+   "C_sdid_2025": 37.8,
+   "B_sdid_tau": 20.5,
+   "C_sdid_tau": 20.2
+  },
+  "science": {
+   "A_sc_2025": 48.8,
+   "C_sc_2025": 48.8,
+   "A_sdid_2025": 31.2,
+   "C_sdid_2025": 30.9,
+   "B_sdid_tau": 46.0,
+   "C_sdid_tau": 16.6
+  }
+ },
+ "notes": [
+  "p = placebo-in-space sıra-p, post-mean istatistiği üzerinde; N0 küçük (5–8) → erişilebilir en küçük p 1/(N0+1).",
+  "C varyantında 2015 sütunu matristen atıldı; donör kümesi A ile aynı (tam seri şartı 2015 dahil uygulandı)."
+ ]
+}

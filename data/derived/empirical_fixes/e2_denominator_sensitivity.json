@@ -1,0 +1,38 @@
+{
+ "note": "SONRADAN duyarlılık (PR incelemesi, 2026-09-26); birincil E2 sonucu (§0.4) değişmez.",
+ "gate": {
+  "ict44": {
+   "n_betik35": 44,
+   "n_recomputed": 44,
+   "betik35": -30.36,
+   "recomputed": -30.3632,
+   "abs_diff": 0.0032,
+   "ok": true
+  },
+  "ict_oecd": {
+   "n_betik35": 24,
+   "n_recomputed": 24,
+   "betik35": -31.13,
+   "recomputed": -31.1278,
+   "abs_diff": 0.0022,
+   "ok": true
+  }
+ },
+ "denominators": {
+  "ict44": {
+   "n_betik35_set": 44,
+   "resid_betik35_set": -30.3632,
+   "n_e2_set": 43,
+   "resid_e2_set": -30.3979
+  },
+  "ict_oecd": {
+   "n_betik35_set": 24,
+   "resid_betik35_set": -31.1278,
+   "n_e2_set": 23,
+   "resid_e2_set": -31.2098
+  }
+ },
+ "max_abs_share_change": 0.0001,
+ "max_abs_share_same_set_primary": 0.0162,
+ "max_abs_hi95_same_set_primary": 0.0381
+}

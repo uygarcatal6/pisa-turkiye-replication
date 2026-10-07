@@ -1,0 +1,650 @@
+{
+ "validation_cmps_vs_panel": {
+  "n_matched": 83,
+  "max_abs_diff": 0.003,
+  "n_over_1pt": 0,
+  "over_1pt": []
+ },
+ "models": {
+  "all/linear/PROG": {
+   "scope": "all",
+   "spec": "linear",
+   "covariate": "PROG",
+   "n": 83,
+   "coef": [
+    -13.345
+   ],
+   "coef_se": [
+    20.217
+   ],
+   "rmse_without": 19.5,
+   "rmse_with": 19.57,
+   "tur_resid_without": -31.76,
+   "tur_resid_with": -32.01,
+   "tur_share_remaining": 1.008,
+   "tur_rank_without": 5,
+   "tur_rank_with": 5
+  },
+  "all/linear/ROBOT": {
+   "scope": "all",
+   "spec": "linear",
+   "covariate": "ROBOT",
+   "n": 83,
+   "coef": [
+    -25.428
+   ],
+   "coef_se": [
+    23.867
+   ],
+   "rmse_without": 19.5,
+   "rmse_with": 19.48,
+   "tur_resid_without": -31.76,
+   "tur_resid_with": -31.29,
+   "tur_share_remaining": 0.985,
+   "tur_rank_without": 5,
+   "tur_rank_with": 5
+  },
+  "all/linear/ICTSCH": {
+   "scope": "all",
+   "spec": "linear",
+   "covariate": "ICTSCH",
+   "n": 44,
+   "coef": [
+    20.484
+   ],
+   "coef_se": [
+    10.122
+   ],
+   "rmse_without": 16.86,
+   "rmse_with": 16.27,
+   "tur_resid_without": -30.36,
+   "tur_resid_with": -27.85,
+   "tur_share_remaining": 0.917,
+   "tur_rank_without": 3,
+   "tur_rank_with": 2
+  },
+  "all/linear/ICTRES": {
+   "scope": "all",
+   "spec": "linear",
+   "covariate": "ICTRES",
+   "n": 51,
+   "coef": [
+    2.813
+   ],
+   "coef_se": [
+    5.851
+   ],
+   "rmse_without": 23.24,
+   "rmse_with": 23.42,
+   "tur_resid_without": -31.21,
+   "tur_resid_with": -28.73,
+   "tur_share_remaining": 0.921,
+   "tur_rank_without": 5,
+   "tur_rank_with": 5
+  },
+  "all/linear/CPPK": {
+   "scope": "all",
+   "spec": "linear",
+   "covariate": "CPPK",
+   "n": 83,
+   "coef": [
+    0.481
+   ],
+   "coef_se": [
+    0.164
+   ],
+   "rmse_without": 19.5,
+   "rmse_with": 18.65,
+   "tur_resid_without": -31.76,
+   "tur_resid_with": -24.78,
+   "tur_share_remaining": 0.78,
+   "tur_rank_without": 5,
+   "tur_rank_with": 6
+  },
+  "all/linear/PROG+ICTRES": {
+   "scope": "all",
+   "spec": "linear",
+   "covariate": "PROG+ICTRES",
+   "n": 51,
+   "coef": [
+    -37.692,
+    3.603
+   ],
+   "coef_se": [
+    31.915,
+    5.865
+   ],
+   "rmse_without": 23.24,
+   "rmse_with": 23.32,
+   "tur_resid_without": -31.21,
+   "tur_resid_with": -30.16,
+   "tur_share_remaining": 0.967,
+   "tur_rank_without": 5,
+   "tur_rank_with": 5
+  },
+  "all/quadratic/PROG": {
+   "scope": "all",
+   "spec": "quadratic",
+   "covariate": "PROG",
+   "n": 83,
+   "coef": [
+    -12.333
+   ],
+   "coef_se": [
+    18.682
+   ],
+   "rmse_without": 18.02,
+   "rmse_with": 18.08,
+   "tur_resid_without": -35.09,
+   "tur_resid_with": -35.31,
+   "tur_share_remaining": 1.006,
+   "tur_rank_without": 3,
+   "tur_rank_with": 3
+  },
+  "all/quadratic/ROBOT": {
+   "scope": "all",
+   "spec": "quadratic",
+   "covariate": "ROBOT",
+   "n": 83,
+   "coef": [
+    -14.416
+   ],
+   "coef_se": [
+    22.347
+   ],
+   "rmse_without": 18.02,
+   "rmse_with": 18.08,
+   "tur_resid_without": -35.09,
+   "tur_resid_with": -34.75,
+   "tur_share_remaining": 0.99,
+   "tur_rank_without": 3,
+   "tur_rank_with": 3
+  },
+  "all/quadratic/ICTSCH": {
+   "scope": "all",
+   "spec": "quadratic",
+   "covariate": "ICTSCH",
+   "n": 44,
+   "coef": [
+    7.54
+   ],
+   "coef_se": [
+    12.046
+   ],
+   "rmse_without": 15.69,
+   "rmse_with": 15.8,
+   "tur_resid_without": -34.47,
+   "tur_resid_with": -32.88,
+   "tur_share_remaining": 0.954,
+   "tur_rank_without": 1,
+   "tur_rank_with": 1
+  },
+  "all/quadratic/ICTRES": {
+   "scope": "all",
+   "spec": "quadratic",
+   "covariate": "ICTRES",
+   "n": 51,
+   "coef": [
+    -3.673
+   ],
+   "coef_se": [
+    5.864
+   ],
+   "rmse_without": 21.61,
+   "rmse_with": 21.75,
+   "tur_resid_without": -34.93,
+   "tur_resid_with": -38.48,
+   "tur_share_remaining": 1.102,
+   "tur_rank_without": 3,
+   "tur_rank_with": 3
+  },
+  "all/quadratic/CPPK": {
+   "scope": "all",
+   "spec": "quadratic",
+   "covariate": "CPPK",
+   "n": 83,
+   "coef": [
+    0.382
+   ],
+   "coef_se": [
+    0.156
+   ],
+   "rmse_without": 18.02,
+   "rmse_with": 17.48,
+   "tur_resid_without": -35.09,
+   "tur_resid_with": -29.17,
+   "tur_share_remaining": 0.831,
+   "tur_rank_without": 3,
+   "tur_rank_with": 4
+  },
+  "all/quadratic/PROG+ICTRES": {
+   "scope": "all",
+   "spec": "quadratic",
+   "covariate": "PROG+ICTRES",
+   "n": 51,
+   "coef": [
+    -30.078,
+    -2.843
+   ],
+   "coef_se": [
+    29.876,
+    5.92
+   ],
+   "rmse_without": 21.61,
+   "rmse_with": 21.75,
+   "tur_resid_without": -34.93,
+   "tur_resid_with": -39.32,
+   "tur_share_remaining": 1.126,
+   "tur_rank_without": 3,
+   "tur_rank_with": 3
+  },
+  "oecd/linear/PROG": {
+   "scope": "oecd",
+   "spec": "linear",
+   "covariate": "PROG",
+   "n": 38,
+   "coef": [
+    3.989
+   ],
+   "coef_se": [
+    21.623
+   ],
+   "rmse_without": 10.7,
+   "rmse_with": 10.85,
+   "tur_resid_without": -33.49,
+   "tur_resid_with": -33.58,
+   "tur_share_remaining": 1.003,
+   "tur_rank_without": 1,
+   "tur_rank_with": 1
+  },
+  "oecd/linear/ROBOT": {
+   "scope": "oecd",
+   "spec": "linear",
+   "covariate": "ROBOT",
+   "n": 38,
+   "coef": [
+    2.768
+   ],
+   "coef_se": [
+    30.657
+   ],
+   "rmse_without": 10.7,
+   "rmse_with": 10.85,
+   "tur_resid_without": -33.49,
+   "tur_resid_with": -33.63,
+   "tur_share_remaining": 1.004,
+   "tur_rank_without": 1,
+   "tur_rank_with": 1
+  },
+  "oecd/linear/ICTSCH": {
+   "scope": "oecd",
+   "spec": "linear",
+   "covariate": "ICTSCH",
+   "n": 24,
+   "coef": [
+    74.491
+   ],
+   "coef_se": [
+    28.974
+   ],
+   "rmse_without": 12.05,
+   "rmse_with": 10.76,
+   "tur_resid_without": -31.13,
+   "tur_resid_with": -14.54,
+   "tur_share_remaining": 0.467,
+   "tur_rank_without": 1,
+   "tur_rank_with": 3
+  },
+  "oecd/linear/ICTRES": {
+   "scope": "oecd",
+   "spec": "linear",
+   "covariate": "ICTRES",
+   "n": 13,
+   "coef": [
+    12.948
+   ],
+   "coef_se": [
+    8.772
+   ],
+   "rmse_without": 14.67,
+   "rmse_with": 13.94,
+   "tur_resid_without": -30.56,
+   "tur_resid_with": -15.24,
+   "tur_share_remaining": 0.499,
+   "tur_rank_without": 1,
+   "tur_rank_with": 2
+  },
+  "oecd/linear/CPPK": {
+   "scope": "oecd",
+   "spec": "linear",
+   "covariate": "CPPK",
+   "n": 38,
+   "coef": [
+    0.423
+   ],
+   "coef_se": [
+    0.135
+   ],
+   "rmse_without": 10.7,
+   "rmse_with": 9.59,
+   "tur_resid_without": -33.49,
+   "tur_resid_with": -25.86,
+   "tur_share_remaining": 0.772,
+   "tur_rank_without": 1,
+   "tur_rank_with": 2
+  },
+  "oecd/linear/PROG+ICTRES": {
+   "scope": "oecd",
+   "spec": "linear",
+   "covariate": "PROG+ICTRES",
+   "n": 13,
+   "coef": [
+    -157.297,
+    13.751
+   ],
+   "coef_se": [
+    82.151,
+    7.806
+   ],
+   "rmse_without": 14.67,
+   "rmse_with": 12.39,
+   "tur_resid_without": -30.56,
+   "tur_resid_with": -9.79,
+   "tur_share_remaining": 0.32,
+   "tur_rank_without": 1,
+   "tur_rank_with": 3
+  },
+  "oecd/quadratic/PROG": {
+   "scope": "oecd",
+   "spec": "quadratic",
+   "covariate": "PROG",
+   "n": 38,
+   "coef": [
+    5.769
+   ],
+   "coef_se": [
+    21.997
+   ],
+   "rmse_without": 10.8,
+   "rmse_with": 10.95,
+   "tur_resid_without": -32.95,
+   "tur_resid_with": -33.05,
+   "tur_share_remaining": 1.003,
+   "tur_rank_without": 1,
+   "tur_rank_with": 1
+  },
+  "oecd/quadratic/ROBOT": {
+   "scope": "oecd",
+   "spec": "quadratic",
+   "covariate": "ROBOT",
+   "n": 38,
+   "coef": [
+    6.28
+   ],
+   "coef_se": [
+    31.301
+   ],
+   "rmse_without": 10.8,
+   "rmse_with": 10.96,
+   "tur_resid_without": -32.95,
+   "tur_resid_with": -33.25,
+   "tur_share_remaining": 1.009,
+   "tur_rank_without": 1,
+   "tur_rank_with": 1
+  },
+  "oecd/quadratic/ICTSCH": {
+   "scope": "oecd",
+   "spec": "quadratic",
+   "covariate": "ICTSCH",
+   "n": 24,
+   "coef": [
+    74.633
+   ],
+   "coef_se": [
+    29.789
+   ],
+   "rmse_without": 12.18,
+   "rmse_with": 11.02,
+   "tur_resid_without": -29.72,
+   "tur_resid_with": -14.53,
+   "tur_share_remaining": 0.489,
+   "tur_rank_without": 1,
+   "tur_rank_with": 3
+  },
+  "oecd/quadratic/ICTRES": {
+   "scope": "oecd",
+   "spec": "quadratic",
+   "covariate": "ICTRES",
+   "n": 13,
+   "coef": [
+    18.692
+   ],
+   "coef_se": [
+    7.976
+   ],
+   "rmse_without": 15.07,
+   "rmse_with": 13.08,
+   "tur_resid_without": -30.15,
+   "tur_resid_with": -7.53,
+   "tur_share_remaining": 0.25,
+   "tur_rank_without": 1,
+   "tur_rank_with": 2
+  },
+  "oecd/quadratic/CPPK": {
+   "scope": "oecd",
+   "spec": "quadratic",
+   "covariate": "CPPK",
+   "n": 38,
+   "coef": [
+    0.439
+   ],
+   "coef_se": [
+    0.135
+   ],
+   "rmse_without": 10.8,
+   "rmse_with": 9.59,
+   "tur_resid_without": -32.95,
+   "tur_resid_with": -24.73,
+   "tur_share_remaining": 0.751,
+   "tur_rank_without": 1,
+   "tur_rank_with": 2
+  },
+  "oecd/quadratic/PROG+ICTRES": {
+   "scope": "oecd",
+   "spec": "quadratic",
+   "covariate": "PROG+ICTRES",
+   "n": 13,
+   "coef": [
+    -136.996,
+    18.28
+   ],
+   "coef_se": [
+    79.861,
+    7.241
+   ],
+   "rmse_without": 15.07,
+   "rmse_with": 11.87,
+   "tur_resid_without": -30.15,
+   "tur_resid_with": -4.28,
+   "tur_share_remaining": 0.142,
+   "tur_rank_without": 1,
+   "tur_rank_with": 3
+  }
+ },
+ "turkiye_covariates": {
+  "PROG": 0.391,
+  "ROBOT": 0.3052,
+  "ICTSCH": 0.0912,
+  "ICTRES": -1.0009,
+  "CPPK": 490.689
+ },
+ "turkiye_covariate_rank_from_bottom": {
+  "PROG": "28/83",
+  "ROBOT": "38/83",
+  "ICTSCH": "9/44",
+  "ICTRES": "17/51",
+  "CPPK": "50/83"
+ },
+ "loo_turkiye_posthoc": {
+  "all/linear/PROG": {
+   "n": 83,
+   "tur_loo_resid_without": -32.36,
+   "tur_loo_resid_with": -32.62,
+   "tur_loo_share_remaining": 1.008,
+   "tur_leverage": 0.019,
+   "mean_leverage": 0.036
+  },
+  "all/linear/ROBOT": {
+   "n": 83,
+   "tur_loo_resid_without": -32.36,
+   "tur_loo_resid_with": -31.9,
+   "tur_loo_share_remaining": 0.986,
+   "tur_leverage": 0.019,
+   "mean_leverage": 0.036
+  },
+  "all/linear/ICTSCH": {
+   "n": 44,
+   "tur_loo_resid_without": -31.15,
+   "tur_loo_resid_with": -28.74,
+   "tur_loo_share_remaining": 0.923,
+   "tur_leverage": 0.031,
+   "mean_leverage": 0.068
+  },
+  "all/linear/ICTRES": {
+   "n": 51,
+   "tur_loo_resid_without": -32.56,
+   "tur_loo_resid_with": -31.57,
+   "tur_loo_share_remaining": 0.97,
+   "tur_leverage": 0.09,
+   "mean_leverage": 0.059
+  },
+  "all/linear/CPPK": {
+   "n": 83,
+   "tur_loo_resid_without": -32.36,
+   "tur_loo_resid_with": -25.67,
+   "tur_loo_share_remaining": 0.793,
+   "tur_leverage": 0.035,
+   "mean_leverage": 0.036
+  },
+  "all/quadratic/PROG": {
+   "n": 83,
+   "tur_loo_resid_without": -35.83,
+   "tur_loo_resid_with": -36.07,
+   "tur_loo_share_remaining": 1.007,
+   "tur_leverage": 0.021,
+   "mean_leverage": 0.048
+  },
+  "all/quadratic/ROBOT": {
+   "n": 83,
+   "tur_loo_resid_without": -35.83,
+   "tur_loo_resid_with": -35.52,
+   "tur_loo_share_remaining": 0.991,
+   "tur_leverage": 0.022,
+   "mean_leverage": 0.048
+  },
+  "all/quadratic/ICTSCH": {
+   "n": 44,
+   "tur_loo_resid_without": -35.7,
+   "tur_loo_resid_with": -34.99,
+   "tur_loo_share_remaining": 0.98,
+   "tur_leverage": 0.06,
+   "mean_leverage": 0.091
+  },
+  "all/quadratic/ICTRES": {
+   "n": 51,
+   "tur_loo_resid_without": -36.57,
+   "tur_loo_resid_with": -43.38,
+   "tur_loo_share_remaining": 1.186,
+   "tur_leverage": 0.113,
+   "mean_leverage": 0.078
+  },
+  "all/quadratic/CPPK": {
+   "n": 83,
+   "tur_loo_resid_without": -35.83,
+   "tur_loo_resid_with": -30.38,
+   "tur_loo_share_remaining": 0.848,
+   "tur_leverage": 0.04,
+   "mean_leverage": 0.048
+  },
+  "oecd/linear/PROG": {
+   "n": 38,
+   "tur_loo_resid_without": -34.45,
+   "tur_loo_resid_with": -34.62,
+   "tur_loo_share_remaining": 1.005,
+   "tur_leverage": 0.03,
+   "mean_leverage": 0.079
+  },
+  "oecd/linear/ROBOT": {
+   "n": 38,
+   "tur_loo_resid_without": -34.45,
+   "tur_loo_resid_with": -35.43,
+   "tur_loo_share_remaining": 1.028,
+   "tur_leverage": 0.051,
+   "mean_leverage": 0.079
+  },
+  "oecd/linear/ICTSCH": {
+   "n": 24,
+   "tur_loo_resid_without": -32.49,
+   "tur_loo_resid_with": -24.3,
+   "tur_loo_share_remaining": 0.748,
+   "tur_leverage": 0.402,
+   "mean_leverage": 0.125
+  },
+  "oecd/linear/ICTRES": {
+   "n": 13,
+   "tur_loo_resid_without": -34.42,
+   "tur_loo_resid_with": -45.67,
+   "tur_loo_share_remaining": 1.327,
+   "tur_leverage": 0.666,
+   "mean_leverage": 0.231
+  },
+  "oecd/linear/CPPK": {
+   "n": 38,
+   "tur_loo_resid_without": -34.45,
+   "tur_loo_resid_with": -28.49,
+   "tur_loo_share_remaining": 0.827,
+   "tur_leverage": 0.092,
+   "mean_leverage": 0.079
+  },
+  "oecd/quadratic/PROG": {
+   "n": 38,
+   "tur_loo_resid_without": -34.19,
+   "tur_loo_resid_with": -34.33,
+   "tur_loo_share_remaining": 1.004,
+   "tur_leverage": 0.029,
+   "mean_leverage": 0.105
+  },
+  "oecd/quadratic/ROBOT": {
+   "n": 38,
+   "tur_loo_resid_without": -34.19,
+   "tur_loo_resid_with": -35.16,
+   "tur_loo_share_remaining": 1.028,
+   "tur_leverage": 0.049,
+   "mean_leverage": 0.105
+  },
+  "oecd/quadratic/ICTSCH": {
+   "n": 24,
+   "tur_loo_resid_without": -31.85,
+   "tur_loo_resid_with": -24.36,
+   "tur_loo_share_remaining": 0.765,
+   "tur_leverage": 0.402,
+   "mean_leverage": 0.167
+  },
+  "oecd/quadratic/ICTRES": {
+   "n": 13,
+   "tur_loo_resid_without": -34.03,
+   "tur_loo_resid_with": -40.23,
+   "tur_loo_share_remaining": 1.182,
+   "tur_leverage": 0.62,
+   "mean_leverage": 0.308
+  },
+  "oecd/quadratic/CPPK": {
+   "n": 38,
+   "tur_loo_resid_without": -34.19,
+   "tur_loo_resid_with": -27.69,
+   "tur_loo_share_remaining": 0.81,
+   "tur_leverage": 0.09,
+   "mean_leverage": 0.105
+  }
+ }
+}

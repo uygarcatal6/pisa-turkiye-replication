@@ -1,0 +1,522 @@
+{
+ "note": "E7 — SC ailesi çıkarım tablosu; taban = 1/(J+1) (plasebo-yerleşim) ya da 1/T (konformal ızgara); taban bayrağı |p − taban| ≤ 0,0015. Yeniden kestirim yok. Ön-belirleme §0.6 (commit 476fe4e).",
+ "n_rows": 756,
+ "n_rows_with_p": 708,
+ "n_rows_p_lt_010": 45,
+ "groups": {
+  "SDiD | post2015 | p_rank": {
+   "n_cells": 9,
+   "J_range": [
+    5,
+    18
+   ],
+   "n_at_floor": 2,
+   "n_floor_lt_010": 4,
+   "n_p_lt_010": 0,
+   "J_of_p_lt_010": [],
+   "p_range_p_lt_010": null,
+   "n_p_lt_010_at_floor": 0,
+   "by_pool_type": {
+    "istikrarlı OECD": {
+     "n": 3,
+     "n_at_floor": 2,
+     "n_p_lt_010": 0,
+     "J_range": [
+      5,
+      8
+     ]
+    },
+    "belirsizler eklenmiş": {
+     "n": 3,
+     "n_at_floor": 0,
+     "n_p_lt_010": 0,
+     "J_range": [
+      8,
+      13
+     ]
+    },
+    "tüm katılımcılar": {
+     "n": 3,
+     "n_at_floor": 0,
+     "n_p_lt_010": 0,
+     "J_range": [
+      10,
+      18
+     ]
+    }
+   }
+  },
+  "SDiD | post2018 | p_rank": {
+   "n_cells": 9,
+   "J_range": [
+    5,
+    18
+   ],
+   "n_at_floor": 9,
+   "n_floor_lt_010": 4,
+   "n_p_lt_010": 4,
+   "J_of_p_lt_010": [
+    10,
+    13,
+    18
+   ],
+   "p_range_p_lt_010": [
+    0.053,
+    0.091
+   ],
+   "n_p_lt_010_at_floor": 4,
+   "by_pool_type": {
+    "istikrarlı OECD": {
+     "n": 3,
+     "n_at_floor": 3,
+     "n_p_lt_010": 0,
+     "J_range": [
+      5,
+      8
+     ]
+    },
+    "belirsizler eklenmiş": {
+     "n": 3,
+     "n_at_floor": 3,
+     "n_p_lt_010": 1,
+     "J_range": [
+      8,
+      13
+     ]
+    },
+    "tüm katılımcılar": {
+     "n": 3,
+     "n_at_floor": 3,
+     "n_p_lt_010": 3,
+     "J_range": [
+      10,
+      18
+     ]
+    }
+   }
+  },
+  "SC ön-dönem arındırılmış (ablasyon) | 2015–2025 | p_gap": {
+   "n_cells": 309,
+   "J_range": [
+    5,
+    45
+   ],
+   "n_at_floor": 59,
+   "n_floor_lt_010": 222,
+   "n_p_lt_010": 41,
+   "J_of_p_lt_010": [
+    12,
+    31,
+    33,
+    40,
+    41,
+    42,
+    43,
+    44
+   ],
+   "p_range_p_lt_010": [
+    0.059,
+    0.098
+   ],
+   "n_p_lt_010_at_floor": 22,
+   "by_pool_type": {
+    "istikrarlı OECD": {
+     "n": 54,
+     "n_at_floor": 19,
+     "n_p_lt_010": 3,
+     "J_range": [
+      5,
+      15
+     ]
+    },
+    "tüm katılımcılar": {
+     "n": 117,
+     "n_at_floor": 39,
+     "n_p_lt_010": 19,
+     "J_range": [
+      5,
+      18
+     ]
+    },
+    "otokratikleşenleri içeren": {
+     "n": 135,
+     "n_at_floor": 0,
+     "n_p_lt_010": 19,
+     "J_range": [
+      16,
+      45
+     ]
+    },
+    "belirsizler eklenmiş": {
+     "n": 3,
+     "n_at_floor": 1,
+     "n_p_lt_010": 0,
+     "J_range": [
+      8,
+      13
+     ]
+    }
+   }
+  },
+  "SC ön-dönem arındırılmış (ablasyon) | 2015–2025 | p_ratio": {
+   "n_cells": 309,
+   "J_range": [
+    5,
+    45
+   ],
+   "n_at_floor": 35,
+   "n_floor_lt_010": 222,
+   "n_p_lt_010": 0,
+   "J_of_p_lt_010": [],
+   "p_range_p_lt_010": null,
+   "n_p_lt_010_at_floor": 0,
+   "by_pool_type": {
+    "istikrarlı OECD": {
+     "n": 54,
+     "n_at_floor": 15,
+     "n_p_lt_010": 0,
+     "J_range": [
+      5,
+      15
+     ]
+    },
+    "tüm katılımcılar": {
+     "n": 117,
+     "n_at_floor": 20,
+     "n_p_lt_010": 0,
+     "J_range": [
+      5,
+      18
+     ]
+    },
+    "otokratikleşenleri içeren": {
+     "n": 135,
+     "n_at_floor": 0,
+     "n_p_lt_010": 0,
+     "J_range": [
+      16,
+      45
+     ]
+    },
+    "belirsizler eklenmiş": {
+     "n": 3,
+     "n_at_floor": 0,
+     "n_p_lt_010": 0,
+     "J_range": [
+      8,
+      13
+     ]
+    }
+   }
+  },
+  "Konformal (SC) | tüm post (tau0) | conformal_p": {
+   "n_cells": 9,
+   "J_range": [
+    5,
+    18
+   ],
+   "n_at_floor": 8,
+   "n_floor_lt_010": 0,
+   "n_p_lt_010": 0,
+   "J_of_p_lt_010": [],
+   "p_range_p_lt_010": null,
+   "n_p_lt_010_at_floor": 0,
+   "by_pool_type": {
+    "istikrarlı OECD": {
+     "n": 3,
+     "n_at_floor": 3,
+     "n_p_lt_010": 0,
+     "J_range": [
+      5,
+      8
+     ]
+    },
+    "belirsizler eklenmiş": {
+     "n": 3,
+     "n_at_floor": 3,
+     "n_p_lt_010": 0,
+     "J_range": [
+      8,
+      13
+     ]
+    },
+    "tüm katılımcılar": {
+     "n": 3,
+     "n_at_floor": 2,
+     "n_p_lt_010": 0,
+     "J_range": [
+      10,
+      18
+     ]
+    }
+   }
+  },
+  "Konformal (SC) | yalnız 2025 | conformal_p": {
+   "n_cells": 9,
+   "J_range": [
+    5,
+    18
+   ],
+   "n_at_floor": 2,
+   "n_floor_lt_010": 0,
+   "n_p_lt_010": 0,
+   "J_of_p_lt_010": [],
+   "p_range_p_lt_010": null,
+   "n_p_lt_010_at_floor": 0,
+   "by_pool_type": {
+    "istikrarlı OECD": {
+     "n": 3,
+     "n_at_floor": 1,
+     "n_p_lt_010": 0,
+     "J_range": [
+      5,
+      8
+     ]
+    },
+    "belirsizler eklenmiş": {
+     "n": 3,
+     "n_at_floor": 1,
+     "n_p_lt_010": 0,
+     "J_range": [
+      8,
+      13
+     ]
+    },
+    "tüm katılımcılar": {
+     "n": 3,
+     "n_at_floor": 0,
+     "n_p_lt_010": 0,
+     "J_range": [
+      10,
+      18
+     ]
+    }
+   }
+  },
+  "Konformal (SC) | 2018–2025 | conformal_p": {
+   "n_cells": 9,
+   "J_range": [
+    5,
+    18
+   ],
+   "n_at_floor": 0,
+   "n_floor_lt_010": 0,
+   "n_p_lt_010": 0,
+   "J_of_p_lt_010": [],
+   "p_range_p_lt_010": null,
+   "n_p_lt_010_at_floor": 0,
+   "by_pool_type": {
+    "istikrarlı OECD": {
+     "n": 3,
+     "n_at_floor": 0,
+     "n_p_lt_010": 0,
+     "J_range": [
+      5,
+      8
+     ]
+    },
+    "belirsizler eklenmiş": {
+     "n": 3,
+     "n_at_floor": 0,
+     "n_p_lt_010": 0,
+     "J_range": [
+      8,
+      13
+     ]
+    },
+    "tüm katılımcılar": {
+     "n": 3,
+     "n_at_floor": 0,
+     "n_p_lt_010": 0,
+     "J_range": [
+      10,
+      18
+     ]
+    }
+   }
+  },
+  "Matris tamamlama (MC) | 2015–2025 | mc_p": {
+   "n_cells": 9,
+   "J_range": [
+    5,
+    18
+   ],
+   "n_at_floor": 3,
+   "n_floor_lt_010": 4,
+   "n_p_lt_010": 0,
+   "J_of_p_lt_010": [],
+   "p_range_p_lt_010": null,
+   "n_p_lt_010_at_floor": 0,
+   "by_pool_type": {
+    "istikrarlı OECD": {
+     "n": 3,
+     "n_at_floor": 2,
+     "n_p_lt_010": 0,
+     "J_range": [
+      5,
+      8
+     ]
+    },
+    "belirsizler eklenmiş": {
+     "n": 3,
+     "n_at_floor": 1,
+     "n_p_lt_010": 0,
+     "J_range": [
+      8,
+      13
+     ]
+    },
+    "tüm katılımcılar": {
+     "n": 3,
+     "n_at_floor": 0,
+     "n_p_lt_010": 0,
+     "J_range": [
+      10,
+      18
+     ]
+    }
+   }
+  },
+  "SC (Synth, R) | 2015–2025 | p_gap": {
+   "n_cells": 18,
+   "J_range": [
+    5,
+    22
+   ],
+   "n_at_floor": 5,
+   "n_floor_lt_010": 6,
+   "n_p_lt_010": 0,
+   "J_of_p_lt_010": [],
+   "p_range_p_lt_010": null,
+   "n_p_lt_010_at_floor": 0,
+   "by_pool_type": {
+    "belirsizler eklenmiş": {
+     "n": 6,
+     "n_at_floor": 1,
+     "n_p_lt_010": 0,
+     "J_range": [
+      8,
+      13
+     ]
+    },
+    "istikrarlı OECD": {
+     "n": 6,
+     "n_at_floor": 3,
+     "n_p_lt_010": 0,
+     "J_range": [
+      5,
+      8
+     ]
+    },
+    "tüm katılımcılar": {
+     "n": 3,
+     "n_at_floor": 1,
+     "n_p_lt_010": 0,
+     "J_range": [
+      5,
+      11
+     ]
+    },
+    "belirsizler eklenmiş (yıldızlılar tutulmuş)": {
+     "n": 3,
+     "n_at_floor": 0,
+     "n_p_lt_010": 0,
+     "J_range": [
+      17,
+      22
+     ]
+    }
+   }
+  },
+  "SC (Synth, R) | 2015–2025 | p_ratio": {
+   "n_cells": 18,
+   "J_range": [
+    5,
+    22
+   ],
+   "n_at_floor": 3,
+   "n_floor_lt_010": 6,
+   "n_p_lt_010": 0,
+   "J_of_p_lt_010": [],
+   "p_range_p_lt_010": null,
+   "n_p_lt_010_at_floor": 0,
+   "by_pool_type": {
+    "belirsizler eklenmiş": {
+     "n": 6,
+     "n_at_floor": 0,
+     "n_p_lt_010": 0,
+     "J_range": [
+      8,
+      13
+     ]
+    },
+    "istikrarlı OECD": {
+     "n": 6,
+     "n_at_floor": 2,
+     "n_p_lt_010": 0,
+     "J_range": [
+      5,
+      8
+     ]
+    },
+    "tüm katılımcılar": {
+     "n": 3,
+     "n_at_floor": 1,
+     "n_p_lt_010": 0,
+     "J_range": [
+      5,
+      11
+     ]
+    },
+    "belirsizler eklenmiş (yıldızlılar tutulmuş)": {
+     "n": 3,
+     "n_at_floor": 0,
+     "n_p_lt_010": 0,
+     "J_range": [
+      17,
+      22
+     ]
+    }
+   }
+  }
+ },
+ "precheck_reproduction": {
+  "sdid_post2018_all_at_floor": "9/9",
+  "sdid_post2018_rank1": "9/9",
+  "sdid_post2018_J": [
+   5,
+   18
+  ],
+  "sdid_post2018_p_lt_010_J": [
+   10,
+   10,
+   13,
+   18
+  ],
+  "sdid_post2018_p_lt_010_range": [
+   0.053,
+   0.091
+  ],
+  "ablation_cells": 309,
+  "ablation_J": [
+   5,
+   45
+  ],
+  "ablation_p_gap_at_floor": 59,
+  "ablation_p_gap_lt_010": 41,
+  "ablation_p_gap_lt_010_J": [
+   12,
+   31,
+   33,
+   40,
+   41,
+   42,
+   43,
+   44
+  ],
+  "conformal_grid_step": [
+   0.125,
+   0.143
+  ]
+ }
+}

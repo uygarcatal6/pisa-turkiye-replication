@@ -1,0 +1,20 @@
+cycle,category_label,meb_reported_share,microdata_weighted_share,diff_pp,source_file,page,quote
+2015,(okul türü dağılımı raporda yok),,,,docs/national_reports_meb/09155512_PISA_2015.pdf,-,PISA 2015 Ulusal Raporu okul turune gore ornekleme dagilimi vermiyor (not found)
+2018,Anadolu lisesi,0.437,0.4597,-2.3,docs/national_reports_meb/03105347_PISA_2018_Turkiye_On_Raporu.pdf,24,"orneklemde... %43,7'si Anadolu lisesi"
+2018,Mesleki ve teknik Anadolu lisesi,0.311,0.3149,-0.4,docs/national_reports_meb/03105347_PISA_2018_Turkiye_On_Raporu.pdf,24,"%31,1'i mesleki ve teknik Anadolu lisesi"
+2018,Anadolu imam hatip lisesi,0.137,0.1273,1.0,docs/national_reports_meb/03105347_PISA_2018_Turkiye_On_Raporu.pdf,24,"%13,7'si Anadolu imam hatip lisesi"
+2018,Fen+sosyal+cok programli+guzel sanatlar,0.112,0.0931,1.9,docs/national_reports_meb/03105347_PISA_2018_Turkiye_On_Raporu.pdf,24,"kalan %11,2 fen/sosyal bilimler/cok programli/guzel sanatlar (100 - digerleri)"
+2018,Ortaokul,0.003,0.0051,-0.2,docs/national_reports_meb/03105347_PISA_2018_Turkiye_On_Raporu.pdf,24,"Ortaokul %0,3 (grafik)"
+2022,Anadolu lisesi,0.56,0.5749,-1.5,docs/national_reports_meb/21120745_26152640_pisa2022_rapor.pdf,35,"Grafik 1.1 Okul Turleri: Anadolu 56,0"
+2022,Mesleki ve teknik Anadolu lisesi,0.23,0.2435,-1.3,docs/national_reports_meb/21120745_26152640_pisa2022_rapor.pdf,35,"mesleki ve teknik 23,0"
+2022,Anadolu imam hatip lisesi,0.102,0.1021,-0.0,docs/national_reports_meb/21120745_26152640_pisa2022_rapor.pdf,35,"imam hatip 10,2"
+2022,Fen lisesi,0.056,0.0564,-0.0,docs/national_reports_meb/21120745_26152640_pisa2022_rapor.pdf,35,"fen 5,6 (Grafik 1.1)"
+2022,Cok programli Anadolu lisesi,0.028,0.0,2.8,docs/national_reports_meb/21120745_26152640_pisa2022_rapor.pdf,35,"cok programli 2,8"
+2022,Guzel sanatlar lisesi,0.012,0.012,0.0,docs/national_reports_meb/21120745_26152640_pisa2022_rapor.pdf,35,"guzel sanatlar 1,2"
+2022,Sosyal bilimler lisesi,0.009,0.0091,-0.0,docs/national_reports_meb/21120745_26152640_pisa2022_rapor.pdf,35,"sosyal bilimler 0,9"
+2022,Ortaokul,0.002,0.0019,0.0,docs/national_reports_meb/21120745_26152640_pisa2022_rapor.pdf,35,"ortaokul 0,2"
+2025,Anadolu lisesi,0.466,0.4559,1.0,docs/national_reports_meb/PISA2025TurkiyeRaporu.pdf,33,"%46,6'sinin Anadolu lisesi"
+2025,Mesleki ve teknik Anadolu lisesi,0.328,0.2709,5.7,docs/national_reports_meb/PISA2025TurkiyeRaporu.pdf,33,"%32,8'inin mesleki ve teknik Anadolu lisesi"
+2025,Anadolu imam hatip lisesi,0.095,0.0949,0.0,docs/national_reports_meb/PISA2025TurkiyeRaporu.pdf,33,"%9,5'inin Anadolu imam hatip lisesi"
+2025,Fen+sosyal+cok programli+guzel sanatlar/spor,0.11,0.0673,4.3,docs/national_reports_meb/PISA2025TurkiyeRaporu.pdf,33,toplami orneklemin %11'ini olusturur
+2025,Ortaokul,0.001,0.0006,0.0,docs/national_reports_meb/PISA2025TurkiyeRaporu.pdf,33,"%0,1'i ortaokul ogrencilerinden olusur"

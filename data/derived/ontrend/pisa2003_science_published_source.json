@@ -1,0 +1,30 @@
+{
+ "xlsx_file": "pisa2003_science_means_se_NCES_B1_32.xlsx",
+ "xlsx_sha256": "3350d22615bb5f224a84469eb460695a0b40642cd3b72c9f9a412911065dbec0",
+ "sheet": "B.1.32",
+ "name_col": "B",
+ "mean_col": "J",
+ "se_col": "K",
+ "rows": "6-80",
+ "url": "https://web.archive.org/web/20250323014649id_/https://nces.ed.gov/surveys/international/tables/xls/B.1.32.xls",
+ "table": "NCES Table B.1.32. Average PISA science literacy scores of 15-year-old students, by jurisdiction: 2000, 2003, and 2006 (2003 columns J/K); matches OECD (2004) Annex B1 Table 6.6 'Mean score and variation in student performance on the science scale' (p. 448) at published precision, 41/41",
+ "aliases_cli": [
+  "Liechtenstein=LIE",
+  "Tunisia=TUN",
+  "Serbia, Republic of=YUG"
+ ],
+ "n_rows": 40,
+ "unmapped_numeric_rows": [
+  {
+   "row": 6,
+   "name": "     OECD average",
+   "mean": 499.61185883
+  },
+  {
+   "row": 70,
+   "name": "Montenegro, Republic of6",
+   "mean": 436.37369565
+  }
+ ],
+ "extracted_at": "2026-09-27T23:15:19"
+}

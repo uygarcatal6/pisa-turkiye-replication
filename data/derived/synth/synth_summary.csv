@@ -1,0 +1,25 @@
+case,treated,domain,pool,spec,asterisk_rule,n_donors,pre_rmspe,post_rmspe,ratio,rank,p_ratio,post_gap_mean,p_gap,gaps,top_weights
+TUR_levels,TUR,math,stable_plus_ambiguous,levels,drop flagged countries,8,64.76,46.4,0.72,8/9,0.889,-38.4,1,2015:-73.5 2018:-48.9 2022:-28.6 2025:-2.7,SWE=1 DEU=0 ISL=0 FRA=0 BEL=0
+TUR_levels,TUR,reading,stable_plus_ambiguous,levels,drop flagged countries,8,36.47,38.03,1.04,7/9,0.778,2.1,0.444,2015:-53.2 2018:-8.3 2022:20.2 2025:49.8,ISL=1 DEU=0 FRA=0 JPN=0 CHE=0
+TUR_levels,TUR,science,stable_plus_ambiguous,levels,drop flagged countries,13,11.35,27.61,2.43,11/14,0.786,8.8,0.214,2015:-33.6 2018:14 2022:17 2025:37.9,COL=0.62 JPN=0.33 ISR=0.05 EST=0 DEU=0
+TUR,TUR,math,stable_clean,demeaned (intercept allowed),drop flagged countries,5,9.44,33.91,3.59,2/6,0.333,26.2,0.167,2015:-8.7 2018:30.2 2022:32.8 2025:50.4,CHE=0.73 JPN=0.27 FRA=0 ISL=0 BEL=0
+TUR,TUR,reading,stable_clean,demeaned (intercept allowed),drop flagged countries,5,2.61,24.53,9.41,1/6,0.167,7.6,0.333,2015:-28.7 2018:19.8 2022:4.9 2025:34.1,JPN=0.79 ISL=0.11 CHE=0.1 BEL=0 FRA=0
+TUR,TUR,science,stable_clean,demeaned (intercept allowed),drop flagged countries,7,10.94,32.61,2.98,7/8,0.875,20.2,0.125,2015:-20.8 2018:31.3 2022:21.4 2025:48.8,JPN=1 LTU=0 CHE=0 FRA=0 EST=0
+TUR,TUR,math,stable_all,demeaned (intercept allowed),drop flagged countries,5,9.44,33.91,3.59,2/6,0.333,26.2,0.167,2015:-8.7 2018:30.2 2022:32.8 2025:50.4,CHE=0.73 JPN=0.27 FRA=0 ISL=0 BEL=0
+TUR,TUR,reading,stable_all,demeaned (intercept allowed),drop flagged countries,5,2.61,24.53,9.41,1/6,0.167,7.6,0.333,2015:-28.7 2018:19.8 2022:4.9 2025:34.1,JPN=0.79 ISL=0.11 CHE=0.1 BEL=0 FRA=0
+TUR,TUR,science,stable_all,demeaned (intercept allowed),drop flagged countries,8,10.94,32.61,2.98,8/9,0.889,20.2,0.222,2015:-20.8 2018:31.3 2022:21.4 2025:48.8,JPN=1 COL=0 LTU=0 CHE=0 FRA=0
+TUR_robust_ambig,TUR,math,stable_plus_ambiguous,demeaned (intercept allowed),drop flagged countries,8,6.67,46.14,6.92,6/9,0.667,34.1,0.111,2015:-12.4 2018:26.5 2022:51.4 2025:70.8,DEU=1 CHE=0 JPN=0 ISL=0 FRA=0
+TUR_robust_ambig,TUR,reading,stable_plus_ambiguous,demeaned (intercept allowed),drop flagged countries,8,2.36,24.17,10.24,4/9,0.444,6.7,0.333,2015:-29.2 2018:19.4 2022:3.5 2025:33.1,JPN=0.86 FIN=0.14 ISL=0 CHE=0 BEL=0
+TUR_robust_ambig,TUR,science,stable_plus_ambiguous,demeaned (intercept allowed),drop flagged countries,13,10.94,32.61,2.98,14/14,1,20.2,0.143,2015:-20.8 2018:31.3 2022:21.4 2025:48.8,JPN=1 COL=0 CHL=0 DEU=0 LTU=0
+TUR_allparticipants,TUR,math,stable_all,demeaned (intercept allowed),drop flagged countries,5,9.44,33.91,3.59,2/6,0.333,26.2,0.167,2015:-8.7 2018:30.2 2022:32.8 2025:50.4,CHE=0.73 JPN=0.27 FRA=0 ISL=0 BEL=0
+TUR_allparticipants,TUR,reading,stable_all,demeaned (intercept allowed),drop flagged countries,5,2.61,24.53,9.41,1/6,0.167,7.6,0.333,2015:-28.7 2018:19.8 2022:4.9 2025:34.1,JPN=0.79 ISL=0.11 CHE=0.1 BEL=0 FRA=0
+TUR_allparticipants,TUR,science,stable_all,demeaned (intercept allowed),drop flagged countries,11,2.49,41.07,16.5,8/12,0.667,-36.1,1,2015:-68.4 2018:-27.1 2022:-32.7 2025:-16.4,QAT=1 EST=0 JPN=0 BGR=0 LTU=0
+TUR_keepflagged,TUR,math,stable_plus_ambiguous,demeaned (intercept allowed),ignore flags,17,1.37,28.5,20.84,10/18,0.556,9.5,0.222,2015:-29.8 2018:2.4 2022:22.6 2025:42.9,PRT=1 LVA=0 JPN=0 IRL=0 DEU=0
+TUR_keepflagged,TUR,reading,stable_plus_ambiguous,demeaned (intercept allowed),ignore flags,17,2.36,24.17,10.24,12/18,0.667,6.7,0.333,2015:-29.2 2018:19.4 2022:3.5 2025:33.1,JPN=0.86 FIN=0.14 DEU=0 NZL=0 PRT=0
+TUR_keepflagged,TUR,science,stable_plus_ambiguous,demeaned (intercept allowed),ignore flags,22,10.01,35.96,3.59,23/23,1,15.3,0.13,2015:-36.2 2018:15.5 2022:29.3 2025:52.6,PRT=0.89 ISR=0.11 JPN=0 IRL=0 LVA=0
+HUN,HUN,math,stable_all,demeaned (intercept allowed),drop flagged countries,5,0.89,6.95,7.79,3/6,0.5,0.4,0.5,2012:-11.6 2015:-2.8 2018:5.1 2022:7.8 2025:3.7,CHE=0.67 BEL=0.33 ISL=0 JPN=0 FRA=0
+HUN,HUN,reading,stable_all,demeaned (intercept allowed),drop flagged countries,5,3.57,8.11,2.27,5/6,0.833,-5.5,0.667,2012:-10.5 2015:-11.5 2018:4 2022:-1 2025:-8.4,CHE=0.8 JPN=0.2 ISL=0 BEL=0 FRA=0
+HUN,HUN,science,stable_all,demeaned (intercept allowed),drop flagged countries,8,0,13.2,314087.34,6/9,0.667,-11.7,0.778,2012:-9.1 2015:-21.9 2018:-14.7 2022:-3.7 2025:-8.8,BEL=0.57 EST=0.16 FRA=0.06 LTU=0.05 ISL=0.05
+GEO,GEO,math,stable_all,demeaned (intercept allowed),drop flagged countries,13,0,14.56,101093371.51,2/14,0.143,-9,0.857,2018:-14.4 2022:-19.5 2025:6.9,QAT=0.69 BGR=0.04 COL=0.04 EST=0.03 ARE=0.03
+GEO,GEO,reading,stable_all,demeaned (intercept allowed),drop flagged countries,13,0,32.75,93392.44,12/14,0.857,-32,1,2018:-25.8 2022:-41.4 2025:-28.8,QAT=0.87 EST=0.02 COL=0.02 SGP=0.01 LTU=0.01
+GEO,GEO,science,stable_all,demeaned (intercept allowed),drop flagged countries,13,0.16,29.77,186.05,12/14,0.857,-25.7,0.929,2018:-29.8 2022:-41.7 2025:-5.6,QAT=1 COL=0 SGP=0 TWN=0 BGR=0

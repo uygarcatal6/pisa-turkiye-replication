@@ -1,0 +1,49 @@
+{
+  "math": {
+    "domain": "math",
+    "seed": 20260928,
+    "n_treated": 24,
+    "n_controls": 28,
+    "overall_att": 7.7856,
+    "overall_se": 7.3051,
+    "group_att": {
+      "2009": -1.1,
+      "2012": 4.8,
+      "2015": 8,
+      "2018": 20.2,
+      "2022": -1.4,
+      "2025": 3.5
+    }
+  },
+  "reading": {
+    "domain": "reading",
+    "seed": 20260928,
+    "n_treated": 24,
+    "n_controls": 28,
+    "overall_att": -3.0113,
+    "overall_se": 7.9084,
+    "group_att": {
+      "2009": -29.6,
+      "2012": -7.7,
+      "2015": 5.5,
+      "2018": 15.6,
+      "2022": 8,
+      "2025": 5.1
+    }
+  },
+  "science": {
+    "domain": "science",
+    "seed": 20260928,
+    "n_treated": 23,
+    "n_controls": 28,
+    "overall_att": 7.5223,
+    "overall_se": 6.6281,
+    "group_att": {
+      "2012": 5.1,
+      "2015": 4.1,
+      "2018": 16.3,
+      "2022": -2.1,
+      "2025": 0.7
+    }
+  }
+}

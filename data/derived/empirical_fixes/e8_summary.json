@@ -1,0 +1,210 @@
+{
+ "note": "E8 — okul içi dışlama sınırı (özdeşlik μ_tutulan − μ_tüm = q × fark) ve çerçeve durumu; ön-belirleme §0.8 (commit 476fe4e).",
+ "sigma_2025_from_summary": {
+  "math": 97.092,
+  "reading": 90.7077,
+  "science": 94.4827
+ },
+ "sigma_microdata": {
+  "2015": {
+   "math": 81.91657922725722,
+   "reading": 82.39889807141091,
+   "science": 79.26156436660752
+  },
+  "2025": {
+   "math": 97.09190491603644,
+   "reading": 90.70770060560898,
+   "science": 94.4826986057861
+  }
+ },
+ "frame_notes": [
+  "2003: sözdiziminde Türkiye'ye ait 43 STRATUM etiketi; desenle eşleşen: yok (örneklemde gözlenen tabaka sayısı 43)",
+  "2006: sözdiziminde Türkiye'ye ait 9 STRATUM etiketi; desenle eşleşen: yok (örneklemde gözlenen tabaka sayısı 9)",
+  "2009: sözdiziminde Türkiye'ye ait 36 STRATUM etiketi; desenle eşleşen: yok (örneklemde gözlenen tabaka sayısı 36)",
+  "2012: sözdiziminde Türkiye'ye ait 39 STRATUM etiketi; desenle eşleşen: yok (örneklemde gözlenen tabaka sayısı 38)",
+  "2003 teknik raporu (docs\\oecd_technical_reports\\2003\\9789264010543-en.pdf): 1 eşleşme",
+  "2006 / 2009 / 2012 teknik raporları diskte yok → dış veri gerekli (görev metni)"
+ ],
+ "bound_2015_2025": [
+  {
+   "cycle": 2015,
+   "domain": "math",
+   "q_within": 0.005758,
+   "gap_sd": 1.0,
+   "shift_sd_units": 0.005758,
+   "sigma": 81.9166,
+   "sigma_source": "mikroveri (W_FSTUWT, M = 10)",
+   "shift_points": 0.4717
+  },
+  {
+   "cycle": 2015,
+   "domain": "math",
+   "q_within": 0.005758,
+   "gap_sd": 2.0,
+   "shift_sd_units": 0.011515,
+   "sigma": 81.9166,
+   "sigma_source": "mikroveri (W_FSTUWT, M = 10)",
+   "shift_points": 0.9433
+  },
+  {
+   "cycle": 2015,
+   "domain": "reading",
+   "q_within": 0.005758,
+   "gap_sd": 1.0,
+   "shift_sd_units": 0.005758,
+   "sigma": 82.3989,
+   "sigma_source": "mikroveri (W_FSTUWT, M = 10)",
+   "shift_points": 0.4744
+  },
+  {
+   "cycle": 2015,
+   "domain": "reading",
+   "q_within": 0.005758,
+   "gap_sd": 2.0,
+   "shift_sd_units": 0.011515,
+   "sigma": 82.3989,
+   "sigma_source": "mikroveri (W_FSTUWT, M = 10)",
+   "shift_points": 0.9489
+  },
+  {
+   "cycle": 2015,
+   "domain": "science",
+   "q_within": 0.005758,
+   "gap_sd": 1.0,
+   "shift_sd_units": 0.005758,
+   "sigma": 79.2616,
+   "sigma_source": "mikroveri (W_FSTUWT, M = 10)",
+   "shift_points": 0.4564
+  },
+  {
+   "cycle": 2015,
+   "domain": "science",
+   "q_within": 0.005758,
+   "gap_sd": 2.0,
+   "shift_sd_units": 0.011515,
+   "sigma": 79.2616,
+   "sigma_source": "mikroveri (W_FSTUWT, M = 10)",
+   "shift_points": 0.9127
+  },
+  {
+   "cycle": 2025,
+   "domain": "math",
+   "q_within": 0.021149,
+   "gap_sd": 1.0,
+   "shift_sd_units": 0.021149,
+   "sigma": 97.0919,
+   "sigma_source": "mikroveri (W_FSTUWT, M = 10)",
+   "shift_points": 2.0534
+  },
+  {
+   "cycle": 2025,
+   "domain": "math",
+   "q_within": 0.021149,
+   "gap_sd": 2.0,
+   "shift_sd_units": 0.042299,
+   "sigma": 97.0919,
+   "sigma_source": "mikroveri (W_FSTUWT, M = 10)",
+   "shift_points": 4.1069
+  },
+  {
+   "cycle": 2025,
+   "domain": "reading",
+   "q_within": 0.021149,
+   "gap_sd": 1.0,
+   "shift_sd_units": 0.021149,
+   "sigma": 90.7077,
+   "sigma_source": "mikroveri (W_FSTUWT, M = 10)",
+   "shift_points": 1.9184
+  },
+  {
+   "cycle": 2025,
+   "domain": "reading",
+   "q_within": 0.021149,
+   "gap_sd": 2.0,
+   "shift_sd_units": 0.042299,
+   "sigma": 90.7077,
+   "sigma_source": "mikroveri (W_FSTUWT, M = 10)",
+   "shift_points": 3.8368
+  },
+  {
+   "cycle": 2025,
+   "domain": "science",
+   "q_within": 0.021149,
+   "gap_sd": 1.0,
+   "shift_sd_units": 0.021149,
+   "sigma": 94.4827,
+   "sigma_source": "mikroveri (W_FSTUWT, M = 10)",
+   "shift_points": 1.9983
+  },
+  {
+   "cycle": 2025,
+   "domain": "science",
+   "q_within": 0.021149,
+   "gap_sd": 2.0,
+   "shift_sd_units": 0.042299,
+   "sigma": 94.4827,
+   "sigma_source": "mikroveri (W_FSTUWT, M = 10)",
+   "shift_points": 3.9965
+  },
+  {
+   "cycle": "2015->2025",
+   "domain": "math",
+   "q_within": 0.015391,
+   "gap_sd": 1.0,
+   "shift_sd_units": 0.015391,
+   "sigma": null,
+   "sigma_source": "2015: mikroveri (W_FSTUWT, M = 10) | 2025: mikroveri (W_FSTUWT, M = 10)",
+   "shift_points": 1.5817
+  },
+  {
+   "cycle": "2015->2025",
+   "domain": "math",
+   "q_within": 0.015391,
+   "gap_sd": 2.0,
+   "shift_sd_units": 0.030784,
+   "sigma": null,
+   "sigma_source": "2015: mikroveri (W_FSTUWT, M = 10) | 2025: mikroveri (W_FSTUWT, M = 10)",
+   "shift_points": 3.1636
+  },
+  {
+   "cycle": "2015->2025",
+   "domain": "reading",
+   "q_within": 0.015391,
+   "gap_sd": 1.0,
+   "shift_sd_units": 0.015391,
+   "sigma": null,
+   "sigma_source": "2015: mikroveri (W_FSTUWT, M = 10) | 2025: mikroveri (W_FSTUWT, M = 10)",
+   "shift_points": 1.444
+  },
+  {
+   "cycle": "2015->2025",
+   "domain": "reading",
+   "q_within": 0.015391,
+   "gap_sd": 2.0,
+   "shift_sd_units": 0.030784,
+   "sigma": null,
+   "sigma_source": "2015: mikroveri (W_FSTUWT, M = 10) | 2025: mikroveri (W_FSTUWT, M = 10)",
+   "shift_points": 2.8879
+  },
+  {
+   "cycle": "2015->2025",
+   "domain": "science",
+   "q_within": 0.015391,
+   "gap_sd": 1.0,
+   "shift_sd_units": 0.015391,
+   "sigma": null,
+   "sigma_source": "2015: mikroveri (W_FSTUWT, M = 10) | 2025: mikroveri (W_FSTUWT, M = 10)",
+   "shift_points": 1.5419
+  },
+  {
+   "cycle": "2015->2025",
+   "domain": "science",
+   "q_within": 0.015391,
+   "gap_sd": 2.0,
+   "shift_sd_units": 0.030784,
+   "sigma": null,
+   "sigma_source": "2015: mikroveri (W_FSTUWT, M = 10) | 2025: mikroveri (W_FSTUWT, M = 10)",
+   "shift_points": 3.0838
+  }
+ ]
+}

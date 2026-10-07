@@ -1,0 +1,205 @@
+{
+ "note": "E5 — kapsam eşleşik 2003/2025 karşılaştırması; ön-belirleme §0.3 (commit 476fe4e).",
+ "q_gate": {
+  "q_matched": 0.49,
+  "ci3_2003_printed": 0.36,
+  "ci3_2025": 0.7224417178876681,
+  "ratio_from_files": 0.4983,
+  "abs_diff": 0.0083,
+  "ok": true
+ },
+ "gates": {
+  "2003": {
+   "2003_MATH": {
+    "n": 36,
+    "max_mean_diff": 0.0005,
+    "max_se_diff": 5e-05
+   },
+   "2003_READ": {
+    "n": 36,
+    "max_mean_diff": 0.00049,
+    "max_se_diff": 5e-05
+   },
+   "2003_SCIE": {
+    "n": 0,
+    "max_mean_diff": null,
+    "max_se_diff": null
+   },
+   "failed": []
+  },
+  "2025": {
+   "2025_MATH": {
+    "n": 88,
+    "max_mean_diff": 0.00306,
+    "max_mean_diff_excl_exceptions": 0.0005,
+    "exceptions": {
+     "BEL": 0.00306
+    }
+   },
+   "2025_READ": {
+    "n": 88,
+    "max_mean_diff": 0.01164,
+    "max_mean_diff_excl_exceptions": 0.0005,
+    "exceptions": {
+     "BEL": 0.01164
+    }
+   },
+   "2025_SCIE": {
+    "n": 89,
+    "max_mean_diff": 0.00316,
+    "max_mean_diff_excl_exceptions": 0.0005,
+    "exceptions": {
+     "BEL": 0.00316
+    }
+   },
+   "2025_CMPS": {
+    "n": 84,
+    "max_mean_diff": 0.00267,
+    "max_mean_diff_excl_exceptions": 0.00049,
+    "exceptions": {}
+   },
+   "failed": []
+  }
+ },
+ "models": {
+  "2003": {
+   "all": {
+    "n_systems_listed": 36,
+    "n_systems_in_puf": 36,
+    "missing_in_puf": [],
+    "resid_sd_unit": 42.6708,
+    "r2_by_pv": [
+     0.8363,
+     0.8358,
+     0.8364,
+     0.8357,
+     0.8355
+    ],
+    "n_students_model": 251198
+   },
+   "oecd": {
+    "n_systems_listed": 30,
+    "n_systems_in_puf": 30,
+    "missing_in_puf": [],
+    "resid_sd_unit": 40.7598,
+    "r2_by_pv": [
+     0.8344,
+     0.8342,
+     0.834,
+     0.8339,
+     0.8328
+    ],
+    "n_students_model": 219186
+   }
+  },
+  "2025": {
+   "all": {
+    "n_systems_listed": 84,
+    "n_systems_in_puf": 83,
+    "missing_in_puf": [
+     "CYP"
+    ],
+    "resid_sd_unit": 67.0437,
+    "r2_by_pv": [
+     0.6505,
+     0.6507,
+     0.6509,
+     0.6508,
+     0.6512,
+     0.6507,
+     0.6516,
+     0.651,
+     0.6504,
+     0.6495
+    ],
+    "n_students_model": 712385
+   },
+   "oecd": {
+    "n_systems_listed": 38,
+    "n_systems_in_puf": 38,
+    "missing_in_puf": [],
+    "resid_sd_unit": 60.9644,
+    "r2_by_pv": [
+     0.6287,
+     0.6269,
+     0.63,
+     0.628,
+     0.6285,
+     0.6285,
+     0.629,
+     0.6288,
+     0.6272,
+     0.6278
+    ],
+    "n_students_model": 315314
+   }
+  }
+ },
+ "subsample_used": false,
+ "comparisons": {
+  "all": {
+   "tur_2003_all": {
+    "estimate": -25.4766,
+    "se": 0.9,
+    "lo95": -27.2407,
+    "hi95": -23.7126,
+    "estimate_sd": -0.5971
+   },
+   "tur_2025_all": {
+    "estimate": -26.699,
+    "se": 0.9191,
+    "lo95": -28.5003,
+    "hi95": -24.8976,
+    "estimate_sd": -0.3982
+   },
+   "tur_2025_matched_top49": {
+    "estimate": -30.9213,
+    "se": 1.1692,
+    "lo95": -33.2129,
+    "hi95": -28.6297,
+    "estimate_sd": -0.4612
+   },
+   "tur_2025_gradient": {
+    "estimate": -13.7707,
+    "se": 2.8513,
+    "lo95": -19.3592,
+    "hi95": -8.1822
+   },
+   "matched_in_all_ci": false,
+   "gradient_ci_contains_0": false,
+   "verdict": "koşul sağlanmadı: eşleşik dilim − tüm örneklem = -4.22 puan; gradyan -13.77 [-19.36; -8.18]"
+  },
+  "oecd": {
+   "tur_2003_all": {
+    "estimate": -25.6456,
+    "se": 0.8913,
+    "lo95": -27.3926,
+    "hi95": -23.8985,
+    "estimate_sd": -0.6292
+   },
+   "tur_2025_all": {
+    "estimate": -32.5165,
+    "se": 0.8727,
+    "lo95": -34.2269,
+    "hi95": -30.8061,
+    "estimate_sd": -0.5334
+   },
+   "tur_2025_matched_top49": {
+    "estimate": -36.0023,
+    "se": 1.1618,
+    "lo95": -38.2795,
+    "hi95": -33.7251,
+    "estimate_sd": -0.5905
+   },
+   "tur_2025_gradient": {
+    "estimate": -11.3366,
+    "se": 2.8489,
+    "lo95": -16.9205,
+    "hi95": -5.7527
+   },
+   "matched_in_all_ci": false,
+   "gradient_ci_contains_0": false,
+   "verdict": "koşul sağlanmadı: eşleşik dilim − tüm örneklem = -3.49 puan; gradyan -11.34 [-16.92; -5.75]"
+  }
+ }
+}

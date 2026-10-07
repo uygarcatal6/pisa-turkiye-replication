@@ -1,0 +1,194 @@
+{
+ "note": "E9 — kazanımın dağılımı / üst dilim alternatifi; ön-belirleme §0.10 (commit cdb5456).",
+ "groups": {
+  "oecd": [
+   "AUS",
+   "AUT",
+   "BEL",
+   "CAN",
+   "CHE",
+   "CHL",
+   "COL",
+   "CRI",
+   "CZE",
+   "DEU",
+   "DNK",
+   "ESP",
+   "EST",
+   "FIN",
+   "FRA",
+   "GBR",
+   "GRC",
+   "HUN",
+   "IRL",
+   "ISL",
+   "ISR",
+   "ITA",
+   "JPN",
+   "KOR",
+   "LTU",
+   "LUX",
+   "LVA",
+   "MEX",
+   "NLD",
+   "NOR",
+   "NZL",
+   "POL",
+   "PRT",
+   "SVK",
+   "SVN",
+   "SWE",
+   "TUR",
+   "USA"
+  ],
+  "math": [
+   "BEL",
+   "CHE",
+   "FRA",
+   "ISL",
+   "JPN"
+  ],
+  "reading": [
+   "BEL",
+   "CHE",
+   "FRA",
+   "ISL",
+   "JPN"
+  ],
+  "science": [
+   "BEL",
+   "CHE",
+   "COL",
+   "EST",
+   "FRA",
+   "ISL",
+   "JPN",
+   "LTU"
+  ]
+ },
+ "gates": {
+  "2015": "geçti",
+  "2018": "geçti",
+  "2022": "geçti",
+  "2025": "geçti"
+ },
+ "gate_exceptions_2025": [
+  "2025 BEL reading: 0.01164 (tavan 0.02)"
+ ],
+ "step1": {
+  "cond1_all_lo95_le_0": false,
+  "n_primary_cells": 6,
+  "breaking_cells": [
+   {
+    "period": "2015->2018",
+    "domain": "reading",
+    "estimate": 17.027000000000044,
+    "lo95": 1.0293577144563724,
+    "hi95": 33.02464228554371
+   },
+   {
+    "period": "2015->2025",
+    "domain": "math",
+    "estimate": 42.83753665000006,
+    "lo95": 26.523771068976792,
+    "hi95": 59.15130223102333
+   },
+   {
+    "period": "2015->2025",
+    "domain": "reading",
+    "estimate": 21.75412345999993,
+    "lo95": 6.241068010308455,
+    "hi95": 37.26717890969141
+   },
+   {
+    "period": "2015->2025",
+    "domain": "science",
+    "estimate": 40.62568927999999,
+    "lo95": 26.31191225653955,
+    "hi95": 54.93946630346043
+   }
+  ]
+ },
+ "step3": {
+  "gate_2015_clps": {
+   "n": 50,
+   "max_abs_diff": 0.0
+  },
+  "gate_2025": {
+   "2025_MATH": {
+    "n": 88,
+    "max_mean_diff": 0.00306,
+    "max_mean_diff_excl_exceptions": 0.0005,
+    "exceptions": {
+     "BEL": 0.00306
+    }
+   },
+   "2025_READ": {
+    "n": 88,
+    "max_mean_diff": 0.01164,
+    "max_mean_diff_excl_exceptions": 0.0005,
+    "exceptions": {
+     "BEL": 0.01164
+    }
+   },
+   "2025_SCIE": {
+    "n": 89,
+    "max_mean_diff": 0.00316,
+    "max_mean_diff_excl_exceptions": 0.0005,
+    "exceptions": {
+     "BEL": 0.00316
+    }
+   },
+   "2025_CMPS": {
+    "n": 84,
+    "max_mean_diff": 0.00267,
+    "max_mean_diff_excl_exceptions": 0.00049,
+    "exceptions": {}
+   },
+   "failed": []
+  },
+  "2015": {
+   "n_systems": 47,
+   "resid_sd_unit": 58.9286,
+   "r2_by_pv": [
+    0.6639,
+    0.6621,
+    0.6635,
+    0.6625,
+    0.6636,
+    0.6654,
+    0.662,
+    0.6646,
+    0.664,
+    0.6637
+   ]
+  },
+  "2025": {
+   "n_systems": 83,
+   "resid_sd_unit": 67.0437,
+   "r2_by_pv": [
+    0.6505,
+    0.6507,
+    0.6509,
+    0.6508,
+    0.6512,
+    0.6507,
+    0.6516,
+    0.651,
+    0.6504,
+    0.6495
+   ]
+  },
+  "D": {
+   "estimate": -10.275424165837281,
+   "lo95": -18.084045168091695,
+   "hi95": -2.466803163582867,
+   "top_specific": true
+  }
+ },
+ "decision": {
+  "cond1_p90p10_not_positive": false,
+  "cond2_widening_not_top_specific": false,
+  "verdict": "ek alternatif olarak raporlanır (koşulu bozan hücreler step1.breaking_cells / step3.D)"
+ }
+}

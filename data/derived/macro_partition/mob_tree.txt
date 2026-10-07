@@ -1,0 +1,15 @@
+Linear model tree
+
+Model formula:
+change_avg ~ level_2015 | libdem_2013 + delta_libdem + cpi_mean + 
+    cc_2015 + coverage_2015 + oecd + paper2015
+
+Fitted party:
+[1] root: n = 40
+    (Intercept)  level_2015 
+     94.3865250  -0.2320562  
+
+Number of inner nodes:    0
+Number of terminal nodes: 1
+Number of parameters per node: 2
+Objective function (residual sum of squares): 10067.47

@@ -1,0 +1,7 @@
+domain,system,girls_mean,boys_mean,boys_minus_girls,se,source,pisa_female_share,register_female_share,reweight_shift
+science,Türkiye,492.42077000000006,496.46121000000005,4.040430000000001,5.04028,data/pisa/2025/annex_tables/68stqn.xlsx#Table I.B1.2c.1 satır 94,0.542549,0.486341,0.2271050515199991
+science,OECD average,482.53726000000006,481.33638,-1.2008800000000002,0.55283,data/pisa/2025/annex_tables/68stqn.xlsx#Table I.B1.2c.1 satır 10,,,
+reading,Türkiye,482.06857,460.26717,-21.8014,4.79255,data/pisa/2025/annex_tables/68stqn.xlsx#Table I.B1.2c.2 satır 94,0.542549,0.486341,-1.2254130911999983
+reading,OECD average,475.84613,446.22023,-29.625890000000002,0.5594800000000001,data/pisa/2025/annex_tables/68stqn.xlsx#Table I.B1.2c.2 satır 10,,,
+math,Türkiye,453.40937,471.19749,17.788120000000003,5.06559,data/pisa/2025/annex_tables/68stqn.xlsx#Table I.B1.2c.3 satır 94,0.542549,0.486341,0.9998346489599982
+math,OECD average,456.46261000000004,469.58700000000005,13.12438,0.54276,data/pisa/2025/annex_tables/68stqn.xlsx#Table I.B1.2c.3 satır 10,,,

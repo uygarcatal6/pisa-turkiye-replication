@@ -1,0 +1,31 @@
+# RESULTS.md sayısal denetimi
+
+Denetleyen: Claude Opus 4.8 (1M). Tarih: 2026-09-15. Kaynaklar: yalnızca `data/derived/` çıktı dosyaları ve `analysis/logs/` (web/hafıza kullanılmadı). Yöntem: her sayı, rank, sayım, ülke listesi ve yön iddiası pandas/json ile ilgili çıktı dosyasından okunup rapordaki basılı hassasiyetle karşılaştırıldı.
+
+## Genel sonuç
+
+Rapordaki sayıların ezici çoğunluğu (Bölüm 2 sentetik kontrol tablosunun 90 hücresi + ağırlıklar, Bölüm 4 DiD ATT'leri ve ülke-bazı 36 hücrelik açık tablosu, Bölüm 5 changes_vs_oecd/plasebo/kapsam değerleri, Bölüm 1 kurumsal sınıflama sayımları ve ülke listeleri, donör listeleri, yıldız-döngü listeleri) çıktı dosyalarıyla yuvarlama toleransı içinde **birebir uyuşuyor**. Aşağıda dosyaların desteklemediği veya olduğundan fazla söyleyen 5 tutarsızlık ve 3 yorum kaygısı listelenmiştir. Hiçbiri raporun ana sonucunu ("Türkiye'nin yörüngesi olağandışı, çıkarım gücü zayıf") değiştirmez; ikisi (fen 2025 bandı, plasebo üst-4 ülke listesi) orta ciddiyettedir.
+
+## Bulgular tablosu
+
+| Konum | Rapor | Dosya | Ciddiyet | Düzeltme |
+|---|---|---|---|---|
+| §2, satır 37 (madde) | "fen +38 ile +53 puan" (2025 açığı bütün OECD spesifikasyonlarında) | Arındırılmış OECD fen 2025 açıkları: ana 48,8 / Sağlamlık A 48,8 / Sağlamlık D 52,6 → bant **48,8–52,6**. "38" yalnızca `TUR_levels_science` (seviye spesifikasyonu) 2025=37,9'dan gelir; oysa mat/okuma bantları (`+43 ile +71`, `+33 ile +34`) seviye spesifikasyonunu dışlar (levels mat −2,7, okuma 49,8). (`synth_summary.csv`) | Orta | Alt sınırı arındırılmış tabana göre düzelt: **"fen +49 ile +53"**. Seviye spesifikasyonunu tüm alanlarda ya dahil et ya dışla; şu haliyle yalnızca fende sızmış. |
+| §5, satır 64 | "üstteki dört ülke KEN, AZE, ARM, LBN" (Türkiye'nin çekirdek−CPS sırası 5/85; üstteki 4) | Sıralama (`placebo_domain_2025.csv`, core_minus_cps azalan): 1 KEN 80,5 / 2 **QCI 49,7** / 3 AZE 45,1 / 4 ARM 41,3 / **5 TUR 34,5** / 6 **LBN 33,2**. Yani üstteki 4: KEN, QCI, AZE, ARM. **LBN Türkiye'nin altında (6.), QCI ise listede yok.** | Orta | Üstteki dört ülkeyi **KEN, QCI, AZE, ARM** olarak düzelt; LBN'yi çıkar. Bkz. yorum kaygısı (QCI yüksek performanslı bir sistem). |
+| §4, satır 49 | "24 tedavi, 28 kontrol ülkesi" (tek sayı) | `csdid_summary.json`: n_treated math **24**, reading **24**, science **23**; n_controls 28/28/28. | Düşük | Fende tedavi sayısı 23'tür; "matematik/okuma 24, fen 23 tedavi; 28 kontrol" biçiminde alan ayrımı yap. |
+| §5, satır 63 | "38 OECD ülkesi içinde 1. sıra" (üç pencere için) | `changes_vs_oecd.csv`: n_oecd 2015→2025 penceresinde **38**; ancak 2018→2025 ve 2022→2025 pencerelerinde **37** (rank_among_oecd hepsinde 1). | Düşük | 1. sıra iddiası doğru; payda "38" yalnızca 2015→2025 için geçerli, diğer iki pencerede 37. "37–38 OECD ülkesi içinde 1." de. |
+| §5, satır 65 | "stabil OECD donörleri 0,88–0,91" | `coverage_vs_donors.csv` (Coverage Index 3): 2006 0,90 / 2009 **0,86** / 2012 0,88 / 2015 0,90 / 2018 0,89 / 2022 0,91 / 2025 0,88. Tüm döngüler için alt sınır 0,86 (2009). | Düşük | Alt sınırı **0,86–0,91** yap (ya da "son döngülerde 0,88–0,91; 2009'da 0,86" diye niteliği belirt). 2025 karşılaştırması özelinde donör = 0,88. |
+
+## Yorum kaygıları (dosyaların desteklemediği/aşırı yorum)
+
+- **§5, satır 64 — "çok düşük kapasiteli sistemler"**: Türkiye'nin üstündeki ekonomilerin hepsinin "çok düşük kapasiteli (CPS'te genel zayıflık)" olduğu söyleniyor. Dosyada 2. sıradaki **QCI yüksek performanslı bir sistemdir** (science 597, math 612, cps 560 — `placebo_domain_2025.csv`); "hepsi düşük kapasiteli" nitelemesi QCI ile çelişir. Bu, üstteki iki numaralı bulgunun yorum ayağıdır.
+- **§3, satır 45 — Gürcistan "açıklar negatif çıkıyor"**: Genel ifade negatif; oysa Gürcistan matematik 2025 açığı **+6,9** (pozitif; raporun kendisi de parantezde bunu yazıyor). Ortalama post açıkları negatif (mat −9,0, okuma −32,0, fen −25,7 — `synth_summary.csv`), dolayısıyla "ortalamada negatif" doğru; "açıklar negatif" mutlak ifadesi 2025 matematiği kapsamıyor. Düşük.
+- **§2, satır 37 — "2015 her spesifikasyonda negatif (−9 ile −36)"**: "negatif" yönü tüm spesifikasyonlar için doğru, ancak parantez içi bant −9 ile −36, Sağlamlık C'yi (allparticipants fen 2015 = **−68,4**) ve seviye spesifikasyonlarını (levels mat −73,5, okuma −53,2, fen −33,6) kapsamaz. Bant yalnızca arındırılmış OECD spesifikasyonlarını (−8,7 … −36,2) tanımlar. Düşük.
+
+## Doğrulanan başlıca kalemler (uyumlu)
+
+- **Bölüm 1**: 179 ülke satırı; 38 OECD üyesi; OECD içi sınıflar stable_clean 16 / stable_corrupt 1 (COL) / ambiguous 9 (AUT, CHL, CRI, DEU, FIN, ISR, NLD, PRT, SWE) / treated_autocratization 10 (CZE, GBR, GRC, HUN, ITA, MEX, SVK, SVN, TUR, USA) / treated_reversed 2 (KOR, POL) — tümü birebir. Ambiguous ülkelerin hepsinde ERT epizodu yok + change_outside_ci=1. Donörler: mat/okuma 5 (BEL, CHE, FRA, ISL, JPN), fen 7 (+EST, LTU) / 8 (+COL) — birebir. Yıldız-döngü OECD listeleri 2022 (AUS, CAN, DNK, GBR, IRL, LVA, NLD, NZL, USA) ve 2025 (CAN, NLD, NOR, NZL, USA) birebir. BGR+COL (stabil-yozlaşmış tam seri), GEO 2015 kâğıt-tabanlı, levels-mat ön-RMSPE 65, latest yıl 2024 — hepsi uyumlu.
+- **Bölüm 2**: 10 spesifikasyon × (donör, ön-RMSPE, 2015/2018/2022/2025 açıkları, ort. post açığı, p(gap), p(ratio)) ve ağırlıklar (mat CHE 0,73/JPN 0,27; okuma JPN 0,79/ISL 0,11/CHE 0,10; fen JPN 1,0; Sağlamlık D mat PRT 1,0, fen PRT 0,89/ISR 0,11) — tümü `synth_summary.csv`/`.json`/`03_synth.log` ile uyumlu. 2025 mat "+43 ile +71" ve okuma "+33 ile +34" bantları doğru.
+- **Bölüm 3**: HUN post ort. açıkları (+0,4 / −5,5 / −11,7) ve 2025 (+3,7 / −8,4 / −8,8); GEO ön-RMSPE≈0, QAT ağırlığı 0,69–1,0, 2025 açıkları (+6,9 / −28,8 / −5,6) — uyumlu.
+- **Bölüm 4**: havuzlanmış ATT mat +7,8 (s.h. 6,9), okuma −3,0 (7,9), fen +7,5 (7,0); ülke-bazı açık tablosunun 33 hücresinin tamamı (TUR/GEO/HUN × mat/okuma/fen × döngü) tam sayıya yuvarlandığında `country_did_gaps_*.csv` ile uyumlu.
+- **Bölüm 5**: TUR 2015→2025 değişimleri (mat +41,1 / okuma +43,8 / fen +68,8; OECD ort. −21,9 / −27,6 / −6,8), tüm-katılımcı sıraları (1/65–66; 2022→2025 5–10/78–79), plasebo alan değerleri (çekirdek +7,4; mat −1,5, okuma +11,2, fen +12,4; CPS −27,1; çekirdek−CPS +34,5; TUR 1/38 & 5/85; GEO +25,6 & 10/85), Türkiye kapsam 2025=0,72, genel dışlama 2015 %1,1 → 2018 %5,7 → 2022 %5,6 — uyumlu.

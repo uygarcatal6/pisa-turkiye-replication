@@ -1,0 +1,560 @@
+iso3,cycle,mode,first_cycle,first_cbt_cycle,transition,first_participation,country
+ALB,2000,paper,2000,2018.0,0,1,Albania
+ALB,2009,paper,2000,2018.0,0,0,Albania
+ALB,2012,paper,2000,2018.0,0,0,Albania
+ALB,2015,paper,2000,2018.0,0,0,Albania
+ALB,2018,cba,2000,2018.0,1,0,Albania
+ALB,2022,cba,2000,2018.0,0,0,Albania
+ALB,2025,cba,2000,2018.0,0,0,Albania
+ARE,2009,paper,2009,2015.0,0,1,United Arab Emirates
+ARE,2012,paper,2009,2015.0,0,0,United Arab Emirates
+ARE,2015,cba,2009,2015.0,1,0,United Arab Emirates
+ARE,2018,cba,2009,2015.0,0,0,United Arab Emirates
+ARE,2022,cba,2009,2015.0,0,0,United Arab Emirates
+ARE,2025,cba,2009,2015.0,0,0,United Arab Emirates
+ARG,2000,paper,2000,2022.0,0,1,Argentina
+ARG,2006,paper,2000,2022.0,0,0,Argentina
+ARG,2009,paper,2000,2022.0,0,0,Argentina
+ARG,2012,paper,2000,2022.0,0,0,Argentina
+ARG,2018,paper,2000,2022.0,0,0,Argentina
+ARG,2022,cba,2000,2022.0,1,0,Argentina
+ARG,2025,cba,2000,2022.0,0,0,Argentina
+ARM,2025,cba,2025,2025.0,0,1,Armenia
+AUS,2000,paper,2000,2015.0,0,1,Australia
+AUS,2003,paper,2000,2015.0,0,0,Australia
+AUS,2006,paper,2000,2015.0,0,0,Australia
+AUS,2009,paper,2000,2015.0,0,0,Australia
+AUS,2012,paper,2000,2015.0,0,0,Australia
+AUS,2015,cba,2000,2015.0,1,0,Australia
+AUS,2018,cba,2000,2015.0,0,0,Australia
+AUS,2022,cba,2000,2015.0,0,0,Australia
+AUS,2025,cba,2000,2015.0,0,0,Australia
+AUT,2000,paper,2000,2015.0,0,1,Austria
+AUT,2003,paper,2000,2015.0,0,0,Austria
+AUT,2006,paper,2000,2015.0,0,0,Austria
+AUT,2012,paper,2000,2015.0,0,0,Austria
+AUT,2015,cba,2000,2015.0,1,0,Austria
+AUT,2018,cba,2000,2015.0,0,0,Austria
+AUT,2022,cba,2000,2015.0,0,0,Austria
+AUT,2025,cba,2000,2015.0,0,0,Austria
+AZE,2006,paper,2006,2025.0,0,1,Azerbaijan
+AZE,2009,paper,2006,2025.0,0,0,Azerbaijan
+AZE,2025,cba,2006,2025.0,1,0,Azerbaijan
+BEL,2000,paper,2000,2015.0,0,1,Belgium
+BEL,2003,paper,2000,2015.0,0,0,Belgium
+BEL,2006,paper,2000,2015.0,0,0,Belgium
+BEL,2009,paper,2000,2015.0,0,0,Belgium
+BEL,2012,paper,2000,2015.0,0,0,Belgium
+BEL,2015,cba,2000,2015.0,1,0,Belgium
+BEL,2018,cba,2000,2015.0,0,0,Belgium
+BEL,2022,cba,2000,2015.0,0,0,Belgium
+BEL,2025,cba,2000,2015.0,0,0,Belgium
+BGR,2000,paper,2000,2015.0,0,1,Bulgaria
+BGR,2006,paper,2000,2015.0,0,0,Bulgaria
+BGR,2009,paper,2000,2015.0,0,0,Bulgaria
+BGR,2012,paper,2000,2015.0,0,0,Bulgaria
+BGR,2015,cba,2000,2015.0,1,0,Bulgaria
+BGR,2018,cba,2000,2015.0,0,0,Bulgaria
+BGR,2022,cba,2000,2015.0,0,0,Bulgaria
+BGR,2025,cba,2000,2015.0,0,0,Bulgaria
+BRA,2000,paper,2000,2015.0,0,1,Brazil
+BRA,2003,paper,2000,2015.0,0,0,Brazil
+BRA,2006,paper,2000,2015.0,0,0,Brazil
+BRA,2009,paper,2000,2015.0,0,0,Brazil
+BRA,2012,paper,2000,2015.0,0,0,Brazil
+BRA,2015,cba,2000,2015.0,1,0,Brazil
+BRA,2018,cba,2000,2015.0,0,0,Brazil
+BRA,2022,cba,2000,2015.0,0,0,Brazil
+BRA,2025,cba,2000,2015.0,0,0,Brazil
+BRN,2018,cba,2018,2018.0,0,1,Brunei Darussalam
+BRN,2022,cba,2018,2018.0,0,0,Brunei Darussalam
+BRN,2025,cba,2018,2018.0,0,0,Brunei Darussalam
+CAN,2000,paper,2000,2015.0,0,1,Canada
+CAN,2003,paper,2000,2015.0,0,0,Canada
+CAN,2006,paper,2000,2015.0,0,0,Canada
+CAN,2009,paper,2000,2015.0,0,0,Canada
+CAN,2012,paper,2000,2015.0,0,0,Canada
+CAN,2015,cba,2000,2015.0,1,0,Canada
+CAN,2018,cba,2000,2015.0,0,0,Canada
+CAN,2022,cba,2000,2015.0,0,0,Canada
+CAN,2025,cba,2000,2015.0,0,0,Canada
+CHE,2000,paper,2000,2015.0,0,1,Switzerland
+CHE,2003,paper,2000,2015.0,0,0,Switzerland
+CHE,2006,paper,2000,2015.0,0,0,Switzerland
+CHE,2009,paper,2000,2015.0,0,0,Switzerland
+CHE,2012,paper,2000,2015.0,0,0,Switzerland
+CHE,2015,cba,2000,2015.0,1,0,Switzerland
+CHE,2018,cba,2000,2015.0,0,0,Switzerland
+CHE,2022,cba,2000,2015.0,0,0,Switzerland
+CHE,2025,cba,2000,2015.0,0,0,Switzerland
+CHL,2000,paper,2000,2015.0,0,1,Chile
+CHL,2006,paper,2000,2015.0,0,0,Chile
+CHL,2009,paper,2000,2015.0,0,0,Chile
+CHL,2012,paper,2000,2015.0,0,0,Chile
+CHL,2015,cba,2000,2015.0,1,0,Chile
+CHL,2018,cba,2000,2015.0,0,0,Chile
+CHL,2022,cba,2000,2015.0,0,0,Chile
+CHL,2025,cba,2000,2015.0,0,0,Chile
+COL,2006,paper,2006,2015.0,0,1,Colombia
+COL,2009,paper,2006,2015.0,0,0,Colombia
+COL,2012,paper,2006,2015.0,0,0,Colombia
+COL,2015,cba,2006,2015.0,1,0,Colombia
+COL,2018,cba,2006,2015.0,0,0,Colombia
+COL,2022,cba,2006,2015.0,0,0,Colombia
+COL,2025,cba,2006,2015.0,0,0,Colombia
+CRI,2009,paper,2009,2015.0,0,1,Costa Rica
+CRI,2012,paper,2009,2015.0,0,0,Costa Rica
+CRI,2015,cba,2009,2015.0,1,0,Costa Rica
+CRI,2018,cba,2009,2015.0,0,0,Costa Rica
+CRI,2022,cba,2009,2015.0,0,0,Costa Rica
+CRI,2025,cba,2009,2015.0,0,0,Costa Rica
+CYP,2012,paper,2012,2015.0,0,1,Cyprus
+CYP,2015,cba,2012,2015.0,1,0,Cyprus
+CYP,2018,cba,2012,2015.0,0,0,Cyprus
+CYP,2022,cba,2012,2015.0,0,0,Cyprus
+CYP,2025,cba,2012,2015.0,0,0,Cyprus
+CZE,2000,paper,2000,2015.0,0,1,Czechia
+CZE,2003,paper,2000,2015.0,0,0,Czechia
+CZE,2006,paper,2000,2015.0,0,0,Czechia
+CZE,2009,paper,2000,2015.0,0,0,Czechia
+CZE,2012,paper,2000,2015.0,0,0,Czechia
+CZE,2015,cba,2000,2015.0,1,0,Czechia
+CZE,2018,cba,2000,2015.0,0,0,Czechia
+CZE,2022,cba,2000,2015.0,0,0,Czechia
+CZE,2025,cba,2000,2015.0,0,0,Czechia
+DEU,2000,paper,2000,2015.0,0,1,Germany
+DEU,2003,paper,2000,2015.0,0,0,Germany
+DEU,2006,paper,2000,2015.0,0,0,Germany
+DEU,2009,paper,2000,2015.0,0,0,Germany
+DEU,2012,paper,2000,2015.0,0,0,Germany
+DEU,2015,cba,2000,2015.0,1,0,Germany
+DEU,2018,cba,2000,2015.0,0,0,Germany
+DEU,2022,cba,2000,2015.0,0,0,Germany
+DEU,2025,cba,2000,2015.0,0,0,Germany
+DNK,2000,paper,2000,2015.0,0,1,Denmark
+DNK,2003,paper,2000,2015.0,0,0,Denmark
+DNK,2006,paper,2000,2015.0,0,0,Denmark
+DNK,2009,paper,2000,2015.0,0,0,Denmark
+DNK,2012,paper,2000,2015.0,0,0,Denmark
+DNK,2015,cba,2000,2015.0,1,0,Denmark
+DNK,2018,cba,2000,2015.0,0,0,Denmark
+DNK,2022,cba,2000,2015.0,0,0,Denmark
+DNK,2025,cba,2000,2015.0,0,0,Denmark
+DOM,2015,cba,2015,2015.0,0,1,Dominican Republic
+DOM,2018,cba,2015,2015.0,0,0,Dominican Republic
+DOM,2022,cba,2015,2015.0,0,0,Dominican Republic
+DOM,2025,cba,2015,2015.0,0,0,Dominican Republic
+ECU,2018,cba,2018,2018.0,0,1,Ecuador
+ECU,2025,cba,2018,2018.0,0,0,Ecuador
+ESP,2000,paper,2000,2015.0,0,1,Spain
+ESP,2003,paper,2000,2015.0,0,0,Spain
+ESP,2006,paper,2000,2015.0,0,0,Spain
+ESP,2009,paper,2000,2015.0,0,0,Spain
+ESP,2012,paper,2000,2015.0,0,0,Spain
+ESP,2015,cba,2000,2015.0,1,0,Spain
+ESP,2022,cba,2000,2015.0,0,0,Spain
+ESP,2025,cba,2000,2015.0,0,0,Spain
+EST,2006,paper,2006,2015.0,0,1,Estonia
+EST,2009,paper,2006,2015.0,0,0,Estonia
+EST,2012,paper,2006,2015.0,0,0,Estonia
+EST,2015,cba,2006,2015.0,1,0,Estonia
+EST,2018,cba,2006,2015.0,0,0,Estonia
+EST,2022,cba,2006,2015.0,0,0,Estonia
+EST,2025,cba,2006,2015.0,0,0,Estonia
+FIN,2000,paper,2000,2015.0,0,1,Finland
+FIN,2003,paper,2000,2015.0,0,0,Finland
+FIN,2006,paper,2000,2015.0,0,0,Finland
+FIN,2009,paper,2000,2015.0,0,0,Finland
+FIN,2012,paper,2000,2015.0,0,0,Finland
+FIN,2015,cba,2000,2015.0,1,0,Finland
+FIN,2018,cba,2000,2015.0,0,0,Finland
+FIN,2022,cba,2000,2015.0,0,0,Finland
+FIN,2025,cba,2000,2015.0,0,0,Finland
+FRA,2000,paper,2000,2015.0,0,1,France
+FRA,2003,paper,2000,2015.0,0,0,France
+FRA,2006,paper,2000,2015.0,0,0,France
+FRA,2009,paper,2000,2015.0,0,0,France
+FRA,2012,paper,2000,2015.0,0,0,France
+FRA,2015,cba,2000,2015.0,1,0,France
+FRA,2018,cba,2000,2015.0,0,0,France
+FRA,2022,cba,2000,2015.0,0,0,France
+FRA,2025,cba,2000,2015.0,0,0,France
+GBR,2006,paper,2006,2015.0,0,1,United Kingdom
+GBR,2009,paper,2006,2015.0,0,0,United Kingdom
+GBR,2012,paper,2006,2015.0,0,0,United Kingdom
+GBR,2015,cba,2006,2015.0,1,0,United Kingdom
+GBR,2018,cba,2006,2015.0,0,0,United Kingdom
+GBR,2022,cba,2006,2015.0,0,0,United Kingdom
+GBR,2025,cba,2006,2015.0,0,0,United Kingdom
+GEO,2009,paper,2009,2018.0,0,1,Georgia
+GEO,2015,paper,2009,2018.0,0,0,Georgia
+GEO,2018,cba,2009,2018.0,1,0,Georgia
+GEO,2022,cba,2009,2018.0,0,0,Georgia
+GEO,2025,cba,2009,2018.0,0,0,Georgia
+GRC,2000,paper,2000,2015.0,0,1,Greece
+GRC,2003,paper,2000,2015.0,0,0,Greece
+GRC,2006,paper,2000,2015.0,0,0,Greece
+GRC,2009,paper,2000,2015.0,0,0,Greece
+GRC,2012,paper,2000,2015.0,0,0,Greece
+GRC,2015,cba,2000,2015.0,1,0,Greece
+GRC,2018,cba,2000,2015.0,0,0,Greece
+GRC,2022,cba,2000,2015.0,0,0,Greece
+GRC,2025,cba,2000,2015.0,0,0,Greece
+GTM,2018,cba,2018,2018.0,0,1,Guatemala
+GTM,2022,paper,2018,2018.0,0,0,Guatemala
+GTM,2025,cba,2018,2018.0,0,0,Guatemala
+HKG,2000,paper,2000,2015.0,0,1,Hong Kong (China)
+HKG,2003,paper,2000,2015.0,0,0,Hong Kong (China)
+HKG,2006,paper,2000,2015.0,0,0,Hong Kong (China)
+HKG,2009,paper,2000,2015.0,0,0,Hong Kong (China)
+HKG,2012,paper,2000,2015.0,0,0,Hong Kong (China)
+HKG,2015,cba,2000,2015.0,1,0,Hong Kong (China)
+HKG,2018,cba,2000,2015.0,0,0,Hong Kong (China)
+HKG,2022,cba,2000,2015.0,0,0,Hong Kong (China)
+HKG,2025,cba,2000,2015.0,0,0,Hong Kong (China)
+HRV,2006,paper,2006,2015.0,0,1,Croatia
+HRV,2009,paper,2006,2015.0,0,0,Croatia
+HRV,2012,paper,2006,2015.0,0,0,Croatia
+HRV,2015,cba,2006,2015.0,1,0,Croatia
+HRV,2018,cba,2006,2015.0,0,0,Croatia
+HRV,2022,cba,2006,2015.0,0,0,Croatia
+HRV,2025,cba,2006,2015.0,0,0,Croatia
+HUN,2000,paper,2000,2015.0,0,1,Hungary
+HUN,2003,paper,2000,2015.0,0,0,Hungary
+HUN,2006,paper,2000,2015.0,0,0,Hungary
+HUN,2009,paper,2000,2015.0,0,0,Hungary
+HUN,2012,paper,2000,2015.0,0,0,Hungary
+HUN,2015,cba,2000,2015.0,1,0,Hungary
+HUN,2018,cba,2000,2015.0,0,0,Hungary
+HUN,2022,cba,2000,2015.0,0,0,Hungary
+HUN,2025,cba,2000,2015.0,0,0,Hungary
+IDN,2000,paper,2000,2018.0,0,1,Indonesia
+IDN,2003,paper,2000,2018.0,0,0,Indonesia
+IDN,2006,paper,2000,2018.0,0,0,Indonesia
+IDN,2009,paper,2000,2018.0,0,0,Indonesia
+IDN,2012,paper,2000,2018.0,0,0,Indonesia
+IDN,2015,paper,2000,2018.0,0,0,Indonesia
+IDN,2018,cba,2000,2018.0,1,0,Indonesia
+IDN,2022,cba,2000,2018.0,0,0,Indonesia
+IDN,2025,cba,2000,2018.0,0,0,Indonesia
+IRL,2000,paper,2000,2015.0,0,1,Ireland
+IRL,2003,paper,2000,2015.0,0,0,Ireland
+IRL,2006,paper,2000,2015.0,0,0,Ireland
+IRL,2009,paper,2000,2015.0,0,0,Ireland
+IRL,2012,paper,2000,2015.0,0,0,Ireland
+IRL,2015,cba,2000,2015.0,1,0,Ireland
+IRL,2018,cba,2000,2015.0,0,0,Ireland
+IRL,2022,cba,2000,2015.0,0,0,Ireland
+IRL,2025,cba,2000,2015.0,0,0,Ireland
+ISL,2000,paper,2000,2015.0,0,1,Iceland
+ISL,2003,paper,2000,2015.0,0,0,Iceland
+ISL,2006,paper,2000,2015.0,0,0,Iceland
+ISL,2009,paper,2000,2015.0,0,0,Iceland
+ISL,2012,paper,2000,2015.0,0,0,Iceland
+ISL,2015,cba,2000,2015.0,1,0,Iceland
+ISL,2018,cba,2000,2015.0,0,0,Iceland
+ISL,2022,cba,2000,2015.0,0,0,Iceland
+ISL,2025,cba,2000,2015.0,0,0,Iceland
+ISR,2000,paper,2000,2015.0,0,1,Israel
+ISR,2006,paper,2000,2015.0,0,0,Israel
+ISR,2009,paper,2000,2015.0,0,0,Israel
+ISR,2012,paper,2000,2015.0,0,0,Israel
+ISR,2015,cba,2000,2015.0,1,0,Israel
+ISR,2018,cba,2000,2015.0,0,0,Israel
+ISR,2022,cba,2000,2015.0,0,0,Israel
+ISR,2025,cba,2000,2015.0,0,0,Israel
+ITA,2000,paper,2000,2015.0,0,1,Italy
+ITA,2003,paper,2000,2015.0,0,0,Italy
+ITA,2006,paper,2000,2015.0,0,0,Italy
+ITA,2009,paper,2000,2015.0,0,0,Italy
+ITA,2012,paper,2000,2015.0,0,0,Italy
+ITA,2015,cba,2000,2015.0,1,0,Italy
+ITA,2018,cba,2000,2015.0,0,0,Italy
+ITA,2022,cba,2000,2015.0,0,0,Italy
+ITA,2025,cba,2000,2015.0,0,0,Italy
+JOR,2006,paper,2006,2022.0,0,1,Jordan
+JOR,2009,paper,2006,2022.0,0,0,Jordan
+JOR,2012,paper,2006,2022.0,0,0,Jordan
+JOR,2015,paper,2006,2022.0,0,0,Jordan
+JOR,2018,paper,2006,2022.0,0,0,Jordan
+JOR,2022,cba,2006,2022.0,1,0,Jordan
+JOR,2025,cba,2006,2022.0,0,0,Jordan
+JPN,2000,paper,2000,2015.0,0,1,Japan
+JPN,2003,paper,2000,2015.0,0,0,Japan
+JPN,2006,paper,2000,2015.0,0,0,Japan
+JPN,2009,paper,2000,2015.0,0,0,Japan
+JPN,2012,paper,2000,2015.0,0,0,Japan
+JPN,2015,cba,2000,2015.0,1,0,Japan
+JPN,2018,cba,2000,2015.0,0,0,Japan
+JPN,2022,cba,2000,2015.0,0,0,Japan
+JPN,2025,cba,2000,2015.0,0,0,Japan
+KAZ,2009,paper,2009,2018.0,0,1,Kazakhstan
+KAZ,2012,paper,2009,2018.0,0,0,Kazakhstan
+KAZ,2018,cba,2009,2018.0,1,0,Kazakhstan
+KAZ,2022,cba,2009,2018.0,0,0,Kazakhstan
+KAZ,2025,cba,2009,2018.0,0,0,Kazakhstan
+KEN,2025,cba,2025,2025.0,0,1,Kenya
+KGZ,2006,paper,2006,2025.0,0,1,Kyrgyzstan
+KGZ,2009,paper,2006,2025.0,0,0,Kyrgyzstan
+KGZ,2025,cba,2006,2025.0,1,0,Kyrgyzstan
+KHM,2018,cba,2018,2018.0,0,1,Cambodia
+KHM,2022,paper,2018,2018.0,0,0,Cambodia
+KHM,2025,paper,2018,2018.0,0,0,Cambodia
+KOR,2000,paper,2000,2015.0,0,1,Korea
+KOR,2003,paper,2000,2015.0,0,0,Korea
+KOR,2006,paper,2000,2015.0,0,0,Korea
+KOR,2009,paper,2000,2015.0,0,0,Korea
+KOR,2012,paper,2000,2015.0,0,0,Korea
+KOR,2015,cba,2000,2015.0,1,0,Korea
+KOR,2018,cba,2000,2015.0,0,0,Korea
+KOR,2022,cba,2000,2015.0,0,0,Korea
+KOR,2025,cba,2000,2015.0,0,0,Korea
+LBN,2015,paper,2015,2025.0,0,1,Lebanon
+LBN,2018,paper,2015,2025.0,0,0,Lebanon
+LBN,2025,cba,2015,2025.0,1,0,Lebanon
+LTU,2006,paper,2006,2015.0,0,1,Lithuania
+LTU,2009,paper,2006,2015.0,0,0,Lithuania
+LTU,2012,paper,2006,2015.0,0,0,Lithuania
+LTU,2015,cba,2006,2015.0,1,0,Lithuania
+LTU,2018,cba,2006,2015.0,0,0,Lithuania
+LTU,2022,cba,2006,2015.0,0,0,Lithuania
+LTU,2025,cba,2006,2015.0,0,0,Lithuania
+LUX,2000,paper,2000,2015.0,0,1,Luxembourg
+LUX,2003,paper,2000,2015.0,0,0,Luxembourg
+LUX,2006,paper,2000,2015.0,0,0,Luxembourg
+LUX,2009,paper,2000,2015.0,0,0,Luxembourg
+LUX,2012,paper,2000,2015.0,0,0,Luxembourg
+LUX,2015,cba,2000,2015.0,1,0,Luxembourg
+LUX,2018,cba,2000,2015.0,0,0,Luxembourg
+LUX,2025,cba,2000,2015.0,0,0,Luxembourg
+LVA,2000,paper,2000,2015.0,0,1,Latvia
+LVA,2003,paper,2000,2015.0,0,0,Latvia
+LVA,2006,paper,2000,2015.0,0,0,Latvia
+LVA,2009,paper,2000,2015.0,0,0,Latvia
+LVA,2012,paper,2000,2015.0,0,0,Latvia
+LVA,2015,cba,2000,2015.0,1,0,Latvia
+LVA,2018,cba,2000,2015.0,0,0,Latvia
+LVA,2022,cba,2000,2015.0,0,0,Latvia
+LVA,2025,cba,2000,2015.0,0,0,Latvia
+MAC,2003,paper,2003,2015.0,0,1,Macao (China)
+MAC,2006,paper,2003,2015.0,0,0,Macao (China)
+MAC,2009,paper,2003,2015.0,0,0,Macao (China)
+MAC,2012,paper,2003,2015.0,0,0,Macao (China)
+MAC,2015,cba,2003,2015.0,1,0,Macao (China)
+MAC,2018,cba,2003,2015.0,0,0,Macao (China)
+MAC,2022,cba,2003,2015.0,0,0,Macao (China)
+MAC,2025,cba,2003,2015.0,0,0,Macao (China)
+MAR,2018,cba,2018,2018.0,0,1,Morocco
+MAR,2022,cba,2018,2018.0,0,0,Morocco
+MAR,2025,cba,2018,2018.0,0,0,Morocco
+MDA,2009,paper,2009,2022.0,0,1,Moldova
+MDA,2015,paper,2009,2022.0,0,0,Moldova
+MDA,2018,paper,2009,2022.0,0,0,Moldova
+MDA,2022,cba,2009,2022.0,1,0,Moldova
+MDA,2025,cba,2009,2022.0,0,0,Moldova
+MEX,2000,paper,2000,2015.0,0,1,Mexico
+MEX,2003,paper,2000,2015.0,0,0,Mexico
+MEX,2006,paper,2000,2015.0,0,0,Mexico
+MEX,2009,paper,2000,2015.0,0,0,Mexico
+MEX,2012,paper,2000,2015.0,0,0,Mexico
+MEX,2015,cba,2000,2015.0,1,0,Mexico
+MEX,2018,cba,2000,2015.0,0,0,Mexico
+MEX,2022,cba,2000,2015.0,0,0,Mexico
+MEX,2025,cba,2000,2015.0,0,0,Mexico
+MKD,2000,paper,2000,2022.0,0,1,North Macedonia
+MKD,2015,paper,2000,2022.0,0,0,North Macedonia
+MKD,2018,paper,2000,2022.0,0,0,North Macedonia
+MKD,2022,cba,2000,2022.0,1,0,North Macedonia
+MKD,2025,cba,2000,2022.0,0,0,North Macedonia
+MLT,2009,paper,2009,2018.0,0,1,Malta
+MLT,2015,paper,2009,2018.0,0,0,Malta
+MLT,2018,cba,2009,2018.0,1,0,Malta
+MLT,2022,cba,2009,2018.0,0,0,Malta
+MLT,2025,cba,2009,2018.0,0,0,Malta
+MNE,2006,paper,2006,2015.0,0,1,Montenegro
+MNE,2009,paper,2006,2015.0,0,0,Montenegro
+MNE,2012,paper,2006,2015.0,0,0,Montenegro
+MNE,2015,cba,2006,2015.0,1,0,Montenegro
+MNE,2018,cba,2006,2015.0,0,0,Montenegro
+MNE,2022,cba,2006,2015.0,0,0,Montenegro
+MNE,2025,cba,2006,2015.0,0,0,Montenegro
+MNG,2022,cba,2022,2022.0,0,1,Mongolia
+MNG,2025,cba,2022,2022.0,0,0,Mongolia
+MUS,2009,paper,2009,,0,1,Mauritius
+MUS,2025,paper,2009,,0,0,Mauritius
+MYS,2009,paper,2009,2018.0,0,1,Malaysia
+MYS,2012,paper,2009,2018.0,0,0,Malaysia
+MYS,2018,cba,2009,2018.0,1,0,Malaysia
+MYS,2022,cba,2009,2018.0,0,0,Malaysia
+MYS,2025,cba,2009,2018.0,0,0,Malaysia
+NLD,2003,paper,2003,2015.0,0,1,Netherlands
+NLD,2006,paper,2003,2015.0,0,0,Netherlands
+NLD,2009,paper,2003,2015.0,0,0,Netherlands
+NLD,2012,paper,2003,2015.0,0,0,Netherlands
+NLD,2015,cba,2003,2015.0,1,0,Netherlands
+NLD,2018,cba,2003,2015.0,0,0,Netherlands
+NLD,2022,cba,2003,2015.0,0,0,Netherlands
+NLD,2025,cba,2003,2015.0,0,0,Netherlands
+NOR,2000,paper,2000,2015.0,0,1,Norway
+NOR,2003,paper,2000,2015.0,0,0,Norway
+NOR,2006,paper,2000,2015.0,0,0,Norway
+NOR,2009,paper,2000,2015.0,0,0,Norway
+NOR,2012,paper,2000,2015.0,0,0,Norway
+NOR,2015,cba,2000,2015.0,1,0,Norway
+NOR,2018,cba,2000,2015.0,0,0,Norway
+NOR,2022,cba,2000,2015.0,0,0,Norway
+NOR,2025,cba,2000,2015.0,0,0,Norway
+NZL,2000,paper,2000,2015.0,0,1,New Zealand
+NZL,2003,paper,2000,2015.0,0,0,New Zealand
+NZL,2006,paper,2000,2015.0,0,0,New Zealand
+NZL,2009,paper,2000,2015.0,0,0,New Zealand
+NZL,2012,paper,2000,2015.0,0,0,New Zealand
+NZL,2015,cba,2000,2015.0,1,0,New Zealand
+NZL,2018,cba,2000,2015.0,0,0,New Zealand
+NZL,2022,cba,2000,2015.0,0,0,New Zealand
+NZL,2025,cba,2000,2015.0,0,0,New Zealand
+PER,2000,paper,2000,2015.0,0,1,Peru
+PER,2009,paper,2000,2015.0,0,0,Peru
+PER,2012,paper,2000,2015.0,0,0,Peru
+PER,2015,cba,2000,2015.0,1,0,Peru
+PER,2018,cba,2000,2015.0,0,0,Peru
+PER,2022,cba,2000,2015.0,0,0,Peru
+PER,2025,cba,2000,2015.0,0,0,Peru
+PHL,2018,cba,2018,2018.0,0,1,Philippines
+PHL,2022,cba,2018,2018.0,0,0,Philippines
+PHL,2025,cba,2018,2018.0,0,0,Philippines
+POL,2000,paper,2000,2015.0,0,1,Poland
+POL,2003,paper,2000,2015.0,0,0,Poland
+POL,2006,paper,2000,2015.0,0,0,Poland
+POL,2009,paper,2000,2015.0,0,0,Poland
+POL,2012,paper,2000,2015.0,0,0,Poland
+POL,2015,cba,2000,2015.0,1,0,Poland
+POL,2018,cba,2000,2015.0,0,0,Poland
+POL,2022,cba,2000,2015.0,0,0,Poland
+POL,2025,cba,2000,2015.0,0,0,Poland
+PRT,2000,paper,2000,2015.0,0,1,Portugal
+PRT,2003,paper,2000,2015.0,0,0,Portugal
+PRT,2006,paper,2000,2015.0,0,0,Portugal
+PRT,2009,paper,2000,2015.0,0,0,Portugal
+PRT,2012,paper,2000,2015.0,0,0,Portugal
+PRT,2015,cba,2000,2015.0,1,0,Portugal
+PRT,2018,cba,2000,2015.0,0,0,Portugal
+PRT,2022,cba,2000,2015.0,0,0,Portugal
+PRT,2025,cba,2000,2015.0,0,0,Portugal
+PRY,2018,cba,2018,2018.0,0,1,Paraguay
+PRY,2022,paper,2018,2018.0,0,0,Paraguay
+PRY,2025,cba,2018,2018.0,0,0,Paraguay
+PSE,2022,cba,2022,2022.0,0,1,Palestinian Authority
+PSE,2025,cba,2022,2022.0,0,0,Palestinian Authority
+QAT,2006,paper,2006,2015.0,0,1,Qatar
+QAT,2009,paper,2006,2015.0,0,0,Qatar
+QAT,2012,paper,2006,2015.0,0,0,Qatar
+QAT,2015,cba,2006,2015.0,1,0,Qatar
+QAT,2018,cba,2006,2015.0,0,0,Qatar
+QAT,2022,cba,2006,2015.0,0,0,Qatar
+QAT,2025,cba,2006,2015.0,0,0,Qatar
+QCI,2018,cba,2018,2018.0,0,1,B-S-J-Z (China)
+QCI,2025,cba,2018,2018.0,0,0,B-S-J-Z (China)
+QDT,2025,paper,2025,,0,1,Dushanbe (Tajikistan)
+QKI,2025,paper,2025,,0,1,Kurdistan Region (Iraq)
+QUA,2022,cba,2022,2022.0,0,1,Ukrainian regions (17 of 27)
+QUA,2025,cba,2022,2022.0,0,0,Ukrainian regions (17 of 27)
+ROU,2000,paper,2000,2022.0,0,1,Romania
+ROU,2006,paper,2000,2022.0,0,0,Romania
+ROU,2009,paper,2000,2022.0,0,0,Romania
+ROU,2012,paper,2000,2022.0,0,0,Romania
+ROU,2015,paper,2000,2022.0,0,0,Romania
+ROU,2018,paper,2000,2022.0,0,0,Romania
+ROU,2022,cba,2000,2022.0,1,0,Romania
+ROU,2025,cba,2000,2022.0,0,0,Romania
+RWA,2025,paper,2025,,0,1,Rwanda
+SAU,2018,paper,2018,2022.0,0,1,Saudi Arabia
+SAU,2022,cba,2018,2022.0,1,0,Saudi Arabia
+SAU,2025,cba,2018,2022.0,0,0,Saudi Arabia
+SGP,2009,paper,2009,2015.0,0,1,Singapore
+SGP,2012,paper,2009,2015.0,0,0,Singapore
+SGP,2015,cba,2009,2015.0,1,0,Singapore
+SGP,2018,cba,2009,2015.0,0,0,Singapore
+SGP,2022,cba,2009,2015.0,0,0,Singapore
+SGP,2025,cba,2009,2015.0,0,0,Singapore
+SLV,2022,cba,2022,2022.0,0,1,El Salvador
+SLV,2025,cba,2022,2022.0,0,0,El Salvador
+SRB,2006,paper,2006,2018.0,0,1,Serbia
+SRB,2009,paper,2006,2018.0,0,0,Serbia
+SRB,2012,paper,2006,2018.0,0,0,Serbia
+SRB,2018,cba,2006,2018.0,1,0,Serbia
+SRB,2022,cba,2006,2018.0,0,0,Serbia
+SRB,2025,cba,2006,2018.0,0,0,Serbia
+SVK,2003,paper,2003,2015.0,0,1,Slovak Republic
+SVK,2006,paper,2003,2015.0,0,0,Slovak Republic
+SVK,2009,paper,2003,2015.0,0,0,Slovak Republic
+SVK,2012,paper,2003,2015.0,0,0,Slovak Republic
+SVK,2015,cba,2003,2015.0,1,0,Slovak Republic
+SVK,2018,cba,2003,2015.0,0,0,Slovak Republic
+SVK,2022,cba,2003,2015.0,0,0,Slovak Republic
+SVK,2025,cba,2003,2015.0,0,0,Slovak Republic
+SVN,2006,paper,2006,2015.0,0,1,Slovenia
+SVN,2009,paper,2006,2015.0,0,0,Slovenia
+SVN,2012,paper,2006,2015.0,0,0,Slovenia
+SVN,2015,cba,2006,2015.0,1,0,Slovenia
+SVN,2018,cba,2006,2015.0,0,0,Slovenia
+SVN,2022,cba,2006,2015.0,0,0,Slovenia
+SVN,2025,cba,2006,2015.0,0,0,Slovenia
+SWE,2000,paper,2000,2015.0,0,1,Sweden
+SWE,2003,paper,2000,2015.0,0,0,Sweden
+SWE,2006,paper,2000,2015.0,0,0,Sweden
+SWE,2009,paper,2000,2015.0,0,0,Sweden
+SWE,2012,paper,2000,2015.0,0,0,Sweden
+SWE,2015,cba,2000,2015.0,1,0,Sweden
+SWE,2018,cba,2000,2015.0,0,0,Sweden
+SWE,2022,cba,2000,2015.0,0,0,Sweden
+SWE,2025,cba,2000,2015.0,0,0,Sweden
+THA,2000,paper,2000,2015.0,0,1,Thailand
+THA,2003,paper,2000,2015.0,0,0,Thailand
+THA,2006,paper,2000,2015.0,0,0,Thailand
+THA,2009,paper,2000,2015.0,0,0,Thailand
+THA,2012,paper,2000,2015.0,0,0,Thailand
+THA,2015,cba,2000,2015.0,1,0,Thailand
+THA,2018,cba,2000,2015.0,0,0,Thailand
+THA,2022,cba,2000,2015.0,0,0,Thailand
+THA,2025,cba,2000,2015.0,0,0,Thailand
+TUR,2003,paper,2003,2015.0,0,1,Türkiye
+TUR,2006,paper,2003,2015.0,0,0,Türkiye
+TUR,2009,paper,2003,2015.0,0,0,Türkiye
+TUR,2012,paper,2003,2015.0,0,0,Türkiye
+TUR,2015,cba,2003,2015.0,1,0,Türkiye
+TUR,2018,cba,2003,2015.0,0,0,Türkiye
+TUR,2022,cba,2003,2015.0,0,0,Türkiye
+TUR,2025,cba,2003,2015.0,0,0,Türkiye
+TWN,2006,paper,2006,2015.0,0,1,Chinese Taipei
+TWN,2009,paper,2006,2015.0,0,0,Chinese Taipei
+TWN,2012,paper,2006,2015.0,0,0,Chinese Taipei
+TWN,2015,cba,2006,2015.0,1,0,Chinese Taipei
+TWN,2018,cba,2006,2015.0,0,0,Chinese Taipei
+TWN,2022,cba,2006,2015.0,0,0,Chinese Taipei
+TWN,2025,cba,2006,2015.0,0,0,Chinese Taipei
+URY,2003,paper,2003,2015.0,0,1,Uruguay
+URY,2006,paper,2003,2015.0,0,0,Uruguay
+URY,2009,paper,2003,2015.0,0,0,Uruguay
+URY,2012,paper,2003,2015.0,0,0,Uruguay
+URY,2015,cba,2003,2015.0,1,0,Uruguay
+URY,2018,cba,2003,2015.0,0,0,Uruguay
+URY,2022,cba,2003,2015.0,0,0,Uruguay
+URY,2025,cba,2003,2015.0,0,0,Uruguay
+USA,2000,paper,2000,2015.0,0,1,United States
+USA,2003,paper,2000,2015.0,0,0,United States
+USA,2006,paper,2000,2015.0,0,0,United States
+USA,2009,paper,2000,2015.0,0,0,United States
+USA,2012,paper,2000,2015.0,0,0,United States
+USA,2015,cba,2000,2015.0,1,0,United States
+USA,2018,cba,2000,2015.0,0,0,United States
+USA,2022,cba,2000,2015.0,0,0,United States
+USA,2025,cba,2000,2015.0,0,0,United States
+UZB,2022,cba,2022,2022.0,0,1,Uzbekistan
+VNM,2025,cba,2025,2025.0,0,1,Viet Nam
+XKX,2015,paper,2015,2018.0,0,1,Kosovo
+XKX,2018,cba,2015,2018.0,1,0,Kosovo
+XKX,2022,cba,2015,2018.0,0,0,Kosovo
+XKX,2025,cba,2015,2018.0,0,0,Kosovo
+ZMB,2018,cba,2018,2018.0,0,1,Zambia
+ZMB,2025,paper,2018,2018.0,0,0,Zambia

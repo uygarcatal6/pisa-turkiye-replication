@@ -1,0 +1,505 @@
+{
+ "note": "PISA 2012 problem cozme, MIKROVERIDEN (CBA_STU12_MAR31). Betik 25 yayimlanmis tam sayi kullanir; bu betik onu DEGISTIRMEZ, yanina agirlikli ve BRR standart hatali surumu koyar.",
+ "source": "data/pisa_microdata/2012_cba/CBA_STU12_MAR31.zip + PISA2012_SPSS_CBA_student.txt",
+ "acceptance_gate": "sozdizimi max(bitis) 2170 = veri kayit uzunlugu 2170; 271.323 satir",
+ "is_b_mode_check": {
+  "question": "Turkiye 2012'de bilgisayar tabanli matematik/okuma uyguladi mi?",
+  "answer": "HAYIR",
+  "evidence": {
+   "TUR_CPRO_fill": 1.0,
+   "TUR_CMAT_fill": 0.0,
+   "TUR_CREA_fill": 0.0,
+   "n_units_CPRO": 43,
+   "n_units_CBA_core": 32,
+   "units_with_CBA_core": [
+    "ARE",
+    "AUS",
+    "AUT",
+    "BEL",
+    "BRA",
+    "CAN",
+    "CHL",
+    "COL",
+    "DEU",
+    "DNK",
+    "ESP",
+    "EST",
+    "FRA",
+    "HKG",
+    "HUN",
+    "IRL",
+    "ISR",
+    "ITA",
+    "JPN",
+    "KOR",
+    "MAC",
+    "NOR",
+    "POL",
+    "PRT",
+    "QCN",
+    "RUS",
+    "SGP",
+    "SVK",
+    "SVN",
+    "SWE",
+    "TWN",
+    "USA"
+   ]
+  },
+  "consequence": "Turkiye icin bilgisayar tabanli cekirdege gore kosullu artik KURULAMAZ. §9'un mod cumlesi degismez. Bu veri eksikligi DEGIL, katilim olgusudur."
+ },
+ "published_anchor_discrepancy": {
+  "BRA": {
+   "puf": 424.97,
+   "published": 428,
+   "diff": -3.03
+  }
+ },
+ "excluded": {
+  "GBR": "PISA 2012 CBA'da BK'den yalniz Ingiltere katildi; betik 25 de disarida birakti",
+  "QCN": "Shanghai-China panelde yok"
+ },
+ "renamed": {
+  "TAP": "TWN"
+ },
+ "bootstrap_draws": 2000,
+ "seed": 20260922,
+ "bootstrap_note": "PS ve cekirdek KORELASYONLU cekilir (brr_pv_corr); bagimsiz cekim araligi gereksiz genisletiyordu — Opus 4.8 denetimi 22 Eyl, D2a.",
+ "all_linear_puf": {
+  "n": 41,
+  "slope": 0.9894,
+  "r2": 0.867,
+  "rmse": 16.52,
+  "TUR": {
+   "core": 462.3,
+   "ps2012_puf": 454.5,
+   "ps2012_puf_se": 4.02,
+   "ps2012_published": 454,
+   "residual": -6.9,
+   "residual_ci95": [
+    -11.0,
+    -2.9
+   ],
+   "residual_in_sd": -0.42,
+   "residual_leave_one_out": -7.1,
+   "rank_from_bottom": "13/41",
+   "percentile": 31.7
+  },
+  "HUN": {
+   "core": 486.6,
+   "ps2012_puf": 459.0,
+   "ps2012_puf_se": 4.01,
+   "ps2012_published": 459,
+   "residual": -26.4,
+   "residual_ci95": [
+    -31.1,
+    -21.8
+   ],
+   "residual_in_sd": -1.6,
+   "residual_leave_one_out": -27.1,
+   "rank_from_bottom": "4/41",
+   "percentile": 9.8
+  },
+  "SWE": {
+   "core": 482.1,
+   "ps2012_puf": 490.7,
+   "ps2012_puf_se": 2.92,
+   "ps2012_published": 491,
+   "residual": 9.7,
+   "residual_ci95": [
+    4.2,
+    15.1
+   ],
+   "residual_in_sd": 0.59,
+   "residual_leave_one_out": 10.0,
+   "rank_from_bottom": "28/41",
+   "percentile": 68.3
+  }
+ },
+ "all_quadratic_puf": {
+  "n": 41,
+  "slope": -0.0239,
+  "r2": 0.869,
+  "rmse": 16.6,
+  "TUR": {
+   "core": 462.3,
+   "ps2012_puf": 454.5,
+   "ps2012_puf_se": 4.02,
+   "ps2012_published": 454,
+   "residual": -5.0,
+   "residual_ci95": [
+    -9.3,
+    -1.2
+   ],
+   "residual_in_sd": -0.3,
+   "residual_leave_one_out": -5.3,
+   "rank_from_bottom": "16/41",
+   "percentile": 39.0
+  },
+  "HUN": {
+   "core": 486.6,
+   "ps2012_puf": 459.0,
+   "ps2012_puf_se": 4.01,
+   "ps2012_published": 459,
+   "residual": -24.5,
+   "residual_ci95": [
+    -29.6,
+    -19.4
+   ],
+   "residual_in_sd": -1.48,
+   "residual_leave_one_out": -25.7,
+   "rank_from_bottom": "4/41",
+   "percentile": 9.8
+  },
+  "SWE": {
+   "core": 482.1,
+   "ps2012_puf": 490.7,
+   "ps2012_puf_se": 2.92,
+   "ps2012_published": 491,
+   "residual": 11.7,
+   "residual_ci95": [
+    5.6,
+    17.4
+   ],
+   "residual_in_sd": 0.7,
+   "residual_leave_one_out": 12.3,
+   "rank_from_bottom": "31/41",
+   "percentile": 75.6
+  }
+ },
+ "oecd_linear_puf": {
+  "n": 28,
+  "slope": 0.9473,
+  "r2": 0.799,
+  "rmse": 15.02,
+  "TUR": {
+   "core": 462.3,
+   "ps2012_puf": 454.5,
+   "ps2012_puf_se": 4.02,
+   "ps2012_published": 454,
+   "residual": -8.8,
+   "residual_ci95": [
+    -13.0,
+    -4.6
+   ],
+   "residual_in_sd": -0.58,
+   "residual_leave_one_out": -9.5,
+   "rank_from_bottom": "7/28",
+   "percentile": 25.0
+  },
+  "HUN": {
+   "core": 486.6,
+   "ps2012_puf": 459.0,
+   "ps2012_puf_se": 4.01,
+   "ps2012_published": 459,
+   "residual": -27.2,
+   "residual_ci95": [
+    -32.3,
+    -22.6
+   ],
+   "residual_in_sd": -1.81,
+   "residual_leave_one_out": -28.4,
+   "rank_from_bottom": "2/28",
+   "percentile": 7.1
+  },
+  "SWE": {
+   "core": 482.1,
+   "ps2012_puf": 490.7,
+   "ps2012_puf_se": 2.92,
+   "ps2012_published": 491,
+   "residual": 8.7,
+   "residual_ci95": [
+    3.2,
+    14.5
+   ],
+   "residual_in_sd": 0.58,
+   "residual_leave_one_out": 9.1,
+   "rank_from_bottom": "19/28",
+   "percentile": 67.9
+  }
+ },
+ "oecd_quadratic_puf": {
+  "n": 28,
+  "slope": -0.0746,
+  "r2": 0.802,
+  "rmse": 15.21,
+  "TUR": {
+   "core": 462.3,
+   "ps2012_puf": 454.5,
+   "ps2012_puf_se": 4.02,
+   "ps2012_published": 454,
+   "residual": -7.4,
+   "residual_ci95": [
+    -12.2,
+    -3.7
+   ],
+   "residual_in_sd": -0.49,
+   "residual_leave_one_out": -8.3,
+   "rank_from_bottom": "8/28",
+   "percentile": 28.6
+  },
+  "HUN": {
+   "core": 486.6,
+   "ps2012_puf": 459.0,
+   "ps2012_puf_se": 4.01,
+   "ps2012_published": 459,
+   "residual": -25.9,
+   "residual_ci95": [
+    -30.5,
+    -21.1
+   ],
+   "residual_in_sd": -1.7,
+   "residual_leave_one_out": -27.6,
+   "rank_from_bottom": "2/28",
+   "percentile": 7.1
+  },
+  "SWE": {
+   "core": 482.1,
+   "ps2012_puf": 490.7,
+   "ps2012_puf_se": 2.92,
+   "ps2012_published": 491,
+   "residual": 10.1,
+   "residual_ci95": [
+    4.7,
+    15.7
+   ],
+   "residual_in_sd": 0.67,
+   "residual_leave_one_out": 10.9,
+   "rank_from_bottom": "20/28",
+   "percentile": 71.4
+  }
+ },
+ "all_linear_pub": {
+  "n": 40,
+  "slope": 0.984,
+  "r2": 0.865,
+  "rmse": 16.87,
+  "TUR": {
+   "core": 462.3,
+   "ps2012_puf": 454.5,
+   "ps2012_puf_se": 4.02,
+   "ps2012_published": 454,
+   "residual": -6.9,
+   "residual_ci95": [
+    -14.8,
+    0.9
+   ],
+   "residual_in_sd": -0.41,
+   "residual_leave_one_out": -7.1,
+   "rank_from_bottom": "14/40",
+   "percentile": 35.0
+  },
+  "HUN": {
+   "core": 486.6,
+   "ps2012_puf": 459.0,
+   "ps2012_puf_se": 4.01,
+   "ps2012_published": 459,
+   "residual": -26.2,
+   "residual_ci95": [
+    -33.9,
+    -18.5
+   ],
+   "residual_in_sd": -1.56,
+   "residual_leave_one_out": -26.9,
+   "rank_from_bottom": "4/40",
+   "percentile": 10.0
+  },
+  "SWE": {
+   "core": 482.1,
+   "ps2012_puf": 490.7,
+   "ps2012_puf_se": 2.92,
+   "ps2012_published": 491,
+   "residual": 9.8,
+   "residual_ci95": [
+    4.2,
+    15.3
+   ],
+   "residual_in_sd": 0.58,
+   "residual_leave_one_out": 10.1,
+   "rank_from_bottom": "27/40",
+   "percentile": 67.5
+  }
+ },
+ "all_quadratic_pub": {
+  "n": 40,
+  "slope": -0.2934,
+  "r2": 0.868,
+  "rmse": 16.88,
+  "TUR": {
+   "core": 462.3,
+   "ps2012_puf": 454.5,
+   "ps2012_puf_se": 4.02,
+   "ps2012_published": 454,
+   "residual": -4.4,
+   "residual_ci95": [
+    -11.5,
+    3.1
+   ],
+   "residual_in_sd": -0.26,
+   "residual_leave_one_out": -4.7,
+   "rank_from_bottom": "16/40",
+   "percentile": 40.0
+  },
+  "HUN": {
+   "core": 486.6,
+   "ps2012_puf": 459.0,
+   "ps2012_puf_se": 4.01,
+   "ps2012_published": 459,
+   "residual": -23.8,
+   "residual_ci95": [
+    -31.7,
+    -16.1
+   ],
+   "residual_in_sd": -1.41,
+   "residual_leave_one_out": -25.0,
+   "rank_from_bottom": "4/40",
+   "percentile": 10.0
+  },
+  "SWE": {
+   "core": 482.1,
+   "ps2012_puf": 490.7,
+   "ps2012_puf_se": 2.92,
+   "ps2012_published": 491,
+   "residual": 12.4,
+   "residual_ci95": [
+    7.0,
+    18.1
+   ],
+   "residual_in_sd": 0.74,
+   "residual_leave_one_out": 13.1,
+   "rank_from_bottom": "30/40",
+   "percentile": 75.0
+  }
+ },
+ "oecd_linear_pub": {
+  "n": 28,
+  "slope": 0.9458,
+  "r2": 0.797,
+  "rmse": 15.13,
+  "TUR": {
+   "core": 462.3,
+   "ps2012_puf": 454.5,
+   "ps2012_puf_se": 4.02,
+   "ps2012_published": 454,
+   "residual": -8.8,
+   "residual_ci95": [
+    -16.4,
+    -1.0
+   ],
+   "residual_in_sd": -0.58,
+   "residual_leave_one_out": -9.6,
+   "rank_from_bottom": "7/28",
+   "percentile": 25.0
+  },
+  "HUN": {
+   "core": 486.6,
+   "ps2012_puf": 459.0,
+   "ps2012_puf_se": 4.01,
+   "ps2012_published": 459,
+   "residual": -27.2,
+   "residual_ci95": [
+    -34.7,
+    -19.9
+   ],
+   "residual_in_sd": -1.8,
+   "residual_leave_one_out": -28.4,
+   "rank_from_bottom": "2/28",
+   "percentile": 7.1
+  },
+  "SWE": {
+   "core": 482.1,
+   "ps2012_puf": 490.7,
+   "ps2012_puf_se": 2.92,
+   "ps2012_published": 491,
+   "residual": 8.7,
+   "residual_ci95": [
+    3.3,
+    14.5
+   ],
+   "residual_in_sd": 0.57,
+   "residual_leave_one_out": 9.1,
+   "rank_from_bottom": "19/28",
+   "percentile": 67.9
+  }
+ },
+ "oecd_quadratic_pub": {
+  "n": 28,
+  "slope": -0.068,
+  "r2": 0.799,
+  "rmse": 15.32,
+  "TUR": {
+   "core": 462.3,
+   "ps2012_puf": 454.5,
+   "ps2012_puf_se": 4.02,
+   "ps2012_published": 454,
+   "residual": -7.5,
+   "residual_ci95": [
+    -14.9,
+    -0.1
+   ],
+   "residual_in_sd": -0.49,
+   "residual_leave_one_out": -8.3,
+   "rank_from_bottom": "8/28",
+   "percentile": 28.6
+  },
+  "HUN": {
+   "core": 486.6,
+   "ps2012_puf": 459.0,
+   "ps2012_puf_se": 4.01,
+   "ps2012_published": 459,
+   "residual": -25.9,
+   "residual_ci95": [
+    -33.4,
+    -18.3
+   ],
+   "residual_in_sd": -1.69,
+   "residual_leave_one_out": -27.6,
+   "rank_from_bottom": "2/28",
+   "percentile": 7.1
+  },
+  "SWE": {
+   "core": 482.1,
+   "ps2012_puf": 490.7,
+   "ps2012_puf_se": 2.92,
+   "ps2012_published": 491,
+   "residual": 10.1,
+   "residual_ci95": [
+    4.7,
+    15.8
+   ],
+   "residual_in_sd": 0.66,
+   "residual_leave_one_out": 10.9,
+   "rank_from_bottom": "20/28",
+   "percentile": 71.4
+  }
+ },
+ "mode_gap": {
+  "n_units": 31,
+  "mode_gap_math_mean": 0.44,
+  "mode_gap_math_sd": 12.41,
+  "corr_with_ps_residual_math": 0.737,
+  "corr_with_ps_residual_read": 0.833,
+  "slope_resid_on_gap_math": 0.953,
+  "spurious_check": {
+   "core_math_read_scie_SHARED": {
+    "corr": 0.737,
+    "slope": 0.953
+   },
+   "core_read_scie_NO_MATH": {
+    "corr": 0.613,
+    "slope": 0.863
+   },
+   "core_scie_only": {
+    "corr": 0.576,
+    "slope": 0.862
+   },
+   "readgap_core_math_scie_NO_READ": {
+    "corr": 0.808,
+    "slope": 0.772
+   }
+  },
+  "mechanical_inflation_in_corr": 0.124,
+  "verdict": "Ortak MATH bileseni korelasyonu ~0,12 puan sisiriyor, egimi ~0,09 dusuruyor; iliski YOK OLMUYOR. En temiz test (okuma mod farki x READ'siz cekirdek) hala guclu. Yani mod kanali gercek, ama raporlanan ham korelasyon sisiktir.",
+  "reading": "Turkiye'nin kendi mod farki GOZLENEMEZ (CBA cekirdek uygulamadi); bu bir cikarim destegidir, olcum degildir."
+ }
+}

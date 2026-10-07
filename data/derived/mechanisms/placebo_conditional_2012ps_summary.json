@@ -1,0 +1,169 @@
+{
+ "note": "PISA 2012 yaratıcı problem çözme (bilgisayarda; çekirdek 2012 kâğıtta). Ülke ortalamaları yayımlanmış Table V.A'dan (tam sayı); mikroveri yok. Türkiye ve Macaristan katıldı; Gürcistan PISA 2012'de yok. England ve Shanghai regresyon dışı.",
+ "source": "OECD (2014), PISA 2012 Results: Creative Problem Solving (Volume V), Table V.A 'Snapshot of performance in problem solving', p. 17; data/pisa/2012/9789264208070-en.pdf (content/dam, 1 Apr 2014; indirildi 2026-09-20)",
+ "parser": "pdfplumber(layout=True) → pdftotext -layout",
+ "n_parsed": 43,
+ "unmapped_names": [],
+ "oecd_average_published": 500,
+ "n_in_regression": 40,
+ "n_oecd_flag_current_membership": 28,
+ "not_in_panel_2012": [
+  "RUS"
+ ],
+ "focus_status": {
+  "TUR": "participated",
+  "HUN": "participated",
+  "GEO": "not in PISA 2012",
+  "SWE": "participated"
+ },
+ "published_focus": {
+  "TUR": 454,
+  "HUN": 459,
+  "SWE": 491
+ },
+ "mode_caveat": "2012 problem çözme bilgisayar tabanlı, 2012 çekirdek kâğıt tabanlı; 2015/2025'te ikisi de bilgisayarda. 2012 artığı mod farkını da içerir.",
+ "all_linear": {
+  "n": 40,
+  "slope": 0.9811,
+  "r2": 0.864,
+  "rmse": 16.93,
+  "TUR": {
+   "core_2012": 462.3,
+   "ps2012": 454,
+   "ps_predicted": 461.5,
+   "residual": -7.5,
+   "residual_in_sd": -0.44,
+   "residual_leave_one_out": -7.7,
+   "rank_from_bottom": "13/40",
+   "percentile": 32.5
+  },
+  "HUN": {
+   "core_2012": 486.6,
+   "ps2012": 459,
+   "ps_predicted": 485.3,
+   "residual": -26.3,
+   "residual_in_sd": -1.55,
+   "residual_leave_one_out": -27.0,
+   "rank_from_bottom": "4/40",
+   "percentile": 10.0
+  },
+  "SWE": {
+   "core_2012": 482.1,
+   "ps2012": 491,
+   "ps_predicted": 480.9,
+   "residual": 10.1,
+   "residual_in_sd": 0.6,
+   "residual_leave_one_out": 10.3,
+   "rank_from_bottom": "28/40",
+   "percentile": 70.0
+  }
+ },
+ "all_quadratic": {
+  "n": 40,
+  "slope": -0.3599,
+  "r2": 0.867,
+  "rmse": 16.91,
+  "TUR": {
+   "core_2012": 462.3,
+   "ps2012": 454,
+   "ps_predicted": 458.9,
+   "residual": -4.9,
+   "residual_in_sd": -0.29,
+   "residual_leave_one_out": -5.2,
+   "rank_from_bottom": "16/40",
+   "percentile": 40.0
+  },
+  "HUN": {
+   "core_2012": 486.6,
+   "ps2012": 459,
+   "ps_predicted": 482.7,
+   "residual": -23.7,
+   "residual_in_sd": -1.4,
+   "residual_leave_one_out": -24.9,
+   "rank_from_bottom": "4/40",
+   "percentile": 10.0
+  },
+  "SWE": {
+   "core_2012": 482.1,
+   "ps2012": 491,
+   "ps_predicted": 478.2,
+   "residual": 12.8,
+   "residual_in_sd": 0.76,
+   "residual_leave_one_out": 13.5,
+   "rank_from_bottom": "31/40",
+   "percentile": 77.5
+  }
+ },
+ "oecd_linear": {
+  "n": 28,
+  "slope": 0.9474,
+  "r2": 0.798,
+  "rmse": 15.1,
+  "TUR": {
+   "core_2012": 462.3,
+   "ps2012": 454,
+   "ps_predicted": 463.2,
+   "residual": -9.2,
+   "residual_in_sd": -0.61,
+   "residual_leave_one_out": -10.0,
+   "rank_from_bottom": "7/28",
+   "percentile": 25.0
+  },
+  "HUN": {
+   "core_2012": 486.6,
+   "ps2012": 459,
+   "ps_predicted": 486.2,
+   "residual": -27.2,
+   "residual_in_sd": -1.8,
+   "residual_leave_one_out": -28.4,
+   "rank_from_bottom": "2/28",
+   "percentile": 7.1
+  },
+  "SWE": {
+   "core_2012": 482.1,
+   "ps2012": 491,
+   "ps_predicted": 482.0,
+   "residual": 9.0,
+   "residual_in_sd": 0.6,
+   "residual_leave_one_out": 9.4,
+   "rank_from_bottom": "19/28",
+   "percentile": 67.9
+  }
+ },
+ "oecd_quadratic": {
+  "n": 28,
+  "slope": -0.0663,
+  "r2": 0.8,
+  "rmse": 15.3,
+  "TUR": {
+   "core_2012": 462.3,
+   "ps2012": 454,
+   "ps_predicted": 461.9,
+   "residual": -7.9,
+   "residual_in_sd": -0.52,
+   "residual_leave_one_out": -8.8,
+   "rank_from_bottom": "8/28",
+   "percentile": 28.6
+  },
+  "HUN": {
+   "core_2012": 486.6,
+   "ps2012": 459,
+   "ps_predicted": 484.9,
+   "residual": -25.9,
+   "residual_in_sd": -1.69,
+   "residual_leave_one_out": -27.6,
+   "rank_from_bottom": "2/28",
+   "percentile": 7.1
+  },
+  "SWE": {
+   "core_2012": 482.1,
+   "ps2012": 491,
+   "ps_predicted": 480.6,
+   "residual": 10.4,
+   "residual_in_sd": 0.68,
+   "residual_leave_one_out": 11.2,
+   "rank_from_bottom": "20/28",
+   "percentile": 71.4
+  }
+ }
+}

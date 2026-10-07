@@ -1,0 +1,243 @@
+{
+  "series": [
+    {
+      "cycle": 2015,
+      "pop": 1324089,
+      "enrolled": 1100074,
+      "school_excl": 5746.0,
+      "school_rate": 0.5223284979010503,
+      "n_part": 5895,
+      "w_part": 925365.63,
+      "n_within": 31,
+      "w_within": 5358.84,
+      "within_rate": 0.5757708293626362,
+      "overall": 1.0950919121393243,
+      "ci3": 0.6988696605741759,
+      "source": "data/pisa/2015/982016061P1G117.XLSX#Table A2.1 row49",
+      "enrolled_over_pop": 0.8308157533217178,
+      "math": 420.454,
+      "reading": 428.335,
+      "science": 425.49
+    },
+    {
+      "cycle": 2018,
+      "pop": 1218693,
+      "enrolled": 1038993,
+      "school_excl": 43928.060314285714,
+      "school_rate": 4.227945743069079,
+      "n_part": 6890,
+      "w_part": 884970.63,
+      "n_within": 95,
+      "w_within": 13462.59,
+      "within_rate": 1.498451938364434,
+      "overall": 5.663043946493499,
+      "ci3": 0.7261637098104281,
+      "source": "data/pisa/2018/EDU-2019-4228-EN-T010.XLSX#Table I.A2.1 row50",
+      "enrolled_over_pop": 0.8525469498881179,
+      "math": 453.508,
+      "reading": 465.632,
+      "science": 468.3
+    },
+    {
+      "cycle": 2022,
+      "pop": 1266433,
+      "enrolled": 1153239,
+      "school_excl": 43932.0,
+      "school_rate": 3.8094445297115342,
+      "n_part": 7250,
+      "w_part": 933402.09,
+      "n_within": 130,
+      "w_within": 17393.19,
+      "within_rate": 1.8293307628535163,
+      "overall": 5.569087951889197,
+      "ci3": 0.7370323499150764,
+      "source": "data/pisa/2022/hpg9nd.xlsx#Table I.A2.1 row47",
+      "enrolled_over_pop": 0.9106198274997572,
+      "math": 453.152,
+      "reading": 456.084,
+      "science": 475.938
+    },
+    {
+      "cycle": 2025,
+      "pop": 1274705,
+      "enrolled": 1071658,
+      "school_excl": 6796.0,
+      "school_rate": 0.6341575390656348,
+      "n_part": 7702,
+      "w_part": 920900.07,
+      "n_within": 167,
+      "w_within": 19897.29,
+      "within_rate": 2.114938970492009,
+      "overall": 2.735684464629632,
+      "ci3": 0.7224417178876681,
+      "source": "docs/oecd_technical_reports/2025_alternatif_indirme/Excel Files/14-PISA-2025-Technical Report-AnnexTables_14092026.xlsx#T14.A.1 row88",
+      "enrolled_over_pop": 0.8407105957849071,
+      "math": 461.547,
+      "reading": 472.095,
+      "science": 494.269
+    }
+  ],
+  "code5_2025": {
+    "unweighted": {
+      "c1_functional": 5,
+      "c2_intellectual": 22,
+      "c3_language": 6,
+      "c4_no_materials": 0,
+      "c5_other": 134,
+      "total": 167
+    },
+    "weighted": {
+      "c1_functional": 609.27,
+      "c2_intellectual": 2629.56,
+      "c3_language": 656.7,
+      "c4_no_materials": 0,
+      "c5_other": 16001.79,
+      "total": 19897.29
+    },
+    "source": "docs/oecd_technical_reports/2025_alternatif_indirme/Excel Files/14-PISA-2025-Technical Report-AnnexTables_14092026.xlsx#T14.A.20 row89",
+    "share_c5_weighted": 0.8042195695996791,
+    "rank_share_c5": 4,
+    "n_countries": 84,
+    "n_using_code5": 15,
+    "top5": [
+      [
+        "Italy",
+        1.0
+      ],
+      [
+        "Norway",
+        1.0
+      ],
+      [
+        "Poland",
+        1.0
+      ],
+      [
+        "Türkiye",
+        0.804
+      ],
+      [
+        "Denmark",
+        0.428
+      ]
+    ]
+  },
+  "rankings": {
+    "school_rate": {
+      "tur_value": 0.6341575390656348,
+      "tur_rank": 71,
+      "n": 91,
+      "median": 1.669356596469013,
+      "order": "desc"
+    },
+    "within_rate": {
+      "tur_value": 2.114938970492009,
+      "tur_rank": 26,
+      "n": 91,
+      "median": 0.8702455363779225,
+      "order": "desc"
+    },
+    "overall": {
+      "tur_value": 2.735684464629632,
+      "tur_rank": 52,
+      "n": 91,
+      "median": 3.093318480601406,
+      "order": "desc"
+    },
+    "enrolled_over_pop": {
+      "tur_value": 0.8407105957849071,
+      "tur_rank": 15,
+      "n": 91,
+      "median": 0.9716443677168752,
+      "order": "asc"
+    },
+    "ci3": {
+      "tur_value": 0.7224417178876681,
+      "tur_rank": 11,
+      "n": 91,
+      "median": 0.8784017516306901,
+      "order": "asc"
+    },
+    "d_enrolled_ratio_22_25": {
+      "tur_value": -6.990923171485008,
+      "tur_rank": 5,
+      "n": 77,
+      "median": 0.4542504866969499,
+      "order": "asc (en büyük düşüş = 1)"
+    },
+    "d_sch_22_25": {
+      "tur_value": -3.1752869906458994,
+      "tur_rank": 1,
+      "n": 72,
+      "order": "asc (en büyük düşüş = 1)"
+    },
+    "d_ov_22_25": {
+      "tur_value": -2.8334034872595653,
+      "tur_rank": 2,
+      "n": 72,
+      "order": "asc (en büyük düşüş = 1)"
+    }
+  },
+  "mechanical_bound": {
+    "q_added_school_excl_share_2018": 0.03674910255823255,
+    "q_overall_excl_change_2015_2018": 0.045679520343541745,
+    "formula": "ortalama kayması = q × d ; d = tutulan ortalama − dışlanan ortalama (özdeşlik, yaklaşıklık değil)",
+    "shift_points_using_q_overall": {
+      "math": {
+        "gap_1.0SD": 4.026917388806859,
+        "gap_1.5SD": 6.040376083210288,
+        "gap_2.0SD": 8.053834777613718
+      },
+      "reading": {
+        "gap_1.0SD": 4.0043824234073995,
+        "gap_1.5SD": 6.006573635111098,
+        "gap_2.0SD": 8.008764846814799
+      },
+      "science": {
+        "gap_1.0SD": 3.8154638303902417,
+        "gap_1.5SD": 5.723195745585362,
+        "gap_2.0SD": 7.6309276607804835
+      }
+    },
+    "ci3_drop_2022_2025": {
+      "ci3_2022": 0.7370323499150764,
+      "ci3_2025": 0.7224417178876681,
+      "q_share_of_tested_pop": 0.020196275583405577,
+      "shift_points": {
+        "math": {
+          "gap_1.0SD": 1.9608959332650855,
+          "gap_2.0SD": 3.921791866530171
+        },
+        "reading": {
+          "gap_1.0SD": 1.8319587136248217,
+          "gap_2.0SD": 3.6639174272496433
+        },
+        "science": {
+          "gap_1.0SD": 1.9081996549580114,
+          "gap_2.0SD": 3.8163993099160227
+        }
+      }
+    }
+  },
+  "comparable_2025": {
+    "X_eq_2022_excluded_school_students": {
+      "X": 43932.0,
+      "comparable_enrolled": 1115590.0,
+      "school_rate": 4.547190275997455,
+      "within_rate": 2.1149389704920094,
+      "overall": 6.56595894727997
+    },
+    "X_eq_full_enrolled_drop_2022_2025": {
+      "X": 81581.0,
+      "comparable_enrolled": 1153239.0,
+      "school_rate": 7.6633724665919205,
+      "within_rate": 2.1149389704920094,
+      "overall": 9.616235786334023
+    }
+  },
+  "notes": [
+    "2025 sayıları OECD PISA 2025 Technical Report TASLAK (14 Eyl 2026) sürümünden; nihai rapor 2027.",
+    "2025 raporlanan dışlama oranı 2018/2022 ile KARŞILAŞTIRILAMAZ (OECD Böl. 18, Türkiye notu).",
+    "Korelasyonlar tanımlayıcıdır; nedensellik iddiası yoktur."
+  ]
+}

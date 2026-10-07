@@ -1,0 +1,42 @@
+Outcome columns: math=math_mean; reading=reading_mean; science=science_mean
+OECD flag column: oecd_member
+[TUR_levels_math_stable_plus_ambiguous_levels] donors=8 | pre-RMSPE=64.8 post-RMSPE=46.4 ratio=0.72 rank=8/9 p=0.89 | mean post gap=-38.4 (p=1.00) | gaps: 2015:-73.5 2018:-48.9 2022:-28.6 2025:-2.7
+[TUR_levels_reading_stable_plus_ambiguous_levels] donors=8 | pre-RMSPE=36.5 post-RMSPE=38.0 ratio=1.04 rank=7/9 p=0.78 | mean post gap=2.1 (p=0.44) | gaps: 2015:-53.2 2018:-8.3 2022:20.2 2025:49.8
+[TUR_levels_science_stable_plus_ambiguous_levels] pre-period trimmed to 2006,2009,2012 (treated outcome missing in 2003)
+[TUR_levels_science_stable_plus_ambiguous_levels] donors=13 | pre-RMSPE=11.3 post-RMSPE=27.6 ratio=2.43 rank=11/14 p=0.79 | mean post gap=8.8 (p=0.21) | gaps: 2015:-33.6 2018:14 2022:17 2025:37.9
+[TUR_math_stable_clean_demeaned] donors=5 | pre-RMSPE=9.4 post-RMSPE=33.9 ratio=3.59 rank=2/6 p=0.33 | mean post gap=26.2 (p=0.17) | gaps: 2015:-8.7 2018:30.2 2022:32.8 2025:50.4
+[TUR_reading_stable_clean_demeaned] donors=5 | pre-RMSPE=2.6 post-RMSPE=24.5 ratio=9.41 rank=1/6 p=0.17 | mean post gap=7.6 (p=0.33) | gaps: 2015:-28.7 2018:19.8 2022:4.9 2025:34.1
+[TUR_science_stable_clean_demeaned] pre-period trimmed to 2006,2009,2012 (treated outcome missing in 2003)
+[TUR_science_stable_clean_demeaned] donors=7 | pre-RMSPE=10.9 post-RMSPE=32.6 ratio=2.98 rank=7/8 p=0.88 | mean post gap=20.2 (p=0.12) | gaps: 2015:-20.8 2018:31.3 2022:21.4 2025:48.8
+[TUR_math_stable_corrupt_demeaned] SKIPPED: only 0 donors ()
+[TUR_reading_stable_corrupt_demeaned] SKIPPED: only 0 donors ()
+[TUR_science_stable_corrupt_demeaned] pre-period trimmed to 2006,2009,2012 (treated outcome missing in 2003)
+[TUR_science_stable_corrupt_demeaned] SKIPPED: only 1 donors (COL)
+[TUR_math_stable_all_demeaned] donors=5 | pre-RMSPE=9.4 post-RMSPE=33.9 ratio=3.59 rank=2/6 p=0.33 | mean post gap=26.2 (p=0.17) | gaps: 2015:-8.7 2018:30.2 2022:32.8 2025:50.4
+[TUR_reading_stable_all_demeaned] donors=5 | pre-RMSPE=2.6 post-RMSPE=24.5 ratio=9.41 rank=1/6 p=0.17 | mean post gap=7.6 (p=0.33) | gaps: 2015:-28.7 2018:19.8 2022:4.9 2025:34.1
+[TUR_science_stable_all_demeaned] pre-period trimmed to 2006,2009,2012 (treated outcome missing in 2003)
+[TUR_science_stable_all_demeaned] donors=8 | pre-RMSPE=10.9 post-RMSPE=32.6 ratio=2.98 rank=8/9 p=0.89 | mean post gap=20.2 (p=0.22) | gaps: 2015:-20.8 2018:31.3 2022:21.4 2025:48.8
+[TUR_robust_ambig_math_stable_plus_ambiguous_demeaned] donors=8 | pre-RMSPE=6.7 post-RMSPE=46.1 ratio=6.92 rank=6/9 p=0.67 | mean post gap=34.1 (p=0.11) | gaps: 2015:-12.4 2018:26.5 2022:51.4 2025:70.8
+[TUR_robust_ambig_reading_stable_plus_ambiguous_demeaned] donors=8 | pre-RMSPE=2.4 post-RMSPE=24.2 ratio=10.24 rank=4/9 p=0.44 | mean post gap=6.7 (p=0.33) | gaps: 2015:-29.2 2018:19.4 2022:3.5 2025:33.1
+[TUR_robust_ambig_science_stable_plus_ambiguous_demeaned] pre-period trimmed to 2006,2009,2012 (treated outcome missing in 2003)
+[TUR_robust_ambig_science_stable_plus_ambiguous_demeaned] donors=13 | pre-RMSPE=10.9 post-RMSPE=32.6 ratio=2.98 rank=14/14 p=1.00 | mean post gap=20.2 (p=0.14) | gaps: 2015:-20.8 2018:31.3 2022:21.4 2025:48.8
+[TUR_corrupt_allpart_math_stable_corrupt_demeaned] SKIPPED: only 0 donors ()
+[TUR_corrupt_allpart_reading_stable_corrupt_demeaned] SKIPPED: only 0 donors ()
+[TUR_corrupt_allpart_science_stable_corrupt_demeaned] pre-period trimmed to 2006,2009,2012 (treated outcome missing in 2003)
+[TUR_corrupt_allpart_science_stable_corrupt_demeaned] SKIPPED: only 2 donors (BGR,COL)
+[TUR_allparticipants_math_stable_all_demeaned] donors=5 | pre-RMSPE=9.4 post-RMSPE=33.9 ratio=3.59 rank=2/6 p=0.33 | mean post gap=26.2 (p=0.17) | gaps: 2015:-8.7 2018:30.2 2022:32.8 2025:50.4
+[TUR_allparticipants_reading_stable_all_demeaned] donors=5 | pre-RMSPE=2.6 post-RMSPE=24.5 ratio=9.41 rank=1/6 p=0.17 | mean post gap=7.6 (p=0.33) | gaps: 2015:-28.7 2018:19.8 2022:4.9 2025:34.1
+[TUR_allparticipants_science_stable_all_demeaned] pre-period trimmed to 2006,2009,2012 (treated outcome missing in 2003)
+[TUR_allparticipants_science_stable_all_demeaned] donors=11 | pre-RMSPE=2.5 post-RMSPE=41.1 ratio=16.50 rank=8/12 p=0.67 | mean post gap=-36.1 (p=1.00) | gaps: 2015:-68.4 2018:-27.1 2022:-32.7 2025:-16.4
+[TUR_keepflagged_math_stable_plus_ambiguous_demeaned] donors=17 | pre-RMSPE=1.4 post-RMSPE=28.5 ratio=20.84 rank=10/18 p=0.56 | mean post gap=9.5 (p=0.22) | gaps: 2015:-29.8 2018:2.4 2022:22.6 2025:42.9
+[TUR_keepflagged_reading_stable_plus_ambiguous_demeaned] donors=17 | pre-RMSPE=2.4 post-RMSPE=24.2 ratio=10.24 rank=12/18 p=0.67 | mean post gap=6.7 (p=0.33) | gaps: 2015:-29.2 2018:19.4 2022:3.5 2025:33.1
+[TUR_keepflagged_science_stable_plus_ambiguous_demeaned] pre-period trimmed to 2006,2009,2012 (treated outcome missing in 2003)
+[TUR_keepflagged_science_stable_plus_ambiguous_demeaned] donors=22 | pre-RMSPE=10.0 post-RMSPE=36.0 ratio=3.59 rank=23/23 p=1.00 | mean post gap=15.3 (p=0.13) | gaps: 2015:-36.2 2018:15.5 2022:29.3 2025:52.6
+[HUN_math_stable_all_demeaned] pre-period trimmed to 2003,2006,2009 (treated outcome missing in 2000)
+[HUN_math_stable_all_demeaned] donors=5 | pre-RMSPE=0.9 post-RMSPE=7.0 ratio=7.79 rank=3/6 p=0.50 | mean post gap=0.4 (p=0.50) | gaps: 2012:-11.6 2015:-2.8 2018:5.1 2022:7.8 2025:3.7
+[HUN_reading_stable_all_demeaned] donors=5 | pre-RMSPE=3.6 post-RMSPE=8.1 ratio=2.27 rank=5/6 p=0.83 | mean post gap=-5.5 (p=0.67) | gaps: 2012:-10.5 2015:-11.5 2018:4 2022:-1 2025:-8.4
+[HUN_science_stable_all_demeaned] pre-period trimmed to 2006,2009 (treated outcome missing in 2000,2003)
+[HUN_science_stable_all_demeaned] donors=8 | pre-RMSPE=0.0 post-RMSPE=13.2 ratio=314087.34 rank=6/9 p=0.67 | mean post gap=-11.7 (p=0.78) | gaps: 2012:-9.1 2015:-21.9 2018:-14.7 2022:-3.7 2025:-8.8
+[GEO_math_stable_all_demeaned] donors=13 | pre-RMSPE=0.0 post-RMSPE=14.6 ratio=101093371.51 rank=2/14 p=0.14 | mean post gap=-9.0 (p=0.86) | gaps: 2018:-14.4 2022:-19.5 2025:6.9
+[GEO_reading_stable_all_demeaned] donors=13 | pre-RMSPE=0.0 post-RMSPE=32.7 ratio=93392.44 rank=12/14 p=0.86 | mean post gap=-32.0 (p=1.00) | gaps: 2018:-25.8 2022:-41.4 2025:-28.8
+[GEO_science_stable_all_demeaned] donors=13 | pre-RMSPE=0.2 post-RMSPE=29.8 ratio=186.05 rank=12/14 p=0.86 | mean post gap=-25.7 (p=0.93) | gaps: 2018:-29.8 2022:-41.7 2025:-5.6

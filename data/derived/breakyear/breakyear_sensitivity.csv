@@ -1,0 +1,109 @@
+﻿variant,outcome,pool,n_donors,pre,post,sc_pre_rmspe,sc_top_weights,estimator,gap_2015,gap_2018,gap_2022,gap_2025,post_mean,p_placebo,sdid_time_weights,pre_trend_slope_per_cycle
+A_2013_kirilma_2015_sonrasi,math,stable_all_oecd,5,2003 2006 2009 2012,2015 2018 2022 2025,9.44,CHE=0.73 JPN=0.27 BEL=0.00,SC_demeaned,-8.7,30.2,32.8,50.4,26.2,0.167,,
+A_2013_kirilma_2015_sonrasi,math,stable_all_oecd,5,2003 2006 2009 2012,2015 2018 2022 2025,9.44,CHE=0.73 JPN=0.27 BEL=0.00,SC_trend_adjusted,-28.5,2.5,-5.4,4.3,-6.8,0.5,,7.91
+A_2013_kirilma_2015_sonrasi,math,stable_all_oecd,5,2003 2006 2009 2012,2015 2018 2022 2025,9.44,CHE=0.73 JPN=0.27 BEL=0.00,SDiD,-20.5,18.3,17.9,35.7,12.8,0.167,2003:0.00 2006:0.00 2009:0.00 2012:1.00,
+A_2013_kirilma_2015_sonrasi,math,stable_all_oecd,5,2003 2006 2009 2012,2015 2018 2022 2025,9.44,CHE=0.73 JPN=0.27 BEL=0.00,DiD_2012base,-21.9,11.3,25.9,45.2,15.1,0.167,,
+B_2015_kirilma_2015_on_donemde,math,stable_all_oecd,5,2003 2006 2009 2012 2015,2018 2022 2025,8.88,CHE=1.00 JPN=0.00 ISL=0.00,SC_demeaned,,34.4,41.4,58.6,44.8,0.167,,
+B_2015_kirilma_2015_on_donemde,math,stable_all_oecd,5,2003 2006 2009 2012 2015,2018 2022 2025,8.88,CHE=1.00 JPN=0.00 ISL=0.00,SC_trend_adjusted,,26.2,29.5,44.0,33.2,0.167,,2.74
+B_2015_kirilma_2015_on_donemde,math,stable_all_oecd,5,2003 2006 2009 2012 2015,2018 2022 2025,8.88,CHE=1.00 JPN=0.00 ISL=0.00,SDiD,,38.8,40.1,57.8,45.6,0.167,2003:0.00 2006:0.00 2009:0.00 2012:0.00 2015:1.00,
+B_2015_kirilma_2015_on_donemde,math,stable_all_oecd,5,2003 2006 2009 2012 2015,2018 2022 2025,8.88,CHE=1.00 JPN=0.00 ISL=0.00,DiD_2012base,,11.3,25.9,45.2,27.5,0.167,,
+C_2015_disarida,math,stable_all_oecd,5,2003 2006 2009 2012,2018 2022 2025,9.44,CHE=0.73 JPN=0.27 BEL=0.00,SC_demeaned,,30.2,32.8,50.4,37.8,0.167,,
+C_2015_disarida,math,stable_all_oecd,5,2003 2006 2009 2012,2018 2022 2025,9.44,CHE=0.73 JPN=0.27 BEL=0.00,SC_trend_adjusted,,2.5,-5.4,4.3,0.4,1.0,,7.91
+C_2015_disarida,math,stable_all_oecd,5,2003 2006 2009 2012,2018 2022 2025,9.44,CHE=0.73 JPN=0.27 BEL=0.00,SDiD,,18.3,18.0,35.8,24.0,0.167,2003:0.00 2006:0.00 2009:0.00 2012:1.00,
+C_2015_disarida,math,stable_all_oecd,5,2003 2006 2009 2012,2018 2022 2025,9.44,CHE=0.73 JPN=0.27 BEL=0.00,DiD_2012base,,11.3,25.9,45.2,27.5,0.167,,
+A_2013_kirilma_2015_sonrasi,reading,stable_all_oecd,5,2003 2006 2009 2012,2015 2018 2022 2025,2.61,JPN=0.79 ISL=0.11 CHE=0.10,SC_demeaned,-28.7,19.8,4.9,34.1,7.6,0.5,,
+A_2013_kirilma_2015_sonrasi,reading,stable_all_oecd,5,2003 2006 2009 2012,2015 2018 2022 2025,2.61,JPN=0.79 ISL=0.11 CHE=0.10,SC_trend_adjusted,-30.3,17.5,1.7,30.2,4.8,0.667,,0.67
+A_2013_kirilma_2015_sonrasi,reading,stable_all_oecd,5,2003 2006 2009 2012,2015 2018 2022 2025,2.61,JPN=0.79 ISL=0.11 CHE=0.10,SDiD,-31.8,14.9,8.4,38.3,7.5,0.167,2003:0.02 2006:0.00 2009:0.00 2012:0.98,
+A_2013_kirilma_2015_sonrasi,reading,stable_all_oecd,5,2003 2006 2009 2012,2015 2018 2022 2025,2.61,JPN=0.79 ISL=0.11 CHE=0.10,DiD_2012base,-35.9,9.4,11.8,41.8,6.8,0.167,,
+B_2015_kirilma_2015_on_donemde,reading,stable_all_oecd,5,2003 2006 2009 2012 2015,2018 2022 2025,10.69,CHE=0.58 JPN=0.42 ISL=0.00,SC_demeaned,,28.0,13.7,43.0,28.2,0.167,,
+B_2015_kirilma_2015_on_donemde,reading,stable_all_oecd,5,2003 2006 2009 2012 2015,2018 2022 2025,10.69,CHE=0.58 JPN=0.42 ISL=0.00,SC_trend_adjusted,,35.9,25.2,57.1,39.4,0.167,,-2.64
+B_2015_kirilma_2015_on_donemde,reading,stable_all_oecd,5,2003 2006 2009 2012 2015,2018 2022 2025,10.69,CHE=0.58 JPN=0.42 ISL=0.00,SDiD,,13.6,9.3,38.7,20.5,0.167,2003:0.00 2006:0.00 2009:0.00 2012:1.00 2015:0.00,
+B_2015_kirilma_2015_on_donemde,reading,stable_all_oecd,5,2003 2006 2009 2012 2015,2018 2022 2025,10.69,CHE=0.58 JPN=0.42 ISL=0.00,DiD_2012base,,9.4,11.8,41.8,21.0,0.167,,
+C_2015_disarida,reading,stable_all_oecd,5,2003 2006 2009 2012,2018 2022 2025,2.61,JPN=0.79 ISL=0.11 CHE=0.10,SC_demeaned,,19.8,4.9,34.1,19.6,0.167,,
+C_2015_disarida,reading,stable_all_oecd,5,2003 2006 2009 2012,2018 2022 2025,2.61,JPN=0.79 ISL=0.11 CHE=0.10,SC_trend_adjusted,,17.5,1.7,30.2,16.5,0.333,,0.67
+C_2015_disarida,reading,stable_all_oecd,5,2003 2006 2009 2012,2018 2022 2025,2.61,JPN=0.79 ISL=0.11 CHE=0.10,SDiD,,15.0,7.9,37.8,20.2,0.167,2003:0.00 2006:0.00 2009:0.00 2012:1.00,
+C_2015_disarida,reading,stable_all_oecd,5,2003 2006 2009 2012,2018 2022 2025,2.61,JPN=0.79 ISL=0.11 CHE=0.10,DiD_2012base,,9.4,11.8,41.8,21.0,0.167,,
+A_2013_kirilma_2015_sonrasi,science,stable_all_oecd,8,2006 2009 2012,2015 2018 2022 2025,10.94,JPN=1.00 COL=0.00 LTU=0.00,SC_demeaned,-20.8,31.3,21.4,48.8,20.2,0.222,,
+A_2013_kirilma_2015_sonrasi,science,stable_all_oecd,8,2006 2009 2012,2015 2018 2022 2025,10.94,JPN=1.00 COL=0.00 LTU=0.00,SC_trend_adjusted,-45.0,-5.1,-31.1,-15.8,-24.2,0.111,,12.12
+A_2013_kirilma_2015_sonrasi,science,stable_all_oecd,8,2006 2009 2012,2015 2018 2022 2025,10.94,JPN=1.00 COL=0.00 LTU=0.00,SDiD,-37.8,9.6,10.3,31.2,3.3,0.556,2006:0.00 2009:0.00 2012:1.00,
+A_2013_kirilma_2015_sonrasi,science,stable_all_oecd,8,2006 2009 2012,2015 2018 2022 2025,10.94,JPN=1.00 COL=0.00 LTU=0.00,DiD_2012base,-32.9,12.8,23.1,43.1,11.5,0.222,,
+B_2015_kirilma_2015_on_donemde,science,stable_all_oecd,8,2006 2009 2012 2015,2018 2022 2025,12.08,LTU=0.69 JPN=0.31 COL=0.00,SC_demeaned,,33.5,34.1,53.0,40.2,0.111,,
+B_2015_kirilma_2015_on_donemde,science,stable_all_oecd,8,2006 2009 2012 2015,2018 2022 2025,12.08,LTU=0.69 JPN=0.31 COL=0.00,SC_trend_adjusted,,26.4,23.1,39.1,29.5,0.111,,2.86
+B_2015_kirilma_2015_on_donemde,science,stable_all_oecd,8,2006 2009 2012 2015,2018 2022 2025,12.08,LTU=0.69 JPN=0.31 COL=0.00,SDiD,,39.2,39.2,59.6,46.0,0.111,2006:0.00 2009:0.00 2012:0.25 2015:0.75,
+B_2015_kirilma_2015_on_donemde,science,stable_all_oecd,8,2006 2009 2012 2015,2018 2022 2025,12.08,LTU=0.69 JPN=0.31 COL=0.00,DiD_2012base,,12.8,23.1,43.1,26.3,0.222,,
+C_2015_disarida,science,stable_all_oecd,8,2006 2009 2012,2018 2022 2025,10.94,JPN=1.00 COL=0.00 LTU=0.00,SC_demeaned,,31.3,21.4,48.8,33.9,0.111,,
+C_2015_disarida,science,stable_all_oecd,8,2006 2009 2012,2018 2022 2025,10.94,JPN=1.00 COL=0.00 LTU=0.00,SC_trend_adjusted,,-5.1,-31.1,-15.8,-17.3,0.333,,12.12
+C_2015_disarida,science,stable_all_oecd,8,2006 2009 2012,2018 2022 2025,10.94,JPN=1.00 COL=0.00 LTU=0.00,SDiD,,9.4,9.6,30.9,16.6,0.333,2006:0.00 2009:0.00 2012:1.00,
+C_2015_disarida,science,stable_all_oecd,8,2006 2009 2012,2018 2022 2025,10.94,JPN=1.00 COL=0.00 LTU=0.00,DiD_2012base,,12.8,23.1,43.1,26.3,0.222,,
+A_2013_kirilma_2015_sonrasi,math,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012,2015 2018 2022 2025,6.67,DEU=1.00 ISL=0.00 FIN=0.00,SC_demeaned,-12.4,26.5,51.4,70.8,34.1,0.111,,
+A_2013_kirilma_2015_sonrasi,math,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012,2015 2018 2022 2025,6.67,DEU=1.00 ISL=0.00 FIN=0.00,SC_trend_adjusted,-26.1,7.4,25.0,39.0,11.3,0.667,,5.46
+A_2013_kirilma_2015_sonrasi,math,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012,2015 2018 2022 2025,6.67,DEU=1.00 ISL=0.00 FIN=0.00,SDiD,-15.4,23.4,34.5,53.1,23.9,0.222,2003:0.27 2006:0.00 2009:0.00 2012:0.73,
+A_2013_kirilma_2015_sonrasi,math,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012,2015 2018 2022 2025,6.67,DEU=1.00 ISL=0.00 FIN=0.00,DiD_2012base,-24.1,9.2,26.9,47.5,14.9,0.222,,
+B_2015_kirilma_2015_on_donemde,math,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012 2015,2018 2022 2025,7.77,DEU=1.00 FIN=0.00 ISL=0.00,SC_demeaned,,29.0,53.9,73.3,52.1,0.111,,
+B_2015_kirilma_2015_on_donemde,math,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012 2015,2018 2022 2025,7.77,DEU=1.00 FIN=0.00 ISL=0.00,SC_trend_adjusted,,28.3,52.8,72.0,51.1,0.111,,0.24
+B_2015_kirilma_2015_on_donemde,math,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012 2015,2018 2022 2025,7.77,DEU=1.00 FIN=0.00 ISL=0.00,SDiD,,38.8,50.6,69.1,52.8,0.111,2003:0.00 2006:0.00 2009:0.00 2012:0.00 2015:1.00,
+B_2015_kirilma_2015_on_donemde,math,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012 2015,2018 2022 2025,7.77,DEU=1.00 FIN=0.00 ISL=0.00,DiD_2012base,,9.2,26.9,47.5,27.9,0.111,,
+C_2015_disarida,math,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012,2018 2022 2025,6.67,DEU=1.00 ISL=0.00 FIN=0.00,SC_demeaned,,26.5,51.4,70.8,49.6,0.111,,
+C_2015_disarida,math,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012,2018 2022 2025,6.67,DEU=1.00 ISL=0.00 FIN=0.00,SC_trend_adjusted,,7.4,25.0,39.0,23.8,0.333,,5.46
+C_2015_disarida,math,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012,2018 2022 2025,6.67,DEU=1.00 ISL=0.00 FIN=0.00,SDiD,,23.3,34.8,53.4,37.2,0.111,2003:0.26 2006:0.00 2009:0.00 2012:0.74,
+C_2015_disarida,math,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012,2018 2022 2025,6.67,DEU=1.00 ISL=0.00 FIN=0.00,DiD_2012base,,9.2,26.9,47.5,27.9,0.111,,
+A_2013_kirilma_2015_sonrasi,reading,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012,2015 2018 2022 2025,2.36,JPN=0.86 FIN=0.14 ISL=0.00,SC_demeaned,-29.2,19.4,3.5,33.1,6.7,0.667,,
+A_2013_kirilma_2015_sonrasi,reading,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012,2015 2018 2022 2025,2.36,JPN=0.86 FIN=0.14 ISL=0.00,SC_trend_adjusted,-31.1,16.7,-0.1,28.6,3.5,0.889,,0.76
+A_2013_kirilma_2015_sonrasi,reading,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012,2015 2018 2022 2025,2.36,JPN=0.86 FIN=0.14 ISL=0.00,SDiD,-30.3,16.8,12.0,41.9,10.1,0.444,2003:0.31 2006:0.02 2009:0.00 2012:0.67,
+A_2013_kirilma_2015_sonrasi,reading,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012,2015 2018 2022 2025,2.36,JPN=0.86 FIN=0.14 ISL=0.00,DiD_2012base,-42.7,1.1,7.3,38.5,1.0,0.889,,
+B_2015_kirilma_2015_on_donemde,reading,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012 2015,2018 2022 2025,10.69,CHE=0.58 JPN=0.42 FRA=0.00,SC_demeaned,,28.0,13.7,43.0,28.2,0.111,,
+B_2015_kirilma_2015_on_donemde,reading,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012 2015,2018 2022 2025,10.69,CHE=0.58 JPN=0.42 FRA=0.00,SC_trend_adjusted,,35.9,25.2,57.1,39.4,0.111,,-2.64
+B_2015_kirilma_2015_on_donemde,reading,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012 2015,2018 2022 2025,10.69,CHE=0.58 JPN=0.42 FRA=0.00,SDiD,,35.8,30.9,60.3,42.3,0.111,2003:0.00 2006:0.00 2009:0.00 2012:0.32 2015:0.68,
+B_2015_kirilma_2015_on_donemde,reading,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012 2015,2018 2022 2025,10.69,CHE=0.58 JPN=0.42 FRA=0.00,DiD_2012base,,1.1,7.3,38.5,15.6,0.222,,
+C_2015_disarida,reading,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012,2018 2022 2025,2.36,JPN=0.86 FIN=0.14 ISL=0.00,SC_demeaned,,19.4,3.5,33.1,18.7,0.444,,
+C_2015_disarida,reading,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012,2018 2022 2025,2.36,JPN=0.86 FIN=0.14 ISL=0.00,SC_trend_adjusted,,16.7,-0.1,28.6,15.1,0.556,,0.76
+C_2015_disarida,reading,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012,2018 2022 2025,2.36,JPN=0.86 FIN=0.14 ISL=0.00,SDiD,,16.6,11.1,41.1,22.9,0.222,2003:0.29 2006:0.00 2009:0.00 2012:0.71,
+C_2015_disarida,reading,stable_plus_ambiguous_oecd,8,2003 2006 2009 2012,2018 2022 2025,2.36,JPN=0.86 FIN=0.14 ISL=0.00,DiD_2012base,,1.1,7.3,38.5,15.6,0.222,,
+A_2013_kirilma_2015_sonrasi,science,stable_plus_ambiguous_oecd,13,2006 2009 2012,2015 2018 2022 2025,10.94,JPN=1.00 ISL=0.00 COL=0.00,SC_demeaned,-20.8,31.3,21.4,48.8,20.2,0.357,,
+A_2013_kirilma_2015_sonrasi,science,stable_plus_ambiguous_oecd,13,2006 2009 2012,2015 2018 2022 2025,10.94,JPN=1.00 ISL=0.00 COL=0.00,SC_trend_adjusted,-45.0,-5.1,-31.1,-15.8,-24.2,0.286,,12.12
+A_2013_kirilma_2015_sonrasi,science,stable_plus_ambiguous_oecd,13,2006 2009 2012,2015 2018 2022 2025,10.94,JPN=1.00 ISL=0.00 COL=0.00,SDiD,-37.5,10.5,13.2,39.3,6.4,0.5,2006:0.00 2009:0.08 2012:0.92,
+A_2013_kirilma_2015_sonrasi,science,stable_plus_ambiguous_oecd,13,2006 2009 2012,2015 2018 2022 2025,10.94,JPN=1.00 ISL=0.00 COL=0.00,DiD_2012base,-33.1,12.8,24.0,46.8,12.6,0.357,,
+B_2015_kirilma_2015_on_donemde,science,stable_plus_ambiguous_oecd,13,2006 2009 2012 2015,2018 2022 2025,12.08,LTU=0.69 JPN=0.31 DEU=0.00,SC_demeaned,,33.5,34.1,53.0,40.2,0.071,,
+B_2015_kirilma_2015_on_donemde,science,stable_plus_ambiguous_oecd,13,2006 2009 2012 2015,2018 2022 2025,12.08,LTU=0.69 JPN=0.31 DEU=0.00,SC_trend_adjusted,,26.4,23.1,39.1,29.5,0.071,,2.86
+B_2015_kirilma_2015_on_donemde,science,stable_plus_ambiguous_oecd,13,2006 2009 2012 2015,2018 2022 2025,12.08,LTU=0.69 JPN=0.31 DEU=0.00,SDiD,,46.1,50.2,72.8,56.4,0.071,2006:0.00 2009:0.00 2012:0.00 2015:1.00,
+B_2015_kirilma_2015_on_donemde,science,stable_plus_ambiguous_oecd,13,2006 2009 2012 2015,2018 2022 2025,12.08,LTU=0.69 JPN=0.31 DEU=0.00,DiD_2012base,,12.8,24.0,46.8,27.9,0.143,,
+C_2015_disarida,science,stable_plus_ambiguous_oecd,13,2006 2009 2012,2018 2022 2025,10.94,JPN=1.00 ISL=0.00 COL=0.00,SC_demeaned,,31.3,21.4,48.8,33.9,0.286,,
+C_2015_disarida,science,stable_plus_ambiguous_oecd,13,2006 2009 2012,2018 2022 2025,10.94,JPN=1.00 ISL=0.00 COL=0.00,SC_trend_adjusted,,-5.1,-31.1,-15.8,-17.3,0.357,,12.12
+C_2015_disarida,science,stable_plus_ambiguous_oecd,13,2006 2009 2012,2018 2022 2025,10.94,JPN=1.00 ISL=0.00 COL=0.00,SDiD,,9.8,12.1,38.4,20.1,0.429,2006:0.00 2009:0.01 2012:0.99,
+C_2015_disarida,science,stable_plus_ambiguous_oecd,13,2006 2009 2012,2018 2022 2025,10.94,JPN=1.00 ISL=0.00 COL=0.00,DiD_2012base,,12.8,24.0,46.8,27.9,0.143,,
+A_2013_kirilma_2015_sonrasi,math,all_participants,10,2003 2006 2009 2012,2015 2018 2022 2025,6.67,DEU=1.00 MAC=0.00 FIN=0.00,SC_demeaned,-12.4,26.5,51.4,70.8,34.1,0.182,,
+A_2013_kirilma_2015_sonrasi,math,all_participants,10,2003 2006 2009 2012,2015 2018 2022 2025,6.67,DEU=1.00 MAC=0.00 FIN=0.00,SC_trend_adjusted,-26.1,7.4,25.0,39.0,11.3,0.727,,5.46
+A_2013_kirilma_2015_sonrasi,math,all_participants,10,2003 2006 2009 2012,2015 2018 2022 2025,6.67,DEU=1.00 MAC=0.00 FIN=0.00,SDiD,-23.2,11.2,21.7,38.6,12.1,0.545,2003:0.00 2006:0.00 2009:0.00 2012:1.00,
+A_2013_kirilma_2015_sonrasi,math,all_participants,10,2003 2006 2009 2012,2015 2018 2022 2025,6.67,DEU=1.00 MAC=0.00 FIN=0.00,DiD_2012base,-26.2,5.7,21.2,40.1,10.2,0.545,,
+B_2015_kirilma_2015_on_donemde,math,all_participants,10,2003 2006 2009 2012 2015,2018 2022 2025,7.77,DEU=1.00 CHE=0.00 JPN=0.00,SC_demeaned,,29.0,53.9,73.3,52.1,0.091,,
+B_2015_kirilma_2015_on_donemde,math,all_participants,10,2003 2006 2009 2012 2015,2018 2022 2025,7.77,DEU=1.00 CHE=0.00 JPN=0.00,SC_trend_adjusted,,28.3,52.8,72.0,51.1,0.091,,0.24
+B_2015_kirilma_2015_on_donemde,math,all_participants,10,2003 2006 2009 2012 2015,2018 2022 2025,7.77,DEU=1.00 CHE=0.00 JPN=0.00,SDiD,,37.8,49.7,67.8,51.8,0.091,2003:0.00 2006:0.00 2009:0.00 2012:0.00 2015:1.00,
+B_2015_kirilma_2015_on_donemde,math,all_participants,10,2003 2006 2009 2012 2015,2018 2022 2025,7.77,DEU=1.00 CHE=0.00 JPN=0.00,DiD_2012base,,5.7,21.2,40.1,22.3,0.182,,
+C_2015_disarida,math,all_participants,10,2003 2006 2009 2012,2018 2022 2025,6.67,DEU=1.00 MAC=0.00 FIN=0.00,SC_demeaned,,26.5,51.4,70.8,49.6,0.091,,
+C_2015_disarida,math,all_participants,10,2003 2006 2009 2012,2018 2022 2025,6.67,DEU=1.00 MAC=0.00 FIN=0.00,SC_trend_adjusted,,7.4,25.0,39.0,23.8,0.545,,5.46
+C_2015_disarida,math,all_participants,10,2003 2006 2009 2012,2018 2022 2025,6.67,DEU=1.00 MAC=0.00 FIN=0.00,SDiD,,11.3,22.3,39.2,24.3,0.455,2003:0.00 2006:0.00 2009:0.00 2012:1.00,
+C_2015_disarida,math,all_participants,10,2003 2006 2009 2012,2018 2022 2025,6.67,DEU=1.00 MAC=0.00 FIN=0.00,DiD_2012base,,5.7,21.2,40.1,22.3,0.182,,
+A_2013_kirilma_2015_sonrasi,reading,all_participants,10,2003 2006 2009 2012,2015 2018 2022 2025,2.36,JPN=0.86 FIN=0.14 ISL=0.00,SC_demeaned,-29.2,19.4,3.5,33.1,6.7,0.909,,
+A_2013_kirilma_2015_sonrasi,reading,all_participants,10,2003 2006 2009 2012,2015 2018 2022 2025,2.36,JPN=0.86 FIN=0.14 ISL=0.00,SC_trend_adjusted,-31.1,16.7,-0.1,28.6,3.5,1.0,,0.76
+A_2013_kirilma_2015_sonrasi,reading,all_participants,10,2003 2006 2009 2012,2015 2018 2022 2025,2.36,JPN=0.86 FIN=0.14 ISL=0.00,SDiD,-29.3,15.9,12.2,41.8,10.1,0.636,2003:0.44 2006:0.00 2009:0.00 2012:0.56,
+A_2013_kirilma_2015_sonrasi,reading,all_participants,10,2003 2006 2009 2012,2015 2018 2022 2025,2.36,JPN=0.86 FIN=0.14 ISL=0.00,DiD_2012base,-46.1,-4.3,-0.1,29.7,-5.2,1.0,,
+B_2015_kirilma_2015_on_donemde,reading,all_participants,10,2003 2006 2009 2012 2015,2018 2022 2025,10.69,CHE=0.58 JPN=0.42 SWE=0.00,SC_demeaned,,28.0,13.7,43.0,28.2,0.182,,
+B_2015_kirilma_2015_on_donemde,reading,all_participants,10,2003 2006 2009 2012 2015,2018 2022 2025,10.69,CHE=0.58 JPN=0.42 SWE=0.00,SC_trend_adjusted,,35.9,25.2,57.1,39.4,0.091,,-2.64
+B_2015_kirilma_2015_on_donemde,reading,all_participants,10,2003 2006 2009 2012 2015,2018 2022 2025,10.69,CHE=0.58 JPN=0.42 SWE=0.00,SDiD,,46.2,42.5,72.0,53.6,0.091,2003:0.00 2006:0.00 2009:0.00 2012:0.00 2015:1.00,
+B_2015_kirilma_2015_on_donemde,reading,all_participants,10,2003 2006 2009 2012 2015,2018 2022 2025,10.69,CHE=0.58 JPN=0.42 SWE=0.00,DiD_2012base,,-4.3,-0.1,29.7,8.4,0.909,,
+C_2015_disarida,reading,all_participants,10,2003 2006 2009 2012,2018 2022 2025,2.36,JPN=0.86 FIN=0.14 ISL=0.00,SC_demeaned,,19.4,3.5,33.1,18.7,0.636,,
+C_2015_disarida,reading,all_participants,10,2003 2006 2009 2012,2018 2022 2025,2.36,JPN=0.86 FIN=0.14 ISL=0.00,SC_trend_adjusted,,16.7,-0.1,28.6,15.1,0.727,,0.76
+C_2015_disarida,reading,all_participants,10,2003 2006 2009 2012,2018 2022 2025,2.36,JPN=0.86 FIN=0.14 ISL=0.00,SDiD,,15.7,11.4,41.1,22.7,0.364,2003:0.40 2006:0.00 2009:0.00 2012:0.60,
+C_2015_disarida,reading,all_participants,10,2003 2006 2009 2012,2018 2022 2025,2.36,JPN=0.86 FIN=0.14 ISL=0.00,DiD_2012base,,-4.3,-0.1,29.7,8.4,0.909,,
+A_2013_kirilma_2015_sonrasi,science,all_participants,18,2006 2009 2012,2015 2018 2022 2025,2.49,QAT=1.00 ISR=0.00 EST=0.00,SC_demeaned,-68.4,-27.1,-32.7,-16.4,-36.1,0.211,,
+A_2013_kirilma_2015_sonrasi,science,all_participants,18,2006 2009 2012,2015 2018 2022 2025,2.49,QAT=1.00 ISR=0.00 EST=0.00,SC_trend_adjusted,-73.6,-35.0,-44.1,-30.4,-45.8,0.053,,2.63
+A_2013_kirilma_2015_sonrasi,science,all_participants,18,2006 2009 2012,2015 2018 2022 2025,2.49,QAT=1.00 ISR=0.00 EST=0.00,SDiD,-54.9,-9.3,-10.3,10.7,-16.0,0.421,2006:0.00 2009:0.01 2012:0.99,
+A_2013_kirilma_2015_sonrasi,science,all_participants,18,2006 2009 2012,2015 2018 2022 2025,2.49,QAT=1.00 ISR=0.00 EST=0.00,DiD_2012base,-38.3,8.4,16.4,37.4,6.0,0.895,,
+B_2015_kirilma_2015_on_donemde,science,all_participants,18,2006 2009 2012 2015,2018 2022 2025,12.08,LTU=0.92 QAT=0.08 COL=0.00,SC_demeaned,,28.9,33.3,48.5,36.9,0.053,,
+B_2015_kirilma_2015_on_donemde,science,all_participants,18,2006 2009 2012 2015,2018 2022 2025,12.08,LTU=0.92 QAT=0.08 COL=0.00,SC_trend_adjusted,,21.7,22.2,34.5,26.1,0.053,,2.9
+B_2015_kirilma_2015_on_donemde,science,all_participants,18,2006 2009 2012 2015,2018 2022 2025,12.08,LTU=0.92 QAT=0.08 COL=0.00,SDiD,,47.0,51.8,74.0,57.6,0.053,2006:0.00 2009:0.00 2012:0.00 2015:1.00,
+B_2015_kirilma_2015_on_donemde,science,all_participants,18,2006 2009 2012 2015,2018 2022 2025,12.08,LTU=0.92 QAT=0.08 COL=0.00,DiD_2012base,,8.4,16.4,37.4,20.7,0.368,,
+C_2015_disarida,science,all_participants,18,2006 2009 2012,2018 2022 2025,2.49,QAT=1.00 ISR=0.00 EST=0.00,SC_demeaned,,-27.1,-32.7,-16.4,-25.4,0.474,,
+C_2015_disarida,science,all_participants,18,2006 2009 2012,2018 2022 2025,2.49,QAT=1.00 ISR=0.00 EST=0.00,SC_trend_adjusted,,-35.0,-44.1,-30.4,-36.5,0.263,,2.63
+C_2015_disarida,science,all_participants,18,2006 2009 2012,2018 2022 2025,2.49,QAT=1.00 ISR=0.00 EST=0.00,SDiD,,-10.6,-12.2,8.8,-4.7,0.947,2006:0.00 2009:0.00 2012:1.00,
+C_2015_disarida,science,all_participants,18,2006 2009 2012,2018 2022 2025,2.49,QAT=1.00 ISR=0.00 EST=0.00,DiD_2012base,,8.4,16.4,37.4,20.7,0.368,,

@@ -1,0 +1,161 @@
+{
+ "note": "2015 işbirlikli problem çözme: Türkiye ve Macaristan katıldı, Gürcistan katılmadı. Ülke ortalamaları mikroveriden (PV1–10CLPS, W_FSTUWT STU_QQQ'dan). Yayımlanmış değerlerle çapraz-kontrol: adım 24 (OECD Volume V Figure V.1.1 birincil + UK DfE Tablo 3–5 ikincil; data/derived/placebo_backbone/summary.json).",
+ "oecd_member_mean_of_country_means": 495.37,
+ "weight_merge_loss_share": 0.0,
+ "focus_status": {
+  "TUR": "participated",
+  "HUN": "participated",
+  "GEO": "did_not_participate",
+  "SWE": "participated"
+ },
+ "focus_asterisk_2015": {
+  "TUR": null,
+  "HUN": null,
+  "GEO": null,
+  "SWE": null
+ },
+ "all_linear": {
+  "n": 47,
+  "slope": 0.9798,
+  "r2": 0.934,
+  "rmse": 10.7,
+  "TUR": {
+   "core_2015": 424.8,
+   "cps2015": 422.4,
+   "cps_predicted": 435.2,
+   "residual": -12.9,
+   "residual_in_sd": -1.2,
+   "residual_leave_one_out": -13.7,
+   "rank_from_bottom": "5/47",
+   "percentile": 10.6
+  },
+  "HUN": {
+   "core_2015": 474.4,
+   "cps2015": 472.2,
+   "cps_predicted": 483.8,
+   "residual": -11.7,
+   "residual_in_sd": -1.09,
+   "residual_leave_one_out": -11.9,
+   "rank_from_bottom": "8/47",
+   "percentile": 17.0
+  },
+  "SWE": {
+   "core_2015": 495.8,
+   "cps2015": 509.6,
+   "cps_predicted": 504.8,
+   "residual": 4.8,
+   "residual_in_sd": 0.45,
+   "residual_leave_one_out": 4.9,
+   "rank_from_bottom": "31/47",
+   "percentile": 66.0
+  }
+ },
+ "all_quadratic": {
+  "n": 47,
+  "slope": -1.0866,
+  "r2": 0.942,
+  "rmse": 10.18,
+  "TUR": {
+   "core_2015": 424.8,
+   "cps2015": 422.4,
+   "cps_predicted": 435.5,
+   "residual": -13.1,
+   "residual_in_sd": -1.29,
+   "residual_leave_one_out": -13.9,
+   "rank_from_bottom": "5/47",
+   "percentile": 10.6
+  },
+  "HUN": {
+   "core_2015": 474.4,
+   "cps2015": 472.2,
+   "cps_predicted": 480.0,
+   "residual": -7.9,
+   "residual_in_sd": -0.77,
+   "residual_leave_one_out": -8.3,
+   "rank_from_bottom": "14/47",
+   "percentile": 29.8
+  },
+  "SWE": {
+   "core_2015": 495.8,
+   "cps2015": 509.6,
+   "cps_predicted": 502.7,
+   "residual": 6.9,
+   "residual_in_sd": 0.68,
+   "residual_leave_one_out": 7.1,
+   "rank_from_bottom": "35/47",
+   "percentile": 74.5
+  }
+ },
+ "oecd_linear": {
+  "n": 35,
+  "slope": 1.0089,
+  "r2": 0.888,
+  "rmse": 11.49,
+  "TUR": {
+   "core_2015": 424.8,
+   "cps2015": 422.4,
+   "cps_predicted": 433.8,
+   "residual": -11.5,
+   "residual_in_sd": -1.0,
+   "residual_leave_one_out": -13.3,
+   "rank_from_bottom": "8/35",
+   "percentile": 22.9
+  },
+  "HUN": {
+   "core_2015": 474.4,
+   "cps2015": 472.2,
+   "cps_predicted": 483.9,
+   "residual": -11.7,
+   "residual_in_sd": -1.02,
+   "residual_leave_one_out": -12.1,
+   "rank_from_bottom": "6/35",
+   "percentile": 17.1
+  },
+  "SWE": {
+   "core_2015": 495.8,
+   "cps2015": 509.6,
+   "cps_predicted": 505.5,
+   "residual": 4.1,
+   "residual_in_sd": 0.35,
+   "residual_leave_one_out": 4.2,
+   "rank_from_bottom": "21/35",
+   "percentile": 60.0
+  }
+ },
+ "oecd_quadratic": {
+  "n": 35,
+  "slope": -2.8482,
+  "r2": 0.906,
+  "rmse": 10.68,
+  "TUR": {
+   "core_2015": 424.8,
+   "cps2015": 422.4,
+   "cps_predicted": 436.9,
+   "residual": -14.5,
+   "residual_in_sd": -1.36,
+   "residual_leave_one_out": -17.1,
+   "rank_from_bottom": "2/35",
+   "percentile": 5.7
+  },
+  "HUN": {
+   "core_2015": 474.4,
+   "cps2015": 472.2,
+   "cps_predicted": 478.9,
+   "residual": -6.7,
+   "residual_in_sd": -0.63,
+   "residual_leave_one_out": -7.2,
+   "rank_from_bottom": "10/35",
+   "percentile": 28.6
+  },
+  "SWE": {
+   "core_2015": 495.8,
+   "cps2015": 509.6,
+   "cps_predicted": 503.3,
+   "residual": 6.3,
+   "residual_in_sd": 0.59,
+   "residual_leave_one_out": 6.5,
+   "rank_from_bottom": "27/35",
+   "percentile": 77.1
+  }
+ }
+}

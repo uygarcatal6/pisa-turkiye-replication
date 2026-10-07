@@ -1,0 +1,31 @@
+cycle,domain,q_within,gap_sd,shift_sd_units,sigma,sigma_source,shift_points
+2015,math,0.005758,1.0,0.005758,81.9166,"mikroveri (W_FSTUWT, M = 10)",0.4717
+2015,math,0.005758,2.0,0.011515,81.9166,"mikroveri (W_FSTUWT, M = 10)",0.9433
+2015,reading,0.005758,1.0,0.005758,82.3989,"mikroveri (W_FSTUWT, M = 10)",0.4744
+2015,reading,0.005758,2.0,0.011515,82.3989,"mikroveri (W_FSTUWT, M = 10)",0.9489
+2015,science,0.005758,1.0,0.005758,79.2616,"mikroveri (W_FSTUWT, M = 10)",0.4564
+2015,science,0.005758,2.0,0.011515,79.2616,"mikroveri (W_FSTUWT, M = 10)",0.9127
+2018,math,0.014985,1.0,0.014985,97.092,DUYARLILIK: σ_2025 kullanıldı (bu döngünün σ'sı türetilmiş dosyada yok),1.4549
+2018,math,0.014985,2.0,0.029969,97.092,DUYARLILIK: σ_2025 kullanıldı (bu döngünün σ'sı türetilmiş dosyada yok),2.9098
+2018,reading,0.014985,1.0,0.014985,90.7077,DUYARLILIK: σ_2025 kullanıldı (bu döngünün σ'sı türetilmiş dosyada yok),1.3592
+2018,reading,0.014985,2.0,0.029969,90.7077,DUYARLILIK: σ_2025 kullanıldı (bu döngünün σ'sı türetilmiş dosyada yok),2.7184
+2018,science,0.014985,1.0,0.014985,94.4827,DUYARLILIK: σ_2025 kullanıldı (bu döngünün σ'sı türetilmiş dosyada yok),1.4158
+2018,science,0.014985,2.0,0.029969,94.4827,DUYARLILIK: σ_2025 kullanıldı (bu döngünün σ'sı türetilmiş dosyada yok),2.8316
+2022,math,0.018293,1.0,0.018293,97.092,DUYARLILIK: σ_2025 kullanıldı (bu döngünün σ'sı türetilmiş dosyada yok),1.7761
+2022,math,0.018293,2.0,0.036587,97.092,DUYARLILIK: σ_2025 kullanıldı (bu döngünün σ'sı türetilmiş dosyada yok),3.5523
+2022,reading,0.018293,1.0,0.018293,90.7077,DUYARLILIK: σ_2025 kullanıldı (bu döngünün σ'sı türetilmiş dosyada yok),1.6593
+2022,reading,0.018293,2.0,0.036587,90.7077,DUYARLILIK: σ_2025 kullanıldı (bu döngünün σ'sı türetilmiş dosyada yok),3.3187
+2022,science,0.018293,1.0,0.018293,94.4827,DUYARLILIK: σ_2025 kullanıldı (bu döngünün σ'sı türetilmiş dosyada yok),1.7284
+2022,science,0.018293,2.0,0.036587,94.4827,DUYARLILIK: σ_2025 kullanıldı (bu döngünün σ'sı türetilmiş dosyada yok),3.4568
+2025,math,0.021149,1.0,0.021149,97.0919,"mikroveri (W_FSTUWT, M = 10)",2.0534
+2025,math,0.021149,2.0,0.042299,97.0919,"mikroveri (W_FSTUWT, M = 10)",4.1069
+2025,reading,0.021149,1.0,0.021149,90.7077,"mikroveri (W_FSTUWT, M = 10)",1.9184
+2025,reading,0.021149,2.0,0.042299,90.7077,"mikroveri (W_FSTUWT, M = 10)",3.8368
+2025,science,0.021149,1.0,0.021149,94.4827,"mikroveri (W_FSTUWT, M = 10)",1.9983
+2025,science,0.021149,2.0,0.042299,94.4827,"mikroveri (W_FSTUWT, M = 10)",3.9965
+2015->2025,math,0.015391,1.0,0.015391,,"2015: mikroveri (W_FSTUWT, M = 10) | 2025: mikroveri (W_FSTUWT, M = 10)",1.5817
+2015->2025,math,0.015391,2.0,0.030784,,"2015: mikroveri (W_FSTUWT, M = 10) | 2025: mikroveri (W_FSTUWT, M = 10)",3.1636
+2015->2025,reading,0.015391,1.0,0.015391,,"2015: mikroveri (W_FSTUWT, M = 10) | 2025: mikroveri (W_FSTUWT, M = 10)",1.444
+2015->2025,reading,0.015391,2.0,0.030784,,"2015: mikroveri (W_FSTUWT, M = 10) | 2025: mikroveri (W_FSTUWT, M = 10)",2.8879
+2015->2025,science,0.015391,1.0,0.015391,,"2015: mikroveri (W_FSTUWT, M = 10) | 2025: mikroveri (W_FSTUWT, M = 10)",1.5419
+2015->2025,science,0.015391,2.0,0.030784,,"2015: mikroveri (W_FSTUWT, M = 10) | 2025: mikroveri (W_FSTUWT, M = 10)",3.0838

@@ -1,0 +1,189 @@
+{
+ "source": "OECD (2014) PISA 2012 Results Vol. V, Annex B1 Table V.2.6 Part 1/3, col. 1",
+ "specs": {
+  "all/linear": {
+   "n": 41,
+   "pearson_r": 0.958,
+   "spearman_rho": 0.947,
+   "mean_abs_diff": 10.0,
+   "slope_ours_on_oecd": 0.95,
+   "not_in_ours": [
+    "CYP",
+    "QCN"
+   ],
+   "HUN": {
+    "ours": -26.39,
+    "oecd": -34,
+    "oecd_se": 2.6,
+    "rank_ours": 4,
+    "rank_oecd": 4
+   },
+   "POL": {
+    "ours": -38.2,
+    "oecd": -44,
+    "oecd_se": 3.5,
+    "rank_ours": 1,
+    "rank_oecd": 2
+   },
+   "SWE": {
+    "ours": 9.72,
+    "oecd": -1,
+    "oecd_se": 2.8,
+    "rank_ours": 28,
+    "rank_oecd": 27
+   },
+   "TUR": {
+    "ours": -6.88,
+    "oecd": -14,
+    "oecd_se": 1.9,
+    "rank_ours": 13,
+    "rank_oecd": 15
+   }
+  },
+  "all/quadratic": {
+   "n": 41,
+   "pearson_r": 0.949,
+   "spearman_rho": 0.937,
+   "mean_abs_diff": 10.04,
+   "slope_ours_on_oecd": 0.934,
+   "not_in_ours": [
+    "CYP",
+    "QCN"
+   ],
+   "HUN": {
+    "ours": -24.51,
+    "oecd": -34,
+    "oecd_se": 2.6,
+    "rank_ours": 4,
+    "rank_oecd": 4
+   },
+   "POL": {
+    "ours": -38.38,
+    "oecd": -44,
+    "oecd_se": 3.5,
+    "rank_ours": 1,
+    "rank_oecd": 2
+   },
+   "SWE": {
+    "ours": 11.7,
+    "oecd": -1,
+    "oecd_se": 2.8,
+    "rank_ours": 31,
+    "rank_oecd": 27
+   },
+   "TUR": {
+    "ours": -5.02,
+    "oecd": -14,
+    "oecd_se": 1.9,
+    "rank_ours": 16,
+    "rank_oecd": 15
+   }
+  },
+  "oecd/linear": {
+   "n": 28,
+   "pearson_r": 0.981,
+   "spearman_rho": 0.974,
+   "mean_abs_diff": 8.04,
+   "slope_ours_on_oecd": 0.991,
+   "not_in_ours": [
+    "ARE",
+    "BGR",
+    "BRA",
+    "CYP",
+    "ENG",
+    "HKG",
+    "HRV",
+    "MAC",
+    "MNE",
+    "MYS",
+    "QCN",
+    "RUS",
+    "SGP",
+    "SRB",
+    "TWN",
+    "URY"
+   ],
+   "HUN": {
+    "ours": -27.24,
+    "oecd": -34,
+    "oecd_se": 2.6,
+    "rank_ours": 2,
+    "rank_oecd": 2
+   },
+   "POL": {
+    "ours": -37.62,
+    "oecd": -44,
+    "oecd_se": 3.5,
+    "rank_ours": 1,
+    "rank_oecd": 1
+   },
+   "SWE": {
+    "ours": 8.69,
+    "oecd": -1,
+    "oecd_se": 2.8,
+    "rank_ours": 19,
+    "rank_oecd": 18
+   },
+   "TUR": {
+    "ours": -8.75,
+    "oecd": -14,
+    "oecd_se": 1.9,
+    "rank_ours": 7,
+    "rank_oecd": 9
+   }
+  },
+  "oecd/quadratic": {
+   "n": 28,
+   "pearson_r": 0.967,
+   "spearman_rho": 0.95,
+   "mean_abs_diff": 8.04,
+   "slope_ours_on_oecd": 0.969,
+   "not_in_ours": [
+    "ARE",
+    "BGR",
+    "BRA",
+    "CYP",
+    "ENG",
+    "HKG",
+    "HRV",
+    "MAC",
+    "MNE",
+    "MYS",
+    "QCN",
+    "RUS",
+    "SGP",
+    "SRB",
+    "TWN",
+    "URY"
+   ],
+   "HUN": {
+    "ours": -25.88,
+    "oecd": -34,
+    "oecd_se": 2.6,
+    "rank_ours": 2,
+    "rank_oecd": 2
+   },
+   "POL": {
+    "ours": -38.32,
+    "oecd": -44,
+    "oecd_se": 3.5,
+    "rank_ours": 1,
+    "rank_oecd": 1
+   },
+   "SWE": {
+    "ours": 10.14,
+    "oecd": -1,
+    "oecd_se": 2.8,
+    "rank_ours": 20,
+    "rank_oecd": 18
+   },
+   "TUR": {
+    "ours": -7.43,
+    "oecd": -14,
+    "oecd_se": 1.9,
+    "rank_ours": 8,
+    "rank_oecd": 9
+   }
+  }
+ }
+}

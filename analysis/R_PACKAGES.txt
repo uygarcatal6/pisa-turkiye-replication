@@ -1,0 +1,16 @@
+# PISA analiz hattı — R paketleri (analysis/*.R içindeki library()/require()/pkg:: çağrılarından, kurulu sürümler).
+# Üretildi: 2026-09-28, R version 4.6.1 (2026-06-24 ucrt), x86_64-w64-mingw32. Kör denetim C1/T8.
+# renv.lock DEĞİL: bu makinede R paket DLL'leri Windows Uygulama Denetimi'yle engellendiği için (vctrs.dll,
+# 28 Eyl) renv denenmedi; liste base R installed.packages() ile üretildi; bağımlılık ağacı dahil değil.
+did==2.5.1
+dplyr==1.2.1
+ggplot2==4.0.3
+jsonlite==2.0.0
+partykit==1.3-0
+purrr==1.2.2
+readr==2.2.0
+remotes==2.5.0
+stringr==1.6.0
+Synth==1.1-10
+synthdid==0.0.9
+tidyr==1.3.2

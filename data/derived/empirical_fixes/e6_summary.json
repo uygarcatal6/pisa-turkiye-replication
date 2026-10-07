@@ -1,0 +1,167 @@
+{
+ "note": "E6 — DFL bileşim ayrıştırması (2012 paylarına); ön-belirleme §0.7 (commit 476fe4e). Ulusal idari paylarla karşılaştırma: dış veri gerekli.",
+ "panel_gate": {
+  "2012_math": 0.00041,
+  "2012_reading": 0.00047,
+  "2012_science": 9e-05,
+  "2015_math": 2e-05,
+  "2015_reading": 9e-05,
+  "2015_science": 0.00049,
+  "2018_math": 0.00022,
+  "2018_reading": 0.00033,
+  "2018_science": 0.00038,
+  "2022_math": 0.00023,
+  "2022_reading": 4e-05,
+  "2022_science": 0.0002,
+  "2025_math": 0.00043,
+  "2025_reading": 0.00049,
+  "2025_science": 7e-05,
+  "failed": []
+ },
+ "primary": [
+  {
+   "scheme": "iki_kategori",
+   "domain": "math",
+   "quantity": "total",
+   "cycle": "2012->2015",
+   "estimate": -27.5304,
+   "se": 6.3001
+  },
+  {
+   "scheme": "iki_kategori",
+   "domain": "math",
+   "quantity": "within_type",
+   "cycle": "2012->2015",
+   "estimate": -25.6576,
+   "se": 6.3732
+  },
+  {
+   "scheme": "iki_kategori",
+   "domain": "math",
+   "quantity": "composition",
+   "cycle": "2012->2015",
+   "estimate": -1.8728,
+   "se": 1.1462
+  },
+  {
+   "scheme": "iki_kategori",
+   "domain": "math",
+   "quantity": "total",
+   "cycle": "2015->2025",
+   "estimate": 41.0926,
+   "se": 4.6994
+  },
+  {
+   "scheme": "iki_kategori",
+   "domain": "math",
+   "quantity": "within_type",
+   "cycle": "2015->2025",
+   "estimate": 32.332,
+   "se": 4.7527
+  },
+  {
+   "scheme": "iki_kategori",
+   "domain": "math",
+   "quantity": "composition",
+   "cycle": "2015->2025",
+   "estimate": 8.7606,
+   "se": 1.252
+  },
+  {
+   "scheme": "iki_kategori",
+   "domain": "reading",
+   "quantity": "total",
+   "cycle": "2012->2015",
+   "estimate": -47.1564,
+   "se": 5.7338
+  },
+  {
+   "scheme": "iki_kategori",
+   "domain": "reading",
+   "quantity": "within_type",
+   "cycle": "2012->2015",
+   "estimate": -45.1437,
+   "se": 5.7735
+  },
+  {
+   "scheme": "iki_kategori",
+   "domain": "reading",
+   "quantity": "composition",
+   "cycle": "2012->2015",
+   "estimate": -2.0127,
+   "se": 1.262
+  },
+  {
+   "scheme": "iki_kategori",
+   "domain": "reading",
+   "quantity": "total",
+   "cycle": "2015->2025",
+   "estimate": 43.7604,
+   "se": 4.5196
+  },
+  {
+   "scheme": "iki_kategori",
+   "domain": "reading",
+   "quantity": "within_type",
+   "cycle": "2015->2025",
+   "estimate": 35.2337,
+   "se": 4.5868
+  },
+  {
+   "scheme": "iki_kategori",
+   "domain": "reading",
+   "quantity": "composition",
+   "cycle": "2015->2025",
+   "estimate": 8.5267,
+   "se": 1.3667
+  },
+  {
+   "scheme": "iki_kategori",
+   "domain": "science",
+   "quantity": "total",
+   "cycle": "2012->2015",
+   "estimate": -37.9234,
+   "se": 5.503
+  },
+  {
+   "scheme": "iki_kategori",
+   "domain": "science",
+   "quantity": "within_type",
+   "cycle": "2012->2015",
+   "estimate": -35.9306,
+   "se": 5.5747
+  },
+  {
+   "scheme": "iki_kategori",
+   "domain": "science",
+   "quantity": "composition",
+   "cycle": "2012->2015",
+   "estimate": -1.9928,
+   "se": 1.2209
+  },
+  {
+   "scheme": "iki_kategori",
+   "domain": "science",
+   "quantity": "total",
+   "cycle": "2015->2025",
+   "estimate": 68.7796,
+   "se": 4.5251
+  },
+  {
+   "scheme": "iki_kategori",
+   "domain": "science",
+   "quantity": "within_type",
+   "cycle": "2015->2025",
+   "estimate": 60.1512,
+   "se": 4.6002
+  },
+  {
+   "scheme": "iki_kategori",
+   "domain": "science",
+   "quantity": "composition",
+   "cycle": "2015->2025",
+   "estimate": 8.6283,
+   "se": 1.3217
+  }
+ ]
+}

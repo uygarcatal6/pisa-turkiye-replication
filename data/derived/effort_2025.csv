@@ -1,0 +1,95 @@
+﻿iso3,country,effort_2025,effort_2025_se,effort_2018,effort_2022,diff_2025_vs_2018,diff_2025_vs_2022,verylow_effort_pct_2025,verylow_effort_pct_2018,source_file,source_sheet
+OECD,OECD average,7.14,0.01,7.66,,-0.52,,5.51,3.58,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+OECD23,OECD average-23,7.04,0.01,7.58,7.37,-0.54,-0.33,5.95,3.84,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+OECD35,OECD average-35,7.16,0.01,7.67,7.47,-0.52,-0.31,5.42,3.55,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+ARG,Argentina,7.56,0.04,7.85,7.83,-0.28,-0.27,4.22,3.16,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+ARM,Armenia,7.64,0.04,,,,,4.04,,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+AUS,Australia,6.84,0.03,7.43,7.19,-0.59,-0.36,6.99,4.79,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+AUT,Austria,6.78,0.04,7.15,7.1,-0.37,-0.32,7.29,5.88,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+AZE,Azerbaijan,8.4,0.03,,,,,1.83,,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+BEL,Belgium,6.66,0.03,7.28,7.08,-0.62,-0.42,7.09,3.09,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+BRA,Brazil,7.93,0.03,8.18,7.96,-0.25,-0.03,3.01,1.95,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+BRN,Brunei Darussalam,7.2,0.02,7.41,7.32,-0.21,-0.12,1.84,2.02,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+QCI,B-S-J-Z (China),8.82,0.04,8.98,,-0.16,,1.68,0.89,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+BGR,Bulgaria,7.42,0.05,7.72,7.66,-0.3,-0.24,6.45,4.52,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+KHM,Cambodia,,,,8.29,,,,,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+CAN,Canada,6.93,0.02,7.47,7.22,-0.54,-0.28,6.22,4.07,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+CHL,Chile,7.68,0.04,8.0,7.81,-0.31,-0.13,3.14,2.17,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+COL,Colombia,8.27,0.03,8.47,8.37,-0.2,-0.1,1.92,1.11,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+CRI,Costa Rica,7.66,0.03,8.14,8.02,-0.48,-0.36,4.19,2.0,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+HRV,Croatia,6.95,0.03,7.61,7.5,-0.66,-0.55,6.66,4.69,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+QCY,Cyprus,6.83,0.03,6.55,6.59,0.28,0.24,10.48,5.74,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+CZE,Czechia,6.75,0.04,7.27,7.26,-0.51,-0.51,7.48,4.29,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+DNK,Denmark,6.92,0.04,7.5,7.29,-0.57,-0.37,6.4,3.79,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+DOM,Dominican Republic,8.54,0.03,8.91,8.81,-0.38,-0.27,2.04,1.18,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+QTJ,Dushanbe (Tajikistan),,,,,,,,,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+ECU,Ecuador,8.26,0.03,,,,,1.16,,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+SLV,El Salvador,8.35,0.03,,8.6,,-0.25,1.43,,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+EST,Estonia,7.34,0.03,7.72,7.53,-0.38,-0.2,2.92,2.27,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+FIN,Finland,7.45,0.03,7.98,7.71,-0.54,-0.26,5.71,3.14,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+FRA,France,6.43,0.04,7.16,7.04,-0.72,-0.61,8.93,5.5,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+GEO,Georgia,7.92,0.04,7.74,7.74,0.18,0.18,3.72,5.74,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+DEU,Germany,6.74,0.03,7.17,7.04,-0.43,-0.31,7.74,5.47,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+GRC,Greece,6.96,0.04,7.5,7.16,-0.55,-0.21,5.76,4.09,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+GTM,Guatemala,8.27,0.03,,8.8,,-0.53,1.16,,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+HKG,Hong Kong (China),7.33,0.04,7.4,7.32,-0.08,0.01,4.25,5.43,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+HUN,Hungary,7.09,0.04,7.7,7.3,-0.61,-0.21,4.4,2.54,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+ISL,Iceland,7.0,0.03,7.66,7.15,-0.66,-0.16,6.69,5.83,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+IDN,Indonesia,8.64,0.04,8.76,8.7,-0.12,-0.06,1.1,1.44,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+IRL,Ireland,7.31,0.03,7.98,7.67,-0.67,-0.36,2.49,1.64,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+ISR,Israel,7.08,0.05,7.87,7.37,-0.79,-0.29,8.5,4.99,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+ITA,Italy,7.45,0.03,7.95,7.81,-0.5,-0.36,3.17,2.06,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+JPN,Japan,6.72,0.04,7.14,6.99,-0.41,-0.27,10.21,6.57,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+JOR,Jordan,8.04,0.04,8.37,7.83,-0.33,0.2,2.41,2.71,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+KAZ,Kazakhstan,8.03,0.02,8.65,8.65,-0.62,-0.62,2.47,1.35,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+KEN,Kenya,8.22,0.04,,,,,3.4,,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+KOR,Korea,7.92,0.04,8.26,8.07,-0.34,-0.15,3.47,2.83,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+KSV,Kosovo,8.1,0.03,8.66,8.29,-0.56,-0.19,3.8,3.32,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+QKI,Kurdistan Region (Iraq),,,,,,,,,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+KGZ,Kyrgyzstan,7.96,0.03,,,,,2.36,,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+LVA,Latvia,7.23,0.03,7.73,7.51,-0.5,-0.28,3.13,1.39,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+LBN,Lebanon,7.5,0.05,6.86,,0.64,,5.87,8.39,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+LTU,Lithuania,7.46,0.02,7.98,7.76,-0.53,-0.3,2.84,1.5,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+LUX,Luxembourg,6.37,0.03,6.98,,-0.61,,10.5,6.3,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+MAC,Macao (China),8.02,0.02,8.11,8.06,-0.08,-0.03,1.71,1.18,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+MYS,Malaysia,8.17,0.03,8.58,8.25,-0.41,-0.08,1.92,1.21,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+MLT,Malta,6.55,0.04,7.24,7.03,-0.69,-0.47,11.95,7.9,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+MUS,Mauritius,,,,,,,,,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+MEX,Mexico,8.28,0.02,8.63,8.49,-0.36,-0.21,1.33,0.72,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+MDA,Moldova,7.58,0.03,8.43,7.92,-0.86,-0.34,3.14,1.16,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+MNG,Mongolia,8.32,0.03,,8.27,,0.06,1.46,,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+MNE,Montenegro,7.4,0.03,7.73,7.56,-0.34,-0.17,5.48,6.14,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+MAR,Morocco,7.55,0.06,8.2,7.97,-0.65,-0.41,3.47,2.21,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+NLD,Netherlands,6.98,0.04,7.45,7.31,-0.47,-0.34,4.7,3.04,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+NZL,New Zealand,6.98,0.03,7.56,7.41,-0.58,-0.43,4.98,3.52,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+MKD,North Macedonia,7.92,0.03,8.04,8.12,-0.12,-0.2,3.17,3.01,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+NOR,Norway,6.73,0.04,7.38,6.91,-0.65,-0.18,8.9,5.54,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+PSE,Palestinian Authority,7.9,0.04,,8.07,,-0.17,4.41,,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+PRY,Paraguay,7.84,0.03,,8.14,,-0.3,3.19,,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+PER,Peru,7.69,0.03,8.18,7.96,-0.49,-0.27,2.31,1.07,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+PHL,Philippines,9.18,0.04,8.79,8.78,0.39,0.4,0.95,1.21,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+POL,Poland,6.92,0.03,7.44,7.29,-0.53,-0.37,6.9,4.25,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+PRT,Portugal,6.97,0.03,7.5,7.56,-0.53,-0.58,5.11,3.3,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+QAT,Qatar,7.63,0.03,7.95,7.73,-0.32,-0.09,4.74,4.09,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+ROU,Romania,7.35,0.04,7.88,7.68,-0.53,-0.33,4.34,3.25,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+RWA,Rwanda,,,,,,,,,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+SAU,Saudi Arabia,8.55,0.03,8.38,8.69,0.17,-0.14,1.93,1.94,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+SRB,Serbia,6.83,0.04,7.42,7.47,-0.59,-0.64,7.53,5.67,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+SGP,Singapore,6.94,0.02,7.53,7.41,-0.6,-0.47,6.93,4.17,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+SVK,Slovak Republic,6.88,0.04,7.32,7.25,-0.44,-0.37,6.06,5.11,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+SVN,Slovenia,6.9,0.03,7.56,7.39,-0.66,-0.49,6.7,3.79,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+ESP,Spain,7.03,0.02,7.55,7.32,-0.52,-0.29,5.07,3.48,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+SWE,Sweden,6.75,0.04,7.4,7.17,-0.64,-0.42,7.99,4.89,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+CHE,Switzerland,6.85,0.03,7.24,7.18,-0.39,-0.33,5.82,4.96,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+TAP,Chinese Taipei,7.74,0.03,8.29,8.24,-0.55,-0.5,3.62,2.51,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+THA,Thailand,8.55,0.04,8.63,8.37,-0.09,0.18,0.89,0.72,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+TUR,Türkiye,8.32,0.04,8.91,8.57,-0.59,-0.25,1.97,0.84,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+QUA,Ukrainian regions (17 of 27),7.34,0.04,,7.61,,-0.28,4.27,,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+ARE,United Arab Emirates,7.96,0.02,8.51,7.98,-0.54,-0.02,3.32,2.58,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+GBR,United Kingdom,7.11,0.03,7.46,7.24,-0.35,-0.13,4.52,3.93,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+URY,Uruguay,7.28,0.03,7.87,7.79,-0.59,-0.51,3.27,2.45,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+UZB,Uzbekistan,7.91,0.06,,8.96,,-1.06,3.56,,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+VNM,Viet Nam,8.55,0.04,,,,,0.87,,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+ZMB,Zambia,,,,,,,,,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+ALB,Albania,8.9,0.04,8.99,8.35,-0.09,0.55,0.98,0.79,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1
+USA,United States,7.77,0.05,8.25,8.12,-0.48,-0.35,2.31,1.29,data/pisa/2025/annex_tables/78340u.xlsx,Table I.A1.1

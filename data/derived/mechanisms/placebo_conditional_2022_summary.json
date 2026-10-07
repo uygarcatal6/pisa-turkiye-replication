@@ -1,0 +1,74 @@
+{
+ "note": "Türkiye ve Gürcistan PISA 2022 yaratıcı düşünmeye katılmadı (Table III.B1.2.1 'm'; mikroveride yok). Yaratıcı düşünme Türkiye için plasebo-alan sonucu olamaz; test yalnız katılımcılar için raporlanır.",
+ "microdata_crosscheck": "63 sistem; yayımlanmış−ağırlıksız fark: ort +0.20, maks |fark| 2.42 (n=60); 'm' olup mikroveride bulunan: yok; yalnız mikroveride: ['JAM', 'PAN', 'QAZ']",
+ "focus_status": {
+  "TUR": "did_not_participate",
+  "GEO": "did_not_participate",
+  "HUN": "participated",
+  "SWE": "not_in_table"
+ },
+ "all_linear": {
+  "n": 61,
+  "slope": 0.1135,
+  "r2": 0.852,
+  "rmse": 2.57,
+  "HUN": {
+   "core_2022": 477.2,
+   "ct": 30.94,
+   "ct_predicted": 31.97,
+   "residual": -1.03,
+   "residual_in_sd": -0.4,
+   "residual_leave_one_out": -1.05,
+   "rank_from_bottom": "16/61",
+   "percentile": 26.2
+  }
+ },
+ "all_quadratic": {
+  "n": 61,
+  "slope": 0.4269,
+  "r2": 0.877,
+  "rmse": 2.37,
+  "HUN": {
+   "core_2022": 477.2,
+   "ct": 30.94,
+   "ct_predicted": 32.55,
+   "residual": -1.6,
+   "residual_in_sd": -0.68,
+   "residual_leave_one_out": -1.65,
+   "rank_from_bottom": "12/61",
+   "percentile": 19.7
+  }
+ },
+ "oecd_linear": {
+  "n": 28,
+  "slope": 0.0915,
+  "r2": 0.771,
+  "rmse": 1.61,
+  "HUN": {
+   "core_2022": 477.2,
+   "ct": 30.94,
+   "ct_predicted": 33.07,
+   "residual": -2.12,
+   "residual_in_sd": -1.32,
+   "residual_leave_one_out": -2.2,
+   "rank_from_bottom": "3/28",
+   "percentile": 10.7
+  }
+ },
+ "oecd_quadratic": {
+  "n": 28,
+  "slope": -0.3557,
+  "r2": 0.8,
+  "rmse": 1.53,
+  "HUN": {
+   "core_2022": 477.2,
+   "ct": 30.94,
+   "ct_predicted": 32.67,
+   "residual": -1.73,
+   "residual_in_sd": -1.13,
+   "residual_leave_one_out": -1.83,
+   "rank_from_bottom": "4/28",
+   "percentile": 14.3
+  }
+ }
+}

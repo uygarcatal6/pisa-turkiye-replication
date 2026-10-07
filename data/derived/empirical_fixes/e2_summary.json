@@ -1,0 +1,431 @@
+{
+ "gate": {
+  "2025_MATH": {
+   "n": 88,
+   "max_mean_diff": 0.00306,
+   "max_mean_diff_excl_exceptions": 0.0005,
+   "exceptions": {
+    "BEL": 0.00306
+   }
+  },
+  "2025_READ": {
+   "n": 88,
+   "max_mean_diff": 0.01164,
+   "max_mean_diff_excl_exceptions": 0.0005,
+   "exceptions": {
+    "BEL": 0.01164
+   }
+  },
+  "2025_SCIE": {
+   "n": 89,
+   "max_mean_diff": 0.00316,
+   "max_mean_diff_excl_exceptions": 0.0005,
+   "exceptions": {
+    "BEL": 0.00316
+   }
+  },
+  "2025_CMPS": {
+   "n": 84,
+   "max_mean_diff": 0.00267,
+   "max_mean_diff_excl_exceptions": 0.00049,
+   "exceptions": {}
+  },
+  "failed": []
+ },
+ "n_ict_set": 43,
+ "n_ict_set_oecd": 23,
+ "ict_set": [
+  "ARE",
+  "ARG",
+  "AUS",
+  "AUT",
+  "BEL",
+  "BGR",
+  "BRN",
+  "CHE",
+  "DEU",
+  "DOM",
+  "ESP",
+  "EST",
+  "FIN",
+  "GEO",
+  "GRC",
+  "HKG",
+  "HUN",
+  "IRL",
+  "ISL",
+  "ISR",
+  "ITA",
+  "JOR",
+  "JPN",
+  "KOR",
+  "LBN",
+  "LUX",
+  "MAC",
+  "MAR",
+  "MNG",
+  "MYS",
+  "NLD",
+  "NZL",
+  "POL",
+  "QAT",
+  "QCI",
+  "QUA",
+  "ROU",
+  "SGP",
+  "SVN",
+  "TUR",
+  "TWN",
+  "URY",
+  "USA"
+ ],
+ "models": {
+  "country_slopes|PROG": {
+   "n": 43,
+   "median": 3.8052,
+   "iqr": [
+    -0.3142,
+    7.3203
+   ],
+   "tur_gamma": 4.9643,
+   "tur_se": 1.7273,
+   "tur_rank_from_bottom": 25
+  },
+  "country_slopes|ICTSCH": {
+   "n": 43,
+   "median": -0.0682,
+   "iqr": [
+    -0.9001,
+    0.8666
+   ],
+   "tur_gamma": 0.1083,
+   "tur_se": 0.6597,
+   "tur_rank_from_bottom": 25
+  },
+  "country_slopes|ICTSCH_school": {
+   "n": 40,
+   "median": 1.2758,
+   "iqr": [
+    -2.1548,
+    4.536
+   ],
+   "tur_gamma": -5.1139,
+   "tur_se": 3.3663,
+   "tur_rank_from_bottom": 5
+  },
+  "country_slopes|ROBOT": {
+   "n": 43,
+   "median": 3.0616,
+   "iqr": [
+    -0.696,
+    6.3219
+   ],
+   "tur_gamma": 5.0986,
+   "tur_se": 1.9115,
+   "tur_rank_from_bottom": 26
+  }
+ },
+ "shares": {
+  "PROG|ict44|tur_haric": {
+   "gamma": 3.984,
+   "x_tur": 0.391,
+   "x_ref": 0.4139,
+   "dx": -0.0229,
+   "explained_pts": -0.091,
+   "explained_pts_ci": [
+    -0.132,
+    -0.051
+   ],
+   "tur_country_resid": -30.36,
+   "share_of_resid": 0.003,
+   "share_ci": [
+    0.0017,
+    0.0043
+   ],
+   "primary": true
+  },
+  "PROG|ict44|tur_dahil": {
+   "gamma": 4.0457,
+   "x_tur": 0.391,
+   "x_ref": 0.4139,
+   "dx": -0.0229,
+   "explained_pts": -0.093,
+   "explained_pts_ci": [
+    -0.132,
+    -0.053
+   ],
+   "tur_country_resid": -30.36,
+   "share_of_resid": 0.003,
+   "share_ci": [
+    0.0017,
+    0.0044
+   ],
+   "primary": false
+  },
+  "PROG|ict_oecd|tur_haric": {
+   "gamma": 6.4829,
+   "x_tur": 0.391,
+   "x_ref": 0.3492,
+   "dx": 0.0418,
+   "explained_pts": 0.271,
+   "explained_pts_ci": [
+    0.165,
+    0.377
+   ],
+   "tur_country_resid": -31.13,
+   "share_of_resid": -0.0087,
+   "share_ci": [
+    -0.0121,
+    -0.0053
+   ],
+   "primary": true
+  },
+  "PROG|ict_oecd|tur_dahil": {
+   "gamma": 6.4841,
+   "x_tur": 0.391,
+   "x_ref": 0.3492,
+   "dx": 0.0418,
+   "explained_pts": 0.271,
+   "explained_pts_ci": [
+    0.17,
+    0.372
+   ],
+   "tur_country_resid": -31.13,
+   "share_of_resid": -0.0087,
+   "share_ci": [
+    -0.0119,
+    -0.0055
+   ],
+   "primary": false
+  },
+  "ICTSCH|ict44|tur_haric": {
+   "gamma": 0.1064,
+   "x_tur": 0.0912,
+   "x_ref": 0.2131,
+   "dx": -0.1219,
+   "explained_pts": -0.013,
+   "explained_pts_ci": [
+    -0.077,
+    0.051
+   ],
+   "tur_country_resid": -30.36,
+   "share_of_resid": 0.0004,
+   "share_ci": [
+    -0.0017,
+    0.0025
+   ],
+   "primary": true
+  },
+  "ICTSCH|ict44|tur_dahil": {
+   "gamma": 0.1168,
+   "x_tur": 0.0912,
+   "x_ref": 0.2131,
+   "dx": -0.1219,
+   "explained_pts": -0.014,
+   "explained_pts_ci": [
+    -0.076,
+    0.048
+   ],
+   "tur_country_resid": -30.36,
+   "share_of_resid": 0.0005,
+   "share_ci": [
+    -0.0016,
+    0.0025
+   ],
+   "primary": false
+  },
+  "ICTSCH|ict_oecd|tur_haric": {
+   "gamma": 0.0823,
+   "x_tur": 0.0912,
+   "x_ref": 0.3255,
+   "dx": -0.2343,
+   "explained_pts": -0.019,
+   "explained_pts_ci": [
+    -0.228,
+    0.189
+   ],
+   "tur_country_resid": -31.13,
+   "share_of_resid": 0.0006,
+   "share_ci": [
+    -0.0061,
+    0.0073
+   ],
+   "primary": true
+  },
+  "ICTSCH|ict_oecd|tur_dahil": {
+   "gamma": 0.1216,
+   "x_tur": 0.0912,
+   "x_ref": 0.3255,
+   "dx": -0.2343,
+   "explained_pts": -0.028,
+   "explained_pts_ci": [
+    -0.22,
+    0.163
+   ],
+   "tur_country_resid": -31.13,
+   "share_of_resid": 0.0009,
+   "share_ci": [
+    -0.0052,
+    0.0071
+   ],
+   "primary": false
+  },
+  "ICTSCH_school|ict44|tur_haric": {
+   "gamma": 2.462,
+   "x_tur": 0.0903,
+   "x_ref": 0.1997,
+   "dx": -0.1095,
+   "explained_pts": -0.27,
+   "explained_pts_ci": [
+    -0.475,
+    -0.064
+   ],
+   "tur_country_resid": -30.36,
+   "share_of_resid": 0.0089,
+   "share_ci": [
+    0.0021,
+    0.0156
+   ],
+   "primary": true
+  },
+  "ICTSCH_school|ict44|tur_dahil": {
+   "gamma": 2.4049,
+   "x_tur": 0.0903,
+   "x_ref": 0.1997,
+   "dx": -0.1095,
+   "explained_pts": -0.263,
+   "explained_pts_ci": [
+    -0.465,
+    -0.061
+   ],
+   "tur_country_resid": -30.36,
+   "share_of_resid": 0.0087,
+   "share_ci": [
+    0.002,
+    0.0153
+   ],
+   "primary": false
+  },
+  "ICTSCH_school|ict_oecd|tur_haric": {
+   "gamma": 2.2522,
+   "x_tur": 0.0903,
+   "x_ref": 0.3142,
+   "dx": -0.2239,
+   "explained_pts": -0.504,
+   "explained_pts_ci": [
+    -1.19,
+    0.181
+   ],
+   "tur_country_resid": -31.13,
+   "share_of_resid": 0.0162,
+   "share_ci": [
+    -0.0058,
+    0.0382
+   ],
+   "primary": true
+  },
+  "ICTSCH_school|ict_oecd|tur_dahil": {
+   "gamma": 2.1271,
+   "x_tur": 0.0903,
+   "x_ref": 0.3142,
+   "dx": -0.2239,
+   "explained_pts": -0.476,
+   "explained_pts_ci": [
+    -1.131,
+    0.178
+   ],
+   "tur_country_resid": -31.13,
+   "share_of_resid": 0.0153,
+   "share_ci": [
+    -0.0057,
+    0.0363
+   ],
+   "primary": false
+  },
+  "ROBOT|ict44|tur_haric": {
+   "gamma": 1.8379,
+   "x_tur": 0.3052,
+   "x_ref": 0.2962,
+   "dx": 0.009,
+   "explained_pts": 0.017,
+   "explained_pts_ci": [
+    -0.0,
+    0.033
+   ],
+   "tur_country_resid": -30.36,
+   "share_of_resid": -0.0005,
+   "share_ci": [
+    -0.0011,
+    0.0
+   ],
+   "primary": true
+  },
+  "ROBOT|ict44|tur_dahil": {
+   "gamma": 1.9215,
+   "x_tur": 0.3052,
+   "x_ref": 0.2962,
+   "dx": 0.009,
+   "explained_pts": 0.017,
+   "explained_pts_ci": [
+    0.001,
+    0.034
+   ],
+   "tur_country_resid": -30.36,
+   "share_of_resid": -0.0006,
+   "share_ci": [
+    -0.0011,
+    -0.0
+   ],
+   "primary": false
+  },
+  "ROBOT|ict_oecd|tur_haric": {
+   "gamma": 3.374,
+   "x_tur": 0.3052,
+   "x_ref": 0.2318,
+   "dx": 0.0734,
+   "explained_pts": 0.248,
+   "explained_pts_ci": [
+    0.05,
+    0.445
+   ],
+   "tur_country_resid": -31.13,
+   "share_of_resid": -0.008,
+   "share_ci": [
+    -0.0143,
+    -0.0016
+   ],
+   "primary": true
+  },
+  "ROBOT|ict_oecd|tur_dahil": {
+   "gamma": 3.4762,
+   "x_tur": 0.3052,
+   "x_ref": 0.2318,
+   "dx": 0.0734,
+   "explained_pts": 0.255,
+   "explained_pts_ci": [
+    0.067,
+    0.444
+   ],
+   "tur_country_resid": -31.13,
+   "share_of_resid": -0.0082,
+   "share_ci": [
+    -0.0142,
+    -0.0021
+   ],
+   "primary": false
+  }
+ },
+ "denominator_check": {
+  "ict44": {
+   "n_betik35": 44,
+   "n_this_set": 43,
+   "same_n": false
+  },
+  "ict_oecd": {
+   "n_betik35": 24,
+   "n_this_set": 23,
+   "same_n": false
+  }
+ },
+ "note": "E2 — ülke içi BİT/programlama gradyanı; ön-belirleme §0.4 (commit 476fe4e)."
+}

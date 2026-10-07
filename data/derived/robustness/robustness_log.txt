@@ -1,0 +1,19 @@
+== R1 leave-one-out (ana havuz: stabil OECD, katı kurallar) ==
+  math     temel 2025 açığı 50.4 | LOO aralığı 31.6 – 57.5
+  reading  temel 2025 açığı 34.1 | LOO aralığı 31.0 – 55.1
+  science  temel 2025 açığı 48.8 | LOO aralığı 29.6 – 48.8
+
+== R2 in-time placebo: sahte kırılma 2009 (ön 2003–2006, post 2009–2012) ==
+  math     donör=14 ön-RMSPE=0.0 | sahte-post açıkları 2009:+20.1 2012:+25.0 (ort +22.5)
+  reading  donör=14 ön-RMSPE=2.0 | sahte-post açıkları 2009:+18.6 2012:+28.7 (ort +23.7)
+  science: sahte ön dönem <2 gözlem, atlandı
+
+== R3 donör kuralı ızgarası (2025 açığı) ==
+  math     16 spesifikasyon | 2025 açığı medyan +50.4, aralık +42.9 – +70.8 | pozitif oran 100%
+  reading  16 spesifikasyon | 2025 açığı medyan +33.1, aralık +31.7 – +34.1 | pozitif oran 100%
+  science  16 spesifikasyon | 2025 açığı medyan +16.2, aralık -16.4 – +52.6 | pozitif oran 50%
+
+== R4 ön dönem duyarlılığı ==
+  math     2025 açığı: 2003-2006-2009-2012=+50.4  2006-2009-2012=+23.9  2009-2012=+31.9
+  reading  2025 açığı: 2003-2006-2009-2012=+34.1  2006-2009-2012=+29.7  2009-2012=+29.6
+  science  2025 açığı: 2006-2009-2012=+48.8  2006-2009-2012=+48.8  2009-2012=+43.8

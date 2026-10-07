@@ -1,0 +1,35 @@
+{
+ "xlsx_sha256": "14e958538fc68dc4bf25b47ad11c4f3f90035873aa96616925e5cea0af242fb8",
+ "m1_sha256": "a97857cb7cc3a650307f005720d7c917d13be475c19ab5386259d6e9b08cdfc7",
+ "script_sha256": "5f3606d785f938381f89a5df25bb132aa1a5aa9fc5117620aa8eeba9392db02c",
+ "n_with_sci": 85,
+ "unmatched_with_sci": [
+  "Uzbekistan"
+ ],
+ "turkiye": {
+  "sci": {
+   "value": -29.17127,
+   "se": 0.9688,
+   "rank_low_all": 9,
+   "rank_low_oecd": 1
+  },
+  "rea": {
+   "value": -28.70096,
+   "se": 1.04659,
+   "rank_low_all": 10,
+   "rank_low_oecd": 1
+  },
+  "mat": {
+   "value": -15.55935,
+   "se": 1.01276,
+   "rank_low_all": 18,
+   "rank_low_oecd": 2
+  }
+ },
+ "turkiye_sci_pct_higher": 30.6515,
+ "oecd_average": {
+  "sci": 8.64895,
+  "rea": 8.1338,
+  "mat": 10.69728
+ }
+}

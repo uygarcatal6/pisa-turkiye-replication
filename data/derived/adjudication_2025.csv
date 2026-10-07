@@ -1,0 +1,16 @@
+﻿iso3,country,flag_type,reason,source_file,page
+CAN,Canada,full reporting with asterisk,School response rate below standard (79% before / 82% after replacement; student 77%),data/pisa/2025/73451bc5-en.pdf,19
+CAN_AB,Alberta (Canada),full reporting with asterisk,Upward student non-response bias among Canadian provinces,data/pisa/2025/73451bc5-en.pdf,19
+CAN_BC,British Columbia (Canada),full reporting with asterisk,Upward student non-response bias among Canadian provinces,data/pisa/2025/73451bc5-en.pdf,19
+CAN_MB,Manitoba (Canada),full reporting with asterisk,Upward student non-response bias among Canadian provinces,data/pisa/2025/73451bc5-en.pdf,19
+CAN_NL,Newfoundland and Labrador (Canada),full reporting with asterisk,Upward student non-response bias among Canadian provinces,data/pisa/2025/73451bc5-en.pdf,19
+CAN_NS,Nova Scotia (Canada),full reporting with asterisk,Upward student non-response bias among Canadian provinces,data/pisa/2025/73451bc5-en.pdf,19
+CAN_ON,Ontario (Canada),full reporting with asterisk,Upward student non-response bias among Canadian provinces,data/pisa/2025/73451bc5-en.pdf,19
+CAN_QC,Quebec (Canada),full reporting with asterisk,Upward student non-response bias among Canadian provinces,data/pisa/2025/73451bc5-en.pdf,19
+NLD,Netherlands,full reporting with asterisk,Overall exclusion 9.3%; school RR 66%/88%; student RR 78%,data/pisa/2025/73451bc5-en.pdf,19
+NZL,New Zealand,full reporting with asterisk,Overall exclusion 8.1%; school RR 45%/52%; student RR 76%,data/pisa/2025/73451bc5-en.pdf,19
+NOR,Norway,full reporting with asterisk,Overall exclusion rate 10.4% (exceeds 5% standard),data/pisa/2025/73451bc5-en.pdf,19
+ESP_MC,Murcia (Spain),full reporting with asterisk,Within-school exclusion rose 4.1% -> 12.7%; potential upward bias,data/pisa/2025/73451bc5-en.pdf,20
+ALB,Albania,limited reporting with asterisk,School RR 76%; small schools (<21 eligible) not contacted -> coverage gap; no trend reporting,data/pisa/2025/73451bc5-en.pdf,20
+USA,United States,limited reporting with asterisk,Overall exclusion 6.9%; school RR 45%/54%; student RR 76%; >40% got no student questionnaire,data/pisa/2025/73451bc5-en.pdf,20
+ESP_CT,Catalonia (Spain),not reported separately,Within-school exclusion rose 5.6% -> 23.2%; not reported separately,data/pisa/2025/73451bc5-en.pdf,20

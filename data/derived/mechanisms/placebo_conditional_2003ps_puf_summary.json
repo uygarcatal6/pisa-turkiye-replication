@@ -1,0 +1,435 @@
+{
+ "note": "PISA 2003 problem cozme (KAGIT, cekirdekle ayni kitapcik rotasyonu → mod farki YOK). Ulke ortalamalari mikroveriden W_FSTUWT agirlikli; SE = BRR (Fay 0,5; 80 replikasyon) + Rubin.",
+ "why_not_2012": "2012 problem cozme/CBA PV'leri diskteki hicbir 2012 dosyasinda yok (ogrenci sozdizimi eksiksiz: maxpos 2348 = reclen 2348; bilissel dosyalarda yalniz PM/PR/PS onekleri). 2012 CBA ayri bir OECD yayini, klasorde degil.",
+ "source": "data/pisa_microdata/2003/INT_stui_2003_v2.zip (+ PISA2003_SPSS_student.txt sozdizimi)",
+ "engine": "analysis/_pisa_puf.py — 587 ulke x dongu x alan hucresinde yayimlanmis ortalama ve SE'yi birebir yeniden uretti (maks sapma 0,0005 = yayimlanmis degerin yuvarlamasi)",
+ "n_units_puf": 41,
+ "n_in_main_regression": 36,
+ "excluded": {
+  "GBR": "PISA 2003'te yanit orani standardi tutmadi; OECD ortalama yayimlamadi"
+ },
+ "not_in_panel_2003": [
+  "LIE",
+  "RUS",
+  "TUN",
+  "YUG"
+ ],
+ "bootstrap_draws": 2000,
+ "seed": 20260922,
+ "bootstrap_note": "PS ve cekirdek KORELASYONLU cekilir (brr_pv_corr); bagimsiz cekim Var(y-bx)'i abartip araligi gereksiz genisletiyordu — Opus 4.8 denetimi 22 Eyl, D2a.",
+ "focus_status": {
+  "TUR": "participated",
+  "HUN": "participated",
+  "SWE": "participated",
+  "GEO": "not in PISA 2003"
+ },
+ "mode_note": "2003 problem cozme ve cekirdek AYNI kagit kitapciklarda uygulandi; betik 25'in 2012 icin tasidigi mod uyarisi burada gecerli DEGIL.",
+ "all_linear_core": {
+  "n": 36,
+  "slope": 1.1821,
+  "r2": 0.967,
+  "rmse": 9.31,
+  "TUR": {
+   "core_2003": 432.9,
+   "ps2003": 407.5,
+   "ps2003_se": 6.03,
+   "ps_predicted": 423.9,
+   "residual": -16.4,
+   "residual_ci95": [
+    -19.9,
+    -13.1
+   ],
+   "residual_in_sd": -1.76,
+   "residual_leave_one_out": -17.8,
+   "rank_from_bottom": "1/36",
+   "percentile": 2.8
+  },
+  "HUN": {
+   "core_2003": 491.7,
+   "ps2003": 501.1,
+   "ps2003_se": 2.86,
+   "ps_predicted": 493.5,
+   "residual": 7.6,
+   "residual_ci95": [
+    5.9,
+    9.3
+   ],
+   "residual_in_sd": 0.81,
+   "residual_leave_one_out": 7.8,
+   "rank_from_bottom": "28/36",
+   "percentile": 77.8
+  },
+  "SWE": {
+   "core_2003": 509.8,
+   "ps2003": 508.6,
+   "ps2003_se": 2.44,
+   "ps_predicted": 514.9,
+   "residual": -6.3,
+   "residual_ci95": [
+    -8.8,
+    -3.7
+   ],
+   "residual_in_sd": -0.68,
+   "residual_leave_one_out": -6.5,
+   "rank_from_bottom": "9/36",
+   "percentile": 25.0
+  }
+ },
+ "all_quadratic_core": {
+  "n": 36,
+  "slope": 0.7377,
+  "r2": 0.967,
+  "rmse": 9.4,
+  "TUR": {
+   "core_2003": 432.9,
+   "ps2003": 407.5,
+   "ps2003_se": 6.03,
+   "ps_predicted": 423.2,
+   "residual": -15.7,
+   "residual_ci95": [
+    -19.2,
+    -12.6
+   ],
+   "residual_in_sd": -1.67,
+   "residual_leave_one_out": -17.3,
+   "rank_from_bottom": "1/36",
+   "percentile": 2.8
+  },
+  "HUN": {
+   "core_2003": 491.7,
+   "ps2003": 501.1,
+   "ps2003_se": 2.86,
+   "ps_predicted": 492.7,
+   "residual": 8.3,
+   "residual_ci95": [
+    6.4,
+    10.1
+   ],
+   "residual_in_sd": 0.89,
+   "residual_leave_one_out": 8.7,
+   "rank_from_bottom": "28/36",
+   "percentile": 77.8
+  },
+  "SWE": {
+   "core_2003": 509.8,
+   "ps2003": 508.6,
+   "ps2003_se": 2.44,
+   "ps_predicted": 514.8,
+   "residual": -6.2,
+   "residual_ci95": [
+    -8.9,
+    -3.5
+   ],
+   "residual_in_sd": -0.66,
+   "residual_leave_one_out": -6.5,
+   "rank_from_bottom": "9/36",
+   "percentile": 25.0
+  }
+ },
+ "all_linear_core_mr": {
+  "n": 36,
+  "slope": 1.1409,
+  "r2": 0.96,
+  "rmse": 10.27,
+  "TUR": {
+   "core_2003": 432.2,
+   "ps2003": 407.5,
+   "ps2003_se": 6.03,
+   "ps_predicted": 426.9,
+   "residual": -19.4,
+   "residual_ci95": [
+    -23.5,
+    -15.3
+   ],
+   "residual_in_sd": -1.89,
+   "residual_leave_one_out": -21.0,
+   "rank_from_bottom": "1/36",
+   "percentile": 2.8
+  },
+  "HUN": {
+   "core_2003": 485.9,
+   "ps2003": 501.1,
+   "ps2003_se": 2.86,
+   "ps_predicted": 488.3,
+   "residual": 12.8,
+   "residual_ci95": [
+    11.1,
+    14.5
+   ],
+   "residual_in_sd": 1.25,
+   "residual_leave_one_out": 13.2,
+   "rank_from_bottom": "33/36",
+   "percentile": 91.7
+  },
+  "SWE": {
+   "core_2003": 511.7,
+   "ps2003": 508.6,
+   "ps2003_se": 2.44,
+   "ps_predicted": 517.6,
+   "residual": -9.0,
+   "residual_ci95": [
+    -11.4,
+    -6.6
+   ],
+   "residual_in_sd": -0.88,
+   "residual_leave_one_out": -9.4,
+   "rank_from_bottom": "9/36",
+   "percentile": 25.0
+  }
+ },
+ "all_quadratic_core_mr": {
+  "n": 36,
+  "slope": 0.6613,
+  "r2": 0.96,
+  "rmse": 10.36,
+  "TUR": {
+   "core_2003": 432.2,
+   "ps2003": 407.5,
+   "ps2003_se": 6.03,
+   "ps_predicted": 426.0,
+   "residual": -18.5,
+   "residual_ci95": [
+    -22.2,
+    -14.8
+   ],
+   "residual_in_sd": -1.78,
+   "residual_leave_one_out": -20.4,
+   "rank_from_bottom": "1/36",
+   "percentile": 2.8
+  },
+  "HUN": {
+   "core_2003": 485.9,
+   "ps2003": 501.1,
+   "ps2003_se": 2.86,
+   "ps_predicted": 487.3,
+   "residual": 13.8,
+   "residual_ci95": [
+    11.9,
+    15.5
+   ],
+   "residual_in_sd": 1.33,
+   "residual_leave_one_out": 14.5,
+   "rank_from_bottom": "34/36",
+   "percentile": 94.4
+  },
+  "SWE": {
+   "core_2003": 511.7,
+   "ps2003": 508.6,
+   "ps2003_se": 2.44,
+   "ps_predicted": 517.7,
+   "residual": -9.1,
+   "residual_ci95": [
+    -11.6,
+    -6.5
+   ],
+   "residual_in_sd": -0.88,
+   "residual_leave_one_out": -9.4,
+   "rank_from_bottom": "10/36",
+   "percentile": 27.8
+  }
+ },
+ "oecd_linear_core": {
+  "n": 30,
+  "slope": 1.2112,
+  "r2": 0.94,
+  "rmse": 9.29,
+  "TUR": {
+   "core_2003": 432.9,
+   "ps2003": 407.5,
+   "ps2003_se": 6.03,
+   "ps_predicted": 421.2,
+   "residual": -13.7,
+   "residual_ci95": [
+    -17.6,
+    -10.4
+   ],
+   "residual_in_sd": -1.47,
+   "residual_leave_one_out": -17.0,
+   "rank_from_bottom": "1/30",
+   "percentile": 3.3
+  },
+  "HUN": {
+   "core_2003": 491.7,
+   "ps2003": 501.1,
+   "ps2003_se": 2.86,
+   "ps_predicted": 492.5,
+   "residual": 8.6,
+   "residual_ci95": [
+    6.8,
+    10.2
+   ],
+   "residual_in_sd": 0.92,
+   "residual_leave_one_out": 8.9,
+   "rank_from_bottom": "24/30",
+   "percentile": 80.0
+  },
+  "SWE": {
+   "core_2003": 509.8,
+   "ps2003": 508.6,
+   "ps2003_se": 2.44,
+   "ps_predicted": 514.4,
+   "residual": -5.8,
+   "residual_ci95": [
+    -8.5,
+    -3.2
+   ],
+   "residual_in_sd": -0.63,
+   "residual_leave_one_out": -6.1,
+   "rank_from_bottom": "8/30",
+   "percentile": 26.7
+  }
+ },
+ "oecd_quadratic_core": {
+  "n": 30,
+  "slope": 1.4743,
+  "r2": 0.941,
+  "rmse": 9.45,
+  "TUR": {
+   "core_2003": 432.9,
+   "ps2003": 407.5,
+   "ps2003_se": 6.03,
+   "ps_predicted": 421.0,
+   "residual": -13.5,
+   "residual_ci95": [
+    -17.7,
+    -9.7
+   ],
+   "residual_in_sd": -1.43,
+   "residual_leave_one_out": -16.9,
+   "rank_from_bottom": "2/30",
+   "percentile": 6.7
+  },
+  "HUN": {
+   "core_2003": 491.7,
+   "ps2003": 501.1,
+   "ps2003_se": 2.86,
+   "ps_predicted": 492.8,
+   "residual": 8.3,
+   "residual_ci95": [
+    6.5,
+    10.0
+   ],
+   "residual_in_sd": 0.88,
+   "residual_leave_one_out": 8.7,
+   "rank_from_bottom": "23/30",
+   "percentile": 76.7
+  },
+  "SWE": {
+   "core_2003": 509.8,
+   "ps2003": 508.6,
+   "ps2003_se": 2.44,
+   "ps_predicted": 514.5,
+   "residual": -5.9,
+   "residual_ci95": [
+    -8.4,
+    -3.3
+   ],
+   "residual_in_sd": -0.62,
+   "residual_leave_one_out": -6.1,
+   "rank_from_bottom": "8/30",
+   "percentile": 26.7
+  }
+ },
+ "oecd_linear_core_mr": {
+  "n": 30,
+  "slope": 1.1694,
+  "r2": 0.929,
+  "rmse": 10.14,
+  "TUR": {
+   "core_2003": 432.2,
+   "ps2003": 407.5,
+   "ps2003_se": 6.03,
+   "ps_predicted": 424.0,
+   "residual": -16.5,
+   "residual_ci95": [
+    -20.9,
+    -12.4
+   ],
+   "residual_in_sd": -1.62,
+   "residual_leave_one_out": -20.1,
+   "rank_from_bottom": "1/30",
+   "percentile": 3.3
+  },
+  "HUN": {
+   "core_2003": 485.9,
+   "ps2003": 501.1,
+   "ps2003_se": 2.86,
+   "ps_predicted": 486.8,
+   "residual": 14.2,
+   "residual_ci95": [
+    12.4,
+    15.9
+   ],
+   "residual_in_sd": 1.4,
+   "residual_leave_one_out": 14.8,
+   "rank_from_bottom": "29/30",
+   "percentile": 96.7
+  },
+  "SWE": {
+   "core_2003": 511.7,
+   "ps2003": 508.6,
+   "ps2003_se": 2.44,
+   "ps_predicted": 516.9,
+   "residual": -8.3,
+   "residual_ci95": [
+    -10.8,
+    -5.7
+   ],
+   "residual_in_sd": -0.82,
+   "residual_leave_one_out": -8.7,
+   "rank_from_bottom": "8/30",
+   "percentile": 26.7
+  }
+ },
+ "oecd_quadratic_core_mr": {
+  "n": 30,
+  "slope": 1.499,
+  "r2": 0.929,
+  "rmse": 10.31,
+  "TUR": {
+   "core_2003": 432.2,
+   "ps2003": 407.5,
+   "ps2003_se": 6.03,
+   "ps_predicted": 423.8,
+   "residual": -16.3,
+   "residual_ci95": [
+    -20.9,
+    -11.6
+   ],
+   "residual_in_sd": -1.58,
+   "residual_leave_one_out": -20.0,
+   "rank_from_bottom": "1/30",
+   "percentile": 3.3
+  },
+  "HUN": {
+   "core_2003": 485.9,
+   "ps2003": 501.1,
+   "ps2003_se": 2.86,
+   "ps_predicted": 487.3,
+   "residual": 13.8,
+   "residual_ci95": [
+    11.9,
+    15.6
+   ],
+   "residual_in_sd": 1.34,
+   "residual_leave_one_out": 14.7,
+   "rank_from_bottom": "29/30",
+   "percentile": 96.7
+  },
+  "SWE": {
+   "core_2003": 511.7,
+   "ps2003": 508.6,
+   "ps2003_se": 2.44,
+   "ps_predicted": 516.9,
+   "residual": -8.3,
+   "residual_ci95": [
+    -10.7,
+    -5.9
+   ],
+   "residual_in_sd": -0.81,
+   "residual_leave_one_out": -8.7,
+   "rank_from_bottom": "8/30",
+   "percentile": 26.7
+  }
+ }
+}

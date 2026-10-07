@@ -1,0 +1,14 @@
+
+Model formula:
+change_avg ~ libdem_2013 + delta_libdem + cpi_mean + cc_2015 + 
+    coverage_2015 + level_2015 + oecd + paper2015
+
+Fitted party:
+[1] root
+|   [2] libdem_2013 <= 0.456: 2.105 (n = 14, err = 4987.3)
+|   [3] libdem_2013 > 0.456
+|   |   [4] coverage_2015 <= 0.90612: -14.596 (n = 20, err = 2704.6)
+|   |   [5] coverage_2015 > 0.90612: -22.997 (n = 27, err = 5858.1)
+
+Number of inner nodes:    2
+Number of terminal nodes: 3

@@ -1,0 +1,52 @@
+﻿cycle,domain,iso3,scope,spec,n,core,domain_score,predicted,residual,resid_sd,residual_loo,rank_low,rank,pctile,status
+2012,"yaratıcı problem çözme (PS 2012, yayımlanmış)",GEO,,,,,,,,,,,,,not in PISA 2012
+2012,"yaratıcı problem çözme (PS 2012, yayımlanmış)",HUN,all,linear,40.0,486.6,459.0,485.31,-26.314273570281387,-1.5544983271119337,-27.0,4.0,4/40,10.0,participated
+2012,"yaratıcı problem çözme (PS 2012, yayımlanmış)",HUN,all,quadratic,40.0,486.6,459.0,482.73,-23.72823129821705,-1.4029228610428472,-24.9,4.0,4/40,10.0,participated
+2012,"yaratıcı problem çözme (PS 2012, yayımlanmış)",HUN,oecd,linear,28.0,486.6,459.0,486.25,-27.248931323375416,-1.804383111323531,-28.4,2.0,2/28,7.1,participated
+2012,"yaratıcı problem çözme (PS 2012, yayımlanmış)",HUN,oecd,quadratic,28.0,486.6,459.0,484.9,-25.898557456220374,-1.6931972669589024,-27.6,2.0,2/28,7.1,participated
+2012,"yaratıcı problem çözme (PS 2012, yayımlanmış)",SWE,all,linear,40.0,482.1,491.0,480.93,10.072114588115651,0.5950035153312446,10.3,28.0,28/40,70.0,participated
+2012,"yaratıcı problem çözme (PS 2012, yayımlanmış)",SWE,all,quadratic,40.0,482.1,491.0,478.22,12.78376130424067,0.7558351382549855,13.5,31.0,31/40,77.5,participated
+2012,"yaratıcı problem çözme (PS 2012, yayımlanmış)",SWE,oecd,linear,28.0,482.1,491.0,482.01,8.986789585216798,0.5950916445179218,9.4,19.0,19/28,67.9,participated
+2012,"yaratıcı problem çözme (PS 2012, yayımlanmış)",SWE,oecd,quadratic,28.0,482.1,491.0,480.58,10.424082814305166,0.6815062407074548,11.2,20.0,20/28,71.4,participated
+2012,"yaratıcı problem çözme (PS 2012, yayımlanmış)",TUR,all,linear,40.0,462.3,454.0,461.47,-7.466149642294965,-0.4410578577408465,-7.7,13.0,13/40,32.5,participated
+2012,"yaratıcı problem çözme (PS 2012, yayımlanmış)",TUR,all,quadratic,40.0,462.3,454.0,458.88,-4.87863240381995,-0.28844732858187,-5.2,16.0,16/40,40.0,participated
+2012,"yaratıcı problem çözme (PS 2012, yayımlanmış)",TUR,oecd,linear,28.0,462.3,454.0,463.22,-9.219962270763062,-0.6105319878777625,-10.0,7.0,7/28,25.0,participated
+2012,"yaratıcı problem çözme (PS 2012, yayımlanmış)",TUR,oecd,quadratic,28.0,462.3,454.0,461.91,-7.911241980082877,-0.5172215989856049,-8.8,8.0,8/28,28.6,participated
+2015,işbirlikli problem çözme (CPS 2015),GEO,,,,,,,,,,,,,did_not_participate (Option_CPS=0)
+2015,işbirlikli problem çözme (CPS 2015),HUN,all,linear,47.0,474.4,472.15,483.82,-11.66214762027596,-1.0903882903356927,-11.9,8.0,8/47,17.0,participated
+2015,işbirlikli problem çözme (CPS 2015),HUN,all,quadratic,47.0,474.4,472.15,480.04,-7.880986409633579,-0.7742003140804957,-8.3,14.0,14/47,29.8,participated
+2015,işbirlikli problem çözme (CPS 2015),HUN,oecd,linear,35.0,474.4,472.15,483.88,-11.722130930068149,-1.020327269838123,-12.1,6.0,6/35,17.1,participated
+2015,işbirlikli problem çözme (CPS 2015),HUN,oecd,quadratic,35.0,474.4,472.15,478.89,-6.737045747000195,-0.6308642933920064,-7.2,10.0,10/35,28.6,participated
+2015,işbirlikli problem çözme (CPS 2015),SWE,all,linear,47.0,495.8,509.61,504.85,4.762574487362372,0.4452915210782217,4.9,31.0,31/47,66.0,participated
+2015,işbirlikli problem çözme (CPS 2015),SWE,all,quadratic,47.0,495.8,509.61,502.69,6.915002118208918,0.679305423651092,7.1,35.0,35/47,74.5,participated
+2015,işbirlikli problem çözme (CPS 2015),SWE,oecd,linear,35.0,495.8,509.61,505.53,4.078082223431807,0.3549677550978666,4.2,21.0,21/35,60.0,participated
+2015,işbirlikli problem çözme (CPS 2015),SWE,oecd,quadratic,35.0,495.8,509.61,503.33,6.281722480731958,0.5882273273647007,6.5,27.0,27/35,77.1,participated
+2015,işbirlikli problem çözme (CPS 2015),TUR,all,linear,47.0,424.8,422.36,435.21,-12.850873359725426,-1.2015318523038845,-13.7,5.0,5/47,10.6,participated
+2015,işbirlikli problem çözme (CPS 2015),TUR,all,quadratic,47.0,424.8,422.36,435.45,-13.090307151443938,-1.2859456140756438,-13.9,5.0,5/47,10.6,participated
+2015,işbirlikli problem çözme (CPS 2015),TUR,oecd,linear,35.0,424.8,422.36,433.83,-11.467534371139834,-0.9981664687490333,-13.3,8.0,8/35,22.9,participated
+2015,işbirlikli problem çözme (CPS 2015),TUR,oecd,quadratic,35.0,424.8,422.36,436.9,-14.541645832774236,-1.361695536524263,-17.1,2.0,2/35,5.7,participated
+2018,küresel yetkinlik bilişsel testi,GEO,,,,,,,,,,,,,no cognitive test (PV1GLCM all missing)
+2018,küresel yetkinlik bilişsel testi,HUN,,,,,,,,,,,,,no cognitive test (PV1GLCM all missing)
+2018,küresel yetkinlik bilişsel testi,SWE,,,,,,,,,,,,,no cognitive test (PV1GLCM all missing)
+2018,küresel yetkinlik bilişsel testi,TUR,,,,,,,,,,,,,no cognitive test (PV1GLCM all missing)
+2022,yaratıcı düşünme (0–60 ölçeği),GEO,,,,,,,,,,,,,did_not_participate (Table III.B1.2.1 'm'; not in CRT microdata)
+2022,yaratıcı düşünme (0–60 ölçeği),HUN,all,linear,61.0,477.2,30.94,31.97,-1.0279310053533983,-0.3995550351677656,-1.05,16.0,16/61,26.2,participated
+2022,yaratıcı düşünme (0–60 ölçeği),HUN,all,quadratic,61.0,477.2,30.94,32.55,-1.6035464337957066,-0.67757549595108,-1.65,12.0,12/61,19.7,participated
+2022,yaratıcı düşünme (0–60 ölçeği),HUN,oecd,linear,28.0,477.2,30.94,33.07,-2.1230559907880533,-1.3227575373889164,-2.2,3.0,3/28,10.7,participated
+2022,yaratıcı düşünme (0–60 ölçeği),HUN,oecd,quadratic,28.0,477.2,30.94,32.67,-1.726837762422548,-1.1286996325875671,-1.83,4.0,4/28,14.3,participated
+2022,yaratıcı düşünme (0–60 ölçeği),SWE,,,,,,,,,,,,,not_in_table (no row in Table III.B1.2.1; not in CRT microdata)
+2022,yaratıcı düşünme (0–60 ölçeği),TUR,,,,,,,,,,,,,did_not_participate (Table III.B1.2.1 'm'; not in CRT microdata)
+2025,hesaplamalı problem çözme (CPS 2025),GEO,all,linear,84.0,407.6,413.34,435.31,-21.97609463054397,-1.1338716764328358,-22.3,9.0,9/84,10.7,participated
+2025,hesaplamalı problem çözme (CPS 2025),GEO,all,quadratic,84.0,407.6,413.34,439.52,-26.180663345587675,-1.461562154560024,-26.7,8.0,8/84,9.5,participated
+2025,hesaplamalı problem çözme (CPS 2025),HUN,all,linear,84.0,463.9,495.03,492.39,2.647300449720831,0.1365892825549804,2.7,46.0,46/84,54.8,participated
+2025,hesaplamalı problem çözme (CPS 2025),HUN,all,quadratic,84.0,463.9,495.03,497.31,-2.279496669139576,-0.1272552195902067,-2.3,33.0,33/84,39.3,participated
+2025,hesaplamalı problem çözme (CPS 2025),HUN,oecd,linear,38.0,463.9,495.03,495.92,-0.8887831320422492,-0.0830697399477165,-0.9,13.0,13/38,34.2,participated
+2025,hesaplamalı problem çözme (CPS 2025),HUN,oecd,quadratic,38.0,463.9,495.03,495.15,-0.1209303610668826,-0.0111923402966094,-0.1,15.0,15/38,39.5,participated
+2025,hesaplamalı problem çözme (CPS 2025),SWE,all,linear,84.0,471.9,502.62,500.52,2.103655074371318,0.1085395265134424,2.1,43.0,43/84,51.2,participated
+2025,hesaplamalı problem çözme (CPS 2025),SWE,all,quadratic,84.0,471.9,502.62,504.43,-1.8102734597432573,-0.1010603567694206,-1.8,37.0,37/84,44.0,participated
+2025,hesaplamalı problem çözme (CPS 2025),SWE,oecd,linear,38.0,471.9,502.62,502.86,-0.2324300325972785,-0.0217239748008374,-0.2,17.0,17/38,44.7,participated
+2025,hesaplamalı problem çözme (CPS 2025),SWE,oecd,quadratic,38.0,471.9,502.62,502.21,0.409369749327368,0.0378879671009627,0.4,17.0,17/38,44.7,participated
+2025,hesaplamalı problem çözme (CPS 2025),TUR,all,linear,84.0,476.0,472.86,504.61,-31.753957080857333,-1.6383671964447124,-32.3,5.0,5/84,6.0,participated
+2025,hesaplamalı problem çözme (CPS 2025),TUR,all,quadratic,84.0,476.0,472.86,507.91,-35.053448164456995,-1.9568943898679456,-35.8,3.0,3/84,3.6,participated
+2025,hesaplamalı problem çözme (CPS 2025),TUR,oecd,linear,38.0,476.0,472.86,506.34,-33.4866807032389,-3.129818464644354,-34.5,1.0,1/38,2.6,participated
+2025,hesaplamalı problem çözme (CPS 2025),TUR,oecd,quadratic,38.0,476.0,472.86,505.81,-32.95051162585952,-3.0496339861255963,-34.2,1.0,1/38,2.6,participated

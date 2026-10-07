@@ -1,0 +1,44 @@
+﻿grafik,sayfa,gosterge,kategori,olcum,deger,grafik_blogunda_bulundu,source_file
+Grafik 1.1,33,okul türü payı,Anadolu Lisesi,örneklem,46.6,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 1.1,33,okul türü payı,Anadolu Lisesi,evren,47.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 1.1,33,okul türü payı,Mesleki ve Teknik Anadolu Lisesi,örneklem,32.8,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 1.1,33,okul türü payı,Mesleki ve Teknik Anadolu Lisesi,evren,28.9,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 1.1,33,okul türü payı,Anadolu İmam Hatip Lisesi,örneklem,9.5,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 1.1,33,okul türü payı,Anadolu İmam Hatip Lisesi,evren,10.3,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 1.1,33,okul türü payı,Fen Lisesi,örneklem,5.9,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 1.1,33,okul türü payı,Fen Lisesi,evren,5.3,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 1.1,33,okul türü payı,Sosyal Bilimler Lisesi,örneklem,3.2,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 1.1,33,okul türü payı,Sosyal Bilimler Lisesi,evren,0.9,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 1.1,33,okul türü payı,Çok Programlı Anadolu Lisesi,örneklem,1.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 1.1,33,okul türü payı,Çok Programlı Anadolu Lisesi,evren,3.6,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 1.1,33,okul türü payı,Anadolu Güzel Sanatlar/Spor Lisesi,örneklem,0.9,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 1.1,33,okul türü payı,Anadolu Güzel Sanatlar/Spor Lisesi,evren,1.1,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+metin s.33,33,okul türü payı,Ortaokul,örneklem,0.1,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 1.2,34,sınıf düzeyi payı,10. sınıf,örneklem,65.1,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 1.2,34,sınıf düzeyi payı,9. sınıf,örneklem,21.2,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 1.2,34,sınıf düzeyi payı,11. sınıf,örneklem,13.7,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 1.2,34,sınıf düzeyi payı,8. sınıf,örneklem,0.1,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 3.12,78,fen değişimi 2022→2025,Fen Lisesi,puan farkı,18.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 3.12,78,fen değişimi 2022→2025,Sosyal Bilimler Lisesi,puan farkı,29.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 3.12,78,fen değişimi 2022→2025,Anadolu Lisesi,puan farkı,22.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 3.12,78,fen değişimi 2022→2025,Çok Programlı Anadolu Lisesi,puan farkı,78.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 3.12,78,fen değişimi 2022→2025,Anadolu İmam Hatip Lisesi,puan farkı,26.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 3.12,78,fen değişimi 2022→2025,Anadolu Güzel Sanatlar/Spor Lisesi,puan farkı,13.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 3.12,78,fen değişimi 2022→2025,Mesleki ve Teknik Anadolu Lisesi,puan farkı,15.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 3.13,79,fen ortalaması,Resmî okul,PISA 2022,479.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 3.13,79,fen ortalaması,Özel okul,PISA 2022,465.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 3.13,79,fen ortalaması,Resmî okul,PISA 2025,497.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 3.13,79,fen ortalaması,Özel okul,PISA 2025,475.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 4.11,119,okuma ortalaması,Resmî okul,PISA 2022,458.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 4.11,119,okuma ortalaması,Özel okul,PISA 2022,448.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 4.11,119,okuma ortalaması,Resmî okul,PISA 2025,475.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 4.11,119,okuma ortalaması,Özel okul,PISA 2025,449.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 5.11,139,matematik ortalaması,Resmî okul,PISA 2022,455.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 5.11,139,matematik ortalaması,Özel okul,PISA 2022,447.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 5.11,139,matematik ortalaması,Resmî okul,PISA 2025,464.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 5.11,139,matematik ortalaması,Özel okul,PISA 2025,444.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 6.4,152,CPS ortalaması,Resmî okul,PISA 2025,475.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+Grafik 6.4,152,CPS ortalaması,Özel okul,PISA 2025,453.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+metin s.33,33,uygulama,okul sayısı,adet,203.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+metin s.33,33,uygulama,öğrenci sayısı,adet,7702.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf
+metin s.33,33,uygulama,il sayısı,adet,56.0,True,docs\national_reports_meb\PISA2025TurkiyeRaporu.pdf

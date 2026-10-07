@@ -1,0 +1,34 @@
+{
+  "question": "Türkiye'nin 2015 atipik düşüşü bilgisayar aşinalığıyla açıklanıyor mu?",
+  "answer": "Hayır — eldeki ICT ölçüleriyle açıklanmıyor.",
+  "tur_2015_ict_module_administered": false,
+  "tur_2015_module_coverage_pct": {
+    "ICTHOME": 0.0,
+    "ICTSCH": 0.0,
+    "COMPICT": 0.0,
+    "ENTUSE": 0.0,
+    "HOMESCH": 0.0,
+    "USESCH": 0.0,
+    "INTICT": 0.0,
+    "AUTICT": 0.0,
+    "SOIAICT": 0.0
+  },
+  "tur_2015_ictres_coverage_pct": 98.8,
+  "n_countries_administering_module_2015": 46,
+  "n_countries_total_2015": 73,
+  "tur_2018_ict_module_administered": true,
+  "tur_2018_compict": -0.11666753251213384,
+  "key_result": "ICTRES (Türkiye'de mevcut) ile geçiş cezası arasında ülkeler-arası ilişki sıfıra yakın; model Türkiye için -2 ila -4 puanlık bir ceza öngörüyor, gözlenen ise -27,5 / -47,2 / -37,9. COMPICT (2018 vekil) ile model -4 ila -8 puan öngörüyor. Gözlenen düşüşü üretmek için gereken COMPICT değeri örneklem aralığının tamamen dışında.",
+  "caveats": [
+    "Ülkeler-arası korelasyon zayıf bir testtir (n=43-50, cezalar gürültülü).",
+    "Türkiye'nin 2015 COMPICT'i gerçekten yoktur; 2018 vekili kalıcılık varsayar.",
+    "2018 aşinalığı 2015'ten muhtemelen YÜKSEKTİR; vekil bu yönde muhafazakârdır, ama gereken değerle aradaki fark bu düzeltmeyle kapanmaz.",
+    "ICTRES ev olanaklarını ölçer ve ESCS bileşenidir; SES ile eşdoğrusaldır.",
+    "Etkileşimler (düşük aşinalık x ilk döngü x platform) bu tasarımla saptanamaz."
+  ],
+  "sources": {
+    "scores_change": "data/derived/mode_transition_2015/cba2015_changes.csv",
+    "pisa_2015_stu_qqq": "data/pisa_microdata/2015/PUF_SPSS_COMBINED_CMB_STU_QQQ.zip",
+    "pisa_2018_stu_qqq": "data/pisa_microdata/2018/SPSS_STU_QQQ.zip"
+  }
+}

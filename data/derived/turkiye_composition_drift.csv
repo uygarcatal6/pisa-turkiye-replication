@@ -1,0 +1,13 @@
+category_code,category_label,share_2015,share_2018,share_2022,share_2025,delta_2018_2025,max_minus_min_2018_2025,flag_gt5pp,note
+anadolu,Anadolu lisesi,,0.4597,0.5749,0.4559,-0.0038,0.1191,YES,
+meslek,Mesleki ve teknik Anadolu lisesi,,0.3149,0.2435,0.2709,-0.044,0.0714,YES,
+imam_hatip,Anadolu imam hatip lisesi,,0.1273,0.1021,0.0949,-0.0324,0.0324,no,
+fen,Fen lisesi,,0.0405,0.0564,0.0447,0.0042,0.0159,no,
+sosyal,Sosyal bilimler lisesi,,0.0144,0.0091,0.0106,-0.0039,0.0053,no,
+cok_programli,Çok programlı Anadolu lisesi,,0.0334,,,,,,
+spor_guzel,Anadolu spor / güzel sanatlar lisesi,,0.0048,0.012,0.012,0.0072,0.0072,no,
+ozel_genel,Özel genel lise,,,,0.0786,,,,Ozel liseler yalnizca 2025'te ayri tabaka; onceki dongularde Anadolu vb. icine gomulu
+ozel_meslek,Özel mesleki lise,,,,0.0319,,,,Ozel liseler yalnizca 2025'te ayri tabaka; onceki dongularde Anadolu vb. icine gomulu
+ortaokul,Ortaokul (temel eğitim),0.0322,0.0051,0.0019,0.0006,-0.0045,0.0045,no,
+genel_ortaogretim_2015,Genel ortaöğretim (2015 birleşik),0.5537,,,,,,,2015 yalnizca kaba tabaka; fine kategorilerle karsilastirilamaz
+meslek_2015,Mesleki ve teknik (2015 birleşik),0.4141,,,,,,,2015 yalnizca kaba tabaka; fine kategorilerle karsilastirilamaz

@@ -1,0 +1,2291 @@
+{
+ "note": "A1 — koşullu artığın döngüler arası değişimi; birincil ölçü d_sd (RMSE birimi); sıra alttan (1 = en olumsuz); p_lower = sıra/N",
+ "inputs": [
+  "placebo_conditional_2003ps_puf.csv (core_def mat/oku/fen)",
+  "placebo_conditional_2012ps_puf.csv (core_def PUF mat/oku/fen)",
+  "placebo_conditional_2015cps.csv",
+  "placebo_conditional_2025.csv"
+ ],
+ "results": {
+  "2003->2012|all/linear": {
+   "n": 27,
+   "rmse_common_refit": [
+    9.74,
+    15.07
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": -2.41,
+     "rank_from_bottom": 1,
+     "p_lower": 0.037
+    },
+    "d_pts": {
+     "value": -33.98,
+     "rank_from_bottom": 1,
+     "p_lower": 0.037
+    },
+    "d_pct": {
+     "value": -68.02,
+     "rank_from_bottom": 1,
+     "p_lower": 0.037
+    },
+    "d_pts_cr": {
+     "value": -37.65,
+     "rank_from_bottom": 1,
+     "p_lower": 0.037
+    },
+    "d_sd_cr": {
+     "value": -2.8,
+     "rank_from_bottom": 1,
+     "p_lower": 0.037
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": 1.26,
+     "rank_from_bottom": 24,
+     "p_lower": 0.889
+    },
+    "d_pts": {
+     "value": 16.02,
+     "rank_from_bottom": 23,
+     "p_lower": 0.852
+    },
+    "d_pct": {
+     "value": 43.29,
+     "rank_from_bottom": 25,
+     "p_lower": 0.926
+    },
+    "d_pts_cr": {
+     "value": 12.66,
+     "rank_from_bottom": 23,
+     "p_lower": 0.852
+    },
+    "d_sd_cr": {
+     "value": 1.07,
+     "rank_from_bottom": 24,
+     "p_lower": 0.889
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": 1.34,
+     "rank_from_bottom": 25,
+     "p_lower": 0.926
+    },
+    "d_pts": {
+     "value": 9.5,
+     "rank_from_bottom": 18,
+     "p_lower": 0.667
+    },
+    "d_pct": {
+     "value": 28.93,
+     "rank_from_bottom": 21,
+     "p_lower": 0.778
+    },
+    "d_pts_cr": {
+     "value": 2.83,
+     "rank_from_bottom": 14,
+     "p_lower": 0.519
+    },
+    "d_sd_cr": {
+     "value": 0.7,
+     "rank_from_bottom": 19,
+     "p_lower": 0.704
+    }
+   },
+   "median": {
+    "d_sd": 0.41,
+    "d_pts": 6.09,
+    "d_pct": 12.6,
+    "d_pts_cr": 2.83,
+    "d_sd_cr": 0.15
+   }
+  },
+  "2003->2012|all/quadratic": {
+   "n": 27,
+   "rmse_common_refit": [
+    9.93,
+    15.37
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": -2.36,
+     "rank_from_bottom": 1,
+     "p_lower": 0.037
+    },
+    "d_pts": {
+     "value": -32.83,
+     "rank_from_bottom": 1,
+     "p_lower": 0.037
+    },
+    "d_pct": {
+     "value": -68.02,
+     "rank_from_bottom": 1,
+     "p_lower": 0.037
+    },
+    "d_pts_cr": {
+     "value": -37.43,
+     "rank_from_bottom": 1,
+     "p_lower": 0.037
+    },
+    "d_sd_cr": {
+     "value": -2.74,
+     "rank_from_bottom": 1,
+     "p_lower": 0.037
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": 1.37,
+     "rank_from_bottom": 25,
+     "p_lower": 0.926
+    },
+    "d_pts": {
+     "value": 17.92,
+     "rank_from_bottom": 25,
+     "p_lower": 0.926
+    },
+    "d_pct": {
+     "value": 50.61,
+     "rank_from_bottom": 25,
+     "p_lower": 0.926
+    },
+    "d_pts_cr": {
+     "value": 13.05,
+     "rank_from_bottom": 23,
+     "p_lower": 0.852
+    },
+    "d_sd_cr": {
+     "value": 1.07,
+     "rank_from_bottom": 24,
+     "p_lower": 0.889
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": 1.36,
+     "rank_from_bottom": 24,
+     "p_lower": 0.889
+    },
+    "d_pts": {
+     "value": 10.64,
+     "rank_from_bottom": 19,
+     "p_lower": 0.704
+    },
+    "d_pct": {
+     "value": 36.25,
+     "rank_from_bottom": 22,
+     "p_lower": 0.815
+    },
+    "d_pts_cr": {
+     "value": 3.14,
+     "rank_from_bottom": 14,
+     "p_lower": 0.519
+    },
+    "d_sd_cr": {
+     "value": 0.7,
+     "rank_from_bottom": 19,
+     "p_lower": 0.704
+    }
+   },
+   "median": {
+    "d_sd": 0.48,
+    "d_pts": 6.82,
+    "d_pct": 13.14,
+    "d_pts_cr": 3.14,
+    "d_sd_cr": 0.15
+   }
+  },
+  "2003->2012|oecd/linear": {
+   "n": 23,
+   "rmse_common_refit": [
+    9.89,
+    14.99
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": -2.74,
+     "rank_from_bottom": 1,
+     "p_lower": 0.043
+    },
+    "d_pts": {
+     "value": -35.81,
+     "rank_from_bottom": 1,
+     "p_lower": 0.043
+    },
+    "d_pct": {
+     "value": -72.86,
+     "rank_from_bottom": 1,
+     "p_lower": 0.043
+    },
+    "d_pts_cr": {
+     "value": -37.48,
+     "rank_from_bottom": 1,
+     "p_lower": 0.043
+    },
+    "d_sd_cr": {
+     "value": -2.81,
+     "rank_from_bottom": 1,
+     "p_lower": 0.043
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": 1.21,
+     "rank_from_bottom": 20,
+     "p_lower": 0.87
+    },
+    "d_pts": {
+     "value": 14.53,
+     "rank_from_bottom": 19,
+     "p_lower": 0.826
+    },
+    "d_pct": {
+     "value": 41.19,
+     "rank_from_bottom": 19,
+     "p_lower": 0.826
+    },
+    "d_pts_cr": {
+     "value": 13.35,
+     "rank_from_bottom": 20,
+     "p_lower": 0.87
+    },
+    "d_sd_cr": {
+     "value": 1.09,
+     "rank_from_bottom": 20,
+     "p_lower": 0.87
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": 0.89,
+     "rank_from_bottom": 15,
+     "p_lower": 0.652
+    },
+    "d_pts": {
+     "value": 4.94,
+     "rank_from_bottom": 12,
+     "p_lower": 0.522
+    },
+    "d_pct": {
+     "value": 21.67,
+     "rank_from_bottom": 16,
+     "p_lower": 0.696
+    },
+    "d_pts_cr": {
+     "value": 2.91,
+     "rank_from_bottom": 12,
+     "p_lower": 0.522
+    },
+    "d_sd_cr": {
+     "value": 0.61,
+     "rank_from_bottom": 14,
+     "p_lower": 0.609
+    }
+   },
+   "median": {
+    "d_sd": 0.4,
+    "d_pts": 4.94,
+    "d_pct": 11.19,
+    "d_pts_cr": 2.91,
+    "d_sd_cr": 0.19
+   }
+  },
+  "2003->2012|oecd/quadratic": {
+   "n": 23,
+   "rmse_common_refit": [
+    9.39,
+    15.25
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": -2.58,
+     "rank_from_bottom": 1,
+     "p_lower": 0.043
+    },
+    "d_pts": {
+     "value": -34.16,
+     "rank_from_bottom": 1,
+     "p_lower": 0.043
+    },
+    "d_pct": {
+     "value": -69.52,
+     "rank_from_bottom": 1,
+     "p_lower": 0.043
+    },
+    "d_pts_cr": {
+     "value": -34.82,
+     "rank_from_bottom": 1,
+     "p_lower": 0.043
+    },
+    "d_sd_cr": {
+     "value": -2.56,
+     "rank_from_bottom": 1,
+     "p_lower": 0.043
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": 1.29,
+     "rank_from_bottom": 21,
+     "p_lower": 0.913
+    },
+    "d_pts": {
+     "value": 16.03,
+     "rank_from_bottom": 20,
+     "p_lower": 0.87
+    },
+    "d_pct": {
+     "value": 44.76,
+     "rank_from_bottom": 21,
+     "p_lower": 0.913
+    },
+    "d_pts_cr": {
+     "value": 14.49,
+     "rank_from_bottom": 21,
+     "p_lower": 0.913
+    },
+    "d_sd_cr": {
+     "value": 1.24,
+     "rank_from_bottom": 21,
+     "p_lower": 0.913
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": 0.94,
+     "rank_from_bottom": 17,
+     "p_lower": 0.739
+    },
+    "d_pts": {
+     "value": 6.07,
+     "rank_from_bottom": 14,
+     "p_lower": 0.609
+    },
+    "d_pct": {
+     "value": 21.9,
+     "rank_from_bottom": 17,
+     "p_lower": 0.739
+    },
+    "d_pts_cr": {
+     "value": -13.79,
+     "rank_from_bottom": 5,
+     "p_lower": 0.217
+    },
+    "d_sd_cr": {
+     "value": -0.9,
+     "rank_from_bottom": 6,
+     "p_lower": 0.261
+    }
+   },
+   "median": {
+    "d_sd": 0.43,
+    "d_pts": 5.36,
+    "d_pct": 14.52,
+    "d_pts_cr": 2.28,
+    "d_sd_cr": -0.0
+   }
+  },
+  "2003->2015|all/linear": {
+   "n": 32,
+   "rmse_common_refit": [
+    9.33,
+    10.51
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": -1.91,
+     "rank_from_bottom": 2,
+     "p_lower": 0.062
+    },
+    "d_pts": {
+     "value": -19.25,
+     "rank_from_bottom": 2,
+     "p_lower": 0.062
+    },
+    "d_pct": {
+     "value": -60.76,
+     "rank_from_bottom": 2,
+     "p_lower": 0.062
+    },
+    "d_pts_cr": {
+     "value": -19.3,
+     "rank_from_bottom": 2,
+     "p_lower": 0.062
+    },
+    "d_sd_cr": {
+     "value": -1.92,
+     "rank_from_bottom": 2,
+     "p_lower": 0.062
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": 1.12,
+     "rank_from_bottom": 26,
+     "p_lower": 0.812
+    },
+    "d_pts": {
+     "value": 11.06,
+     "rank_from_bottom": 26,
+     "p_lower": 0.812
+    },
+    "d_pct": {
+     "value": 40.96,
+     "rank_from_bottom": 30,
+     "p_lower": 0.938
+    },
+    "d_pts_cr": {
+     "value": 10.47,
+     "rank_from_bottom": 26,
+     "p_lower": 0.812
+    },
+    "d_sd_cr": {
+     "value": 1.08,
+     "rank_from_bottom": 26,
+     "p_lower": 0.812
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": 0.56,
+     "rank_from_bottom": 21,
+     "p_lower": 0.656
+    },
+    "d_pts": {
+     "value": 3.53,
+     "rank_from_bottom": 21,
+     "p_lower": 0.656
+    },
+    "d_pct": {
+     "value": 7.86,
+     "rank_from_bottom": 20,
+     "p_lower": 0.625
+    },
+    "d_pts_cr": {
+     "value": 4.61,
+     "rank_from_bottom": 21,
+     "p_lower": 0.656
+    },
+    "d_sd_cr": {
+     "value": 0.64,
+     "rank_from_bottom": 21,
+     "p_lower": 0.656
+    }
+   },
+   "median": {
+    "d_sd": -0.13,
+    "d_pts": -1.08,
+    "d_pct": -5.44,
+    "d_pts_cr": -1.31,
+    "d_sd_cr": -0.15
+   }
+  },
+  "2003->2015|all/quadratic": {
+   "n": 32,
+   "rmse_common_refit": [
+    9.46,
+    10.19
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": -1.66,
+     "rank_from_bottom": 2,
+     "p_lower": 0.062
+    },
+    "d_pts": {
+     "value": -16.21,
+     "rank_from_bottom": 2,
+     "p_lower": 0.062
+    },
+    "d_pct": {
+     "value": -47.99,
+     "rank_from_bottom": 3,
+     "p_lower": 0.094
+    },
+    "d_pts_cr": {
+     "value": -16.35,
+     "rank_from_bottom": 3,
+     "p_lower": 0.094
+    },
+    "d_sd_cr": {
+     "value": -1.66,
+     "rank_from_bottom": 3,
+     "p_lower": 0.094
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": 1.34,
+     "rank_from_bottom": 27,
+     "p_lower": 0.844
+    },
+    "d_pts": {
+     "value": 13.14,
+     "rank_from_bottom": 27,
+     "p_lower": 0.844
+    },
+    "d_pct": {
+     "value": 49.47,
+     "rank_from_bottom": 30,
+     "p_lower": 0.938
+    },
+    "d_pts_cr": {
+     "value": 12.11,
+     "rank_from_bottom": 27,
+     "p_lower": 0.844
+    },
+    "d_sd_cr": {
+     "value": 1.24,
+     "rank_from_bottom": 27,
+     "p_lower": 0.844
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": 0.38,
+     "rank_from_bottom": 21,
+     "p_lower": 0.656
+    },
+    "d_pts": {
+     "value": 2.58,
+     "rank_from_bottom": 21,
+     "p_lower": 0.656
+    },
+    "d_pct": {
+     "value": 7.86,
+     "rank_from_bottom": 20,
+     "p_lower": 0.625
+    },
+    "d_pts_cr": {
+     "value": 3.75,
+     "rank_from_bottom": 21,
+     "p_lower": 0.656
+    },
+    "d_sd_cr": {
+     "value": 0.49,
+     "rank_from_bottom": 22,
+     "p_lower": 0.688
+    }
+   },
+   "median": {
+    "d_sd": -0.15,
+    "d_pts": -1.16,
+    "d_pct": 1.89,
+    "d_pts_cr": -2.41,
+    "d_sd_cr": -0.22
+   }
+  },
+  "2003->2015|oecd/linear": {
+   "n": 27,
+   "rmse_common_refit": [
+    9.18,
+    10.76
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": -1.94,
+     "rank_from_bottom": 2,
+     "p_lower": 0.074
+    },
+    "d_pts": {
+     "value": -20.29,
+     "rank_from_bottom": 2,
+     "p_lower": 0.074
+    },
+    "d_pct": {
+     "value": -62.86,
+     "rank_from_bottom": 2,
+     "p_lower": 0.074
+    },
+    "d_pts_cr": {
+     "value": -17.89,
+     "rank_from_bottom": 2,
+     "p_lower": 0.074
+    },
+    "d_sd_cr": {
+     "value": -1.79,
+     "rank_from_bottom": 3,
+     "p_lower": 0.111
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": 0.98,
+     "rank_from_bottom": 22,
+     "p_lower": 0.815
+    },
+    "d_pts": {
+     "value": 9.92,
+     "rank_from_bottom": 22,
+     "p_lower": 0.815
+    },
+    "d_pct": {
+     "value": 33.33,
+     "rank_from_bottom": 24,
+     "p_lower": 0.889
+    },
+    "d_pts_cr": {
+     "value": 10.01,
+     "rank_from_bottom": 23,
+     "p_lower": 0.852
+    },
+    "d_sd_cr": {
+     "value": 1.04,
+     "rank_from_bottom": 22,
+     "p_lower": 0.815
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": 0.48,
+     "rank_from_bottom": 17,
+     "p_lower": 0.63
+    },
+    "d_pts": {
+     "value": 2.22,
+     "rank_from_bottom": 17,
+     "p_lower": 0.63
+    },
+    "d_pct": {
+     "value": 19.52,
+     "rank_from_bottom": 17,
+     "p_lower": 0.63
+    },
+    "d_pts_cr": {
+     "value": 9.91,
+     "rank_from_bottom": 21,
+     "p_lower": 0.778
+    },
+    "d_sd_cr": {
+     "value": 1.15,
+     "rank_from_bottom": 24,
+     "p_lower": 0.889
+    }
+   },
+   "median": {
+    "d_sd": -0.27,
+    "d_pts": -1.22,
+    "d_pct": -8.1,
+    "d_pts_cr": -2.88,
+    "d_sd_cr": -0.24
+   }
+  },
+  "2003->2015|oecd/quadratic": {
+   "n": 27,
+   "rmse_common_refit": [
+    9.34,
+    10.53
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": -1.51,
+     "rank_from_bottom": 3,
+     "p_lower": 0.111
+    },
+    "d_pts": {
+     "value": -15.02,
+     "rank_from_bottom": 4,
+     "p_lower": 0.148
+    },
+    "d_pct": {
+     "value": -48.1,
+     "rank_from_bottom": 3,
+     "p_lower": 0.111
+    },
+    "d_pts_cr": {
+     "value": -14.46,
+     "rank_from_bottom": 4,
+     "p_lower": 0.148
+    },
+    "d_sd_cr": {
+     "value": -1.46,
+     "rank_from_bottom": 4,
+     "p_lower": 0.148
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": 1.21,
+     "rank_from_bottom": 25,
+     "p_lower": 0.926
+    },
+    "d_pts": {
+     "value": 12.18,
+     "rank_from_bottom": 24,
+     "p_lower": 0.889
+    },
+    "d_pct": {
+     "value": 50.48,
+     "rank_from_bottom": 25,
+     "p_lower": 0.926
+    },
+    "d_pts_cr": {
+     "value": 11.59,
+     "rank_from_bottom": 23,
+     "p_lower": 0.852
+    },
+    "d_sd_cr": {
+     "value": 1.18,
+     "rank_from_bottom": 24,
+     "p_lower": 0.889
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": 0.07,
+     "rank_from_bottom": 17,
+     "p_lower": 0.63
+    },
+    "d_pts": {
+     "value": -1.04,
+     "rank_from_bottom": 14,
+     "p_lower": 0.519
+    },
+    "d_pct": {
+     "value": -0.95,
+     "rank_from_bottom": 14,
+     "p_lower": 0.519
+    },
+    "d_pts_cr": {
+     "value": 5.1,
+     "rank_from_bottom": 20,
+     "p_lower": 0.741
+    },
+    "d_sd_cr": {
+     "value": 0.65,
+     "rank_from_bottom": 20,
+     "p_lower": 0.741
+    }
+   },
+   "median": {
+    "d_sd": -0.13,
+    "d_pts": -1.04,
+    "d_pct": -0.95,
+    "d_pts_cr": -0.64,
+    "d_sd_cr": -0.12
+   }
+  },
+  "2003->2025|all/linear": {
+   "n": 36,
+   "rmse_common_refit": [
+    9.31,
+    12.75
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": -0.68,
+     "rank_from_bottom": 7,
+     "p_lower": 0.194
+    },
+    "d_pts": {
+     "value": -4.94,
+     "rank_from_bottom": 10,
+     "p_lower": 0.278
+    },
+    "d_pct": {
+     "value": -23.02,
+     "rank_from_bottom": 9,
+     "p_lower": 0.25
+    },
+    "d_pts_cr": {
+     "value": -10.45,
+     "rank_from_bottom": 8,
+     "p_lower": 0.222
+    },
+    "d_sd_cr": {
+     "value": -1.04,
+     "rank_from_bottom": 6,
+     "p_lower": 0.167
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": 0.78,
+     "rank_from_bottom": 25,
+     "p_lower": 0.694
+    },
+    "d_pts": {
+     "value": 8.4,
+     "rank_from_bottom": 22,
+     "p_lower": 0.611
+    },
+    "d_pct": {
+     "value": 26.19,
+     "rank_from_bottom": 25,
+     "p_lower": 0.694
+    },
+    "d_pts_cr": {
+     "value": 4.01,
+     "rank_from_bottom": 21,
+     "p_lower": 0.583
+    },
+    "d_sd_cr": {
+     "value": 0.5,
+     "rank_from_bottom": 25,
+     "p_lower": 0.694
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": 0.12,
+     "rank_from_bottom": 17,
+     "p_lower": 0.472
+    },
+    "d_pts": {
+     "value": -15.37,
+     "rank_from_bottom": 2,
+     "p_lower": 0.056
+    },
+    "d_pct": {
+     "value": 3.17,
+     "rank_from_bottom": 16,
+     "p_lower": 0.444
+    },
+    "d_pts_cr": {
+     "value": -19.19,
+     "rank_from_bottom": 2,
+     "p_lower": 0.056
+    },
+    "d_sd_cr": {
+     "value": -1.03,
+     "rank_from_bottom": 7,
+     "p_lower": 0.194
+    }
+   },
+   "median": {
+    "d_sd": 0.29,
+    "d_pts": 4.06,
+    "d_pct": 8.33,
+    "d_pts_cr": 2.67,
+    "d_sd_cr": 0.25
+   }
+  },
+  "2003->2025|all/quadratic": {
+   "n": 36,
+   "rmse_common_refit": [
+    9.4,
+    12.77
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": -1.01,
+     "rank_from_bottom": 6,
+     "p_lower": 0.167
+    },
+    "d_pts": {
+     "value": -10.6,
+     "rank_from_bottom": 7,
+     "p_lower": 0.194
+    },
+    "d_pct": {
+     "value": -38.49,
+     "rank_from_bottom": 5,
+     "p_lower": 0.139
+    },
+    "d_pts_cr": {
+     "value": -9.67,
+     "rank_from_bottom": 7,
+     "p_lower": 0.194
+    },
+    "d_sd_cr": {
+     "value": -0.99,
+     "rank_from_bottom": 7,
+     "p_lower": 0.194
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": 0.56,
+     "rank_from_bottom": 23,
+     "p_lower": 0.639
+    },
+    "d_pts": {
+     "value": 4.41,
+     "rank_from_bottom": 20,
+     "p_lower": 0.556
+    },
+    "d_pct": {
+     "value": 19.05,
+     "rank_from_bottom": 25,
+     "p_lower": 0.694
+    },
+    "d_pts_cr": {
+     "value": 5.17,
+     "rank_from_bottom": 24,
+     "p_lower": 0.667
+    },
+    "d_sd_cr": {
+     "value": 0.58,
+     "rank_from_bottom": 27,
+     "p_lower": 0.75
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": -0.29,
+     "rank_from_bottom": 12,
+     "p_lower": 0.333
+    },
+    "d_pts": {
+     "value": -19.39,
+     "rank_from_bottom": 2,
+     "p_lower": 0.056
+    },
+    "d_pct": {
+     "value": 0.79,
+     "rank_from_bottom": 17,
+     "p_lower": 0.472
+    },
+    "d_pts_cr": {
+     "value": -18.88,
+     "rank_from_bottom": 2,
+     "p_lower": 0.056
+    },
+    "d_sd_cr": {
+     "value": -1.04,
+     "rank_from_bottom": 5,
+     "p_lower": 0.139
+    }
+   },
+   "median": {
+    "d_sd": 0.34,
+    "d_pts": 4.29,
+    "d_pct": 5.75,
+    "d_pts_cr": 2.6,
+    "d_sd_cr": 0.23
+   }
+  },
+  "2003->2025|oecd/linear": {
+   "n": 30,
+   "rmse_common_refit": [
+    9.29,
+    10.18
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": -1.01,
+     "rank_from_bottom": 7,
+     "p_lower": 0.233
+    },
+    "d_pts": {
+     "value": -9.46,
+     "rank_from_bottom": 6,
+     "p_lower": 0.2
+    },
+    "d_pct": {
+     "value": -45.79,
+     "rank_from_bottom": 3,
+     "p_lower": 0.1
+    },
+    "d_pts_cr": {
+     "value": -11.3,
+     "rank_from_bottom": 5,
+     "p_lower": 0.167
+    },
+    "d_sd_cr": {
+     "value": -1.19,
+     "rank_from_bottom": 4,
+     "p_lower": 0.133
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": 0.61,
+     "rank_from_bottom": 23,
+     "p_lower": 0.767
+    },
+    "d_pts": {
+     "value": 5.61,
+     "rank_from_bottom": 22,
+     "p_lower": 0.733
+    },
+    "d_pct": {
+     "value": 18.07,
+     "rank_from_bottom": 21,
+     "p_lower": 0.7
+    },
+    "d_pts_cr": {
+     "value": 4.47,
+     "rank_from_bottom": 20,
+     "p_lower": 0.667
+    },
+    "d_sd_cr": {
+     "value": 0.49,
+     "rank_from_bottom": 21,
+     "p_lower": 0.7
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": -1.66,
+     "rank_from_bottom": 3,
+     "p_lower": 0.1
+    },
+    "d_pts": {
+     "value": -19.8,
+     "rank_from_bottom": 1,
+     "p_lower": 0.033
+    },
+    "d_pct": {
+     "value": -0.7,
+     "rank_from_bottom": 14,
+     "p_lower": 0.467
+    },
+    "d_pts_cr": {
+     "value": -20.58,
+     "rank_from_bottom": 1,
+     "p_lower": 0.033
+    },
+    "d_sd_cr": {
+     "value": -1.89,
+     "rank_from_bottom": 3,
+     "p_lower": 0.1
+    }
+   },
+   "median": {
+    "d_sd": 0.26,
+    "d_pts": 3.12,
+    "d_pct": 2.46,
+    "d_pts_cr": 2.01,
+    "d_sd_cr": 0.19
+   }
+  },
+  "2003->2025|oecd/quadratic": {
+   "n": 30,
+   "rmse_common_refit": [
+    9.45,
+    10.16
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": -0.89,
+     "rank_from_bottom": 7,
+     "p_lower": 0.233
+    },
+    "d_pts": {
+     "value": -8.4,
+     "rank_from_bottom": 7,
+     "p_lower": 0.233
+    },
+    "d_pct": {
+     "value": -37.19,
+     "rank_from_bottom": 4,
+     "p_lower": 0.133
+    },
+    "d_pts_cr": {
+     "value": -9.76,
+     "rank_from_bottom": 6,
+     "p_lower": 0.2
+    },
+    "d_sd_cr": {
+     "value": -1.02,
+     "rank_from_bottom": 6,
+     "p_lower": 0.2
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": 0.66,
+     "rank_from_bottom": 23,
+     "p_lower": 0.767
+    },
+    "d_pts": {
+     "value": 6.3,
+     "rank_from_bottom": 21,
+     "p_lower": 0.7
+    },
+    "d_pct": {
+     "value": 18.07,
+     "rank_from_bottom": 21,
+     "p_lower": 0.7
+    },
+    "d_pts_cr": {
+     "value": 5.68,
+     "rank_from_bottom": 23,
+     "p_lower": 0.767
+    },
+    "d_sd_cr": {
+     "value": 0.6,
+     "rank_from_bottom": 24,
+     "p_lower": 0.8
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": -1.62,
+     "rank_from_bottom": 3,
+     "p_lower": 0.1
+    },
+    "d_pts": {
+     "value": -19.45,
+     "rank_from_bottom": 1,
+     "p_lower": 0.033
+    },
+    "d_pct": {
+     "value": -4.04,
+     "rank_from_bottom": 13,
+     "p_lower": 0.433
+    },
+    "d_pts_cr": {
+     "value": -19.76,
+     "rank_from_bottom": 1,
+     "p_lower": 0.033
+    },
+    "d_sd_cr": {
+     "value": -1.85,
+     "rank_from_bottom": 1,
+     "p_lower": 0.033
+    }
+   },
+   "median": {
+    "d_sd": 0.25,
+    "d_pts": 2.26,
+    "d_pct": 0.7,
+    "d_pts_cr": 2.35,
+    "d_sd_cr": 0.29
+   }
+  },
+  "2012->2015|all/linear": {
+   "n": 36,
+   "rmse_common_refit": [
+    15.12,
+    10.02
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": 0.51,
+     "rank_from_bottom": 25,
+     "p_lower": 0.694
+    },
+    "d_pts": {
+     "value": 14.73,
+     "rank_from_bottom": 34,
+     "p_lower": 0.944
+    },
+    "d_pct": {
+     "value": 7.27,
+     "rank_from_bottom": 21,
+     "p_lower": 0.583
+    },
+    "d_pts_cr": {
+     "value": 16.48,
+     "rank_from_bottom": 34,
+     "p_lower": 0.944
+    },
+    "d_sd_cr": {
+     "value": 0.76,
+     "rank_from_bottom": 28,
+     "p_lower": 0.778
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": -0.14,
+     "rank_from_bottom": 18,
+     "p_lower": 0.5
+    },
+    "d_pts": {
+     "value": -4.96,
+     "rank_from_bottom": 16,
+     "p_lower": 0.444
+    },
+    "d_pct": {
+     "value": -2.34,
+     "rank_from_bottom": 18,
+     "p_lower": 0.5
+    },
+    "d_pts_cr": {
+     "value": -4.49,
+     "rank_from_bottom": 14,
+     "p_lower": 0.389
+    },
+    "d_sd_cr": {
+     "value": -0.11,
+     "rank_from_bottom": 16,
+     "p_lower": 0.444
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": -0.78,
+     "rank_from_bottom": 10,
+     "p_lower": 0.278
+    },
+    "d_pts": {
+     "value": -5.97,
+     "rank_from_bottom": 15,
+     "p_lower": 0.417
+    },
+    "d_pct": {
+     "value": -21.07,
+     "rank_from_bottom": 10,
+     "p_lower": 0.278
+    },
+    "d_pts_cr": {
+     "value": -3.3,
+     "rank_from_bottom": 16,
+     "p_lower": 0.444
+    },
+    "d_sd_cr": {
+     "value": -0.51,
+     "rank_from_bottom": 11,
+     "p_lower": 0.306
+    }
+   },
+   "median": {
+    "d_sd": -0.06,
+    "d_pts": 0.79,
+    "d_pct": -2.1,
+    "d_pts_cr": 1.87,
+    "d_sd_cr": 0.03
+   }
+  },
+  "2012->2015|all/quadratic": {
+   "n": 36,
+   "rmse_common_refit": [
+    15.1,
+    9.87
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": 0.7,
+     "rank_from_bottom": 30,
+     "p_lower": 0.833
+    },
+    "d_pts": {
+     "value": 16.62,
+     "rank_from_bottom": 34,
+     "p_lower": 0.944
+    },
+    "d_pct": {
+     "value": 20.03,
+     "rank_from_bottom": 26,
+     "p_lower": 0.722
+    },
+    "d_pts_cr": {
+     "value": 16.66,
+     "rank_from_bottom": 33,
+     "p_lower": 0.917
+    },
+    "d_sd_cr": {
+     "value": 0.84,
+     "rank_from_bottom": 28,
+     "p_lower": 0.778
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": -0.03,
+     "rank_from_bottom": 18,
+     "p_lower": 0.5
+    },
+    "d_pts": {
+     "value": -4.78,
+     "rank_from_bottom": 16,
+     "p_lower": 0.444
+    },
+    "d_pct": {
+     "value": -1.14,
+     "rank_from_bottom": 17,
+     "p_lower": 0.472
+    },
+    "d_pts_cr": {
+     "value": -5.23,
+     "rank_from_bottom": 14,
+     "p_lower": 0.389
+    },
+    "d_sd_cr": {
+     "value": -0.09,
+     "rank_from_bottom": 16,
+     "p_lower": 0.444
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": -0.98,
+     "rank_from_bottom": 9,
+     "p_lower": 0.25
+    },
+    "d_pts": {
+     "value": -8.07,
+     "rank_from_bottom": 12,
+     "p_lower": 0.333
+    },
+    "d_pct": {
+     "value": -28.39,
+     "rank_from_bottom": 10,
+     "p_lower": 0.278
+    },
+    "d_pts_cr": {
+     "value": -6.5,
+     "rank_from_bottom": 11,
+     "p_lower": 0.306
+    },
+    "d_sd_cr": {
+     "value": -0.77,
+     "rank_from_bottom": 10,
+     "p_lower": 0.278
+    }
+   },
+   "median": {
+    "d_sd": -0.02,
+    "d_pts": 0.5,
+    "d_pct": 0.34,
+    "d_pts_cr": 3.27,
+    "d_sd_cr": 0.04
+   }
+  },
+  "2012->2015|oecd/linear": {
+   "n": 26,
+   "rmse_common_refit": [
+    12.98,
+    11.11
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": 0.79,
+     "rank_from_bottom": 23,
+     "p_lower": 0.885
+    },
+    "d_pts": {
+     "value": 15.51,
+     "rank_from_bottom": 26,
+     "p_lower": 1.0
+    },
+    "d_pct": {
+     "value": 10.0,
+     "rank_from_bottom": 17,
+     "p_lower": 0.654
+    },
+    "d_pts_cr": {
+     "value": 18.69,
+     "rank_from_bottom": 26,
+     "p_lower": 1.0
+    },
+    "d_sd_cr": {
+     "value": 1.31,
+     "rank_from_bottom": 26,
+     "p_lower": 1.0
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": -0.22,
+     "rank_from_bottom": 10,
+     "p_lower": 0.385
+    },
+    "d_pts": {
+     "value": -4.61,
+     "rank_from_bottom": 9,
+     "p_lower": 0.346
+    },
+    "d_pct": {
+     "value": -7.86,
+     "rank_from_bottom": 10,
+     "p_lower": 0.385
+    },
+    "d_pts_cr": {
+     "value": -2.64,
+     "rank_from_bottom": 9,
+     "p_lower": 0.346
+    },
+    "d_sd_cr": {
+     "value": -0.14,
+     "rank_from_bottom": 9,
+     "p_lower": 0.346
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": -0.42,
+     "rank_from_bottom": 9,
+     "p_lower": 0.346
+    },
+    "d_pts": {
+     "value": -2.72,
+     "rank_from_bottom": 12,
+     "p_lower": 0.462
+    },
+    "d_pct": {
+     "value": -2.14,
+     "rank_from_bottom": 13,
+     "p_lower": 0.5
+    },
+    "d_pts_cr": {
+     "value": 1.52,
+     "rank_from_bottom": 13,
+     "p_lower": 0.5
+    },
+    "d_sd_cr": {
+     "value": 0.02,
+     "rank_from_bottom": 12,
+     "p_lower": 0.462
+    }
+   },
+   "median": {
+    "d_sd": 0.05,
+    "d_pts": -0.89,
+    "d_pct": -1.43,
+    "d_pts_cr": 2.48,
+    "d_sd_cr": 0.29
+   }
+  },
+  "2012->2015|oecd/quadratic": {
+   "n": 26,
+   "rmse_common_refit": [
+    12.99,
+    10.77
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": 1.07,
+     "rank_from_bottom": 25,
+     "p_lower": 0.962
+    },
+    "d_pts": {
+     "value": 19.14,
+     "rank_from_bottom": 26,
+     "p_lower": 1.0
+    },
+    "d_pct": {
+     "value": 21.43,
+     "rank_from_bottom": 22,
+     "p_lower": 0.846
+    },
+    "d_pts_cr": {
+     "value": 20.54,
+     "rank_from_bottom": 26,
+     "p_lower": 1.0
+    },
+    "d_sd_cr": {
+     "value": 1.48,
+     "rank_from_bottom": 26,
+     "p_lower": 1.0
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": -0.08,
+     "rank_from_bottom": 14,
+     "p_lower": 0.538
+    },
+    "d_pts": {
+     "value": -3.86,
+     "rank_from_bottom": 12,
+     "p_lower": 0.462
+    },
+    "d_pct": {
+     "value": 5.71,
+     "rank_from_bottom": 14,
+     "p_lower": 0.538
+    },
+    "d_pts_cr": {
+     "value": -2.56,
+     "rank_from_bottom": 11,
+     "p_lower": 0.423
+    },
+    "d_sd_cr": {
+     "value": -0.09,
+     "rank_from_bottom": 11,
+     "p_lower": 0.423
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": -0.87,
+     "rank_from_bottom": 7,
+     "p_lower": 0.269
+    },
+    "d_pts": {
+     "value": -7.11,
+     "rank_from_bottom": 11,
+     "p_lower": 0.423
+    },
+    "d_pct": {
+     "value": -22.86,
+     "rank_from_bottom": 8,
+     "p_lower": 0.308
+    },
+    "d_pts_cr": {
+     "value": -4.08,
+     "rank_from_bottom": 9,
+     "p_lower": 0.346
+    },
+    "d_sd_cr": {
+     "value": -0.49,
+     "rank_from_bottom": 8,
+     "p_lower": 0.308
+    }
+   },
+   "median": {
+    "d_sd": -0.11,
+    "d_pts": -0.77,
+    "d_pct": 3.57,
+    "d_pts_cr": 2.2,
+    "d_sd_cr": 0.1
+   }
+  },
+  "2012->2025|all/linear": {
+   "n": 40,
+   "rmse_common_refit": [
+    16.67,
+    14.77
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": 1.73,
+     "rank_from_bottom": 36,
+     "p_lower": 0.9
+    },
+    "d_pts": {
+     "value": 29.04,
+     "rank_from_bottom": 36,
+     "p_lower": 0.9
+    },
+    "d_pct": {
+     "value": 45.01,
+     "rank_from_bottom": 37,
+     "p_lower": 0.925
+    },
+    "d_pts_cr": {
+     "value": 29.71,
+     "rank_from_bottom": 36,
+     "p_lower": 0.9
+    },
+    "d_sd_cr": {
+     "value": 1.81,
+     "rank_from_bottom": 38,
+     "p_lower": 0.95
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": -0.48,
+     "rank_from_bottom": 14,
+     "p_lower": 0.35
+    },
+    "d_pts": {
+     "value": -7.62,
+     "rank_from_bottom": 13,
+     "p_lower": 0.325
+    },
+    "d_pct": {
+     "value": -17.1,
+     "rank_from_bottom": 13,
+     "p_lower": 0.325
+    },
+    "d_pts_cr": {
+     "value": -6.68,
+     "rank_from_bottom": 13,
+     "p_lower": 0.325
+    },
+    "d_sd_cr": {
+     "value": -0.38,
+     "rank_from_bottom": 13,
+     "p_lower": 0.325
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": -1.22,
+     "rank_from_bottom": 6,
+     "p_lower": 0.15
+    },
+    "d_pts": {
+     "value": -24.87,
+     "rank_from_bottom": 6,
+     "p_lower": 0.15
+    },
+    "d_pct": {
+     "value": -25.75,
+     "rank_from_bottom": 9,
+     "p_lower": 0.225
+    },
+    "d_pts_cr": {
+     "value": -23.81,
+     "rank_from_bottom": 5,
+     "p_lower": 0.125
+    },
+    "d_sd_cr": {
+     "value": -1.66,
+     "rank_from_bottom": 4,
+     "p_lower": 0.1
+    }
+   },
+   "median": {
+    "d_sd": -0.17,
+    "d_pts": -2.02,
+    "d_pct": -1.52,
+    "d_pts_cr": -2.11,
+    "d_sd_cr": -0.1
+   }
+  },
+  "2012->2025|all/quadratic": {
+   "n": 40,
+   "rmse_common_refit": [
+    16.72,
+    14.97
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": 1.35,
+     "rank_from_bottom": 35,
+     "p_lower": 0.875
+    },
+    "d_pts": {
+     "value": 22.23,
+     "rank_from_bottom": 36,
+     "p_lower": 0.9
+    },
+    "d_pct": {
+     "value": 29.53,
+     "rank_from_bottom": 36,
+     "p_lower": 0.9
+    },
+    "d_pts_cr": {
+     "value": 27.58,
+     "rank_from_bottom": 35,
+     "p_lower": 0.875
+    },
+    "d_sd_cr": {
+     "value": 1.67,
+     "rank_from_bottom": 35,
+     "p_lower": 0.875
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": -0.81,
+     "rank_from_bottom": 11,
+     "p_lower": 0.275
+    },
+    "d_pts": {
+     "value": -13.51,
+     "rank_from_bottom": 11,
+     "p_lower": 0.275
+    },
+    "d_pct": {
+     "value": -31.56,
+     "rank_from_bottom": 9,
+     "p_lower": 0.225
+    },
+    "d_pts_cr": {
+     "value": -8.92,
+     "rank_from_bottom": 12,
+     "p_lower": 0.3
+    },
+    "d_sd_cr": {
+     "value": -0.51,
+     "rank_from_bottom": 12,
+     "p_lower": 0.3
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": -1.65,
+     "rank_from_bottom": 4,
+     "p_lower": 0.1
+    },
+    "d_pts": {
+     "value": -30.03,
+     "rank_from_bottom": 4,
+     "p_lower": 0.1
+    },
+    "d_pct": {
+     "value": -35.45,
+     "rank_from_bottom": 7,
+     "p_lower": 0.175
+    },
+    "d_pts_cr": {
+     "value": -25.92,
+     "rank_from_bottom": 4,
+     "p_lower": 0.1
+    },
+    "d_sd_cr": {
+     "value": -1.76,
+     "rank_from_bottom": 4,
+     "p_lower": 0.1
+    }
+   },
+   "median": {
+    "d_sd": -0.12,
+    "d_pts": -2.06,
+    "d_pct": -4.4,
+    "d_pts_cr": -1.94,
+    "d_sd_cr": -0.05
+   }
+  },
+  "2012->2025|oecd/linear": {
+   "n": 28,
+   "rmse_common_refit": [
+    15.02,
+    9.99
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": 1.73,
+     "rank_from_bottom": 28,
+     "p_lower": 1.0
+    },
+    "d_pts": {
+     "value": 26.35,
+     "rank_from_bottom": 27,
+     "p_lower": 0.964
+    },
+    "d_pct": {
+     "value": 27.07,
+     "rank_from_bottom": 24,
+     "p_lower": 0.857
+    },
+    "d_pts_cr": {
+     "value": 30.06,
+     "rank_from_bottom": 28,
+     "p_lower": 1.0
+    },
+    "d_sd_cr": {
+     "value": 2.1,
+     "rank_from_bottom": 28,
+     "p_lower": 1.0
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": -0.6,
+     "rank_from_bottom": 9,
+     "p_lower": 0.321
+    },
+    "d_pts": {
+     "value": -8.92,
+     "rank_from_bottom": 7,
+     "p_lower": 0.25
+    },
+    "d_pct": {
+     "value": -23.12,
+     "rank_from_bottom": 8,
+     "p_lower": 0.286
+    },
+    "d_pts_cr": {
+     "value": -6.07,
+     "rank_from_bottom": 8,
+     "p_lower": 0.286
+    },
+    "d_sd_cr": {
+     "value": -0.32,
+     "rank_from_bottom": 8,
+     "p_lower": 0.286
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": -2.55,
+     "rank_from_bottom": 2,
+     "p_lower": 0.071
+    },
+    "d_pts": {
+     "value": -24.74,
+     "rank_from_bottom": 3,
+     "p_lower": 0.107
+    },
+    "d_pct": {
+     "value": -22.37,
+     "rank_from_bottom": 9,
+     "p_lower": 0.321
+    },
+    "d_pts_cr": {
+     "value": -22.31,
+     "rank_from_bottom": 3,
+     "p_lower": 0.107
+    },
+    "d_sd_cr": {
+     "value": -2.53,
+     "rank_from_bottom": 2,
+     "p_lower": 0.071
+    }
+   },
+   "median": {
+    "d_sd": -0.21,
+    "d_pts": -3.63,
+    "d_pct": -7.8,
+    "d_pts_cr": -0.21,
+    "d_sd_cr": 0.04
+   }
+  },
+  "2012->2025|oecd/quadratic": {
+   "n": 28,
+   "rmse_common_refit": [
+    15.21,
+    10.14
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": 1.69,
+     "rank_from_bottom": 28,
+     "p_lower": 1.0
+    },
+    "d_pts": {
+     "value": 25.75,
+     "rank_from_bottom": 27,
+     "p_lower": 0.964
+    },
+    "d_pct": {
+     "value": 32.33,
+     "rank_from_bottom": 25,
+     "p_lower": 0.893
+    },
+    "d_pts_cr": {
+     "value": 29.33,
+     "rank_from_bottom": 27,
+     "p_lower": 0.964
+    },
+    "d_sd_cr": {
+     "value": 2.04,
+     "rank_from_bottom": 28,
+     "p_lower": 1.0
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": -0.63,
+     "rank_from_bottom": 8,
+     "p_lower": 0.286
+    },
+    "d_pts": {
+     "value": -9.73,
+     "rank_from_bottom": 7,
+     "p_lower": 0.25
+    },
+    "d_pct": {
+     "value": -26.69,
+     "rank_from_bottom": 7,
+     "p_lower": 0.25
+    },
+    "d_pts_cr": {
+     "value": -6.94,
+     "rank_from_bottom": 7,
+     "p_lower": 0.25
+    },
+    "d_sd_cr": {
+     "value": -0.35,
+     "rank_from_bottom": 8,
+     "p_lower": 0.286
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": -2.56,
+     "rank_from_bottom": 2,
+     "p_lower": 0.071
+    },
+    "d_pts": {
+     "value": -25.52,
+     "rank_from_bottom": 2,
+     "p_lower": 0.071
+    },
+    "d_pct": {
+     "value": -25.94,
+     "rank_from_bottom": 8,
+     "p_lower": 0.286
+    },
+    "d_pts_cr": {
+     "value": -23.13,
+     "rank_from_bottom": 3,
+     "p_lower": 0.107
+    },
+    "d_sd_cr": {
+     "value": -2.53,
+     "rank_from_bottom": 2,
+     "p_lower": 0.071
+    }
+   },
+   "median": {
+    "d_sd": -0.13,
+    "d_pts": -3.17,
+    "d_pct": -5.83,
+    "d_pts_cr": -0.45,
+    "d_sd_cr": 0.07
+   }
+  },
+  "2015->2025|all/linear": {
+   "n": 47,
+   "rmse_common_refit": [
+    10.7,
+    13.96
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": 1.23,
+     "rank_from_bottom": 44,
+     "p_lower": 0.936
+    },
+    "d_pts": {
+     "value": 14.31,
+     "rank_from_bottom": 38,
+     "p_lower": 0.809
+    },
+    "d_pct": {
+     "value": 37.74,
+     "rank_from_bottom": 41,
+     "p_lower": 0.872
+    },
+    "d_pts_cr": {
+     "value": 11.92,
+     "rank_from_bottom": 40,
+     "p_lower": 0.851
+    },
+    "d_sd_cr": {
+     "value": 1.11,
+     "rank_from_bottom": 40,
+     "p_lower": 0.851
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": -0.34,
+     "rank_from_bottom": 16,
+     "p_lower": 0.34
+    },
+    "d_pts": {
+     "value": -2.66,
+     "rank_from_bottom": 18,
+     "p_lower": 0.383
+    },
+    "d_pct": {
+     "value": -14.77,
+     "rank_from_bottom": 14,
+     "p_lower": 0.298
+    },
+    "d_pts_cr": {
+     "value": -4.43,
+     "rank_from_bottom": 20,
+     "p_lower": 0.426
+    },
+    "d_sd_cr": {
+     "value": -0.42,
+     "rank_from_bottom": 20,
+     "p_lower": 0.426
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": -0.44,
+     "rank_from_bottom": 14,
+     "p_lower": 0.298
+    },
+    "d_pts": {
+     "value": -18.9,
+     "rank_from_bottom": 4,
+     "p_lower": 0.085
+    },
+    "d_pct": {
+     "value": -4.69,
+     "rank_from_bottom": 20,
+     "p_lower": 0.426
+    },
+    "d_pts_cr": {
+     "value": -20.36,
+     "rank_from_bottom": 3,
+     "p_lower": 0.064
+    },
+    "d_sd_cr": {
+     "value": -1.18,
+     "rank_from_bottom": 7,
+     "p_lower": 0.149
+    }
+   },
+   "median": {
+    "d_sd": 0.18,
+    "d_pts": 2.81,
+    "d_pct": 0.33,
+    "d_pts_cr": -0.63,
+    "d_sd_cr": 0.03
+   }
+  },
+  "2015->2025|all/quadratic": {
+   "n": 47,
+   "rmse_common_refit": [
+    10.18,
+    14.11
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": 0.65,
+     "rank_from_bottom": 36,
+     "p_lower": 0.766
+    },
+    "d_pts": {
+     "value": 5.6,
+     "rank_from_bottom": 31,
+     "p_lower": 0.66
+    },
+    "d_pct": {
+     "value": 9.5,
+     "rank_from_bottom": 29,
+     "p_lower": 0.617
+    },
+    "d_pts_cr": {
+     "value": 7.76,
+     "rank_from_bottom": 37,
+     "p_lower": 0.787
+    },
+    "d_sd_cr": {
+     "value": 0.77,
+     "rank_from_bottom": 37,
+     "p_lower": 0.787
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": -0.78,
+     "rank_from_bottom": 10,
+     "p_lower": 0.213
+    },
+    "d_pts": {
+     "value": -8.73,
+     "rank_from_bottom": 13,
+     "p_lower": 0.277
+    },
+    "d_pct": {
+     "value": -30.42,
+     "rank_from_bottom": 7,
+     "p_lower": 0.149
+    },
+    "d_pts_cr": {
+     "value": -6.94,
+     "rank_from_bottom": 14,
+     "p_lower": 0.298
+    },
+    "d_sd_cr": {
+     "value": -0.68,
+     "rank_from_bottom": 13,
+     "p_lower": 0.277
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": -0.67,
+     "rank_from_bottom": 12,
+     "p_lower": 0.255
+    },
+    "d_pts": {
+     "value": -21.96,
+     "rank_from_bottom": 3,
+     "p_lower": 0.064
+    },
+    "d_pct": {
+     "value": -7.07,
+     "rank_from_bottom": 17,
+     "p_lower": 0.362
+    },
+    "d_pts_cr": {
+     "value": -20.46,
+     "rank_from_bottom": 4,
+     "p_lower": 0.085
+    },
+    "d_sd_cr": {
+     "value": -1.09,
+     "rank_from_bottom": 10,
+     "p_lower": 0.213
+    }
+   },
+   "median": {
+    "d_sd": 0.07,
+    "d_pts": 2.19,
+    "d_pct": 0.51,
+    "d_pts_cr": 1.25,
+    "d_sd_cr": 0.12
+   }
+  },
+  "2015->2025|oecd/linear": {
+   "n": 35,
+   "rmse_common_refit": [
+    11.49,
+    10.9
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": 0.94,
+     "rank_from_bottom": 29,
+     "p_lower": 0.829
+    },
+    "d_pts": {
+     "value": 10.83,
+     "rank_from_bottom": 29,
+     "p_lower": 0.829
+    },
+    "d_pct": {
+     "value": 17.07,
+     "rank_from_bottom": 24,
+     "p_lower": 0.686
+    },
+    "d_pts_cr": {
+     "value": 10.37,
+     "rank_from_bottom": 30,
+     "p_lower": 0.857
+    },
+    "d_sd_cr": {
+     "value": 0.9,
+     "rank_from_bottom": 30,
+     "p_lower": 0.857
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": -0.38,
+     "rank_from_bottom": 13,
+     "p_lower": 0.371
+    },
+    "d_pts": {
+     "value": -4.31,
+     "rank_from_bottom": 13,
+     "p_lower": 0.371
+    },
+    "d_pct": {
+     "value": -15.26,
+     "rank_from_bottom": 10,
+     "p_lower": 0.286
+    },
+    "d_pts_cr": {
+     "value": -4.89,
+     "rank_from_bottom": 13,
+     "p_lower": 0.371
+    },
+    "d_sd_cr": {
+     "value": -0.43,
+     "rank_from_bottom": 13,
+     "p_lower": 0.371
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": -2.13,
+     "rank_from_bottom": 1,
+     "p_lower": 0.029
+    },
+    "d_pts": {
+     "value": -22.02,
+     "rank_from_bottom": 2,
+     "p_lower": 0.057
+    },
+    "d_pct": {
+     "value": -20.23,
+     "rank_from_bottom": 9,
+     "p_lower": 0.257
+    },
+    "d_pts_cr": {
+     "value": -22.66,
+     "rank_from_bottom": 2,
+     "p_lower": 0.057
+    },
+    "d_sd_cr": {
+     "value": -2.13,
+     "rank_from_bottom": 1,
+     "p_lower": 0.029
+    }
+   },
+   "median": {
+    "d_sd": 0.01,
+    "d_pts": 1.14,
+    "d_pct": 3.53,
+    "d_pts_cr": 0.68,
+    "d_sd_cr": -0.02
+   }
+  },
+  "2015->2025|oecd/quadratic": {
+   "n": 35,
+   "rmse_common_refit": [
+    10.68,
+    11.02
+   ],
+   "HUN": {
+    "d_sd": {
+     "value": 0.62,
+     "rank_from_bottom": 23,
+     "p_lower": 0.657
+    },
+    "d_pts": {
+     "value": 6.62,
+     "rank_from_bottom": 23,
+     "p_lower": 0.657
+    },
+    "d_pct": {
+     "value": 10.9,
+     "rank_from_bottom": 19,
+     "p_lower": 0.543
+    },
+    "d_pts_cr": {
+     "value": 6.18,
+     "rank_from_bottom": 22,
+     "p_lower": 0.629
+    },
+    "d_sd_cr": {
+     "value": 0.58,
+     "rank_from_bottom": 25,
+     "p_lower": 0.714
+    }
+   },
+   "SWE": {
+    "d_sd": {
+     "value": -0.55,
+     "rank_from_bottom": 12,
+     "p_lower": 0.343
+    },
+    "d_pts": {
+     "value": -5.87,
+     "rank_from_bottom": 12,
+     "p_lower": 0.343
+    },
+    "d_pct": {
+     "value": -32.41,
+     "rank_from_bottom": 7,
+     "p_lower": 0.2
+    },
+    "d_pts_cr": {
+     "value": -6.43,
+     "rank_from_bottom": 12,
+     "p_lower": 0.343
+    },
+    "d_sd_cr": {
+     "value": -0.6,
+     "rank_from_bottom": 12,
+     "p_lower": 0.343
+    }
+   },
+   "TUR": {
+    "d_sd": {
+     "value": -1.69,
+     "rank_from_bottom": 3,
+     "p_lower": 0.086
+    },
+    "d_pts": {
+     "value": -18.41,
+     "rank_from_bottom": 3,
+     "p_lower": 0.086
+    },
+    "d_pct": {
+     "value": -3.08,
+     "rank_from_bottom": 15,
+     "p_lower": 0.429
+    },
+    "d_pts_cr": {
+     "value": -19.03,
+     "rank_from_bottom": 3,
+     "p_lower": 0.086
+    },
+    "d_sd_cr": {
+     "value": -1.68,
+     "rank_from_bottom": 3,
+     "p_lower": 0.086
+    }
+   },
+   "median": {
+    "d_sd": 0.3,
+    "d_pts": 3.36,
+    "d_pct": 5.94,
+    "d_pts_cr": 3.28,
+    "d_sd_cr": 0.26
+   }
+  }
+ }
+}

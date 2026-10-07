@@ -1,0 +1,81 @@
+{
+  "cba2015": {
+    "n": 52,
+    "n_with_both_cycles": 56,
+    "dropped_paper_based": [
+      "ALB",
+      "IDN",
+      "JOR",
+      "ROU"
+    ],
+    "dropped_aggregates": [
+      "OECD",
+      "OECD_A23",
+      "OECD_A35",
+      "OECD_TOT"
+    ],
+    "stats": {
+      "d_math": {
+        "tur": -27.529999999999973,
+        "n": 52,
+        "median": -4.020499999999998,
+        "mean": -2.581999999999998,
+        "sd_ddof1": 10.319612855635436,
+        "sd_ddof0": 10.219904112902585,
+        "z_ddof1": -2.4175325517542188,
+        "z_ddof0": -2.4411187937177643,
+        "rank_most_negative": 2,
+        "second": [
+          "KOR",
+          -29.661000000000058
+        ]
+      },
+      "d_read": {
+        "tur": -47.156000000000006,
+        "n": 52,
+        "median": -3.6619999999999777,
+        "mean": -3.200173076923079,
+        "sd_ddof1": 13.538789316106806,
+        "sd_ddof0": 13.407976689730344,
+        "z_ddof1": -3.2466586115483476,
+        "z_ddof0": -3.2783340797977587,
+        "rank_most_negative": 1,
+        "second": [
+          "THA",
+          -32.09000000000003
+        ]
+      },
+      "d_sci": {
+        "tur": -37.923,
+        "n": 52,
+        "median": -5.011999999999972,
+        "mean": -5.408192307692311,
+        "sd_ddof1": 13.273361548071465,
+        "sd_ddof0": 13.145113501336452,
+        "z_ddof1": -2.449628722501866,
+        "z_ddof0": -2.4735281052538602,
+        "rank_most_negative": 1,
+        "second": [
+          "HKG",
+          -31.659999999999968
+        ]
+      }
+    }
+  },
+  "g4": {
+    "n": 69,
+    "tur_abs_diff": 3.939685714285588,
+    "tur_rel_pct": 0.008968092441987568,
+    "tur_rank": 1,
+    "second": [
+      "France",
+      0.8774836677971328
+    ],
+    "median_rel_pct": 32.007108828354255,
+    "enrolled_growth_pct": 10.995839240495364
+  },
+  "notes": [
+    "z: (Türkiye − küme ortalaması) / küme SD; Türkiye kümeye dâhil; ddof=1 ve ddof=0 ikisi de raporlanır.",
+    "G4 referans kümesi: 2018 ve 2022 Annex I.A2.1'de okul düzeyi dışlama sayısı sıfır olmayan sistemler; ölçüt |Δ| / iki döngü ortalaması."
+  ]
+}

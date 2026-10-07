@@ -1,0 +1,413 @@
+{
+ "note": "E9b — üst ESCS kötüleşmesinin (D) ülkeler arası kıyası; ön-belirleme §0.12 (commit b0344a7) + dipnot ⁴.",
+ "gates": {
+  "2015_clps": {
+   "n": 50,
+   "max_abs_diff": 0.0
+  },
+  "2025": {
+   "2025_MATH": {
+    "n": 88,
+    "max_mean_diff": 0.00306,
+    "max_mean_diff_excl_exceptions": 0.0005,
+    "exceptions": {
+     "BEL": 0.00306
+    }
+   },
+   "2025_READ": {
+    "n": 88,
+    "max_mean_diff": 0.01164,
+    "max_mean_diff_excl_exceptions": 0.0005,
+    "exceptions": {
+     "BEL": 0.01164
+    }
+   },
+   "2025_SCIE": {
+    "n": 89,
+    "max_mean_diff": 0.00316,
+    "max_mean_diff_excl_exceptions": 0.0005,
+    "exceptions": {
+     "BEL": 0.00316
+    }
+   },
+   "2025_CMPS": {
+    "n": 84,
+    "max_mean_diff": 0.00267,
+    "max_mean_diff_excl_exceptions": 0.00049,
+    "exceptions": {}
+   },
+   "failed": []
+  },
+  "tur_vs_e9": {
+   "c2015": 0.0,
+   "c2025": 0.0,
+   "D": 0.0,
+   "grad2025": 0.0
+  }
+ },
+ "model_2015": {
+  "n_systems": 47,
+  "resid_sd_unit": 58.9286,
+  "r2_by_pv": [
+   0.6639,
+   0.6621,
+   0.6635,
+   0.6625,
+   0.6636,
+   0.6654,
+   0.662,
+   0.6646,
+   0.664,
+   0.6637
+  ]
+ },
+ "model_2025": {
+  "n_systems": 83,
+  "resid_sd_unit": 67.0437,
+  "r2_by_pv": [
+   0.6505,
+   0.6507,
+   0.6509,
+   0.6508,
+   0.6512,
+   0.6507,
+   0.6516,
+   0.651,
+   0.6504,
+   0.6495
+  ]
+ },
+ "sets": {
+  "common": {
+   "N": 46,
+   "members": [
+    "ARE",
+    "AUS",
+    "AUT",
+    "BEL",
+    "BGR",
+    "BRA",
+    "CAN",
+    "CHL",
+    "COL",
+    "CZE",
+    "DEU",
+    "DNK",
+    "ESP",
+    "EST",
+    "FIN",
+    "FRA",
+    "GBR",
+    "GRC",
+    "HKG",
+    "HRV",
+    "HUN",
+    "ISL",
+    "ISR",
+    "ITA",
+    "JPN",
+    "KOR",
+    "LTU",
+    "LUX",
+    "LVA",
+    "MAC",
+    "MEX",
+    "MNE",
+    "NLD",
+    "NOR",
+    "NZL",
+    "PER",
+    "PRT",
+    "SGP",
+    "SVK",
+    "SVN",
+    "SWE",
+    "THA",
+    "TUR",
+    "TWN",
+    "URY",
+    "USA"
+   ]
+  },
+  "oecd": {
+   "N": 34,
+   "members": [
+    "AUS",
+    "AUT",
+    "BEL",
+    "CAN",
+    "CHL",
+    "COL",
+    "CZE",
+    "DEU",
+    "DNK",
+    "ESP",
+    "EST",
+    "FIN",
+    "FRA",
+    "GBR",
+    "GRC",
+    "HUN",
+    "ISL",
+    "ISR",
+    "ITA",
+    "JPN",
+    "KOR",
+    "LTU",
+    "LUX",
+    "LVA",
+    "MEX",
+    "NLD",
+    "NOR",
+    "NZL",
+    "PRT",
+    "SVK",
+    "SVN",
+    "SWE",
+    "TUR",
+    "USA"
+   ]
+  },
+  "all2025": {
+   "N": 81,
+   "members": [
+    "ALB",
+    "ARE",
+    "ARG",
+    "ARM",
+    "AUS",
+    "AUT",
+    "AZE",
+    "BEL",
+    "BGR",
+    "BRA",
+    "BRN",
+    "CAN",
+    "CHE",
+    "CHL",
+    "COL",
+    "CZE",
+    "DEU",
+    "DNK",
+    "DOM",
+    "ECU",
+    "ESP",
+    "EST",
+    "FIN",
+    "FRA",
+    "GBR",
+    "GEO",
+    "GRC",
+    "GTM",
+    "HKG",
+    "HRV",
+    "HUN",
+    "IDN",
+    "IRL",
+    "ISL",
+    "ISR",
+    "ITA",
+    "JOR",
+    "JPN",
+    "KAZ",
+    "KEN",
+    "KGZ",
+    "KOR",
+    "LBN",
+    "LTU",
+    "LUX",
+    "LVA",
+    "MAC",
+    "MAR",
+    "MDA",
+    "MEX",
+    "MKD",
+    "MLT",
+    "MNE",
+    "MNG",
+    "MYS",
+    "NLD",
+    "NOR",
+    "NZL",
+    "PER",
+    "PHL",
+    "POL",
+    "PRT",
+    "PRY",
+    "PSE",
+    "QAT",
+    "QCI",
+    "QUA",
+    "ROU",
+    "SAU",
+    "SGP",
+    "SRB",
+    "SVK",
+    "SVN",
+    "SWE",
+    "THA",
+    "TUR",
+    "TWN",
+    "URY",
+    "USA",
+    "VNM",
+    "XKX"
+   ]
+  }
+ },
+ "excluded": [
+  {
+   "set": "common",
+   "iso3": "CRI",
+   "reason": "ESCS dolu < 100: {2025: 0}"
+  },
+  {
+   "set": "oecd",
+   "iso3": "CRI",
+   "reason": "ESCS dolu < 100: {2025: 0}"
+  },
+  {
+   "set": "all2025",
+   "iso3": "CRI",
+   "reason": "ESCS dolu < 100: {2025: 0}"
+  },
+  {
+   "set": "all2025",
+   "iso3": "CYP",
+   "reason": "veride yok: [2025]"
+  },
+  {
+   "set": "all2025",
+   "iso3": "SLV",
+   "reason": "ESCS dolu < 100: {2025: 0}"
+  }
+ ],
+ "results": {
+  "common": {
+   "D": {
+    "rank_from_most_negative": 2,
+    "N": 46,
+    "p": 0.0435,
+    "value": -10.275424165837281
+   },
+   "D_sd_ek": {
+    "rank_from_most_negative": 3,
+    "N": 46,
+    "p": 0.0652,
+    "value": -0.15684961949300466
+   },
+   "c2015": {
+    "rank_from_most_negative": 39,
+    "N": 46,
+    "p": 0.8478,
+    "value": 1.7453147636908775
+   },
+   "c2025": {
+    "rank_from_most_negative": 13,
+    "N": 46,
+    "p": 0.2826,
+    "value": -8.530109402146403
+   },
+   "grad2015": {
+    "rank_from_most_negative": 39,
+    "N": 46,
+    "p": 0.8478,
+    "value": 5.855525482626416
+   },
+   "grad2025": {
+    "rank_from_most_negative": 18,
+    "N": 46,
+    "p": 0.3913,
+    "value": -13.770686441995588
+   },
+   "dgrad": {
+    "rank_from_most_negative": 5,
+    "N": 46,
+    "p": 0.1087,
+    "value": -19.626211924622005
+   },
+   "D_distribution": {
+    "N": 46,
+    "q25": -5.704879568044124,
+    "median": -2.527999974464297,
+    "q75": 2.3249157031410332,
+    "min": -16.358239063493276,
+    "max": 5.811055165773847
+   },
+   "n_D_neg_sig": 8
+  },
+  "oecd": {
+   "D": {
+    "rank_from_most_negative": 1,
+    "N": 34,
+    "p": 0.0294,
+    "value": -10.275424165837281
+   },
+   "D_sd_ek": {
+    "rank_from_most_negative": 2,
+    "N": 34,
+    "p": 0.0588,
+    "value": -0.15684961949300466
+   },
+   "c2015": {
+    "rank_from_most_negative": 30,
+    "N": 34,
+    "p": 0.8824,
+    "value": 1.7453147636908775
+   },
+   "c2025": {
+    "rank_from_most_negative": 11,
+    "N": 34,
+    "p": 0.3235,
+    "value": -8.530109402146403
+   },
+   "grad2015": {
+    "rank_from_most_negative": 31,
+    "N": 34,
+    "p": 0.9118,
+    "value": 5.855525482626416
+   },
+   "grad2025": {
+    "rank_from_most_negative": 15,
+    "N": 34,
+    "p": 0.4412,
+    "value": -13.770686441995588
+   },
+   "dgrad": {
+    "rank_from_most_negative": 4,
+    "N": 34,
+    "p": 0.1176,
+    "value": -19.626211924622005
+   },
+   "D_distribution": {
+    "N": 34,
+    "q25": -6.600788204783972,
+    "median": -3.607159231749958,
+    "q75": 1.569543762088418,
+    "min": -10.275424165837281,
+    "max": 5.811055165773847
+   },
+   "n_D_neg_sig": 6
+  },
+  "all2025": {
+   "grad2025": {
+    "rank_from_most_negative": 21,
+    "N": 81,
+    "p": 0.2593,
+    "value": -13.770686441995588
+   },
+   "c2025": {
+    "rank_from_most_negative": 16,
+    "N": 81,
+    "p": 0.1975,
+    "value": -8.530109402146403
+   }
+  }
+ },
+ "decision": {
+  "p_common": 0.0435,
+  "p_oecd": 0.0294,
+  "verdict": "üst ESCS kötüleşmesi Türkiye'ye özgü",
+  "e9_decision_unchanged": true
+ }
+}

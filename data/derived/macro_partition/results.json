@@ -1,0 +1,69 @@
+{
+  "n": 61,
+  "n_complete_partitioning_vars": 40,
+  "note": "lmtree/ctree ve Mahalanobis-kNN yalnız bölme değişkenleri eksiksiz ülkeleri kullanır (listwise); leaf_n = predict atamasıdır",
+  "mob": {
+    "n_leaves": 1,
+    "depth": 0,
+    "turkey_node": 1,
+    "leaf_n": 61,
+    "leaf_members": ["ALB", "ARE", "AUS", "AUT", "BEL", "BGR", "BRA", "CAN", "CHE", "CHL", "COL", "CRI", "CYP", "CZE", "DEU", "DNK", "DOM", "ESP", "EST", "FIN", "FRA", "GBR", "GEO", "GRC", "HKG", "HRV", "HUN", "IDN", "IRL", "ISL", "ISR", "ITA", "JPN", "KOR", "LBN", "LTU", "LUX", "LVA", "MDA", "MEX", "MKD", "MLT", "MNE", "NLD", "NOR", "NZL", "PER", "POL", "PRT", "QAT", "ROU", "SGP", "SVK", "SVN", "SWE", "THA", "TUR", "TWN", "URY", "USA", "XKX"],
+    "turkey_resid": {
+      "value": 55.4,
+      "rank_from_top": 1,
+      "n": 61
+    },
+    "turkey_change": {
+      "value": 51.2,
+      "rank_from_top": 1,
+      "n": 61
+    },
+    "split_vars": [],
+    "loo_without_turkey_leaves": 1
+  },
+  "ctree": {
+    "n_leaves": 3,
+    "turkey_node": 2,
+    "leaf_n": 14,
+    "leaf_members": ["ALB", "ARE", "DOM", "GEO", "HKG", "LBN", "MEX", "MKD", "MNE", "QAT", "SGP", "THA", "TUR", "XKX"],
+    "turkey_resid": {
+      "value": 49.1,
+      "rank_from_top": 1,
+      "n": 14
+    }
+  },
+  "knn8": {
+    "neighbours": ["GEO", "MEX", "ISR", "HUN", "CAN", "GBR", "AUT", "JPN"],
+    "turkey_change": 51.2,
+    "neighbours_mean": -13.1,
+    "neighbours_sd": 12.5,
+    "rank_from_top": 1,
+    "z": 5.15,
+    "per_domain": {
+      "math": -15.4,
+      "reading": -20.5,
+      "science": -3.4
+    }
+  },
+  "knn12": {
+    "neighbours": ["GEO", "MEX", "ISR", "HUN", "CAN", "GBR", "AUT", "JPN", "COL", "AUS", "NZL", "NLD"],
+    "turkey_change": 51.2,
+    "neighbours_mean": -14.6,
+    "neighbours_sd": 12.4,
+    "rank_from_top": 1,
+    "z": 5.3,
+    "per_domain": {
+      "math": -16.1,
+      "reading": -23,
+      "science": -4.7
+    }
+  },
+  "level_conditional_all": {
+    "slope": -0.148,
+    "turkey_resid": {
+      "value": 59.8,
+      "rank_from_top": 1,
+      "n": 61
+    }
+  }
+}
