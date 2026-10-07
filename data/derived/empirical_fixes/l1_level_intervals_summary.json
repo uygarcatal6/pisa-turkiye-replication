@@ -1,0 +1,277 @@
+{
+ "prespec": "RESULTS_EMPIRICAL_FIXES.md §0.15",
+ "B": 2000,
+ "seed": 20261007,
+ "2015_all_linear": {
+  "n": 47,
+  "TUR_residual": -12.9,
+  "TUR_ci95": [
+   -16.0,
+   -10.0
+  ],
+  "TUR_boot_se": 1.57,
+  "TUR_rank": 5,
+  "TUR_rank_ci95": [
+   2,
+   12
+  ],
+  "TUR_rho": 0.915,
+  "n_ci_excluding_zero": 38
+ },
+ "2015_all_quadratic": {
+  "n": 47,
+  "TUR_residual": -13.1,
+  "TUR_ci95": [
+   -15.8,
+   -10.3
+  ],
+  "TUR_boot_se": 1.38,
+  "TUR_rank": 5,
+  "TUR_rank_ci95": [
+   1,
+   7
+  ],
+  "TUR_rho": 0.915,
+  "n_ci_excluding_zero": 39
+ },
+ "2015_oecd_linear": {
+  "n": 35,
+  "TUR_residual": -11.5,
+  "TUR_ci95": [
+   -14.6,
+   -8.5
+  ],
+  "TUR_boot_se": 1.59,
+  "TUR_rank": 8,
+  "TUR_rank_ci95": [
+   4,
+   12
+  ],
+  "TUR_rho": 0.915,
+  "n_ci_excluding_zero": 29
+ },
+ "2015_oecd_quadratic": {
+  "n": 35,
+  "TUR_residual": -14.5,
+  "TUR_ci95": [
+   -17.3,
+   -11.8
+  ],
+  "TUR_boot_se": 1.37,
+  "TUR_rank": 2,
+  "TUR_rank_ci95": [
+   1,
+   5
+  ],
+  "TUR_rho": 0.915,
+  "n_ci_excluding_zero": 27
+ },
+ "2025_all_linear": {
+  "n": 84,
+  "TUR_residual": -31.8,
+  "TUR_ci95": [
+   -33.8,
+   -29.7
+  ],
+  "TUR_boot_se": 1.03,
+  "TUR_rank": 5,
+  "TUR_rank_ci95": [
+   5,
+   6
+  ],
+  "TUR_rho": 0.91,
+  "n_ci_excluding_zero": 69
+ },
+ "2025_all_quadratic": {
+  "n": 84,
+  "TUR_residual": -35.1,
+  "TUR_ci95": [
+   -36.6,
+   -33.4
+  ],
+  "TUR_boot_se": 0.84,
+  "TUR_rank": 3,
+  "TUR_rank_ci95": [
+   3,
+   4
+  ],
+  "TUR_rho": 0.91,
+  "n_ci_excluding_zero": 74
+ },
+ "2025_oecd_linear": {
+  "n": 38,
+  "TUR_residual": -33.5,
+  "TUR_ci95": [
+   -35.1,
+   -31.8
+  ],
+  "TUR_boot_se": 0.83,
+  "TUR_rank": 1,
+  "TUR_rank_ci95": [
+   1,
+   1
+  ],
+  "TUR_rho": 0.91,
+  "n_ci_excluding_zero": 28
+ },
+ "2025_oecd_quadratic": {
+  "n": 38,
+  "TUR_residual": -33.0,
+  "TUR_ci95": [
+   -34.7,
+   -31.2
+  ],
+  "TUR_boot_se": 0.88,
+  "TUR_rank": 1,
+  "TUR_rank_ci95": [
+   1,
+   1
+  ],
+  "TUR_rho": 0.91,
+  "n_ci_excluding_zero": 26
+ },
+ "2003_all_linear": {
+  "n": 36,
+  "TUR_residual": -16.4,
+  "TUR_ci95_script60": [
+   -20.0,
+   -12.9
+  ],
+  "TUR_ci95_script31_33": [
+   -19.9,
+   -13.1
+  ],
+  "TUR_rank": 1,
+  "TUR_rank_ci95": [
+   1,
+   4
+  ],
+  "n_ci_excluding_zero": 33
+ },
+ "2003_all_quadratic": {
+  "n": 36,
+  "TUR_residual": -15.7,
+  "TUR_ci95_script60": [
+   -18.8,
+   -12.5
+  ],
+  "TUR_ci95_script31_33": [
+   -19.2,
+   -12.6
+  ],
+  "TUR_rank": 1,
+  "TUR_rank_ci95": [
+   1,
+   5
+  ],
+  "n_ci_excluding_zero": 32
+ },
+ "2003_oecd_linear": {
+  "n": 30,
+  "TUR_residual": -13.7,
+  "TUR_ci95_script60": [
+   -17.5,
+   -10.6
+  ],
+  "TUR_ci95_script31_33": [
+   -17.6,
+   -10.4
+  ],
+  "TUR_rank": 1,
+  "TUR_rank_ci95": [
+   1,
+   5
+  ],
+  "n_ci_excluding_zero": 27
+ },
+ "2003_oecd_quadratic": {
+  "n": 30,
+  "TUR_residual": -13.5,
+  "TUR_ci95_script60": [
+   -17.6,
+   -9.6
+  ],
+  "TUR_ci95_script31_33": [
+   -17.7,
+   -9.7
+  ],
+  "TUR_rank": 2,
+  "TUR_rank_ci95": [
+   1,
+   6
+  ],
+  "n_ci_excluding_zero": 28
+ },
+ "2012_all_linear": {
+  "n": 41,
+  "TUR_residual": -6.9,
+  "TUR_ci95_script60": [
+   -11.0,
+   -2.6
+  ],
+  "TUR_ci95_script31_33": [
+   -11.0,
+   -2.9
+  ],
+  "TUR_rank": 13,
+  "TUR_rank_ci95": [
+   10,
+   17
+  ],
+  "n_ci_excluding_zero": 37
+ },
+ "2012_all_quadratic": {
+  "n": 41,
+  "TUR_residual": -5.0,
+  "TUR_ci95_script60": [
+   -9.3,
+   -1.0
+  ],
+  "TUR_ci95_script31_33": [
+   -9.3,
+   -1.2
+  ],
+  "TUR_rank": 16,
+  "TUR_rank_ci95": [
+   12,
+   18
+  ],
+  "n_ci_excluding_zero": 36
+ },
+ "2012_oecd_linear": {
+  "n": 28,
+  "TUR_residual": -8.8,
+  "TUR_ci95_script60": [
+   -12.9,
+   -4.7
+  ],
+  "TUR_ci95_script31_33": [
+   -13.0,
+   -4.6
+  ],
+  "TUR_rank": 7,
+  "TUR_rank_ci95": [
+   6,
+   10
+  ],
+  "n_ci_excluding_zero": 24
+ },
+ "2012_oecd_quadratic": {
+  "n": 28,
+  "TUR_residual": -7.4,
+  "TUR_ci95_script60": [
+   -11.6,
+   -3.4
+  ],
+  "TUR_ci95_script31_33": [
+   -12.2,
+   -3.7
+  ],
+  "TUR_rank": 8,
+  "TUR_rank_ci95": [
+   6,
+   12
+  ],
+  "n_ci_excluding_zero": 25
+ }
+}

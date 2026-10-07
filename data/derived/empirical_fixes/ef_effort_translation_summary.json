@@ -1,0 +1,51 @@
+{
+ "prespec": "RESULTS_EMPIRICAL_FIXES.md §0.16 (sonradan)",
+ "NT15_oecd_avg_check": {
+  "mean38": 0.0032057894736842105,
+  "h7_oecd_avg_diff": 0.003206,
+  "abs_diff": 2.1052631578961575e-07
+ },
+ "NT10_oecd_avg_check": {
+  "mean38": 0.008059394736842104,
+  "h7_oecd_avg_diff": 0.008059,
+  "abs_diff": 3.947368421037406e-07
+ },
+ "NT20_oecd_avg_check": {
+  "mean38": -0.0007620789473684207,
+  "h7_oecd_avg_diff": -0.000762,
+  "abs_diff": 7.894736842072644e-08
+ },
+ "FIX5S_oecd_avg_check": {
+  "mean38": -0.054906131578947366,
+  "h7_oecd_avg_diff": -0.054906,
+  "abs_diff": 1.3157894736270936e-07
+ },
+ "primary": {
+  "threshold": "NT15",
+  "spec": "linear",
+  "sample": "excl_TUR",
+  "n": 37,
+  "gamma": -3.5604,
+  "gamma_se_hc3": 2.2743,
+  "gamma_lo95": -8.018,
+  "gamma_hi95": 0.8972,
+  "r2": 0.0978,
+  "tur_gap_pp": 1.8468,
+  "ref_gap_pp_37": 0.2793,
+  "tur_excess_gap_pp": 1.5675,
+  "tur_residual": -33.4867,
+  "tur_contrib_pts": -5.5808,
+  "tur_contrib_lo95": -12.568,
+  "tur_contrib_hi95": 1.4064,
+  "share_of_residual": 0.1667,
+  "two_reg_core_coef": 3.7072,
+  "two_reg_core_se": 2.1637,
+  "two_reg_cmps_coef": -5.9188,
+  "two_reg_cmps_se": 1.8198,
+  "two_reg_tur_contrib_pts": -5.3013
+ },
+ "range_contrib_all_cells": [
+  -8.3,
+  -1.41
+ ]
+}
